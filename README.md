@@ -16,6 +16,8 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Sap flow** - Contact us for details. 
 
+- **Sapwood depth and bark thickness** - Contact us for details. 
+
 - **Leaf traits** - Contact us for details.
 
 - **Tree heights** - Contact us for details.
