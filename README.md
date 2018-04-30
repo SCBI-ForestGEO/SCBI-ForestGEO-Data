@@ -19,3 +19,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **Leaf traits** - Contact us for details.
 
 - **Tree heights** - Contact us for details.
+
+
+## Contact
+Kristina Anderson-Teixeira (teixeirak@si.edu) or Erika Gonzalez-Akre (gonzalezeb@si.edu)
