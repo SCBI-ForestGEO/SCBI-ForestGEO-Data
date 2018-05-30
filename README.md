@@ -22,6 +22,21 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Tree heights and crown dimensions** - Contact us for details.
 
+- **Dead wood** - Contact us for details.
+
+- **Litterfall** - Contact us for details.
+
+- **Seed production** - Contact us for details.
+
+- **Seedlings** - Contact us for details.
+
+- **Soils** - Contact us for details.
+
+- **Topograpy** - Contact us for details.
+
+
+## Additional resources
+- [*Digital Atlas of the Flora of Virginia*](http://www.vaplantatlas.org/)
 
 ## Contact
 Kristina Anderson-Teixeira (teixeirak@si.edu) or Erika Gonzalez-Akre (gonzalezeb@si.edu)
