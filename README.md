@@ -10,7 +10,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **[Annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census)**
 
-- **Tree cores** - We have ring width measurements for 703 cores from live trees (taken between June 2010 and March 2011; some published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)) and 516 cores from trees found dead in the 2016 or 2017 mortality census, and we have made a lot of progress in developing chronologies. Data are currently private; please contact us to discuss collaboration. 
+- **Tree cores** - We have ring width measurements for 703 cores from live trees (taken between June 2010 and March 2011; some published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)) and 516 cores from trees found dead in the 2016 or 2017 mortality census, and we have finished chronologies for 14 species. Data are currently private; please contact us to discuss collaboration. 
 
 - **Dendrometer bands (manual and automated)**  - Contact us for details. 
 
