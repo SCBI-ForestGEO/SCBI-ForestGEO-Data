@@ -8,7 +8,7 @@ September-October, 2012
 ## Sampling location
 ForestGEO plot at SCBI, area north of plot at Posey Hollow.
 
-## How to site
+## How to cite
 Cite as:
 Gonzalez-Akre, E., McShea, W., Bourg, N., Anderson-Teixeira, K. 2015. Leaf traits data (SLA) for 56 woody species at the Smithsonian Conservation Biology Institute-ForestGEO Forest Dynamic Plot. Front Royal, Virginia. USA. [Data set]. Version 1.0.(www.try-db.org)
 
