@@ -18,7 +18,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Sapwood depth and bark thickness** - Contact us for details. 
 
-- **Leaf traits** - Contact us for details.
+- **[Leaf traits](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits)** 
 
 - **Tree heights and crown dimensions** - Contact us for details.
 
