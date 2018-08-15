@@ -7,8 +7,10 @@ This list was compiled in 2017-2018 to identify pests and pathogens that may con
 ## Metadata
 Please see [this file](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/insect_pests_pathogens/pest_pathogens%20metadata.csv).
 
+## Data use
+Data may not be used for commercial purposes without written permission of the project PI. Any publications using these data should acknowledge the contributors. 
 
-## Participants
+## Contributors
 | name | GitHub ID | position* | role |
 | -----| ----| ---- | ---- |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | primary compiler of list |
