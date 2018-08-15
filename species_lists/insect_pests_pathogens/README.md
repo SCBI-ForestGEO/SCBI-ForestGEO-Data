@@ -9,10 +9,10 @@ Please see [this file](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/ma
 
 
 ## Participants
-| name | position* | role |
-| -----| ---- | ---- |
-| Ryan Helcoski | research assistant, SCBI | primary compiler of list |
-| Kristina Anderson-Teixeira | staff scientist, SCBI & STRI | project PI, contributed to list |
+| name | GitHub ID | position* | role |
+| -----| ----| ---- | ---- |
+| Ryan Helcoski | RHelcoski | research assistant, SCBI | primary compiler of list |
+| Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | project PI, contributed to list |
 
 *refers to position at time of contribution to this repository
 
