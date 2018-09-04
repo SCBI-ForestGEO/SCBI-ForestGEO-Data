@@ -16,11 +16,11 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Sap flow** - Contact us for details. 
 
-- **Sapwood depth and bark thickness** - Contact us for details. 
+- **Sapwood depth and bark thickness** - See [data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
 
 - **[Leaf traits](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits)** 
 
-- **Tree heights and crown dimensions** - Contact us for details.
+- **Tree heights and crown dimensions** - Some tree heigths and crown dimensions are published as [data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
 
 - **Dead wood** - Contact us for details.
 
