@@ -30,7 +30,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
     - Biomass allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Tree heights** 
-    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470). The former contains data, latter describes allometries. 
+    - [Compilation of all conventional height measurements](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_dimensions)
     - Terrestrial LiDAR-derived heights - [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S2352340918306978). The former contains data, latter describes allometries. 
     - Height allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
