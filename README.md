@@ -5,7 +5,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ## Available data products
 
 ### Biophysical environment
-- **Climate data** - available through [ForestGEO Climate Data Portal]((https://github.com/forestgeo/Climate/tree/master/Met_Station_Data/SCBI))
+- **Climate data** - available through [ForestGEO Climate Data Portal](https://github.com/forestgeo/Climate/tree/master/Met_Station_Data/SCBI)
 
 - **Topograpy** - Contact us for details.
 
