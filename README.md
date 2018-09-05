@@ -9,6 +9,12 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Topograpy** - Contact us for details.
 
+### Species lists
+- **[Trees](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_ForestGEO_sp_ecology.csv)**
+
+- **[Plants](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_all_sp_woody_%26_herb.csv)**
+
+- **[Insect pests and pathogens](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/species_lists/insect_pests_pathogens)**
 
 ### Tree census
 - **Core ForestGEO census data** - Full census following ForestGEO protocol of our 25.6ha plot, conducted in 2008, 2013, and 2018. Available upon request through [ForestGEO Data Portal](http://ctfs.si.edu/datarequest/).
@@ -40,14 +46,16 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ### Tree species traits 
 - **[Leaf traits](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits)** 
 
-- **[Leaf hydraulic traits]** - Contact us for details. 
+- **Leaf hydraulic traits** - Contact us for details. 
     
 ### Tree growth & physiology
 - **Tree cores** - We have ring width measurements for 703 cores from live trees (taken between June 2010 and March 2011; some published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)) and 516 cores from trees found dead in the 2016 or 2017 mortality census, and we have finished chronologies for 14 species. Data are currently private; please contact us to discuss collaboration. 
 
 - **Dendrometer bands (manual and automated)**  - Contact us for details. 
 
-- **Sap flow** - Contact us for details. 
+- **Sap flow** 
+    - [Data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
+    - Contributed to [SAPFLUXNET](http://sapfluxnet.creaf.cat/app).
 
 
 ### Carbon cycling
@@ -58,13 +66,16 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Soils** - Contact us for details.
 
+
 ### Tree reproduction 
 
 - **Seed production** - Contact us for details.
 
 - **Seedlings** - Contact us for details.
 
+### Invasive species
 
+- **Invasive plants survey**- Contact us for details.
 
 
 
