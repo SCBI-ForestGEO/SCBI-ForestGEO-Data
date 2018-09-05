@@ -35,7 +35,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
     - Height allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Crown positions** 
-    - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census). The former contains data, latter describes allometries. 
+    - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census). 
     
 - **Crown dimensions** 
     - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470). The former contains data, latter describes allometries. 
