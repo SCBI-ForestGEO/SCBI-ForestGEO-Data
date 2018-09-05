@@ -39,4 +39,4 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - [*Digital Atlas of the Flora of Virginia*](http://www.vaplantatlas.org/)
 
 ## Contact
-Kristina Anderson-Teixeira (teixeirak@si.edu) or Erika Gonzalez-Akre (gonzalezeb@si.edu)
+Kristina Anderson-Teixeira (teixeirak@si.edu) or Erika Gonzalez-Akre (gonzalezeb@si.edu) 
