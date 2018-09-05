@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 Column,Field,Description,Variable.Codes
+=======
+﻿Column,Field,Description,Variable.Codes
+>>>>>>> 22bb7b7e5b0640accf5245749105717c6eefec53
 1 / A,pest_pathogen_common_name,common name of pest or pathogen,-
 2 / B,pest_pathogen_scientific_name,scientific name of pest or pathogen,-
 3 / C,tree_species_affected,tree species affected by pest/pathogen (may be multiple),-
 4 / D,pathogen_type,indicates pathogen type,"fungus, insect"
+<<<<<<< HEAD
 5 / E,origin,indicates whether pest/pathogen is native or exotic,"native, exotic, cosmopolitan, undetermined"
+=======
+5 / E,origin,indicates whether pest/pathogen is native or exotic, "native, exotic, cosmopolitan, undetermined"
+>>>>>>> 22bb7b7e5b0640accf5245749105717c6eefec53
 6 / F,native range,"Geographic origin of pest/pathogen, if known. Typically only indicated for exotic species.",-
 7 / G,year_introduced_north_america,Year in which exotic pest/pathogen was introduced to North America,-
 8 / H,Virginia_Blue_Ridge_status,Status in Virginia Blue Ridge Ecoregion (as of last update off the record).,"in order from most to least likely to be currently impacting trees in the region: current; nascent = warning by the feds, state scientists, or a scientific publication that it could cause damage locally in the near future. I only listed as nascent if a reliable source specifically purposed watching out for it in the future; possible = exists nearby and has the ability to infest local forests; potential = exists somewhere in the US and feeds on similar tree species"
