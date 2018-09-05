@@ -22,7 +22,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **[Tree mortality (annual)](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census)**
 
 
-### Tree dimensions (and scaling thereof)
+### Tree dimensions (and size-scaling thereof)
 
 - **Biomass** 
     - Expert-selected biomass allometries - [Gonzalez-Akre et al. 2015](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595).
