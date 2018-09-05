@@ -25,7 +25,9 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ### Tree dimensions (and scaling thereof)
 
 - **Biomass** 
+    - Expert-selected biomass allometries - [Gonzalez-Akre et al. 2015](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595).
     - Terrestrial LiDAR-derived non-destructive woody biomass - [Stovall et al. 2018](https://www.sciencedirect.com/science/article/pii/S2352340918306978).
+    - Biomass allometries for site are now curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Tree heights** 
     - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
@@ -44,7 +46,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
     - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
  
 ### Tree species traits 
-- **[Leaf traits](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits)** 
+- **Leaf traits data (SLA) for 56 woody species** - Archived [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits) and contributed to [TRY Plant Trait Database](www.try-db.org)
 
 - **Leaf hydraulic traits** - Contact us for details. 
     
