@@ -1,6 +1,6 @@
 #  Smithsonian Conservation Biology Institute (SCBI) ForestGEO Data
 
-This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute), which points to archive locations for our various data products (some in this repository, many elsewhere). 
+This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute), which points to archive locations for our various data products (some in this repository, many elsewhere). Although some data products are not yet posted publicly, we are very open to collaboration and welcome inquiries regarding any data products listed here. 
 
 ## Available data products
 
