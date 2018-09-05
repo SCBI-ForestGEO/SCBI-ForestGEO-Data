@@ -27,11 +27,12 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **Biomass** 
     - Expert-selected biomass allometries - [Gonzalez-Akre et al. 2015](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595).
     - Terrestrial LiDAR-derived non-destructive woody biomass - [Stovall et al. 2018](https://www.sciencedirect.com/science/article/pii/S2352340918306978).
-    - Biomass allometries for site are now curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
+    - Biomass allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Tree heights** 
     - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
     - Terrestrial LiDAR-derived heights - [Stovall et al. 2018](https://www.sciencedirect.com/science/article/pii/S2352340918306978).
+    - Height allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Crown positions** 
     - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census).
