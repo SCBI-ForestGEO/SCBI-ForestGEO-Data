@@ -28,20 +28,20 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
     - Terrestrial LiDAR-derived non-destructive woody biomass - [Stovall et al. 2018](https://www.sciencedirect.com/science/article/pii/S2352340918306978).
 
 - **Tree heights** 
-    - [Data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
+    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
     - Terrestrial LiDAR-derived heights - [Stovall et al. 2018](https://www.sciencedirect.com/science/article/pii/S2352340918306978).
 
 - **Crown positions** 
     - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census).
     
 - **Crown dimensions** 
-    - [Data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
+    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
 
 - **Sapwood depth** 
-    - [Data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
+    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
 
 - **Bark thickness** 
-    - [Data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
+    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
  
 ### Tree species traits 
 - **[Leaf traits](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits)** 
@@ -54,7 +54,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **Dendrometer bands (manual and automated)**  - Contact us for details. 
 
 - **Sap flow** 
-    - [Data accompanying Anderson-Teixeira *et al.* (2015, *Functional Ecology*)](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full).
+    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
     - Contributed to [SAPFLUXNET](http://sapfluxnet.creaf.cat/app).
 
 
