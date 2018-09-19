@@ -4,11 +4,12 @@ Column,Field,Description
 3 / C,species,Species epithet (it could include variety or subspecies)
 4 / D,author,Author of species name as Flora of Virginia (2012)
 5 / E,spcode,"Species code used at SCBI, four characters refers to first two letters of genus and first two letters of species"
-6 / F,layer_position,"Most common canopy position for individuals within a species (emergent crown, canopy, understory, shrub layer), commonly used as a proxy for light availability."
+6 / F,canopy_position,"Most common canopy position for individuals within a species (emergent crown, canopy, understory, shrub layer), commonly used as a proxy for light availability."
 7 / G,live_form,"General plant classification: tree, small tree, shrub"
 8 / H,native_status,"Indicates if the plant naturally occurs in Virginia or if it was introduced (source Flora of Virginia, 2012)"
 9 / I,habitat,"Common habitat where species grow naturally (source Flora of Virginia, 2012)"
 10 / J,succesional_status,"Common successional stage of a plant species (pioneer-fast growing, early successional, opportunistic -various sources) "
 11 / K,drought_tolerance,Degree to which a plant species is adapted to arid or drought conditions: drought-resistant or drough-intolerant (various sources)
 12 / L,deer_herbivory,"Indicates how palatable a plant species is to deer, the more palatable a plant is, the harder to establish; the less palatable a plant is, the easier to grow (various sources)"
-13 / M,seed_disperser,Common seed disperser (various sources)
+13 /M,fruit_type,"Fruit type (samaras, drupe, etc) -source Flora of Virginia, 2012"
+14 / N,dispersal_vector,"Dipersal vector could be biotic (animals) or abiotic (wind, gravity) - various sources"
