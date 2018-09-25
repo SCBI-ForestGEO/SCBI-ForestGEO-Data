@@ -11,9 +11,9 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **Topograpy** - Contact us for details.
 
 ### Species lists
-- **[Tree ecology](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_ForestGEO_sp_ecology.csv)**
+- **[Tree ecology](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Tree%20ecology)**
 
-- **[Full plant list](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_all_sp_woody_%26_herb.csv)**
+- **[Full plant list](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Full%20plant%20list)**
 
 - **[Insect pests and pathogens](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/species_lists/insect_pests_pathogens)**
 
