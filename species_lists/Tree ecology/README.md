@@ -1,9 +1,5 @@
-# Plant species at SCBI
-This folder contains files related to plant species recorded at SCBI. All files have been compiled/updated by Erika Gonzalez-Akre since 2013.
-
-# Content
-1. SCBI_sp_ecology.csv: Contains data on tree species ecology (habitat, native status, dispersors, etc). File is continuosly updated as information become available.
-2. SCBI_all_sp_woody_&_herb.csv: This list contains all plant species encountered at SCBI-ForesGEO plot (woody, ferns, forbs, etc.). File is also continuously updated.
+# Plant species at SCBI-Tree ecology
+This folder contains data on the ecology (habitat, native status, dispersors, etc) of the tree species tagged a the ForestGEO plot at SCBI. The main file is continuosly updated as information become available. 
 
 # Metadata
 Please see [this file](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_ForestGEO_sp_ecology_metadata.csv).
