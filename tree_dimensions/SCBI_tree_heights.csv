@@ -115,7 +115,7 @@ tag,stemtag,species.code,species,height.year,height.m,DBH.2008.cm,DBH.2013.cm,DB
 80234,1,prav,,2012,17.4,14.8,,NA,Jonathan Thompson,"Anderson-Teixeira et al. 2015, Functional Ecology",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
 80580,,,Acer rubrum,2015,24.70286659,,32.3,32.9,Atticus Stovall,"Stovall et al. 2018, Forest Ecology and Management",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
 80582,1,prav,,2012,23.8,22.1,,NA,Jonathan Thompson,"Anderson-Teixeira et al. 2015, Functional Ecology",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
-80582,,,Prunus avium,2015,21.81799053,,24.18,25,Atticus Stovall,"Stovall et al. 2018, Forest Ecology and Management",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
+80582,1,,Prunus avium,2015,21.81799053,,24.18,25,Atticus Stovall,"Stovall et al. 2018, Forest Ecology and Management",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
 80585,,,Acer rubrum,2015,8.663971755,,9.72,10.5,Atticus Stovall,"Stovall et al. 2018, Forest Ecology and Management",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
 82027,,,Acer rubrum,2015,23.35314055,,16.06,17,Atticus Stovall,"Stovall et al. 2018, Forest Ecology and Management",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
 82060,,,Carya glabra,2015,28.67121183,,36.36,37.5,Atticus Stovall,"Stovall et al. 2018, Forest Ecology and Management",10.1111/1367-2435.12470,10.5061/dryad.6nc8c,SCBI_tree_heights.csv,Tree height Jonathan.xls (214 trees tab)
@@ -337,3 +337,21 @@ tag,stemtag,species.code,species,height.year,height.m,DBH.2008.cm,DBH.2013.cm,DB
 202734,1,ulru,,2012,12.05,14.53,,,Jonathan Thompson,NA,NA,NA,Tree height Jonathan.xls (159 trees tab),
 202791,1,quru,,2012,23.1,31.27,,,Jonathan Thompson,NA,NA,NA,Tree height Jonathan.xls (159 trees tab),
 202902,1,quru,,2012,10.9,9.01,,,Jonathan Thompson,NA,NA,NA,Tree height Jonathan.xls (159 trees tab),
+10035,1,acru,,2018,24.7,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+10484,1,acru,,2018,24,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+20331,1,fram,,2018,22.9,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+30308,1,fram,,2018,19.6,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+50380,1,cagl,,2018,36,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+70178,1,litu,,2018,24.2,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+70606,1,litu,,2018,28.9,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+80463,1,litu,,2018,41.2,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+90043,1,quve,,2018,33.9,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+90512,1,litu,,2018,39.5,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+90529,1,quru,,2018,24.6,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+90546,1,qual,,2018,36.7,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+90645,1,litu,,2018,24.9,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+100893,1,litu,,2018,31,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+101041,1,cagl,,2018,18.8,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+50499,1,quru,,2018,33.8,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+50540,1,litu,,2018,34.9,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
+90283,1,qual,,2018,32.3,,,,Sarah Macey (GIS Lab),NA,NA,NA,V:\SIGEO\Canopy_Height_SIGEO\TreeHeights_7-13-18_Sarah Macey,NA
