@@ -15,6 +15,7 @@ Data may not be used for commercial purposes without written permission of the p
 | -----| ----| ---- | ---- |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | primary compiler of list |
 | Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | project PI, contributed to list |
+| Erika Gonzalez-Akre | gonzalezeb | lab manager, SCBI | contributed to list, curates data |
 
 *refers to position at time of contribution to this repository
 
