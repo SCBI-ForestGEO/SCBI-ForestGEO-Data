@@ -15,7 +15,7 @@ See this publication for protocols at SCBI [Bourg et al. 2013](http://onlinelibr
 
 ## Metadata
 
-Check metadata and other details for [full table](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_ForestGEO_sp_ecology.csv) and [stem table](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_ForestGEO_sp_ecology.csv).
+Check metadata and other details for [full table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_core_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Full.pdf) and [stem table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_core_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Stem.pdf).
 
 ## Species
 
