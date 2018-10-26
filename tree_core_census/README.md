@@ -19,7 +19,7 @@ Check metadata and other details for [full table](https://github.com/SCBI-Forest
 
 ## Species
 
-List of tagged tree species can be found [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/species_lists/plants/SCBI_ForestGEO_sp_ecology.csv)
+List of tagged tree species can be found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Tree%20ecology)
 
 ## Data use
 
