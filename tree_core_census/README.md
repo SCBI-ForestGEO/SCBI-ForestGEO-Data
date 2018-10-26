@@ -23,7 +23,7 @@ List of tagged tree species can be found [here](https://github.com/EcoClimLab/SC
 
 ## Data use
 
-Data for Census 1 at SCBI is public in Bourg et al. 2013. However, the offical master version for all censusses at ForesgtGEO sites resides in the [CTFS-ForestGEO Portal](http://ctfs.si.edu/datarequest/index.php/main). If you plan to publish work using this data plase request and notify through the CTFS-ForestGEO Portal [here](http://ctfs.si.edu/datarequest/index.php/request/form/9).
+Data for Census 1 at SCBI is public in Bourg et al. 2013. However, the offical master version for all censusses at ForesgtGEO sites resides in the [CTFS-ForestGEO Portal](http://ctfs.si.edu/datarequest/index.php/main). If you plan to publish work using this data please fill the request form for SCBI tree data [here](http://ctfs.si.edu/datarequest/index.php/request/form/9).
 
 
 
