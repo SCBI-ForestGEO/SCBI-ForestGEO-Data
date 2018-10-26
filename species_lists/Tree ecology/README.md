@@ -1,5 +1,5 @@
 # Plant species at SCBI-Tree ecology
-This folder contains data on the ecology (habitat, native status, dispersors, etc) of the tree species tagged at the SCBI-ForestGEO plot. The main file is continuosly updated as information become available. 
+This folder contains data on the ecology (habitat, native status, seed dispersers, etc) of the tree species tagged at the SCBI-ForestGEO plot. The main file is continuosly updated as information become available. 
 
 # Metadata
 Please see [this file](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/species_lists/Tree%20ecology/SCBI_ForestGEO_sp_ecology_metadata.csv).
