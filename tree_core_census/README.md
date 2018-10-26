@@ -11,7 +11,7 @@ Census 1: 2008-2010
 
 ## Protocols
 
-See this publication for protocols at SCBI [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full).
+See [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full) for protocols at SCBI and [Condit 1998](https://link.springer.com/chapter/10.1007/978-3-662-03664-8_1) for original protocols at CTFS-ForestGEO plots.
 
 ## Metadata
 
