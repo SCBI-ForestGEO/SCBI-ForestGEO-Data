@@ -1,0 +1,16 @@
+Column,Field,Description,Units
+1 / A,tag,Tag number used in the field to identify individual trees ,-
+2 / B,stemtag,"Individual stem identifier, default is 1 if plant is single stemmed ",-
+3 / C,species.code,Species mnemonic,-
+4 / D,species,Species latin name,-
+5 / E,height.year,year in which height was measured,-
+6 / F,height.m,tree heigth,m
+7 / G,DBH.2008.cm,tree diameter recorded in 2008 ForestGEO census,cm
+8 / H,DBH.2013.cm,tree diameter recorded in 2013 ForestGEO census,cm
+9 / I,DBH.with.height.cm,"tree diameter measured at the same time as height,  and by the same researchher",cm
+10 / J,researcher,Researcher in charge of data collection,-
+11 / K,publication,Author-year-journal of publication describing and first using the data,-
+12 / L,publication.doi,DOI of publication,-
+13 / M,data.publication.doi,"DOI of data publication containing these data, if applicable",-
+14 / N,source.file,file from which data were transferred to this file,-
+15 / N,source.file.prior,data file from which data were transferred into source.file,-
