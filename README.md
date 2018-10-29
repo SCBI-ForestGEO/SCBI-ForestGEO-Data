@@ -32,13 +32,13 @@ Data for censuses 2 and 3 is available upon request through [ForestGEO Data Port
     - Biomass allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Tree heights** 
-    - [Compilation of all conventional height measurements](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_dimensions)
+    - [Compilation of all conventional height measurements](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_dimensions/tree_heights)
     - Terrestrial LiDAR-derived heights - [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S2352340918306978). The former contains data, latter describes allometries. 
     - Height allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Crown positions** 
     - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census).
-    - New data (as 2018) on crown position at SCBI is public here
+    - New data (as 2018) on [crown position](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_dimensions/tree_crown_position) at SCBI is public here
     
 - **Crown dimensions** 
     - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470). The former contains data, latter describes allometries. 
