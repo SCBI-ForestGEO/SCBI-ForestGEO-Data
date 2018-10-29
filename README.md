@@ -18,7 +18,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **[Insect pests and pathogens](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/species_lists/insect_pests_pathogens)**
 
 ### Tree censuses
-- **Core ForestGEO census data** - Three full censuses following ForestGEO protocol of our 25.6ha plot have been conducted in 2008, 2013, and 2018. Data for census 1 is avaible [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_core_census).
+- **Main ForestGEO census data** - Three full censuses following ForestGEO protocol of our 25.6ha plot have been conducted in 2008, 2013, and 2018. Data for census 1 is avaible [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_core_census).
 Data for censuses 2 and 3 is available upon request through [ForestGEO Data Portal](http://ctfs.si.edu/datarequest/).
 
 - **[Tree mortality (annual)](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census)**
@@ -37,7 +37,8 @@ Data for censuses 2 and 3 is available upon request through [ForestGEO Data Port
     - Height allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Crown positions** 
-    - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census). 
+    - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census).
+    -New data (as 2018) on crown position at SCBI is public here
     
 - **Crown dimensions** 
     - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470). The former contains data, latter describes allometries. 
