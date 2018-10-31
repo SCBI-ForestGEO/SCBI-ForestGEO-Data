@@ -25,7 +25,9 @@ List of tagged tree species can be found [here](https://github.com/SCBI-ForestGE
 
 ## Data use
 
-Data for Census 1 at SCBI is public in Bourg et al. 2013. However, the offical master version for all censusses at ForesgtGEO sites resides in the [CTFS-ForestGEO Portal](http://ctfs.si.edu/datarequest/index.php/main). If you plan to publish work using this data please fill the request form for SCBI tree data [here](http://ctfs.si.edu/datarequest/index.php/request/form/9).
+The offical master version for all censuses at this site resides in the [ForestGEO Portal](http://ctfs.si.edu/datarequest/index.php/main). If you plan to publish work using these data please complete the request form for SCBI tree data [here](http://ctfs.si.edu/datarequest/index.php/request/form/9). This will ensure that you have the latest data version and allow us to track data usage.
+
+Note that data for Census 1 at SCBI is also published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full), but subsequent corrections are recorded in the master version.
 
 
 
@@ -39,7 +41,7 @@ Data for Census 1 at SCBI is public in Bourg et al. 2013. However, the offical m
 | Valentine Herrmann | ValentineHerr | research assistant, SCBI | data analyses since 2014 |
 
 
-*refers to position at time of census
+*refers to position at time of contribution
 
 [List does not yet include field and lab assistants/interns/volunteers who helped collect data for censuses 1 and 2]
 
