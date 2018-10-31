@@ -17,7 +17,7 @@ See [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/ful
 
 ## Metadata
 
-Check metadata and other details for [full table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_core_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Full.pdf) and [stem table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_core_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Stem.pdf).
+Check metadata and other details for [full table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_main_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Full.pdf) and [stem table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_main_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Stem.pdf).
 
 ## Species
 
