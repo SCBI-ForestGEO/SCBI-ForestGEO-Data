@@ -7,7 +7,7 @@ library(dplyr)
 dendro <- dendro_cored_full %>%
   filter(status=="A")
 
-dendro <- dendro[c(1:4,7,9:10)]
+dendro <- dendro[c(1:4,9,11:12,7:8)]
 dendro$dbh2018 <- ""
 dendro$crown.position <- ""
 
