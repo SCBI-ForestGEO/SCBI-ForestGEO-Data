@@ -10,6 +10,7 @@ R tables are created once all data have been checked and corrected after a tree 
 ## Sampling dates
 - Census 1: 2008-2010
 - Census 2: 2013
+- Census 3: 2018
 
 ## Protocols
 
