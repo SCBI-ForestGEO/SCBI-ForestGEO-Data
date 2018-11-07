@@ -13,3 +13,4 @@ Column,Field,Description
 12 / L,deer_herbivory,"Indicates how palatable a plant species is to deer, the more palatable a plant is, the harder to establish; the less palatable a plant is, the easier to grow (various sources)"
 13 /M,fruit_type,"Fruit type (samaras, drupe, etc) -source Flora of Virginia, 2012"
 14 / N,dispersal_vector,"Dipersal vector could be biotic (animals) or abiotic (wind, gravity) - various sources"
+15 / O,citation,Author and year of main citation used for any ecological descriptor
