@@ -69,9 +69,9 @@ Data for census 3 is still in progress and available upon request through [Fores
 
 ### Carbon cycling
 
-- **Biomass** - Summaries of biomass by species are given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/SCBI_numbers_and_facts).
+- **Biomass** - Summaries of biomass by species are given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/summary_data).
 
-- **Woody productivity** - Summaries of woody productivity by species are given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/SCBI_numbers_and_facts).
+- **Woody productivity** - Summaries of woody productivity by species are given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/summary_data).
 
 - **Woody mortality** - Woody mortality has been/ can be calculated from our [tree mortality census data](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census).
 
