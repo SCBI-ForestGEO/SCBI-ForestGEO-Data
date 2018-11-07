@@ -150,8 +150,8 @@ for(with.recruitement in c(FALSE, TRUE)) {
   
   all_results <- all_results[!is.na(all_results$ANPP_Mg.C.ha1.y1_1cm),]
   
-  if(with.recruitement) write.csv(all_results, file = "SCBI_numbers_and_facts/ANPP_total_and_by_species.csv", row.names = F)
-  if(!with.recruitement) write.csv(all_results, file = "SCBI_numbers_and_facts/ANPP_total_and_by_species_without_recruitment.csv", row.names = F)
+  if(with.recruitement) write.csv(all_results, file = "summary data/ANPP_total_and_by_species.csv", row.names = F)
+  if(!with.recruitement) write.csv(all_results, file = "summary data/ANPP_total_and_by_species_without_recruitment.csv", row.names = F)
   
   
 } # for(with.recruitement in c(TRUE, FALSE))

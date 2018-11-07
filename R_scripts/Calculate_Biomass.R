@@ -84,5 +84,5 @@ head(all_results1)
 head(all_results2)
 
 # save
-write.csv(cbind(all_results1, all_results2[rownames(all_results1), -1]), file = "SCBI_numbers_and_facts/AGB_total_and_by_species.csv", row.names = F)
+write.csv(cbind(all_results1, all_results2[rownames(all_results1), -1]), file = "summary data/AGB_total_and_by_species.csv", row.names = F)
 
