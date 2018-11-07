@@ -7,6 +7,12 @@ R tables are created once all data have been checked and corrected after a tree 
 ## Sampling location
 [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute)
 
+
+## Species
+
+List of tagged tree species can be found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Tree%20ecology)
+
+
 ## Sampling dates
 - Census 1: 2008-2010
 - Census 2: 2013
@@ -20,9 +26,8 @@ See [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/ful
 
 Check metadata and other details for [full table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_main_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Full.pdf) and [stem table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_main_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Stem.pdf).
 
-## Species
-
-List of tagged tree species can be found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Tree%20ecology)
+## Data version
+Data in this repository (as of November 2018) were last updated in 2014.
 
 ## Data use
 
