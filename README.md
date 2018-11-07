@@ -57,7 +57,7 @@ Data for census 3 is still in progress and available upon request through [Fores
 ### Tree growth & physiology
 - **Tree cores** - We have ring width measurements for 703 cores from live trees (taken between June 2010 and March 2011; some published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)) and 516 cores from trees found dead in the 2016 or 2017 mortality census, and we have finished chronologies for 14 species. Data are currently private; please contact us to discuss collaboration. 
 
-- **Manual dendrometer bands** - Contact us for details. 
+- **Manual dendrometer bands** - Biannual and intra-annual measurements of dendrometer bands (n= 579 and 155 trees, respectively) have been taken every year since 2010 and 2011, respectively. Details and data are in [this repository](https://github.com/SCBI-ForestGEO/Dendrobands). Contact us for access. 
 
 - **Automated dendrometer bands** - Some of the data are publisehd in the [Dryad data publication](http://dx.doi.org/10.5061/dryad.b327c) accompanying [Herrmann *et al.* 2016, *PLOSONE*](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0169020). Contact us for complete data. 
 
