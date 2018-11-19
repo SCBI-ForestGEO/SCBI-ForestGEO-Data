@@ -4,7 +4,9 @@ This file was created from [dendro_trees](https://github.com/SCBI-ForestGEO/Dend
 
 ## Date of Last Update
 
-Nov. 2018
+for crown assessments: Nov. 2018
+
+for geographic coordinates: Oct. 2018
 
 ## This file includes the following information:
 

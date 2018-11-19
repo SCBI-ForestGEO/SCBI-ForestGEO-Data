@@ -33,11 +33,11 @@ Suppressed (S) = shorter than the canopy level, receiving no illumination from a
 
 This comes from Jennings et al 1999 (https://academic.oup.com/forestry/article/72/1/59/589132)",character (string),
 17/Q,tree.notes,"Notes on tree assessments (illum, condition, position)",character (string),
-18/R,lx,X-coordinate within each quadrat. Last updated Fall 2018,numeric (integer),m
-19/S,ly,Y-coordinate within each quadrat. Last updated Fall 2018,numeric (integer),m
-20/T,gx,X-coordinate within the entire plot. Last updated Fall 2018,numeric (integer),m
-21/U,gy,Y-coordinate within the entire plot. Last updated Fall 2018,numeric (integer),m
-22/V,NAD83_X,X-coordinate of stem in context of UTM Zone 17N. Last updated Fall 2018,numeric (integer),m
-23/W,NAD83_Y,Y-coordinate of stem in context of UTM Zone 17N. Last updated Fall 2018,numeric (integer),m
-24/X,lat,latitude of stem in decimal degrees. Last updated Fall 2018,numeric (integer),decimal degrees
-25/Y,lon,longitude of stem in decimal degrees. Last updated Fall 2018,numeric (integer),decimal degrees
+18/R,lx,X-coordinate within each quadrat,numeric (integer),m
+19/S,ly,Y-coordinate within each quadrat,numeric (integer),m
+20/T,gx,X-coordinate within the entire plot,numeric (integer),m
+21/U,gy,Y-coordinate within the entire plot,numeric (integer),m
+22/V,NAD83_X,X-coordinate of stem in context of UTM Zone 17N,numeric (integer),m
+23/W,NAD83_Y,Y-coordinate of stem in context of UTM Zone 17N,numeric (integer),m
+24/X,lat,latitude of stem in decimal degrees,numeric (integer),decimal degrees
+25/Y,lon,longitude of stem in decimal degrees,numeric (integer),decimal degrees
