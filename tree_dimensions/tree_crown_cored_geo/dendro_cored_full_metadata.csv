@@ -1,0 +1,43 @@
+Column,Field,Field Description,Storage.Type,Units
+1/A,tag,"Tag number, appearing on aluminum tag attached to each tree; also matches dendrometer to plot data, though treeID is more secure",numeric (integer),
+2/B,stemtag,"Tag number, appearing on aluminum tag attached to each stem, matching plot database",numeric (integer),
+3/C,sp,"Six-letter species mnemonic, matching that used in main plot database",character (string),
+4/D,quadrat,"Designation for 20x20 m quadrat, matching those used in main plot database",numeric (integer),
+5/E,treeID,"Arbitrary numeric identifier for trees, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
+6/F,stemID,"Arbitrary numeric identifier for stems, identical to those used in the main plot database and useful for matching dendrometers to the plot data",numeric (integer),
+7/G,dbh2008,Diameter at breast height (1.3m) from the 2008 ForestGEO census,numeric (integer),mm
+8/H,dbh2013,Diameter at breast height (1.3m) from the 2013 ForestGEO census,numeric (integer),mm
+9/I,biannual,"Quantifier if tree belongs to biannual survey. Enter ""1"" if part of biannual survey, ""0"" if not.",numeric (integer),
+10/J,intraannual,"Quantifier if tree belongs to intraannual survey. Enter ""1"" if part of intraannual survey, ""0"" if not.",numeric (integer),
+11/K,cored,"Quantifier if tree has been cored. Enter ""1"" if cored, ""0"" if not",numeric (integer),
+12/L,year.cored,Year of coring for particular tree,character (string),yyyy-yyyy
+13/M,status,"Quantifier for tree status, either A (alive) or D (dead)",character (string),
+14/N,illum,"Assessment of the crown illumination index, measured as a number between 1-5, only measured in the FALL. Method taken from Dawkins and Field 1978 (see updated dendrometer protocol). 
+5 = crown completely exposed (to vertical light and to lateral light within the 90 degree inverted cone encompassing the crown)
+4 = full overhead light (>=90% of the vertical projection of the crown exposed to vertical light; later light blocked within some or all of the 90 degree inverted cone encompassing the crown)
+3 = some overhead light (10-90% of the vertical project of the crown exposed to vertical light)
+2 = lateral light (<10% of the vertical project of the crown exposed to vertical light; crown lit laterally)
+1 = no direct light (crown not lit directly either vertically or laterally)",numeric (integer),
+15/O,crown.condition,"Assessment of the crown condition, given as a number for crown health, and only measured in the FALL. The 4-point crown condition scale has the following categories:
+4 = 75-100% of the crown is intact (no or few branches lost)
+3 = 50-75% of the crown is intact
+2 = 25-50% of the crown is intact
+1 = 0-25% of the crown is intact (most of the crown is gone).
+This comes from the updated dendrometer protocol (https://docs.google.com/document/d/1kCG22EAEnOVxw9Z-cPPvrHIzvRFE-j0U7anTmhJbkqM/edit).",numeric (integer),
+16/P,crown.position,"Assessment of the crown position, given as a qualifier, and only measured in the FALL. The position scale has the following categories:
+
+Dominant (D) = crown above the general level of the canopy
+Codominant (C) = crown within the general level of the canopy
+Intermediate (I) = shorter than general canopy level, but illuminated from above
+Suppressed (S) = shorter than the canopy level, receiving no illumination from above
+
+This comes from Jennings et al 1999 (https://academic.oup.com/forestry/article/72/1/59/589132)",character (string),
+17/Q,tree.notes,"Notes on tree assessments (illum, condition, position)",character (string),
+18/R,lx,X-coordinate within each quadrat. Last updated Fall 2018,numeric (integer),m
+19/S,ly,Y-coordinate within each quadrat. Last updated Fall 2018,numeric (integer),m
+20/T,gx,X-coordinate within the entire plot. Last updated Fall 2018,numeric (integer),m
+21/U,gy,Y-coordinate within the entire plot. Last updated Fall 2018,numeric (integer),m
+22/V,NAD83_X,X-coordinate of stem in context of UTM Zone 17N. Last updated Fall 2018,numeric (integer),m
+23/W,NAD83_Y,Y-coordinate of stem in context of UTM Zone 17N. Last updated Fall 2018,numeric (integer),m
+24/X,lat,latitude of stem in decimal degrees. Last updated Fall 2018,numeric (integer),decimal degrees
+25/Y,lon,longitude of stem in decimal degrees. Last updated Fall 2018,numeric (integer),decimal degrees
