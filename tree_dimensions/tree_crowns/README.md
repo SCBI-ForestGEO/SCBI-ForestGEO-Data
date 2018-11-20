@@ -8,13 +8,15 @@ for crown assessments: Nov. 2018
 
 for geographic coordinates: Oct. 2018
 
+AJ project: live cored (466), live biannual (477), and both live/cored (46) = 989 trees for analysis
+
 ## This file includes the following information:
 
-- what species of trees are present overall
+- species of trees are present in the dendroband surveys (579 trees, includes live and dead)
 
 - which of those trees are for the biannual survey, intraannual survey, or both
 
-- which of these trees have been cored, plus all cored trees (2010-2011, 2016-2017)
+- all cored trees (2010-2011, 2016-2017) included in Ryan's analysis (see below) (726 trees, live and dead)
 
 - the local and global coordinates of these trees
 
