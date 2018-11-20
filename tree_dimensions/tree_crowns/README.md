@@ -12,7 +12,7 @@ AJ project: live cored (466), live biannual (477), and both live/cored (46) = 98
 
 ## This file includes the following information:
 
-- species of trees are present in the dendroband surveys (579 trees, includes live and dead)
+- species of trees present in the dendroband surveys (579 trees, includes live and dead)
 
 - which of those trees are for the biannual survey, intraannual survey, or both
 
