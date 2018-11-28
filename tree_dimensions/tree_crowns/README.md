@@ -29,7 +29,7 @@ AJ project: live cored (466), live biannual (477), and both live/cored (46) = 98
     
     2. [dendro_trees](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv)
     
-    3. Merged_dendroband_utm_lat_lon.csv from V drive: V:/SIGEO/GIS_data/dendroband surveys
+    3. Merged_dendroband_utm_lat_lon.csv from V drive: V:/SIGEO/GIS_data/dendroband surveys. This itself was created from Valentine's full coordinate csv for the plot, found in V drive: V:\SIGEO\GIS_data\R-script_Convert local-global coord.
     
     4. scbi.stem2.csv (2013 census data) from the V drive: V:/SIGEO/3-RECENSUS 2013/DATA/FINAL DATA to use, to share
     *- this should be updated to the 2018 census data as soon as the final file is available*
