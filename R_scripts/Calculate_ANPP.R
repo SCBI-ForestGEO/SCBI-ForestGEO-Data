@@ -14,11 +14,13 @@ setwd(".")
 # Load libraries ####
 
 # set number of censuses ####
-
-Censuses <- 2
-min.dbh <- 10 # 10mm
-hectares <- 25.6
 site <- "scbi"
+Censuses <- 2
+units = "mm"
+hectares <- 25.6
+min.dbh <- ifelse(units %in% "mm", 10, 1) # 10mm
+
+
 
 # Load data ####
 
@@ -91,10 +93,10 @@ for(with.recruitement in c(FALSE, TRUE)) {
     
     ## first ID trees that are alive in 2008 and survived through 2013 and for which we have a dbh and a dbh > 10mm (this includes trees that are recruited, with dbh 2008 set to 10mm) ####
     
-    idx.tree_survived <- stem1$DFstatus == "alive" &  stem2$DFstatus == "alive" & !is.na(stem1$dbh) & !is.na(stem2$dbh) & stem1$dbh >= 10 & stem2$dbh >= 10 
+    idx.tree_survived <- stem1$DFstatus == "alive" &  stem2$DFstatus == "alive" & !is.na(stem1$dbh) & !is.na(stem2$dbh) & stem1$dbh >= min.dbh & stem2$dbh >= min.dbh 
     
     ## second group the trees that survived into bins, based on initial dbh ####
-    dbh_class <- cut(stem1$dbh[idx.tree_survived], breaks = c(10, 50, 100, 500, round(max(stem1$dbh[idx.tree_survived]) +1)), right = F) # based on first census, breaks in mm
+    dbh_class <- cut(stem1$dbh[idx.tree_survived], breaks = c(c(10, 50, 100, 500) / ifelse(units %in% "mm", 1, 10), round(max(stem1$dbh[idx.tree_survived]) +1)), right = F) # based on first census, breaks in mm
     
     cbind(stem1$dbh[idx.tree_survived], dbh_class) # just to double check that it alines correctly
     cbind(stem2$dbh[idx.tree_survived], dbh_class) # just to double check that it alines correctly
@@ -132,7 +134,7 @@ for(with.recruitement in c(FALSE, TRUE)) {
     s.species <- stem1$sp[idx.tree_survived]
     
     ## get the idx of tree >= 10cm (100mm)
-    ss.trees.larger.10cm <- stem1$dbh[idx.tree_survived] >= 100 
+    ss.trees.larger.10cm <- stem1$dbh[idx.tree_survived] >= ifelse(units %in% "mm", 100, 10) 
     
     ## get the ANPP (corrected) of trees that survived
     s.ANPP <- yearly_change_AGB_tree_survived_corrected # Mg C / y
