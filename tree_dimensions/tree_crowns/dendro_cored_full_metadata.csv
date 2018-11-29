@@ -11,7 +11,7 @@ Column,Field,Field Description,Storage.Type,Units
 10/J,intraannual,"Quantifier if tree belongs to intraannual survey. Enter ""1"" if part of intraannual survey, ""0"" if not.",numeric (integer),
 11/K,cored,"Quantifier if tree has been cored. Enter ""1"" if cored, ""0"" if not",numeric (integer),
 12/L,year.cored,Year of coring for particular tree,character (string),yyyy-yyyy
-13/M,status,"Quantifier for tree status, either A (alive) or D (dead)",character (string),
+13/M,status,"Quantifier for tree status, either A (alive) or D (dead)" when the tree was cored,character (string),
 14/N,illum,"Assessment of the crown illumination index, measured as a number between 1-5, only measured in the FALL. Method taken from Dawkins and Field 1978 (see updated dendrometer protocol). 
 5 = crown completely exposed (to vertical light and to lateral light within the 90 degree inverted cone encompassing the crown)
 4 = full overhead light (>=90% of the vertical projection of the crown exposed to vertical light; later light blocked within some or all of the 90 degree inverted cone encompassing the crown)
