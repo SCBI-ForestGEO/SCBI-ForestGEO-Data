@@ -33,11 +33,14 @@ combo$X <- NULL
 combo$Y <- NULL
 combo$dataset <- NULL
 
-deadcodes <- c("D", "DS", "DC", "DN", "DT")
 combo$status <- as.character(combo$status)
+deadcodes <- grep("^D", combo$Codes, value = TRUE) #there are 47 unqiue dead codes in the 2018 recensus
+
 combo$status <- ifelse(combo$Codes %in% deadcodes, "dead", combo$status)
 
 combo$Codes <- NULL
 combo <- combo[,c(1:8,26,9:25)]
+
+combo <- combo[!duplicated(combo$stemID),]
 
 write.csv(combo, "dendro_cored_full.csv", row.names=FALSE)
