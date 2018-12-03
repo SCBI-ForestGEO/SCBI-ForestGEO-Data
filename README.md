@@ -94,6 +94,8 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **Invasive plants survey**- Contact us for details.
 
 
+### Arthropods
+- **Malaise trap** - We have been running a [Global Malaise Program](http://biodiversitygenomics.net/projects/gmp/) trap since 2014, and have DNA barcode sequences in the [BOLD database](boldsystems.org) for the first year (almost 14,000 sequences).  Analysis is ongoing, but data are available on request.
 
 
 ## Additional resources
