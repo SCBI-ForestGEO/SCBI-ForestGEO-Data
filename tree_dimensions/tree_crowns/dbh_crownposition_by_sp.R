@@ -17,7 +17,7 @@ lowdbh <- subset(dendrofull, dbh2018<=350 & status == "alive")
 #graphs #####
 library(ggplot2)
 
-pdf(file="DBH_CanopyPosition_by_Sp.pdf", width=10)
+pdf(file="DBH_CrownPosition_by_Sp.pdf", width=10)
 
 ## graph DBH abundance by canopy position
 alive <- subset(dendrofull, status == "alive")
@@ -26,8 +26,8 @@ ggplot(data = alive) +
   geom_histogram(bins = 50) +
   scale_fill_brewer(palette = "Paired") +
   scale_x_continuous(breaks=c(0,350,1500)) +
-  labs(title = "DBH by Canopy Position",
-       x = "dbh2018",
+  labs(title = "DBH by Crown Position",
+       x = "dbh2018 (mm)",
        y = "Count") +
   theme_minimal()
 
@@ -36,8 +36,8 @@ ggplot(data = alive) +
   aes(x = sp,fill = crown.position, weight = dbh2018/100) +
   geom_bar() +
   scale_y_continuous(breaks=c(0,350,1500)) +
-  labs(title = "DBH and Canopy Position by Sp",
+  labs(title = "DBH and Crown Position by Sp",
        x = "sp",
-       y = "dbh (mm)") +
+       y = "dbh2018 (mm)") +
   theme_minimal()
 dev.off()
