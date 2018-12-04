@@ -1,6 +1,6 @@
 # dendro_cored_full
 
-This file was created from [dendro_trees](https://github.com/SCBI-ForestGEO/Dendrobands/blob/master/data/dendro_trees.csv) via the script in this folder. It should be updated following each growing season, using the most recent version of dendro_trees and the mortality census.
+This file should be updated following each growing season, using the most recent version of dendro_trees and the mortality census.
 
 ## Date of Last Update
 
