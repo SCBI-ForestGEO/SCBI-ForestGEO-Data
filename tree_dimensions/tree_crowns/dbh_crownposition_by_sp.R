@@ -1,30 +1,75 @@
 # analysis for Ian paper
 
+## This analysis uses a very specific subset of cored trees, starting only with the 14 species used in Ryan Helcoski's paper (which is 727 individuals (726 tags, 1 multistem)). 
+
+## Of these, those with a dbh of 0 in 2018 were assigned the dbh in 2013, and assumed to have a crown position of "C" (if dbh>350mm) or "I" (if dbh<=350 but dbh>0), if there wasn't a crown position measured.
+
+## The remaining individuals with dbh=0 (meaning they died 2013 and prior) were filtered out. Individuals with a crown position of NA were also filtered out (bc some of them are labeled as fallen, or as DN this year). By this point all of AJ's (SMSC student) measurements of "CF" (couldn't find) from fall 2018 have been converted.
+
+## After all this filtering, the graphs finally show the remaining 666 individuals (665 tags plus 1 multistem).
+
+#which cores used in final chronologies ####
+#these cores used in Ryan's paper
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
+
+chronology_list <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/chronology_list.csv")
+
+library(stringr)
+complete <- subset(chronology_list, status=="complete")
+chron <- levels(factor(complete$chronology))
+chronsp <- str_extract(chron, "[a-z]+")
+
+file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies", pattern="_drop.csv")
+
+library(data.table)
+merged <- rbindlist(fill=TRUE, lapply(file_list, fread))
+merged <- merged[,c("tag","sp")]
+
+mergedchron <- subset(merged, sp %in% chronsp)
+
+
+#dataframe subsets ####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns")
 
 dendrofull <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/dendro_cored_full.csv")
 
+dendrosub <- merge(dendrofull, mergedchron)
+dendrosub <- dendrosub[order(dendrosub[,1]),]
 
-#dataframe subsets ####
+## makes sure there are no duplicates
+## this code says give me the tag numbers for the duplicated stemID
+dendrosub$tag[duplicated(dendrosub$stemID)]
+
+## for trees that have dbh2018=0, give them dbh2013.
+dendrosub$dbh2018 <- ifelse(dendrosub$dbh2018 == 0, dendrosub$dbh2013, dendrosub$dbh2018)
+
+##assume dead trees that have dbh>0 and a crown.position value of CF (AJ couldn't find), have a crown.position of "I" if under 350mm, and C if over 350mm.
+dendrosub$crown.position <- as.character(dendrosub$crown.position)
+dendrosub$crown.position <- ifelse(dendrosub$dbh2018>0 & 
+                                    dendrosub$dbh2018<=350 &
+                                    dendrosub$tree.notes == "CF", 
+                                    "I", dendrosub$crown.position)
+dendrosub$crown.position <- ifelse(dendrosub$dbh2018>350 & 
+                                    dendrosub$tree.notes == "CF", 
+                                    "C", dendrosub$crown.position)
+
+##subset by 
+dendro2018 <- subset(dendrosub, dendrosub$dbh2018>0 & !(is.na(dendrosub$crown.position)))
+
 ## separate chronologies by canopy position
 
-highcan <- subset(dendrofull, crown.position == "D" | crown.position == "C")
-lowcan <- subset(dendrofull, crown.position == "I" | crown.position == "S")
+highcan <- subset(dendrosub, crown.position == "D" | crown.position == "C")
+lowcan <- subset(dendrosub, crown.position == "I" | crown.position == "S")
 
 ## separate trees by dbh (above and below 35cm)
-highdbh <- subset(dendrofull, dbh2018>350)
-lowdbh <- subset(dendrofull, dbh2018<=350)
+highdbh <- subset(dendrosub, dbh2018>350)
+lowdbh <- subset(dendrosub, dbh2018<=350)
+
 
 #graphs #####
 library(ggplot2)
 
 pdf(file="DBH_CrownPosition_by_all_sp.pdf", width=10)
-
-dendrofull$crown.position <- as.character(dendrofull$crown.position)
-dendrofull$crown.position <- ifelse(dendrofull$dbh2018>0 & dendrofull$tree.notes == "CF", "C", dendrofull$crown.position)
-
-##subset by 
-dendro2018 <- subset(dendrofull, dendrofull$dbh2018>=0 & !(is.na(dendrofull$crown.position)))
 
 ## graph DBH abundance by canopy position
 ggplot(data = dendro2018) +
@@ -48,5 +93,3 @@ ggplot(data = dendro2018) +
   theme_minimal()
 dev.off()
 
-#which cores used in final chronologies ####
-cored <- subset(dendrofull, cored == 1)
