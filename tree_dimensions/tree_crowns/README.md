@@ -4,7 +4,7 @@ This file should be updated following each growing season, using the most recent
 
 ## Date of Last Update
 
-for crown assessments: Nov. 2018
+for crown assessments: Dec. 2018
 
 for geographic coordinates: Oct. 2018
 
