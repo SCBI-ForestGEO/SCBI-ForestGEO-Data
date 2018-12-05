@@ -28,7 +28,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ### Tree dimensions (and size-scaling thereof)
 
 - **Biomass** 
-    - Expert-selected biomass allometries - [Gonzalez-Akre et al. 2015](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595).
+    - Expert-selected biomass allometries - [Gonzalez-Akre et al. 2016](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595).
     - Terrestrial LiDAR-derived non-destructive woody biomass - [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S2352340918306978). The former contains data, latter describes allometries. 
     - Biomass allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
