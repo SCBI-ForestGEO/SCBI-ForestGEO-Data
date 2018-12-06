@@ -1,6 +1,6 @@
 # analysis for Ian paper
 
-## This analysis uses a very specific subset of cored trees, starting only with the 14 species used in Ryan Helcoski's paper (which is 726 individuals (725 tags, 1 multistem)). 
+## This analysis uses a very specific subset of cored trees (with data from dendro_cored_full.csv), starting only with the 14 species used in Ryan Helcoski's paper (which is 726 individuals (725 tags, 1 multistem)). 
 
 ## Of these, those with a dbh of 0 in 2018 were assigned the dbh in 2013, and assumed to have a crown position of "C" (if dbh>350mm) or "I" (if dbh<=350 but dbh>0), if there wasn't a crown position measured.
 
@@ -8,7 +8,7 @@
 
 ## After all this filtering, the graphs finally show the remaining 664 individuals (663 tags plus 1 multistem).
 
-#which cores used in final chronologies ####
+#1 which cores used in final chronologies ####
 #these cores used in Ryan's paper
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
 
@@ -28,7 +28,7 @@ merged <- merged[,c("tag","sp")]
 mergedchron <- subset(merged, sp %in% chronsp)
 
 
-#dataframe subsets ####
+#2 merging dendro_cored_full with #1, then subset ####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns")
 
 dendrofull <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/dendro_cored_full.csv")
@@ -56,17 +56,11 @@ dendrosub$crown.position <- ifelse(dendrosub$dbh2018>350 &
 ##subset by 
 dendro2018 <- subset(dendrosub, dendrosub$dbh2018>0 & !(is.na(dendrosub$crown.position)))
 
-## separate chronologies by canopy position
+write.csv(dendro2018, "dendro_subset_ian_paper.csv", row.names=FALSE)
 
-highcan <- subset(dendrosub, crown.position == "D" | crown.position == "C")
-lowcan <- subset(dendrosub, crown.position == "I" | crown.position == "S")
+#3 create new table with n trees by crown position ####
 
-## separate trees by dbh (above and below 35cm)
-highdbh <- subset(dendrosub, dbh2018>350)
-lowdbh <- subset(dendrosub, dbh2018<=350)
-
-
-#create new table with n trees by crown position ####
+dendro2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/dendro_subset_ian_paper.csv")
 
 library(ggplot2)
 library(dplyr)
@@ -103,7 +97,7 @@ count.test <- merge(count.crown, data_num, by=c("sp", "crown.position"), all=TRU
 
 write.csv(count.test, "chronologies_by_crownposition.csv", row.names=FALSE)
 
-#graphs #####
+#4 graphs #####
 setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns")
 
 library(ggplot2)
