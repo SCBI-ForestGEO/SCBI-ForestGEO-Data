@@ -95,7 +95,7 @@ dev.off()
 
 
 
-finalsp <- levels(factor(dendro2018$sp))
+
 
 
 totals$crown.S <- length(which(litu$crown.position=="S"))
@@ -103,22 +103,70 @@ totals$crown.S <- length(which(litu$crown.position=="S"))
 library(stringr)
 
 totals <- data.frame(finalsp)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
 
-# for intraannual
+finalsp <- levels(factor(dendro2018$sp))
+crown <- levels(factor(dendro2018$crown.position))
+
 for (j in seq(along=finalsp)){
-  spname = finalsp[[j]]
-  totals$crown.S <- ifelse(sum(dendro2018$crown.position == "S")
-
+  for (q in seq(along=crown)){
+    spname = finalsp[[j]]
+    value = crown[[q]]
+    paste[j]<- subset(dendro2018,dendro2018$sp == spname & dendro2018$crown.position == value)
+  }
 }
 
 
 
+crown <- c(dendro2018$crown.position)
+
+
+fagr <- subset(dendro2018,dendro2018$sp == "fagr")
+
+dbhmax <- aggregate(fagr$dbh2018, by=list(fagr$crown.position), max)
+dbhmin <- aggregate(fagr$dbh2018, by=list(fagr$crown.position), min)
+dbhavg <- aggregate(fagr$dbh2018, by=list(fagr$crown.position), mean)
+names(dbhmax) <- c("crown", "dbhmax.mm")
+names(dbhmin) <- c("crown", "dbhmin.mm")
+names(dbhavg) <- c("crown", "dbhavg.mm")
+is.num <- sapply(dbhavg,is.numeric)
+dbhavg[is.num] <- lapply(dbhavg[is.num], round, 1)
+
+data_num <- list(dbhmin,dbhmax,dbhavg) %>% reduce(left_join, by="crown")
+
+library(data.table)
+count.crown <- addmargins(table(fagr$sp, fagr$crown.position),1)  
+count.crown <- as.data.frame.matrix(count.crown)
+  setDT(count.crown, keep.rownames=TRUE)[]
+  colnames(count.crown) <- c("sp", "crown")
+
+
+#
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+dendro2018 %>%
+  group_by(sp, crown.position) %>%
+  summarize(count=n()) %>%
+  filter(sp == "fagr", crown.position=="C") %>%
+  .$count
 
 
 
