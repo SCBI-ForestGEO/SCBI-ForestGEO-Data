@@ -66,40 +66,7 @@ highdbh <- subset(dendrosub, dbh2018>350)
 lowdbh <- subset(dendrosub, dbh2018<=350)
 
 
-#graphs #####
-library(ggplot2)
-
-pdf(file="DBH_CrownPosition_by_all_sp.pdf", width=10)
-
-## graph DBH abundance by canopy position
-ggplot(data = dendro2018) +
-  aes(x = dbh2018, fill = crown.position) +
-  geom_histogram(bins = 50) +
-  scale_fill_brewer(palette = "Paired") +
-  scale_x_continuous(breaks=c(0,350,1500)) +
-  labs(title = "DBH by Crown Position",
-       x = "dbh2018 (mm)",
-       y = "Count") +
-  theme_minimal()
-
-## graph DBH by canopy position and sp
-ggplot(data = dendro2018) +
-  aes(x = sp,fill = crown.position, weight = dbh2018/100) +
-  geom_bar() +
-  scale_y_continuous(breaks=c(0,350,1500)) +
-  labs(title = "DBH and Crown Position by Sp",
-       x = "sp",
-       y = "dbh2018 (mm)") +
-  theme_minimal()
-dev.off()
-
-
-
-
-
-
-
-# create new table with n trees by crown position ####
+#create new table with n trees by crown position ####
 
 library(ggplot2)
 library(dplyr)
@@ -128,9 +95,37 @@ setDT(count.crown, keep.rownames=TRUE)[]
 count.crown <- setnames(count.crown, "rn", "sp")
 count.crown <- count.crown[count.crown$sp %in% finalsp, ]
 
+#now reformat crown position table, then merge everything together 
 library(reshape)
 count.crown <- melt(count.crown, id=(c("sp")))
 count.crown <- setnames(count.crown, c("variable", "value"), c("crown.position", "n.trees"))
 count.test <- merge(count.crown, data_num, by=c("sp", "crown.position"), all=TRUE)
 
 write.csv(count.test, "chronologies_by_crownposition.csv", row.names=FALSE)
+
+#graphs #####
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns")
+
+library(ggplot2)
+pdf(file="DBH_CrownPosition_by_all_sp.pdf", width=10)
+
+## graph DBH abundance by canopy position
+ggplot(data = dendro2018) +
+  aes(x = dbh2018, fill = crown.position) +
+  geom_histogram(bins = 50) +
+  scale_fill_brewer(palette = "Paired") +
+  scale_x_continuous(breaks=c(0,350,1500)) +
+  labs(title = "DBH by Crown Position",
+       x = "dbh2018 (mm)",
+       y = "Count") +
+  theme_minimal()
+
+## graph DBH by canopy position and sp
+ggplot(data = count.test) +
+  aes(x = sp,fill = crown.position, weight = n.trees) +
+  geom_bar() +
+  labs(title = "Number of Crown Positions by Sp",
+       x = "sp",
+       y = "N.individuals") +
+  theme_minimal()
+dev.off()
