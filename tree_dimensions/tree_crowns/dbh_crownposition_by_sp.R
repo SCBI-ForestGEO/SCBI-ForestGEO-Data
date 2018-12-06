@@ -98,89 +98,39 @@ dev.off()
 
 
 
-totals$crown.S <- length(which(litu$crown.position=="S"))
 
-library(stringr)
+# create new table with n trees by crown position ####
 
-totals <- data.frame(finalsp)
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
 
 finalsp <- levels(factor(dendro2018$sp))
-crown <- levels(factor(dendro2018$crown.position))
+#
 
-for (j in seq(along=finalsp)){
-  for (q in seq(along=crown)){
-    spname = finalsp[[j]]
-    value = crown[[q]]
-    paste[j]<- subset(dendro2018,dendro2018$sp == spname & dendro2018$crown.position == value)
-  }
-}
-
-
-
-crown <- c(dendro2018$crown.position)
-
-
-fagr <- subset(dendro2018,dendro2018$sp == "fagr")
-
-dbhmax <- aggregate(fagr$dbh2018, by=list(fagr$crown.position), max)
-dbhmin <- aggregate(fagr$dbh2018, by=list(fagr$crown.position), min)
-dbhavg <- aggregate(fagr$dbh2018, by=list(fagr$crown.position), mean)
-names(dbhmax) <- c("crown", "dbhmax.mm")
-names(dbhmin) <- c("crown", "dbhmin.mm")
-names(dbhavg) <- c("crown", "dbhavg.mm")
+#get dbh min/max/mean for each crown position by species, then merge together
+dbhmax <- aggregate(dendro2018$dbh2018, by=list(dendro2018$sp, dendro2018$crown.position), max)
+dbhmin <- aggregate(dendro2018$dbh2018, by=list(dendro2018$sp, dendro2018$crown.position), min)
+dbhavg <- aggregate(dendro2018$dbh2018, by=list(dendro2018$sp, dendro2018$crown.position), mean)
+names(dbhmax) <- c("sp", "crown.position", "dbhmax.mm")
+names(dbhmin) <- c("sp", "crown.position", "dbhmin.mm")
+names(dbhavg) <- c("sp", "crown.position", "dbhavg.mm")
 is.num <- sapply(dbhavg,is.numeric)
 dbhavg[is.num] <- lapply(dbhavg[is.num], round, 1)
 
-data_num <- list(dbhmin,dbhmax,dbhavg) %>% reduce(left_join, by="crown")
+data_num <- list(dbhmin,dbhmax,dbhavg) %>% reduce(left_join, by=c("sp","crown.position"))
 
+#get the number of each species per crown position
 library(data.table)
-count.crown <- addmargins(table(fagr$sp, fagr$crown.position),1)  
+count.crown <- addmargins(table(dendro2018$sp, dendro2018$crown.position),1)  
 count.crown <- as.data.frame.matrix(count.crown)
-  setDT(count.crown, keep.rownames=TRUE)[]
-  colnames(count.crown) <- c("sp", "crown")
+setDT(count.crown, keep.rownames=TRUE)[]
+count.crown <- setnames(count.crown, "rn", "sp")
+count.crown <- count.crown[count.crown$sp %in% finalsp, ]
 
+library(reshape)
+count.crown <- melt(count.crown, id=(c("sp")))
+count.crown <- setnames(count.crown, c("variable", "value"), c("crown.position", "n.trees"))
+count.test <- merge(count.crown, data_num, by=c("sp", "crown.position"), all=TRUE)
 
-#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-dendro2018 %>%
-  group_by(sp, crown.position) %>%
-  summarize(count=n()) %>%
-  filter(sp == "fagr", crown.position=="C") %>%
-  .$count
-
-
-
-
-library(data.table)
-testr <- dendro2018[ ,c("sp", "crown.position")]
-testr$ <
-
-library(dplyr)
-test$C <- testr %>% 
-  add_count(sp, crown.position=="c")
-test <- test[!(duplicated(test)),]
-
-
-
-
-
+write.csv(count.test, "chronologies_by_crownposition.csv", row.names=FALSE)
