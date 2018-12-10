@@ -1,3 +1,8 @@
+# core_list_....
+
+- The csv is a list of cores that have been separated by canopy positions (canopy = D/C, sub-canopy=I/S).
+- The script is to automatically subset the rwl files by these canopy positions, using the csv file, and write new rwl files.
+
 # dendro_cored_full
 
 This file should be updated following each growing season, using the most recent version of dendro_trees and the mortality census.
