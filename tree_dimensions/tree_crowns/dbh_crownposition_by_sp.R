@@ -123,3 +123,17 @@ ggplot(data = count.test) +
        y = "N.individuals") +
   theme_minimal()
 dev.off()
+
+
+#5 list of cores to send to Neil (10 Dec 2018) ####
+
+#from end of step #2
+dendro2018 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/dendro_subset_ian_paper.csv")
+
+dendro2018$crown.position <- ifelse(dendro2018$crown.position=="C" | dendro2018$crown.position=="D", "canopy", "sub-canopy")
+
+#order by tag and species
+
+dendro2018 <- dendro2018[with(dendro2018, order(sp, crown.position)), ]
+
+write.csv(dendro2018, "core_list_for_neil.csv", row.names=FALSE)
