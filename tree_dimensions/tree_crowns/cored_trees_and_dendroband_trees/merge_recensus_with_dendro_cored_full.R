@@ -1,4 +1,4 @@
-# for merging the recensus with dendro_cored_full
+# for merging the ForestGEO recensus survey data with dendro_cored_full
 
 recensus2018 <- read.csv("I:/recensus2018.csv")
 
