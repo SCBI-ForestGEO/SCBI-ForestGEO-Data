@@ -1,8 +1,3 @@
-# core_list_....
-
-- The csv is a list of cores that have been separated by canopy positions (canopy = D/C, sub-canopy=I/S).
-- The script is to automatically subset the rwl files by these canopy positions, using the csv file, and write new rwl files.
-
 # dendro_cored_full
 
 This file should be updated following each growing season, using the most recent version of dendro_trees and the mortality census.
@@ -23,7 +18,9 @@ AJ project: live cored (466), live biannual (477), and both live/cored (46) = 98
 
 - all cored trees (2010-2011, 2016-2017) included in Ryan's analysis (see below) (726 trees, live and dead)
 
-- the local and global coordinates of these trees
+- crown positions and conditions for all alive trees, gathered in fall 2018 as part of AJ Seglem (SMSC student) project (Protocol for determining crown position is based on [Jennings 1999](https://academic.oup.com/forestry/article/72/1/59/589132) pages 69-70.)
+
+- the local and global coordinates of all trees
 
 - the UTM and lat/lon of each tree. These were obtained by merging this file with "scbi_stem_utm_lat_long.csv" found in V:\SIGEO\GIS_data\R-script_Convert local-global coord.
 
