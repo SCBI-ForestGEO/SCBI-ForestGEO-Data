@@ -31,6 +31,8 @@ dendro_all[867,6]=12
 
 dendro_all<-dendro_all[!duplicated(dendro_all$stemID),]
 
+dendro_all[91,6]=NA 
+dendro_all[867,6]=NA
 ##populate with geographic coordinates
 latlon <- read.csv("V:/SIGEO/GIS_data/dendroband surveys/Merged_dendroband_utm_lat_lon.csv")
 
@@ -97,10 +99,13 @@ dendro_all$biannual[is.na(dendro_all$biannual)] <- 0
 dendro_all$intraannual[is.na(dendro_all$intraannual)] <- 0
 dendro_all$cored[is.na(dendro_all$cored)] <- 1
 
-census_2008 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-cvs-files/scbi.stem1.csv")
+census_2008 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem1.csv")
+
+census_2018 <- read.csv("I:/recensus2018.csv")
 
 dendro_all$dbh2008 <- census_2008$dbh[match(dendro_all$stemID, census_2008$stemID)]
 dendro_all$dbh2013 <- census_2013$dbh[match(dendro_all$stemID, census_2013$stemID)]
+#dendro_all$dbh2018 <- census_2018$DBH[]
 
 dendro_all$dbh2008 <- round(dendro_all$dbh2008,1)
 dendro_all$dbh2013 <- round(dendro_all$dbh2013,1)
@@ -113,4 +118,5 @@ dendro_all <- dendro_all[c(1:6,21:22,11:13,10,7,14:15,8:9,16:19)]
 #get rid of final duplicates now that all rows are the same
 dendro_all <- dendro_all[!duplicated(dendro_all),]
 
-write.csv(dendro_all, "dendro_cored_full.csv", row.names=FALSE)
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/cored_dendroband_crown_position_data")
+write.csv(dendro_all, "dendro_cored_full1.csv", row.names=FALSE)
