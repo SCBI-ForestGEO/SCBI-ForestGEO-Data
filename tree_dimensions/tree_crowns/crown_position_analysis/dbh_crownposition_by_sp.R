@@ -10,16 +10,17 @@
 
 #1 which cores used in final chronologies ####
 #these cores used in Ryan's paper
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
+setwd("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
 
-chronology_list <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/chronology_list.csv")
+chronology_list <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/chronology_list.csv")
 
 library(stringr)
-complete <- subset(chronology_list, status=="complete")
-chron <- levels(factor(complete$chronology))
+complete <- subset(chronology_list, chronology_status=="complete")
+chron <- levels(factor(complete$chronology_name))
 chronsp <- str_extract(chron, "[a-z]+")
 
-file_list <- list.files("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies", pattern="_drop.csv")
+##lines 23-30 were before 10 December. Lines 31-33 create the same result BUT allchron is missing any mention of quve cores. This needs to be fixed or we need the separate csv files back.
+file_list <- list.files("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete", pattern="_drop.csv")
 
 library(data.table)
 merged <- rbindlist(fill=TRUE, lapply(file_list, fread))
@@ -27,16 +28,20 @@ merged <- merged[,c("tag","sp")]
 
 mergedchron <- subset(merged, sp %in% chronsp)
 
+allchron <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/cross-dated_cores_CSVformat/all_core_chronologies.csv")
 
-#2 merging dendro_cored_full with #1, then subset ####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns")
+allchron <- allchron[,c("tag", "sp")]
+mergedchron <- subset(allchron, sp %in% chronsp)
 
-dendrofull <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/dendro_cored_full.csv")
+#2 merging dendro_cored_full with #1, create "dendro_subset_ian_paper.csv" ####
+setwd("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns")
+
+dendrofull <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/cored_dendroband_crown_position_data/dendro_cored_full.csv")
 
 dendrosub <- merge(dendrofull, mergedchron)
 dendrosub <- dendrosub[order(dendrosub[,1]),]
 
-## makes sure there are no duplicates
+## make sure there are no duplicates
 ## this code says give me the tag numbers for the duplicated stemID
 dendrosub$tag[duplicated(dendrosub$stemID)]
 
@@ -44,6 +49,7 @@ dendrosub$tag[duplicated(dendrosub$stemID)]
 dendrosub$dbh2018 <- ifelse(dendrosub$dbh2018 == 0, dendrosub$dbh2013, dendrosub$dbh2018)
 
 ##assume dead trees that have dbh>0 and a crown.position value of CF (AJ couldn't find), have a crown.position of "I" if under 350mm, and C if over 350mm.
+dendrosub$crown.position <- ""
 dendrosub$crown.position <- as.character(dendrosub$crown.position)
 dendrosub$crown.position <- ifelse(dendrosub$dbh2018>0 & 
                                     dendrosub$dbh2018<=350 &
