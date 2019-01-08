@@ -9,8 +9,7 @@ for crown assessments: Dec. 2018
 for geographic coordinates: Oct. 2018
 
 AJ project: live cored (466), live biannual (477), and both live/cored (46) = 989 trees for analysis
-
-raw_data_AJ_crown_surveys.csv contains the data as input by AJ after field surveys. This version is being kept as an archive.
+- raw_data_AJ_crown_surveys.csv contains the data as input by AJ after field surveys. This version is being kept as an archive.
 
 ## This file includes the following information:
 
