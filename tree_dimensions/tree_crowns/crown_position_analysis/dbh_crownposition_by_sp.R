@@ -104,7 +104,9 @@ count.test <- merge(count.crown, data_num, by=c("sp", "crown.position"), all=TRU
 write.csv(count.test, "chronologies_by_crownposition.csv", row.names=FALSE)
 
 #4 graphs #####
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns")
+setwd("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_dimensions/tree_crowns/crown_position_analysis")
+
+dendro2018 <- read.csv("E:/Github_SCBI/tree-growth-and-traits/dendro_subset_ian_paper.csv")
 
 library(ggplot2)
 pdf(file="DBH_CrownPosition_by_all_sp.pdf", width=10)
