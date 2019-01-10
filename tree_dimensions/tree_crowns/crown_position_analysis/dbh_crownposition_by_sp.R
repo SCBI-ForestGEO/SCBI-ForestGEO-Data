@@ -132,6 +132,40 @@ ggplot(data = count.test) +
   theme_minimal()
 dev.off()
 
+##graphs for Ian analysis with 14 species by canopy/subcanopy
+neilcores <- read.csv("E:/Github_SCBI/tree-growth-and-traits/core_list_for_neil.csv")
+
+pdf("crownposition_graphs_by_sp.pdf", width=9)
+ggplot(data = neilcores) +
+  aes(x = dbh2018, fill = crown.position) +
+  geom_histogram(bins = 50) +
+  scale_fill_brewer(palette = "Paired") +
+  scale_x_continuous(breaks=c(0,350,1500)) +
+  labs(title = "DBH by Crown Position",
+       x = "dbh2018 (mm)",
+       y = "Count") +
+  theme_minimal()
+
+countsp <- read.csv("E:/Github_SCBI/tree-growth-and-traits/core_chronologies_by_crownposition.csv")
+
+countsp <- countsp[, -c(4:6)]
+countsp$crown.position <- gsub("C", "canopy", countsp$crown.position)
+countsp$crown.position <- gsub("D", "canopy", countsp$crown.position)
+countsp$crown.position <- gsub("S", "subcanopy", countsp$crown.position)
+countsp$crown.position <- gsub("I", "subcanopy", countsp$crown.position)
+
+countsp.test <- aggregate(countsp$n.trees, by=list(countsp$crown.position, countsp$sp), FUN=sum)
+
+colnames(countsp.test) <- c("crown.position", "sp", "n.trees")
+
+ggplot(data = countsp.test) +
+  aes(x = sp,fill = crown.position, weight = n.trees) +
+  geom_bar() +
+  labs(title = "Number of Crown Positions by Sp",
+       x = "sp",
+       y = "N.individuals") +
+  theme_minimal()
+dev.off()
 
 #5 list of cores to send to Neil (10 Dec 2018) ####
 
