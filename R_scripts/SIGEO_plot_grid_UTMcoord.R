@@ -1,18 +1,20 @@
-##### Script to go from SIGEO quadrat coordinates to SIGEO LOCAL coordinates
-#Erika Gonzalez 01/31/2018
+##### Script to go from SIGEO quadrat coordinates to SIGEO grid coordinates to NAD83 coordinates #####
+## written by Dunbar Carpenter ###
+## 2/1/2011
+
+#Modified by Erika Gonzalez 03/01/2017
 
 #Read full data or stem data files, bring them from V:\SIGEO\3-RECENSUS 2013\DATA\FINAL DATA to use, to share
 #Here we will use stem2, where all stems measured in 2013 (last census) are included.
-sigeo <- read.csv("scbi.stem2.csv")
+sigeo <- read.csv("scbi.stem2.csv") 
+#from Github/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files
 
-#plot grid coordinates to see if they make sence
+#plot grid coordinates to see if they make sense
 plot(sigeo$gx, sigeo$gy)
 
-## divide 4-digit quadrat number by 100 w/o remainder and w/ remainder to get quadrat x and y columns and row separetely
+## divide 4-digit quadrat number by 100 w/o remainder and w/ remainder to get quadrat x and y columns and rows separately
 sigeo$quadrat_x <- as.numeric(as.character(sigeo$quadrat)) %/% 100
 sigeo$quadrat_y <- as.numeric(as.character(sigeo$quadrat)) %% 100
-
-summary(sigeo$grid_y)
 
 names(sigeo)
 
