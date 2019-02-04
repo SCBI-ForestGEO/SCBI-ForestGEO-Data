@@ -11,6 +11,7 @@ Column,Field,Description
 10 / J,succesional_status,"Common successional stage of a plant species (pioneer-fast growing, early successional, opportunistic -various sources) "
 11 / K,drought_tolerance,Degree to which a plant species is adapted to arid or drought conditions: drought-resistant or drough-intolerant (various sources)
 12 / L,deer_herbivory,"Indicates how palatable a plant species is to deer, the more palatable a plant is, the harder to establish; the less palatable a plant is, the easier to grow (various sources)"
-13 /M,fruit_type,"Fruit type (samaras, drupe, etc) -source Flora of Virginia, 2012"
-14 / N,dispersal_vector,"Dipersal vector could be biotic (animals) or abiotic (wind, gravity) - various sources"
-15 / O,citation,Author and year of main citation used for any ecological descriptor
+13 /M,flower_reproduction,Sexual reproduction type: Androdioecy (androdioecious); Andromonoecy (andromonoecious); Dioecy (dioecious); Gynodioecy (gynodioecious); Gynomonoecy (gynomonoecious); Homoecy (homoecious); Monoecy (monoecious); Polygamodioecy (polygamodioecious) (see http://sweetgum.nybg.org/science/glossary/) 
+14 / N,fruit_type,"Fruit type (samaras, drupe, etc) -source Flora of Virginia, 2012"
+15 / O,dispersal_vector,"Dipersal vector could be biotic (animals) or abiotic (wind, gravity) - various sources"
+16 / P,citation,Author and year of main citation used for any ecological descriptor
