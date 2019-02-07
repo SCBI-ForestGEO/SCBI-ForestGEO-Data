@@ -6,7 +6,7 @@ rm(list = ls())
 
 ## Finally, this script will make simple plots for each live/dead file for each species specified.
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies")
 
 library(dplR)
 
