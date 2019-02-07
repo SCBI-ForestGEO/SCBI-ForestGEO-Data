@@ -1,0 +1,129 @@
+# reformat tree core measurement files (.rwl --> .csv)
+##this code is specifically for those .rwl files in the "complete" folder in Github (Forest-GEO-Data_private\tree_cores\chronologies\current_chronologies\complete). 
+
+##For .rwl files in the "incomplete" folder (those that either .rwl or _drop.rwl), see bottom [the inside of the for-loop function remains the same, albeit a different write.csv output].
+
+## in other words, watch out before doing CONTROL/COMMAND A
+
+#1 create one csv with all chronologies in "complete" folder #####
+#the formatting process is done within the for-loop
+
+setwd("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete")
+
+dirs <- dir("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete")
+
+mergedirs <- tempdir("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete/merged")
+
+library(tools)
+library(dplR)
+library(data.table)
+library(dplyr)
+
+files <- file_path_sans_ext(dirs)
+testFileName <- paste0(files, ".csv")
+
+mergelist <- list()
+
+for (i in seq(along=dirs)){
+  org <- read.rwl(paste(dirs[i], sep = '//'), format="tucson")
+  
+  #org <- read.rwl("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete/caco_drop.rwl")
+  
+  ##transpose the dataframe
+  transorg <- transpose(org)
+  rownames(transorg) <- colnames(org)
+  colnames(transorg) <- rownames(org)
+  transorg <- setDT(transorg, keep.rownames = TRUE)[]
+  setnames(transorg,1,"coreID")
+  
+  #create column with only numeric tag numbers, then order
+  transorg$tag <- gsub("[^0-9]", "", transorg$coreID) 
+  transorg$tag <- as.numeric(transorg$tag)
+  transorg <- transorg %>% select(tag,everything())
+  formatC(transorg$tag, width=6,format="d", flag="0") 
+  #a shorter version of this is sprintf("%06d", transorg$tag)
+  transorg <- transorg[order(tag),]
+  
+  transorg <- rbindlist(mget(ls(pattern="transorg")), idcol=TRUE)
+  setnames(transorg, old=".id", new="sp")
+  transorg <- transorg %>% select(tag, coreID, sp, everything())
+  transorg$sp <- gsub("transorg", dirs[i], transorg$sp)
+  transorg$sp <- gsub("_.*", "", transorg$sp)
+  transorg$sp <- gsub(".rwl", "", transorg$sp)
+  
+  mergelist[[i]] <- data.frame(transorg, check.names=FALSE)
+}  
+
+mergedcores <- rbindlist(mergelist, fill=TRUE)
+years <- c(colnames(mergedcores))
+years <- years[order(years)]
+setDT(mergedcores)
+setcolorder(mergedcores, years)
+
+##add status at time of coring. 2010-2011 cores were alive, 2016-2017 cores were dead
+notes_2010 <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/measurement_files/measurement_notes_2010_chronology.csv")
+tags10 <- notes_2010$tag
+
+notes_2016 <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/measurement_files/measurement_notes_2016_17_chronology.csv")
+
+mergedcores$status.at.coring <- ""
+mergedcores <- mergedcores %>%
+  select("tag","coreID","sp", "status.at.coring", everything())
+mergedcores$status.at.coring <- 
+  ifelse(mergedcores$tag %in% c(notes_2010$Tag), "alive", 
+         ifelse(mergedcores$tag %in% c(notes_2016$Tag), "dead", ""))
+
+setwd("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores")
+
+write.csv(mergedcores, "all_core_chronologies.csv", row.names=FALSE)
+
+############if need to write individual csvs to each species folder, use this code as the last function within the for loop
+write.csv(transorg, file=paste(dirs[i], testFileName[i], sep = '//'), row.names=FALSE)
+
+#
+##
+#2 use this space below for troubleshooting ####
+##
+#
+## for files in the chronologies folder
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
+
+dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies", pattern=".rwl")
+
+library(tools)
+fileName <- file.path(dirs)
+files <- file_path_sans_ext(fileName)
+testFileName <- paste0(files, ".csv")
+
+for (i in seq(along=fileName)){
+  library(dplR)
+  org <- read.rwl(fileName[i], format="tucson")
+  
+  ##transpose the dataframe
+  library(data.table)
+  transorg <- transpose(org)
+  rownames(transorg) <- colnames(org)
+  colnames(transorg) <- rownames(org)
+  transorg <- setDT(transorg, keep.rownames = TRUE)[]
+  setnames(transorg,1,"coreID")
+  
+  #create column with only numeric tag numbers, then order
+  transorg$tag <- gsub("[^0-9]", "", transorg$coreID) 
+  transorg$tag <- as.numeric(transorg$tag)
+  
+  library(dplyr)
+  transorg <- transorg %>% select(tag,everything())
+  formatC(transorg$tag, width=6,format="d", flag="0") 
+  #a shorter version of this is sprintf("%06d", transorg$tag)
+  transorg <- transorg[order(tag),]
+  
+  transorg <- rbindlist(mget(ls(pattern="transorg")), idcol=TRUE)
+  setnames(transorg, old=".id", new="sp")
+  transorg <- transorg %>% select(tag, coreID, sp, everything())
+  transorg$sp <- gsub("transorg", fileName[i], transorg$sp)
+  transorg$sp <- gsub("_.*", "", transorg$sp)
+  transorg$sp <- gsub(".rwl", "", transorg$sp)
+  
+
+  write.csv(transorg, file=testFileName[i], row.names=FALSE)
+}
