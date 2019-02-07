@@ -2,9 +2,9 @@
 
 ########## If troubleshooting / running for only specific species, go down to next set of ##################
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies")
 
-dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies", pattern="_drop_dead.rwl")
+dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies", pattern="_drop_dead.rwl")
 
 library(tools)
 fileName <- file.path(dirs)
@@ -70,7 +70,7 @@ setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_p
 
 pdf(file="fram_drop_live_wavelet.pdf")
 library(dplR)
-sp <- read.rwl("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/fram_drop_live.rwl")
+sp <- read.rwl("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies/fram_drop_live.rwl")
 spdead.rwi <- detrend(sp, method="Spline")
 spdead.crn <- chron(spdead.rwi, prefix="MES")
 plot(spdead.crn, add.spline=TRUE, nyrs=64)
