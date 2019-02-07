@@ -8,11 +8,11 @@
 #1 create one csv with all chronologies in "complete" folder #####
 #the formatting process is done within the for-loop
 
-setwd("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete")
+setwd("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies/complete")
 
-dirs <- dir("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete")
+dirs <- dir("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies/complete")
 
-mergedirs <- tempdir("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete/merged")
+mergedirs <- tempdir("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies/complete/merged")
 
 library(tools)
 library(dplR)
@@ -27,7 +27,7 @@ mergelist <- list()
 for (i in seq(along=dirs)){
   org <- read.rwl(paste(dirs[i], sep = '//'), format="tucson")
   
-  #org <- read.rwl("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies/complete/caco_drop.rwl")
+  #org <- read.rwl("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies/complete/caco_drop.rwl")
   
   ##transpose the dataframe
   transorg <- transpose(org)
@@ -61,10 +61,10 @@ setDT(mergedcores)
 setcolorder(mergedcores, years)
 
 ##add status at time of coring. 2010-2011 cores were alive, 2016-2017 cores were dead
-notes_2010 <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/measurement_files/measurement_notes_2010_chronology.csv")
+notes_2010 <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_cores/measurement_files/measurement_notes_2010_chronology.csv")
 tags10 <- notes_2010$tag
 
-notes_2016 <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores/measurement_files/measurement_notes_2016_17_chronology.csv")
+notes_2016 <- read.csv("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_cores/measurement_files/measurement_notes_2016_17_chronology.csv")
 
 mergedcores$status.at.coring <- ""
 mergedcores <- mergedcores %>%
@@ -73,7 +73,7 @@ mergedcores$status.at.coring <-
   ifelse(mergedcores$tag %in% c(notes_2010$Tag), "alive", 
          ifelse(mergedcores$tag %in% c(notes_2016$Tag), "dead", ""))
 
-setwd("E:/Github_SCBI/SCBI-ForestGEO-Data_private/tree_cores")
+setwd("E:/Github_SCBI/SCBI-ForestGEO-Data/tree_cores")
 
 write.csv(mergedcores, "all_core_chronologies.csv", row.names=FALSE)
 
@@ -86,9 +86,9 @@ write.csv(transorg, file=paste(dirs[i], testFileName[i], sep = '//'), row.names=
 ##
 #
 ## for files in the chronologies folder
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies")
+setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies")
 
-dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data_private/tree_cores/chronologies/current_chronologies", pattern=".rwl")
+dirs <- dir("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies", pattern=".rwl")
 
 library(tools)
 fileName <- file.path(dirs)
