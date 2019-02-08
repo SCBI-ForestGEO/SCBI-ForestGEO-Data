@@ -5,6 +5,8 @@ cores <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/climate_s
 
 dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
 
+#if want to keep North/South identifier, then don't use this line. Otherwise, run the line since it will alter the number of columns below (it was added after this script was finished)
+dendro_trees$location <- NULL
 
 library(data.table)
 setnames(cores, old=c("StemTag"), new=c("stemtag"))
