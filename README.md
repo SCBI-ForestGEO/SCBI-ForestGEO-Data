@@ -56,7 +56,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **Leaf hydraulic traits** - Contact us for details. 
     
 ### Tree growth & physiology
-- [**Tree cores**](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores) - We have ring width measurements for 703 cores from live trees (taken between June 2010 and March 2011; some published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)) and 516 cores from trees found dead in the 2016 or 2017 mortality census, and we have finished chronologies for 14 species. Data are in this repository. 
+- [**Tree cores**](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores) - We have ring width measurements for 703 cores from live trees (taken between June 2010 and March 2011; some published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)) and 516 cores from trees found dead in the 2016 or 2017 mortality census, and we have finished chronologies for 14 species.
 
 - **Manual dendrometer bands** - Biannual and intra-annual measurements of dendrometer bands (n= 579 and 155 trees, respectively) have been taken every year since 2010 and 2011, respectively. Details and data are in [this repository](https://github.com/SCBI-ForestGEO/Dendrobands). Contact us for access. 
 
@@ -87,7 +87,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Seed production** - Contact us for details.
 
-- **Seedlings** - Contact us for details.
+- **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Also [McGarvey et al 2013](http://ctfs.si.edu/Public/pdfs/McGarveyEtAl.NENat2013.pdf) used these data to study the effects of deer chronic browsing in Eastern forest. Data since 2013 is avialable upon request. Contact us for details.
 
 ### Invasive species
 
