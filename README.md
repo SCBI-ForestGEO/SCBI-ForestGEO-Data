@@ -12,6 +12,8 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Topograpy** - Contact us for details.
 
+- **Disturbance history** - [This file](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/SCBI_plot_disturbance_events.csv) is a log of known disturbance events that have affected this forest. This does not currently include the land use history, which is described in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full).
+
 ### Species lists
 - **[Tree ecology](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Tree%20ecology)**
 
