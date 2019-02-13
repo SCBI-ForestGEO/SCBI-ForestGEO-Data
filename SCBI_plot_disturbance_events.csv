@@ -1,5 +1,7 @@
-Year,Month,Day,event.type,event.details,Plot observations
-2011,10,,snowstorm,anomalously heavy snowstorm,caused substantial crown damage/breakage 
-2012,10,,hurricane,Hurricane Sandy,NA
-2018,3,,wind storm,,at least one group of trees (including a very large one) observed freshly fallen a few days after the storm
-2019,2,12,ice storm,,
+year,month,day,event.type,event.details,plot.observations,observer(s)
+~1988/1989,,,invasive pest,Gypsy moths,heavy infestation (epecially oaks)/ heavy frass production,Bill McShea
+2011,10,,snowstorm,anomalously heavy snowstorm,caused substantial crown damage/breakage ,Norm Borg
+2012,10,,hurricane,Hurricane Sandy,NA,NA
+2015,,,invasive pest,Emerald ash borer confimed present,Multiple individuals were caught on 4 purple pherone traps hung in the plot over the summer.,Erika Gonzalez-Akre
+2018,3,,wind storm,,at least one group of trees (including a very large one) observed freshly fallen a few days after the storm,Ryan Helcoski
+2019,2,12,ice storm,,,
