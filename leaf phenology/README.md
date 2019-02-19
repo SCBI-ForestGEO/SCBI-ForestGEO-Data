@@ -24,16 +24,15 @@ Citation: Augspurger, C.K & Bartlett, E.A. 2003. Differences in leaf phenology b
 |8| notes	|Any notes in the field	|NA
 
 ## Metadata (spring pheonoly)
-
-Leaf expansion categories: 0= closed buds, 1= beginning of bud break (bud scales parted, revealing underlying leaf tissue in more than one-third of buds), 2= leaves partially unfold in 33-66% of canopy leaves, 3= completion of leaf expansion (more than two-thirds of leaves are full-sized, flattened, and in normal orientation)
-
 |Column	|Field	|Description |Units/format |
 |---|---|---|---|
 |1|	Tag|Unique tree identifier number corresponding to a metal tag of a given tree within the ForestGEO plot	|NA
 |2| stemID|	Individual stem identifier, default is 1 if plant is single stemmed	|NA
 |3| species	|species code as used in main ForestGEO census |NA
 |4| dbh.2013.mm	|Diameter at breast height as ForestGEO census 2013	|milimeters
-|5 to 17| Date|	Date of observation/Leaf expansion categories|MM/DD/YEAR
+|5 to 17| Date|	Date of observation/Leaf expansion categories*|MM/DD/YEAR
+
+*Leaf expansion categories: 0= closed buds, 1= beginning of bud break (bud scales parted, revealing underlying leaf tissue in more than one-third of buds), 2= leaves partially unfold in 33-66% of canopy leaves, 3= completion of leaf expansion (more than two-thirds of leaves are full-sized, flattened, and in normal orientation)
 
 
 
