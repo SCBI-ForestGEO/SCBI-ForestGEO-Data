@@ -69,6 +69,9 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
     - Contributed to [SAPFLUXNET](http://sapfluxnet.creaf.cat/app).
     - Contact us for complete data.
 
+- **Leaf phenology** 
+    - We have some [leaf phenology observations](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/leaf%20phenology) at SCBI.
+
 
 ### Carbon cycling
 
