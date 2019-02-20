@@ -11,7 +11,7 @@ ForestGEO plot at SCBI, two tree clusters in the south side of plot.
 We adapted methods from Augspurger & Bartlett, 2003 to categorize both spring and fall leaf phenology events.
 Citation: Augspurger, C.K & Bartlett, E.A. 2003. Differences in leaf phenology between juvenile and adult trees in a temperate deciduous forest. Tree Physiology 23(8):517-25. DOI: 10.1093/treephys/23.8.517
 
-## Metadata (fall pheonoly)
+## Metadata (fall phenonoly)
 |Column	|Field	|Description |Units/format |
 |---|---|---|---|
 |1|	Tag|Unique tree identifier number corresponding to a metal tag of a given tree within the ForestGEO plot	|NA
@@ -23,7 +23,7 @@ Citation: Augspurger, C.K & Bartlett, E.A. 2003. Differences in leaf phenology b
 |7| perc.pigmentation 	|Percentage of leaf pigmenation (breakdown of clorophyll, revealing urderlying pigments)	|NA
 |8| notes	|Any notes in the field	|NA
 
-## Metadata (spring pheonoly)
+## Metadata (spring phenonoly)
 |Column	|Field	|Description |Units/format |
 |---|---|---|---|
 |1|	Tag|Unique tree identifier number corresponding to a metal tag of a given tree within the ForestGEO plot	|NA
