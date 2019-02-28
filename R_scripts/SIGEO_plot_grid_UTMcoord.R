@@ -47,7 +47,7 @@ grid2nad83 <- function(x, y) {
 sigeo<-data.frame(sigeo, grid2nad83(sigeo$gx, sigeo$gy))
 
 # Add lat lon to the file, first run these 2 lines
-utmcoor<-SpatialPoints(cbind(sigeo$NAD83_X, sigeo$NAD83_Y), proj4string=CRS("+proj=utm +zone=17S"))
+utmcoor<-SpatialPoints(cbind(sigeo$NAD83_X, sigeo$NAD83_Y), proj4string=CRS("+proj=utm +zone=17N"))
 longlatcoor<-spTransform(utmcoor,CRS("+proj=longlat"))
 
 #add the results ('latlongcoor' output) as two new columns in original dataframe 
@@ -58,3 +58,13 @@ plot(sigeo$lon, sigeo$lat)
 #write a csv if you need to
 write.csv(sigeo, file= "scbi_stem_utm_lat_long.csv", row.names=F)
 
+############################################################################################
+# how to find grid corners
+library(rgdal)
+library(broom)
+
+grid <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data", layer="ForestGEO_grid_outline")
+grid <- tidy(grid)
+
+grid <- grid[1:4, ]
+grid$position <- c("NW", "SW", "SE", "NE")
