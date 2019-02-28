@@ -15,7 +15,7 @@ similarly to 640 m (rebar 01,33)._
 
 ## Data file
 
-[scbi_elev](
+[scbi_elev](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/spatial_data/elevation/scbi_elev.csv)
 
 ## Metadata 
 |Column name | Description |
