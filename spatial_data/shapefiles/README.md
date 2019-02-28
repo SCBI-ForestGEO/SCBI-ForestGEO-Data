@@ -1,4 +1,4 @@
-# Shapefile descriptions
+# Shapefiles description
 
 |File| Description|
 |--|--|
