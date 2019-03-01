@@ -13,11 +13,12 @@ quadrat numbering system began with 01,01 in the southwest corner (origin) of th
 the x-­axis (east-­west direction) to 400 m (rebar 21,01). Numbering along the y-­axis (north-­south direction) was continued
 similarly to 640 m (rebar 01,33)._
 
-## Data file
-
+## Data files
 [scbi_elev](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/spatial_data/elevation/scbi_elev.csv)
 
-## Metadata 
+[contour_10m_SIGEO_coords](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/spatial_data/elevation/contour10m_SIGEO_coords.csv) = csv with UTM coordinates of contour polylines in 10m increments. This is a dataframe output of the contour_10m shapefile.
+
+## Metadata (scbi_elev)
 |Column name | Description |
 |---|---|
 |rebar_id|Unique metal bar identified number located int he southwest corner of each 20x20 m quadrat|
