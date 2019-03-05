@@ -5,4 +5,4 @@ The [UTM corner file](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob
 
 _The locations of the plot center post and corners and midpoints of the plot perimeter were
 located with a Trimble GEOXHTM 2005 Series GPS unit with external antenna and their coordinates geo-­corrected to the
-nearest base stations in the area_
+nearest base stations in the area._
