@@ -15,7 +15,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ### Biophysical environment
 - **Climate data** - available through [ForestGEO Climate Data Portal](https://github.com/forestgeo/Climate/tree/master/Met_Station_Data/SCBI)
 
-- **Topograpy** - Elevation ranges from 273-283 m.a.s.l.. Contact us for further details.
+- **Topograpy** - [This folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data) contains shapefiles and elevation data to create topographic maps for the SCBI plot. Elevation ranges from 273-338 m.a.s.l.. 
 
 - **Disturbance history** - [This file](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/SCBI_plot_disturbance_events.csv) is a log of known disturbance events that have affected this forest. This does not currently include the land use history, which is described in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full), or a full record of pests and pathogens, available [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/species_lists/insect_pests_pathogens).
 
