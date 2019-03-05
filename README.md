@@ -88,8 +88,6 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Dead wood** - Contact us for details.
 
-- **Litterfall** - Contact us for details.
-
 - **Soils** - Contact us for details.
 
 
