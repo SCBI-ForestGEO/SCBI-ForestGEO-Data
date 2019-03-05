@@ -95,9 +95,9 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 ### Tree reproduction 
 
-- **Seed production** - Seed rain data were collected from litterfall traps on a biweekly or monthly basis from 2009–2011. Methods and dataset are published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)
+- **Seed rain** - Seed rain data (from fruits and seeds) were collected from litterfall traps on a biweekly or monthly basis from 2009–2011. Methods and dataset are published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)
 
-- **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Also [McGarvey et al 2013](http://ctfs.si.edu/Public/pdfs/McGarveyEtAl.NENat2013.pdf) used these data to study the effects of deer chronic browsing in Eastern forest. Data since 2013 is avialable upon request. Contact us for details.
+- **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Seedling data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Also, [McGarvey et al 2013](http://ctfs.si.edu/Public/pdfs/McGarveyEtAl.NENat2013.pdf) used these data to study the effects of deer chronic browsing in Eastern forest. Data since 2013 is avialable upon request. Contact us for details.
 
 ### Invasive species
 
