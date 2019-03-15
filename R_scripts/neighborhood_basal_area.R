@@ -1,6 +1,6 @@
 # calculating neighborhood basal area (NBA) for ForestGEO plot trees
 
-#this script is attempting to recreate the efforts done by Alan Tepley from Gonzalez et al 2016: https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.1595, whereby neighborhood basal area was calculated by summing the basal area of all trees within a given distance of a focal tree. Specifically, basal area for this paper was calculated to 30m at a distance increment of 0.5m. Initial calculations were done in Excel.
+#this script recreates the efforts done by Alan Tepley from Gonzalez et al 2016: https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.1595, whereby neighborhood basal area was calculated by summing the basal area of all trees within a given distance of a focal tree. Specifically, basal area for this paper was calculated to 30m at a distance increment of 0.5m. Initial calculations were done in Excel.
 
 #for trees that have >1 stem that is at least 10cm dbh (1 individual in 2013), Tepley said, "When I calculated neighborhood basal area for the tree with Tag Number 60108 and Stem Tag 1, I would exclude the basal area for that stem and include the basal area for the tree with Tag Number 60108 and Stem Tag 2, and the distance to that tree is 0 meters."
 
