@@ -41,7 +41,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Tree heights** 
     - [Compilation of all conventional height measurements](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_dimensions/tree_heights)
-    - Terrestrial LiDAR-derived heights - [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S2352340918306978). The former contains data, latter describes allometries. 
+    - Terrestrial LiDAR-derived heights - [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S0378112718304663). The former contains data, latter describes allometries. 
     - Height allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
 
 - **Crown positions** 
