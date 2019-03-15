@@ -1,7 +1,7 @@
 # SCBI plot elevation data
 
 ## Overview
-The elevation file is based on the elevation (in m) of several points throught the SCBI plot. 
+The elevation file (scbi_elev.csv) is based on the elevation (in m) of several points throught the SCBI plot. 
 Explanation for the sampling design is described in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full) and summarized here:
 
 _In 2008 the LFDP was delineated in the forested portion of the Posey Creek watershed of
