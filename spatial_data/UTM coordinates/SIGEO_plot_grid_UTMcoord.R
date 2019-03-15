@@ -1,5 +1,5 @@
 ##### Script to go from SIGEO quadrat coordinates to SIGEO grid coordinates to NAD83 coordinates #####
-## written by Dunbar Carpenter ###
+## written by Dunbar Carpenter, edited by J.Thompson ###
 ## 2/1/2011
 
 #Modified by Erika Gonzalez 03/01/2017
