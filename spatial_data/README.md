@@ -19,3 +19,4 @@ The file [scbi_elev](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/
 |cb_2017_us_state_5m|outline of all US states|
 |contour10m_SIGEO_clipped|contour lines within the ForestGEO plot|
 |deer_exclosure_2011|outline of the deer exclosure in the ForestGEO plot|
+|full_stem_elevation_2013|elevation data for all stems from the 2013 census. This shapefile was created by reading in xy data from the UTM coordinates [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/spatial_data/UTM%20coordinates/scbi_stem_utm_lat_lon_2013.csv) and then extracting elevation values from [dem-sigeo](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data/elevation/dem-sigeo) in ArcGIS
