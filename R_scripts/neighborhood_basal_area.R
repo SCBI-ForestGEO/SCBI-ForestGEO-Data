@@ -27,14 +27,15 @@ m <- data.frame(t(combn(rownames(trees),2)), as.numeric(d)) #put in df format
 names(m) <- c("tree1", "tree2", "distance")
 simple <- m[m$distance<=30, ] #only include distances of 30m or less
 simple <- simple[order(simple$tree1, simple$distance), ] #sort by tree and distance
-
-# simple$tree1 <- as.character(simple$tree1)
-# simple$tree2 <- as.character(simple$tree2)
+rm(m) #because the file is so massive
+rm(d) #also because the file is large
 
 simple$tree1 <- as.numeric(as.character(simple$tree1))
 simple$tree2 <- as.numeric(as.character(simple$tree2))
 
-scbi.sub <- scbi.full2[scbi.full2$stemID %in% unique(simple$tree1), ] #this number won't match "trees" because some trees from scbi.full2 are >30m apart from another tree
+full_trees <- c(simple$tree1, simple$tree2)
+
+scbi.sub <- scbi.full2[scbi.full2$stemID %in% unique(full_trees), ] #this number may match scbi.full2, but may not if some trees > 30m from another tree
 
 scbi.sub <- scbi.sub[c(2,3,4,7,8,11)]
 scbi.sub$dbh <- scbi.sub$dbh/10 #dbh needs to be in cm for basal area equation
@@ -44,27 +45,30 @@ dist <- seq(0,30, by=0.5)
 dist <- gsub("^", "dist.m_", dist)
 scbi.sub[, dist] <- NA
 
-scbi.sub$x0 <- scbi.sub$basal
-
 scbi.sub_list <- lapply(scbi.sub$stemID, function(x){
   scbi.sub[scbi.sub$stemID == x, ]}) #separate each stem into separate dataframe
 names(scbi.sub_list) <- scbi.sub$stemID
 
 dist_shift <- dist[-1] #get rid of x0 in the list now that you've defined it
 
+edge <- scbi.sub[scbi.sub$gx > 370 | scbi.sub$gy > 610, ] #see which trees are close to plot edge
+
+
+
+
 
 #in short, the loop below does the following:
-#1. defines a focal tree, creates df "test" with all distances of that focal tree (line 68-71)
-#2. Adds column to test with all the trees the focal is relating to, plus the basal area of each one (line 73-78)
-#3. Split test into separate dataframes (test_list) to make it easier to work with (line 80-82)
-#4. Filter scbi.sub_list by the focal tree to "z". (line 84)
-#5. Following line 7 above, if there is a multistem (in other words, if the distance to the nearest tree = 0m, then the starting basal area should be the basal area of the other stem). (line 85)
+#1. defines a focal tree, creates df "test" with all distances of that focal tree (line 72-75)
+#2. Adds column to test with all the trees the focal is relating to, plus the basal area of each one (line 77-82)
+#3. Split test into separate dataframes (test_list) to make it easier to work with (line 84-86)
+#4. Filter scbi.sub_list by the focal tree to "z". (line 88)
+#5. Following line 7 above, if there is a multistem (in other words, if the distance to the nearest tree = 0m, then the starting basal area should be the basal area of the other stem). (line 89)
 ##5a. NOTED: this will make problems when including things like havi in this analysis. Be aware what size class you're focusing on and adjust as needed.
-#6. Make each element of test_list a separate df "w". Then, define column indices to use (inc, inc_num, inc_prev). For each increment (inc and inc_num), subset the df "w" so that it returns all trees with distances less than the number of inc_num. Then, fill in df "z" whereby if inc_num is less than the max distance in the subset "w", fill in that column in "z" with the value of inc_prev. Otherwise, if inc is greater than the max distance, add the basal area from x0 to the sum of the basal areas in the filtered "w" df. (lines 87-98)
-#7. Add z to list "full", then rbind to one df "all_dist". (lines 100-104)
+#6. Make each element of test_list a separate df "w". Then, define column indices to use (inc, inc_num, inc_prev). For each increment (inc and inc_num), subset the df "w" so that it returns all trees with distances less than the number of inc_num. Then, fill in df "z" whereby if inc_num is less than the max distance in the subset "w", fill in that column in "z" with the value of inc_prev. Otherwise, if inc is greater than the max distance, add the basal area from x0 to the sum of the basal areas in the filtered "w" df. (lines 93-115)
+#7. Add z to list "full", then rbind to one df "all_dist". (lines 117-120)
 
 all_dist <- NULL
-full <- list()
+full <- list() #NB this loop will take >60 minutes
 for (j in seq(along=unique(simple$tree1))){
   tree <- unique(simple$tree1)[[j]] #one tree at a time
   test <- simple[simple$tree1 == tree | simple$tree2 == tree, ] #filter by tree
@@ -82,7 +86,9 @@ for (j in seq(along=unique(simple$tree1))){
   names(test_list) <- unique(test$diff)
 
   z <- scbi.sub_list[[grep(paste0("^",tree,"$"), names(scbi.sub_list))]]
-  z$x0 <- ifelse(test$distance[1] == 0, test$basal_diff[1], z$x0) #this line of code follows Tepleys' intial calculation as described above in line 7.
+  z$dist.m_0 <- ifelse(test$distance[1] == 0, test$basal_diff[1], 
+                       ifelse((z$gx>= (400-30) & (400-z$gx)>0)|
+                              (z$gy>= (640-30) & (640-z$gy)>0), NA, z$basal)) #this line of code follows Tepleys' intial calculation as described above in line 7.
   
   for (q in seq(along=test_list)){
     w <- test_list[[q]]
@@ -97,8 +103,18 @@ for (j in seq(along=unique(simple$tree1))){
       
       w <- test[test$distance < inc_num, ]
       
-      z[, inc] <- ifelse(inc_num < max(w$distance), z[, inc_prev], sum(z$x0, sum(w$basal_diff)))
-      full[[j]] <- z
+      #if we don't care about distance to plot edge and want to caluclate NBA regardless, then use the following lines:
+      # z[, inc] <- ifelse(inc_num < max(w$distance), z[, inc_prev],
+      #                    sum(ifelse(is.na(z$dist.m_0), z$basal, z$dist.m_0), w$basal_diff))
+
+      #this version is a little complicated but follows Tepley's intial calculations. This is saying if the tree is within the increment distance to the plot edge (max 30m), then the basal area is NA. If it's not then if the increment distance is less than the total distance in w, there are two options: put the value in z$basal is the previous increment is NA, or if not NA, put that previous value. If the increment distance is greater than the total distance in w, then do a sum of the distances in w$distance and z$basal (if z$dist.m_0 is NA) or z$dist.m_0 (if it is not NA).
+      z[, inc] <- ifelse((z$gx>= (400-30) & inc_num < (400-z$gx))|
+                        (z$gy>= (640-30) & inc_num < (640-z$gy)), NA,
+                         ifelse(inc_num < max(w$distance),
+                                ifelse(is.na(z[, inc_prev]), z$basal, z[, inc_prev]),
+                                sum(ifelse(is.na(z$dist.m_0), z$basal, z$dist.m_0), w$basal_diff)))
+
+     full[[j]] <- z
     }
   }
   all_dist <- rbind(all_dist, full[[j]])
