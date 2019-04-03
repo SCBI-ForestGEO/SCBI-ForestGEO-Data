@@ -184,9 +184,13 @@ x.trees$agb <- ifelse(x.trees$sp == "juni", exp(-2.5095 + 2.5437 * log(x.trees$d
 
 x.trees$agb <- ifelse(x.trees$sp == "juvi", 0.1632 * (x.trees$dbh * 0.1)^2.2454, x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "litu", (1.0259 * (x.trees$dbh * 0.03937)^2.7324) * 0.45359, x.trees$agb)
+# x.trees$agb <- ifelse(x.trees$sp == "litu", (1.0259 * (x.trees$dbh * 0.03937)^2.7324) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "litu", (10^(-1.236 + 2.635 * (log10(x.trees$dbh * 0.1)))) * 1.008, x.trees$agb) # new equation given by Erika on Tue 4/2/2019 11:57
 
-x.trees$agb <- ifelse(x.trees$sp == "nysy", (1.5416 * ((x.trees$dbh * 0.03937)^2)^1.2759) * 0.45359, x.trees$agb)
+
+
+# x.trees$agb <- ifelse(x.trees$sp == "nysy", (1.5416 * ((x.trees$dbh * 0.03937)^2)^1.2759) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "nysy", exp(-2.2118 + 2.4133 * log(x.trees$dbh * 0.1)) , x.trees$agb)# new equation given by Erika on Tue 4/2/2019 11:57
 
 x.trees$agb <- ifelse(x.trees$sp == "pato", exp(-2.48 + 2.4835 * log(x.trees$dbh * 0.1)) * 0.36, x.trees$agb)
 
@@ -196,7 +200,10 @@ x.trees$agb <- ifelse(x.trees$sp == "pist", (exp(5.2831 + 2.0369 * log(x.trees$d
 
 x.trees$agb <- ifelse(x.trees$sp == "pivi", 10^(1.83 + 2.464 * log10(x.trees$dbh * 0.1)) / 1000, x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "ploc", (2.4919 * ((x.trees$dbh * 0.03937)^2)^1.1888) *  0.45359, x.trees$agb)
+# x.trees$agb <- ifelse(x.trees$sp == "ploc", (2.4919 * ((x.trees$dbh * 0.03937)^2)^1.1888) *  0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "ploc" & (x.trees$dbh * 0.1) < 24, (1.57573 * ((x.trees$dbh * 0.03937)^2) ^ 1.29005) * 0.45359, x.trees$agb) # new equation given by Erika on Tue 4/2/2019 11:57
+x.trees$agb <- ifelse(x.trees$sp == "ploc" & (x.trees$dbh * 0.1) >= 24, (2.51502 * ((x.trees$dbh * 0.03937)^2) ^ 1.19256) * 0.45359, x.trees$agb) # new equation given by Erika on Tue 4/2/2019 11:57
+
 
 x.trees$agb <- ifelse(x.trees$sp == "prav", (1.8082 * (x.trees$dbh * 0.03937)^2.6174) * 0.45359, x.trees$agb)
 
@@ -223,11 +230,16 @@ x.trees$agb <- ifelse(x.trees$sp == "quru", (2.4601 * (x.trees$dbh * 0.03937)^2.
 
 x.trees$agb <- ifelse(x.trees$sp == "qusp", (1.5509 * (x.trees$dbh * 0.03937)^2.7276) * 0.45359, x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "quve", (2.1457 * (x.trees$dbh * 0.03937)^2.5030) * 0.45359, x.trees$agb)
+# x.trees$agb <- ifelse(x.trees$sp == "quve", (2.1457 * (x.trees$dbh * 0.03937)^2.5030) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "quve" & (x.trees$dbh * 0.1) < 30, exp(-0.34052 + 2.65803 * log(x.trees$dbh * 0.03937)), x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "quve" & (x.trees$dbh * 0.1) >= 30, (10^(1.00005 + 2.10621 * (log10(x.trees$dbh * 0.03937)))) * 0.45359, x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "rops", (1.04649 * ((x.trees$dbh * 0.03937)^2)^1.37539) * 0.45359, x.trees$agb)
+# x.trees$agb <- ifelse(x.trees$sp == "rops", (1.04649 * ((x.trees$dbh * 0.03937)^2)^1.37539) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "rops", exp(-2.5095 + 2.5437 * log(x.trees$dbh * 0.1)), x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "saal", (10^(1.3539  + 1.3412 * log10(x.trees$dbh * 0.1)^2)) / 1000 * 1.004, x.trees$agb)
+# x.trees$agb <- ifelse(x.trees$sp == "saal", (10^(1.3539  + 1.3412 * log10(x.trees$dbh * 0.1)^2)) / 1000 * 1.004, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "saal", exp(-2.2118 + 2.4133 * log(x.trees$dbh * 0.1)) , x.trees$agb) # new equation given by Erika on Tue 4/2/2019 11:57
+
 
 x.trees$agb <- ifelse(x.trees$sp == "tiam", (1.4416 * (x.trees$dbh * 0.03937)^2.7324) * 0.45359, x.trees$agb)
 

@@ -12,9 +12,25 @@ setwd(".")
 
 # Load libraries ####
 
+
+# set number of censuses ####
+site <- "scbi"
+Censuses <- 2
+units = "mm"
+hectares <- 25.6
+min.dbh <- ifelse(units %in% "mm", 10, 1) # 10mm
+
+
+
 # Load data ####
-load("SCBI_Tree_Census/scbi.stem1.rdata")
-load("SCBI_Tree_Census/scbi.stem2.rdata")
+
+for(f in paste0(site, ".stem", 1:Censuses, ".rdata")) {
+  print(f)
+  url <- paste0("https://raw.github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/", f)
+  download.file(url, f, mode = "wb")
+  load(f)
+  file.remove(f)
+}
 
 # Calculate above ground biomass of each tree using allometries compiled by Erika + format dates####
 
@@ -84,5 +100,5 @@ head(all_results1)
 head(all_results2)
 
 # save
-write.csv(cbind(all_results1, all_results2[rownames(all_results1), -1]), file = "summary data/AGB_total_and_by_species.csv", row.names = F)
+write.csv(cbind(all_results1, all_results2[rownames(all_results1), -1]), file = "summary_data/AGB_total_and_by_species.csv", row.names = F)
 
