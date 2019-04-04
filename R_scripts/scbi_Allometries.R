@@ -1,7 +1,8 @@
-#SCBI Biomass Code
+#Shenandoah Biomass Code
 ##########################################################################
-## You need the CTFS Rtable to run the code
-## x <- load(scbi.stem2.Rdata) # this is an example to calculate agb on the stem table of second census
+## x is a table with
+## - a column called 'dbh' which has the dbh of all the stems in mm
+## - a column called 'SPPCODE' with species 6-letter code of species in capital letter
 
 x$agb_ctfs  <-  x$agb
 
@@ -241,11 +242,15 @@ x.trees$agb <- ifelse(x.trees$sp == "rops", exp(-2.5095 + 2.5437 * log(x.trees$d
 x.trees$agb <- ifelse(x.trees$sp == "saal", exp(-2.2118 + 2.4133 * log(x.trees$dbh * 0.1)) , x.trees$agb) # new equation given by Erika on Tue 4/2/2019 11:57
 
 
-x.trees$agb <- ifelse(x.trees$sp == "tiam", (1.4416 * (x.trees$dbh * 0.03937)^2.7324) * 0.45359, x.trees$agb)
+# x.trees$agb <- ifelse(x.trees$sp == "tiam", (1.4416 * (x.trees$dbh * 0.03937)^2.7324) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "tiam" & (x.trees$dbh * 0.1) <= 10, exp(4.29 + 2.29 * log(x.trees$dbh * 0.1)) * 0.001, x.trees$agb)# new equation given by Erika on Wed 4/3/2019 15:13
+x.trees$agb <- ifelse(x.trees$sp == "tiam" & (x.trees$dbh * 0.1) > 10 & (x.trees$dbh * 0.1) <= 27, 1.74995 * ((x.trees$dbh * 0.03937)^2)^1.19103 * 0.45359, x.trees$agb)# new equation given by Erika on Wed 4/3/2019 15:13
+x.trees$agb <- ifelse(x.trees$sp == "tiam" & (x.trees$dbh * 0.1) > 27, 1.49368 * ((x.trees$dbh * 0.03937)^2)^1.22405 * 0.45359, x.trees$agb)# new equation given by Erika on Wed 4/3/2019 15:13
 
 x.trees$agb <- ifelse(x.trees$sp == "ulam", (2.17565 * ((x.trees$dbh * 0.03937)^2)^1.2481) * 0.45359, x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "ulru", (2.04282 * ((x.trees$dbh * 0.03937)^2)^1.2546) * 0.45359, x.trees$agb)
+# x.trees$agb <- ifelse(x.trees$sp == "ulru", (2.04282 * ((x.trees$dbh * 0.03937)^2)^1.2546) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "ulru", (0.08248 * (x.trees$dbh * 0.03937)^2.468) * 0.45359, x.trees$agb)# new equation given by Erika on Wed 4/3/2019 15:13
 
 x.trees$agb <- ifelse(x.trees$sp == "ulsp", (2.04282 * ((x.trees$dbh * 0.03937)^2)^1.2546) * 0.45359, x.trees$agb)
 
