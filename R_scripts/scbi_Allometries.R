@@ -1,5 +1,10 @@
-#scbi biomass Code
-##########################################################################
+######################################################
+# Purpose: Estimate AGB for stems at SCBI. 
+# Developped by: Valentine Herrmann - HerrmannV@si.edu
+# Date: ??
+#######################################################
+
+
 ## x is a table with:
 ## - a column called 'dbh' which has the dbh of all the stems in mm
 ## - a column called 'SPPCODE' with species 4-letter species code 
