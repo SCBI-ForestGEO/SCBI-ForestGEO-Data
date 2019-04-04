@@ -1,6 +1,7 @@
-# Scripts for SCBI-ForestGEO-Data
+## Scripts for SCBI-ForestGEO-Data
 
-Here we share various script build for analysis of the SCBI tree data. 
+Here we share various scripts built for different analysis of the SCBI tree data. 
+
 
 |R file	|Description |
 |---|---|
