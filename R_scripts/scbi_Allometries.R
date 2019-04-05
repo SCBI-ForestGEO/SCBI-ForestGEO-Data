@@ -250,7 +250,8 @@ x.trees$agb <- ifelse(x.trees$sp == "tiam" & (x.trees$dbh * 0.1) > 27, 1.49368 *
 x.trees$agb <- ifelse(x.trees$sp == "ulam", (2.17565 * ((x.trees$dbh * 0.03937)^2)^1.2481) * 0.45359, x.trees$agb)
 
 # x.trees$agb <- ifelse(x.trees$sp == "ulru", (2.04282 * ((x.trees$dbh * 0.03937)^2)^1.2546) * 0.45359, x.trees$agb)
-x.trees$agb <- ifelse(x.trees$sp == "ulru", (0.08248 * (x.trees$dbh * 0.03937)^2.468) * 0.45359, x.trees$agb)# new equation given by Erika on Wed 4/3/2019 15:13
+# x.trees$agb <- ifelse(x.trees$sp == "ulru", (0.08248 * (x.trees$dbh * 0.03937)^2.468) * 0.45359, x.trees$agb)# new equation given by Erika on Wed 4/3/2019 15:13
+x.trees$agb <- ifelse(x.trees$sp == "ulru", exp(-2.2118 + 2.4133*log(x.trees$dbh * 0.1)), x.trees$agb)# Chojnacky eq in allodb for ulmaceae, equation_id f08fff
 
 x.trees$agb <- ifelse(x.trees$sp == "ulsp", (2.04282 * ((x.trees$dbh * 0.03937)^2)^1.2546) * 0.45359, x.trees$agb)
 
