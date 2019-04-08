@@ -1,7 +1,7 @@
 # SCBI Tree census
 
 ## Overview 
-This [folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census/data) contains the _R Analitical tables_ for census 1 (2008) and census 2 (2013) at SCBI (also available in .csv format). 
+This [folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census/data) contains the _R Analytical tables_ for census 1 (2008) and census 2 (2013) at SCBI (also available in .csv format). 
 R tables are created once all data have been checked and corrected after a tree survey is finished in a ForestGEO plot. In general, each plot have a `full table` and a `stem table` per census. This is the most convenient format for analyzing census data using R functions from the ForestGEO R Package available [here](https://forestgeo.github.io/fgeo/).
 
 ## Sampling location
