@@ -3,7 +3,7 @@
 
 ## quick check 2008 ####
 read.csv("scbi.stem1.csv")
-scbi.stem1 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem1.csv")
+#scbi.stem1 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem1.csv")
 
 scbi.stem1$lx <- scbi.stem1$gx - 20*((scbi.stem1$quadrat %/% 100) - 1)
 scbi.stem1$ly <- scbi.stem1$gy - 20*((scbi.stem1$quadrat %% 100) - 1)
@@ -15,7 +15,7 @@ check_2008 <- scbi.stem1[scbi.stem1$lx <0 | scbi.stem1$lx>20 | scbi.stem1$ly<0 |
 
 ## quick check 2013 ####
 read.csv("scbi.stem2.csv")
-scbi.stem2 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem2.csv")
+#scbi.stem2 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem2.csv")
 
 scbi.stem2$tags_comb <- paste0(scbi.stem2$tag, "_", scbi.stem2$StemTag)
 
@@ -29,7 +29,7 @@ check_2013 <- scbi.stem2[scbi.stem2$lx <0 | scbi.stem2$lx>20 | scbi.stem2$ly<0 |
 
 ## quick check 2018 ####
 scbi.stem3 <- read.csv("scbi.stem3_TEMPORARY.csv") #from github
-scbi.stem3 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/scbi.stem3_TEMPORARY.csv")
+#scbi.stem3 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/scbi.stem3_TEMPORARY.csv")
 
 scbi.stem3$tag <- gsub("_[[:digit:]]", "", scbi.stem3$Tree_ID_Num)
 
@@ -60,5 +60,7 @@ combine <- combine[!duplicated(combine$tags_comb), ]
 combine$year <- ifelse(combine$tag %in% check_2018$tag & combine$tag %in% check_2013$tag, 
                        c("2008, 2013, 2018"), 
                        ifelse(combine$tag %in% check_2013$tag & !(combine$tag %in% check_2018$tag), c("2008, 2013"), combine$year))
+
+combine <- combine[, c(1:4,21,5:8,22:23,27, 9:20,24:26,28)]
 
 write.csv(combine, "combined_years.csv", row.names=FALSE)
