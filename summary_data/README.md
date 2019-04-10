@@ -10,7 +10,7 @@ Mg C ha-1 (using 0.47 conversion factor for biomass -> C)
 2008, 2013
 
 ### biomass allometries 
-We used aboveground biomass allometries compiled for SCBI (found in [this script] (https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/R_scripts/scbi_Allometries.R).
+We used aboveground biomass allometries compiled for SCBI (found in [this script](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/R_scripts/scbi_Allometries.R).
 
 ## Woody aboveground net primary productivity (ANPP_stem)
 
