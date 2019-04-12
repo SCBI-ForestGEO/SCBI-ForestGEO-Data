@@ -6,7 +6,7 @@
 
 #Read full data or stem data files, bring them from V:\SIGEO\3-RECENSUS 2013\DATA\FINAL DATA to use, to share
 #Here we will use stem2, where all stems measured in 2013 (last census) are included.
-sigeo <- read.csv("scbi.stem2.csv") 
+sigeo <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem2.csv"), stringsAsFactors=FALSE)
 #from Github/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files
 
 #plot grid coordinates to see if they make sense
@@ -70,7 +70,7 @@ sigeo$lon <- coordinates(longlatcoor)[,1]
 plot(sigeo$lon, sigeo$lat)
 
 #write a csv if you need to
-write.csv(sigeo, file= "scbi_stem_utm_lat_long.csv", row.names=FALSE)
+write.csv(sigeo, file= "tree_main_census/data/census-csv-files/scbi_stem_utm_lat_long.csv", row.names=FALSE)
 
 ############################################################################################
 # how to find grid corners

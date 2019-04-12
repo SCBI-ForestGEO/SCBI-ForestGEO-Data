@@ -8,8 +8,9 @@
 
 #script
 library(data.table)
+library(RCurl)
 
-scbi.full2 <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.full2.csv", stringsAsFactors=FALSE)
+scbi.full2 <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem2.csv"), stringsAsFactors=FALSE)
 
 setnames(scbi.full2, old="StemTag", new="stemtag")
 scbi.full2[5340, 3] <- 40874 #duplicated tag (above 10cm dbh), fixed in 2018 data
@@ -122,5 +123,5 @@ for (j in seq(along=unique(simple$tree1))){
 
 
 
-
-write.csv(all_dist, "neighborhood_basal_area_2013.csv", row.names=FALSE) #this is a LARGE file (~78Mb)
+#NB this is a LARGE file (~78Mb)
+write.csv(all_dist, "tree_dimensions/tree_crowns/neighborhood_basal_area_2013.csv", row.names=FALSE) 

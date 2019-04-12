@@ -3,6 +3,7 @@
 ## last updated April 2019
 
 ## the ggplot map was originally done in the survey_maps.R script used for dendrobands.
+library(RCurl)
 library(ggplot2)
 library(rgdal)
 library(broom) #for the tidy function
@@ -10,11 +11,8 @@ library(sf) #for mapping
 library(ggthemes) #for removing graticules when making pdf
 library(rgeos) #for distance calculation
 
-
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/resources/maps")
-
 ## as an example, let's use dendroband trees, subsetted for live trees
-dendro_trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/Dendrobands/data/dendro_trees.csv")
+dendro_trees <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/Dendrobands/master/data/dendro_trees.csv?token=AlsQkR8jmWNmQ60dsbaZnSSRaXFqhQTnks5cui-qwA%3D%3D"))
 dendro_trees <- dendro_trees[is.na(dendro_trees$mortality.year), ]
 dendro_trees <- dendro_trees[!is.na(dendro_trees$NAD83_X), ] #you MUST have complete data
 dendro_sub <- dendro_trees[, c(1:6,8:9,23:24)]
