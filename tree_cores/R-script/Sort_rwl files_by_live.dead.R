@@ -6,15 +6,16 @@ rm(list = ls())
 
 ## Finally, this script will make simple plots for each live/dead file for each species specified.
 
-setwd("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/tree_cores/chronologies/current_chronologies")
+setwd("tree_cores/chronologies/current_chronologies")
 
 library(dplR)
+library(RCurl)
 
 Species <- c("fram", "quve", "litu", "quru")
 missing_in_processed_cores <- NULL
 mis_IDed <- NULL
 
-census.data.for.cored.trees <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/climate_sensitivity_cores/data/census_data_for_cored_trees.csv")
+census.data.for.cored.trees <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/climate_sensitivity_cores/master/data/census_data_for_cored_trees.csv"))
 
 for(sp in Species) {
 
