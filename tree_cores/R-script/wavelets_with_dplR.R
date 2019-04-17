@@ -1,4 +1,8 @@
-# wavelet for cores
+######################################################
+# Purpose: Create wavelets for tree rings
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created January 2019
+######################################################
 
 ########## If troubleshooting / running for only specific species, go down to next set of ##################
 

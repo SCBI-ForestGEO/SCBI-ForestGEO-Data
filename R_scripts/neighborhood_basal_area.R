@@ -1,4 +1,8 @@
-# calculating neighborhood basal area (NBA) for ForestGEO plot trees
+######################################################
+# Purpose: calculating neighborhood basal area (NBA) for ForestGEO plot trees
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created April 2019
+######################################################
 
 #this script recreates the efforts done by Alan Tepley from Gonzalez et al 2016: https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.1595, whereby neighborhood basal area was calculated by summing the basal area of all trees within a given distance of a focal tree. Specifically, basal area for this paper was calculated to 30m at a distance increment of 0.5m. Initial calculations were done in Excel.
 

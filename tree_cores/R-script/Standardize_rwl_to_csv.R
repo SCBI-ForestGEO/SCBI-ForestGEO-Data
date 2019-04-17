@@ -1,4 +1,9 @@
-# reformat tree core measurement files (.rwl --> .csv)
+######################################################
+# Purpose: Reformat .rwl files to csv
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created November 2018
+######################################################
+
 ##this code is specifically for those .rwl files in the "complete" folder in Github (Forest-GEO-Data_private\tree_cores\chronologies\current_chronologies\complete). 
 
 ##For .rwl files in the "incomplete" folder (those that either .rwl or _drop.rwl), see bottom [the inside of the for-loop function remains the same, albeit a different write.csv output].

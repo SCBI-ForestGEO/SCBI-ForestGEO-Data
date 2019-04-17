@@ -1,6 +1,8 @@
-# Calculate distance to water (in m) in ForestGEO plot
-## written by Ian McGregor (code used for canopy paper)
-## last updated April 2019
+######################################################
+# Purpose: Calculate distance to water (in m) in ForestGEO plot
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created April 2019
+######################################################
 
 ## the ggplot map was originally done in the survey_maps.R script used for dendrobands.
 library(RCurl)

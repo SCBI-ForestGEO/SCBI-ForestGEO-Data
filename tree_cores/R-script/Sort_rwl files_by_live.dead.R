@@ -1,4 +1,8 @@
-# Sorting .rwl files by live and dead cores from the file "census_data_for_cored_trees.csv"
+######################################################
+# Purpose: Sorting .rwl files by live and dead cores from the file "census_data_for_cored_trees.csv"
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.2 - First created November 2018
+######################################################
 
 rm(list = ls())
 
