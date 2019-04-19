@@ -1,0 +1,1 @@
+This is an original measurement file passed to K. Anderson-Teixeira by Jonathan Thompson in 2012-13. It contains all cored trees (including those with cores that were rejected). It was created mainly by Jennifer McGarvey.
