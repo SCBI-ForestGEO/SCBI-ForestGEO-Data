@@ -1,0 +1,10 @@
+Column,Field,Field Description,Storage.Type,Variable.Codes,Units
+1/A,Tag,ForestGEO tag number,numeric (integer),-,-
+2/B,Quadrat,quadrat in which stem is located,numeric (integer),-,-
+3/C,DBH.2008.mm,diameter breast height in 2008 ForestGEO census,numeric (double),-,mm
+4/D,Latin,latin name of species,character (string),-,-
+5/E,box.number,box in which physical core sample was located in 2013,character (string),-,-
+6/F,clarity.of.sapwood.boundary,clarity of the sapwood boundary.,numeric (integer),"1 - clear, distinct color change (where colors are distinctly different), where the transition occurs over 5mm or less; 2 - gradual color change (where colors are distinctly different) that occurs over 5-20mm; 3 - gradual color change (where colors are distinctly different) that occurs over >20mm; 4 - no visible differences in color along entire core; 0 Ð no boundary; all sapwood (differs from 4 in that external sources predict all sapwood). Applies to Fagus Grandifolia (FAGR).",-
+7/G,sapwood.depth.mm,Sapwood depth (mm) -measured (using digital calibers) as distance from end of core (excluding bark) to edge of sapwood. Measured only when clarity.of.sapwood.boundary=1 or 2.,numeric (double),-,mm
+8/H,sapwood.depth.uncertainty.mm,"sapwood depth uncertainty (mm)- for cores on which there was a gradual transition from sapwood to heartwood, this was the distance from center of transition zone (where you measured) to edge of transition zone. Recorded as '0' when the boundry was sharp.",numeric (double),-,mm
+9/I,notes,"notes, generally on problems with core samples",character (string),-,-
