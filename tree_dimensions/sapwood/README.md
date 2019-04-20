@@ -1,0 +1,1 @@
+Sapwood depth measurements made in 2013 on cores taken by Jennifer McGarvey and Jonathan Thompson (see [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores/measurement_files/original_data_files)). Data were collected by intern Janice Park. 
