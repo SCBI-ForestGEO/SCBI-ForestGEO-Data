@@ -42,7 +42,7 @@ for(survey_year in mort.census.years) {
   print(paste("load mortlity data for year", survey_year))
   
   # load
-  mort <- read.csv(paste0("raw data/Mortality_Survey_", survey_year, ".csv"), stringsAsFactors = F)
+  mort <- read.csv(paste0("SCBI_mortality/raw data/Mortality_Survey_", survey_year, ".csv"), stringsAsFactors = F)
   
   # fix column names to be consistant
   names(mort) <- gsub("species", "sp", names(mort))
@@ -320,7 +320,7 @@ mort16[mort16$tag %in% t, ] ; mort16[mort16$tag %in% 40874, ]
 mort17[mort17$tag %in% t, ] ; mort17[mort17$tag %in% 40874, ]
 mort18[mort18$tag %in% t, ] ; mort18[mort18$tag %in% 40874, ]
 
-# double checkin that all tags exist now ####
+# double checking that all tags exist now ####
 tag_stems.13 <- paste(scbi.stem2$tag, scbi.stem2$StemTag, sep = "_")
 
 All_mortality_tag_stems <- NULL
@@ -419,8 +419,8 @@ head(mort14)
 
 
 
-data.2008 <- scbi.stem1[, c("tag", "StemTag",  "stemID","quadrat", "sp", "Latin", "gx", "gy", "pom", "dbh", "codes", "status", "ExactDate")]
-names(data.2008) <- c("tag", "StemTag",  "stemID","quadrat", "sp", "Latin", "gx", "gy", "pom", "dbh.2008", "codes.2008", "status.2008", "date.2008")
+data.2008 <- scbi.stem1[, c("tag", "StemTag",  "stemID","quadrat", "sp", "Latin", "gx", "gy", "pom", "dbh", "codes", "status", "ExactDate", "agb")]
+names(data.2008) <- c("tag", "StemTag",  "stemID","quadrat", "sp", "Latin", "gx", "gy", "pom", "dbh.2008", "codes.2008", "status.2008", "date.2008", "agb.2008")
 
 data.2013 <- scbi.stem2[, c("dbh", "codes", "status", "ExactDate", "agb")]
 names(data.2013) <- c("dbh.2013", "codes.2013", "status.2013", "date.2013", "agb.2013")
@@ -461,7 +461,7 @@ for (survey_year in mort.census.years) {
   final.mort <- final.mort[order(as.numeric(final.mort$tag), as.numeric(final.mort$StemTag)), ]
   
   assign(paste0("final.mort.", survey_year), final.mort)
-  write.csv(final.mort, file = paste0("data/mortality_", survey_year, ".csv"), row.names = F)
+  write.csv(final.mort, file = paste0("SCBI_mortality/data/mortality_", survey_year, ".csv"), row.names = F)
 }
 
 # also save one data frame for 2008 and 2013 ####
@@ -470,13 +470,12 @@ full.census.data <- full.census.data[order(as.numeric(full.census.data$tag), as.
 full.census.data$date.2008 <- as.Date(full.census.data$date.2008)
 full.census.data$date.2013 <- as.Date(full.census.data$date.2013)
 
-write.csv(data.2008, file = "data/mortality_2008.csv", row.names = F)
-write.csv(full.census.data, file = "data/mortality_2013.csv", row.names = F)
+write.csv(data.2008, file = "SCBI_mortality/data/mortality_2008.csv", row.names = F)
+write.csv(full.census.data, file = "SCBI_mortality/data/mortality_2013.csv", row.names = F)
 
 
 # CREATE allmort.rdata file ####
-allmort <- cbind(full.census.data[, c("tag", "StemTag", "stemID", "quadrat", "sp", "gx", "gy", "dbh.2013", 
-                                      "date.2013", "agb.2013", "status.2013")],
+allmort <- cbind(full.census.data[, c("tag", "StemTag", "stemID", "quadrat", "Latin", "sp", "gx", "gy", "dbh.2008", "date.2008", "agb.2008", "status.2008", "dbh.2013", "date.2013", "agb.2013", "status.2013")],
                  
                  do.call(cbind, lapply(mort.census.years, function(survey_year) {
                    final.mort <- get(paste0("final.mort.", survey_year))
@@ -500,5 +499,5 @@ for(sc in status.columns) {
 
 head(allmort)
 
-write.csv(allmort, "data/allmort.csv", row.names = F) # save as csv file
-save(allmort, file ="data/allmort.rdata") # save as Rdata file
+write.csv(allmort, "SCBI_mortality/data/allmort.csv", row.names = F) # save as csv file
+save(allmort, file ="SCBI_mortality/data/allmort.rdata") # save as Rdata file

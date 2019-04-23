@@ -15,7 +15,7 @@ setwd(".")
 
 
 # Load data ####
-load("data/allmort.rdata")
+load("SCBI_mortality/data/allmort.rdata")
 
 # set parameters ####
 mindbh = 100 # 100 mm
@@ -28,8 +28,6 @@ for(agb.c  in agb.columns) {
   allmort[, agb.c] <-  allmort[, agb.c]  * 0.47
 }
 
-# keep only data for trees that started big enough
-allmort <- allmort[!is.na(allmort$dbh.2013) & allmort$dbh.2013 >= mindbh, ]
 
 #Calculate mortality rates for each inter-census period
 census.years <- as.numeric(unique(sapply(strsplit(grep("[0-9]", names(allmort), value = T), "\\."), tail, 1))) # get the years we have data for.
@@ -38,20 +36,25 @@ mortality.rates <- NULL
 biomass.mortality.rates <- NULL
 
 for(c.y in census.years[-1]) { # start looking at second census (so that there is census to look back)
+
   
   # get the elements we need ####
+  year.previous.census <- census.years[which(census.years %in% c.y) -1]
+     
+  # get index of trees that were stared big enough (in 2008 or 2013) and were Live in the previous census
+  if(c.y == 2013) idx.Live1 <- !is.na(allmort$dbh.2008) & allmort$dbh.2008 >= mindbh & allmort[, paste0("status.", year.previous.census)] %in% "Live"
   
-  # get index of trees that were Live in the previous census
-  idx.Live1 <- allmort[, paste0("status.", c.y - 1)] %in% "Live"
+  if(c.y != 2013) idx.Live1 <- !is.na(allmort$dbh.2013) & allmort$dbh.2013 >= mindbh & allmort[, paste0("status.", year.previous.census)] %in% "Live"
   
   # giev 1 to dead trees, 0 to others
   mort <- ifelse(allmort[, paste0("status.", c.y )] %in% "Dead", 1, 0)
   
   # get time inerval for each tree
-  timeint <- as.numeric((allmort[, paste0("date.", c.y )] - allmort[, paste0("date.", c.y -1)]) / 365.25)
+  timeint <- as.numeric((allmort[, paste0("date.", c.y )] - allmort[, paste0("date.", year.previous.census)]) / 365.25)
   
   # find best agb (defined as maximum of the 2 years, or the non NA one) and divide by time interval to get rate
-  best.agb.rate <- (pmax(allmort$agb.2013, allmort[, paste0("agb.", ifelse(c.y == 2014, "", "if.dead."), c.y -1)], allmort[, paste0("agb.if.dead.", c.y)], na.rm = T)) / timeint
+  if(c.y == 2013) best.agb.rate <- pmax(allmort$agb.2008, allmort$agb.2013, na.rm = T) / timeint
+  if(c.y != 2013) best.agb.rate <- (pmax(allmort$agb.2013, allmort[, paste0("agb.", ifelse(c.y == 2014, "", "if.dead."), year.previous.census)], allmort[, paste0("agb.if.dead.", c.y)], na.rm = T)) / timeint
   
   # calculates mortality rates ####
   
@@ -96,7 +99,7 @@ for(c.y in census.years[-1]) { # start looking at second census (so that there i
   # save ###
   
   mortality.rates <- rbind(mortality.rates, 
-                           data.frame(census = paste("census", c.y -1, "and", c.y),
+                           data.frame(census = paste("census", year.previous.census, "and", c.y),
                                       genus = c(genus, genus.genus, genus.sp),
                                       species = c(species, species.genus, species.sp),
                                       sp = c(sp, sp.genus, sp.sp),
@@ -137,11 +140,11 @@ for(c.y in census.years[-1]) { # start looking at second census (so that there i
   # save ####
   
   biomass.mortality.rates <- rbind(biomass.mortality.rates, 
-                           data.frame(census = paste("census", c.y -1, "and", c.y),
+                           data.frame(census = paste("census", year.previous.census, "and", c.y),
                                       genus = c(genus, genus.genus, genus.sp),
                                       species = c(species, species.genus, species.sp),
                                       sp = c(sp, sp.genus, sp.sp),
-                                      biomass.mortality.rates.Mg.ha.1.yr.1 = c(biomassmortrate, biomassmortrate.genus, biomassmortrate.sp)))
+                                      biomass.mortality.Mg.C.ha.1.yr.1 = c(biomassmortrate, biomassmortrate.genus, biomassmortrate.sp)))
   
 
   
@@ -194,5 +197,5 @@ for(i in 1:nrow(mortality.rates)) {
 
 
 # SAVE ####
-write.csv(mortality.rates, paste0("R_results/SCBI_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
-write.csv(biomass.mortality.rates, paste0("R_results/SCBI_biomass_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
+write.csv(mortality.rates, paste0("SCBI_mortality/R_results/SCBI_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
+write.csv(biomass.mortality.rates, paste0("SCBI_mortality/R_results/SCBI_biomass_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)

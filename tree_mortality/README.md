@@ -21,7 +21,9 @@ We hahve been paying increasing attention to signs of insect pests and pathogens
 
 ## Data use
 
-[Data are not yet public.]
+2014 and 2015 mortality census data used in [Gonzalez-Akre et al. 2016](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595) are published [in Dryad](http://dx.doi.org/10.5061/dryad.v5h24.) and may be used as detailed in the metadata of this publication, as may updated versions of those datasets in this repository.
+
+**Data from 2016-2018 censuses are currently being used in analyses and may not be used without permission of the PI (Kristina Anderson-Teixeira).** We welcome inquiries about potential collaboration.
 
 ## Contributors
 | name | GitHub ID| position* | role |
@@ -32,10 +34,11 @@ We hahve been paying increasing attention to signs of insect pests and pathogens
 | Victoria Meakem |  | research assistant, SCBI | led 2016 census |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | led 2017 census |
 | Maya Prestipino | PrestipinoMN  | research assistant, SCBI | volunteered for 2017 census, led 2018 census |
+| Alyssa Terrell |  alyssaterrell | field assistant, SCBI | volunteered for 2018 census, 2019 census lead |
 | Katherine Aldrich |   | field assistant, SCBI | volunteered for 2016 census |
 | Clayton Hatcher |   | field assistant, SCBI | volunteered for 2016 census |
-| Abigail Ferson |   | field assistant, SCBI | volunteered for 2017 census |
-| Alyssa Terrell |   | field assistant, SCBI | volunteered for 2018 census |
+| Abigail Ferson | aferson  | field assistant, SCBI | volunteered for 2017 census |
+
  
 *refers to position at time of main contribution to this repository
 
