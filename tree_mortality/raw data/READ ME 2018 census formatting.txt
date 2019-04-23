@@ -1,0 +1,23 @@
+Documentation of formatting procedure for the 2018 Mort Census file:
+Maya Prestipino
+2018
+
+-Data from 2017 copied. New status (2018) column added. 
+-Trees marked DS, DC, or PD from 2017 marked as PD in 2018 column.
+-Death data from years BEFORE 2017 (PD) cleared, including Fraxinus and all comments.
+-Date and surveyer columns cleared. 
+-New column made for 2018  comments for the purpose of keeping old comments like "tag lost" or "being crushed"
+-2017 Commentcolumn renamed "old comments"
+-Alive Fraxinus data from previous years cleared except for comments ("old comments" column)
+-Tree #131352 (previously 133461) in quad 1316 CORRECTED from field observation: tag # corrected, sp changed from caco to fram.
+-Tree #133461 (the real caco) changed from stem 2 to stem 1 (the caco is one stem, and the fram next to it was confused the a primary stem).
+-Previous Factors of Death (FAD) and liana load for 2017 Alive Unhealthy (AU) trees cleared
+-Erroneous data Entries from previous years in Alive Healthy (A) trees (like the marking of crown position) cleared
+-Cleared Alive Healthy (A) data from pevious years besides comments
+-Added <100mm dbh species chvi in plot to watch for EAB infection
+-Corrected species in trees #s: 10279, 10346, 52340, 52342, 161534, 170982, 172330, 172634, 201200, 201218.
+-Corrected #70292 and #70299 2017 status: proof in field indicated their data was accidentally switched during entry in 2017. 70299 was dead and 70292 healthy, not the other way around.
+-Coordinates for #32251 corrected on the X from 10.3 to 0.3
+-Death data from 2017 on tree #52060 switched to tree #52059. #52060 corrected to healthy in 2017.
+-42284 corrected to 42285
+-deleted tags: 13044, 13044, 13045, 10346, 83043, 172262, 190691, 203751. All were too small to be in survey (none were fraxinus species)
