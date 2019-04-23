@@ -15,7 +15,7 @@ setwd(".")
 
 
 # Load data ####
-load("SCBI_mortality/data/allmort.rdata")
+load("tree_mortality/data/allmort.rdata")
 
 # set parameters ####
 mindbh = 100 # 100 mm
@@ -197,5 +197,5 @@ for(i in 1:nrow(mortality.rates)) {
 
 
 # SAVE ####
-write.csv(mortality.rates, paste0("SCBI_mortality/R_results/SCBI_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
-write.csv(biomass.mortality.rates, paste0("SCBI_mortality/R_results/SCBI_biomass_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
+write.csv(mortality.rates, paste0("tree_mortality/R_results/SCBI_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
+write.csv(biomass.mortality.rates, paste0("tree_mortality/R_results/SCBI_biomass_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
