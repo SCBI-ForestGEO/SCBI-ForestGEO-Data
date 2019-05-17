@@ -1,0 +1,19 @@
+sp,height_low.m,height_high.m,height_mean.m,height_max.m,dbh_low.mm,dbh_high.mm,dbmh_mean.mm,dbh_max.mm,notes,source1,source2
+litu,18,27,,61,,1830,,3000,,https://www.fs.fed.us/database/feis/plants/tree/lirtul/all.html,https://plants.ces.ncsu.edu/plants/all/liriodendron-tulipifera/
+fagr,20,25,,40,,,,,,https://www.fs.fed.us/database/feis/plants/tree/faggra/all.html,
+quve,18,24,,46,610,910,,1220,,https://www.fs.fed.us/database/feis/plants/tree/quevel/all.html,
+quru,20,30,,49,610,910,,2400,,https://www.fs.fed.us/database/feis/plants/tree/querub/all.html,
+qual,18,24,,30,,,,1500,,https://www.fs.fed.us/database/feis/plants/tree/quealb/all.html,
+acru,9,28,,,,,,1600,,https://www.fs.fed.us/database/feis/plants/tree/acerub/all.html,
+juni,23,30,25,38,,,,,,https://www.fs.fed.us/database/feis/plants/tree/jugnig/all.html,
+juci,12,18,,,30,60,,,,https://www.fs.fed.us/database/feis/plants/tree/jugcin/all.html,
+cagl,20,30,,40,300,1000,,,,https://www.fs.fed.us/database/feis/plants/tree/cargla/all.html,
+caovl,15,24,,,,,,910,,https://www.illinoiswildflowers.info/trees/plants/sweet_pignut.html,
+cato,20,30,,,,,,,,https://www.fs.fed.us/database/feis/plants/tree/cartom/all.html,
+prse,15,24,,38,,,,1200,,https://www.fs.fed.us/database/feis/plants/tree/pruser/all.html,http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a914
+prav,15,32,,,900,1200,,,,http://ies-ows.jrc.ec.europa.eu/efdac/download/Atlas/pdf/Prunus_avium.pdf,
+fram,18,21,,,,,,,,https://www.fs.fed.us/database/feis/plants/tree/fraame/all.html,
+ceoc,,,15,35,,,500,1800,,https://www.fs.fed.us/database/feis/plants/tree/celocc/all.html,
+pist,15,30,,46,,,230,1020,max height only in virgin forest,https://www.fs.fed.us/database/feis/plants/tree/pinstr/all.html,https://plants.ces.ncsu.edu/plants/all/pinus-strobus/
+nysy,18,24,,,600,2000,,,,https://www.fs.fed.us/database/feis/plants/tree/nysspp/all.html,
+ploc,18,37,,51,,,,3050,,https://www.fs.fed.us/database/feis/plants/tree/plaocc/all.html,
