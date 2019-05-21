@@ -17,6 +17,8 @@ Now, rangefinders like the Nikon ForestryPro do this for you (using the sine met
 
 These steps are also outlined on [this website](https://www.monumentaltrees.com/en/content/measuringheight/) with graphics. For easy access, it is recommended data collectors load this website on their phone for reference *before* going out in the field.
 
+For anyone questioning the accuracy of the Nikon ForestryPro, it can be tested with an object of known height. In 2018 it was tested against a NEON tower, and the result was very accurate.
+
 ### Nikon_ForestryPro_rangefinder.pdf
 This is the manual for the Nikon ForestryPro rangefinder that the lab has (as of May 2019).
 
