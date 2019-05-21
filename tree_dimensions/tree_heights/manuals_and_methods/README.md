@@ -8,9 +8,8 @@ Now, rangefinders like the Nikon ForestryPro do this for you (using the sine met
 2. Turn the rangefinder on and make sure the units are in m.
 
     2a. NB this rangefinder turns itself off after about 30 sec of non-use.
-
 3. Point the rangefinder at the base, and press the first button (the power button). It will give the height from your eye to the base of tree. Record.
-4. From your same position, point the rangefinder to the top leaves you can see of the tree, and press the same first button. You will get another height, which is the height of the tree from your eye.
+4. From your same position, point the rangefinder to the top leaves you can see of the tree, and press the same first button. You will get another height, which is the height of the tree from your eye. Record.
 5. Add the two heights together to get the total (this is referred to as the "2-point method" in the ForestryPro manual).
 6. If you want to know the angles and distances, these appear on the side screen after you get the height.
 7. If you hold down the first button as you scan up the tree, the number/diagram on the screen will constantly update (because the rangefinder is constantly shooting laser pulses). This is not necessary but it can be done.
