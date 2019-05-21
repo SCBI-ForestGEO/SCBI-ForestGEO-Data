@@ -1,9 +1,9 @@
 # Taking Height Measurements
 
 ## How to Take Height Measurements with the Nikon ForestryPro.
-In the past, in order to get an accurate height of a tree, made a triangle between yourself and the tree, got the angle/distance to the top using a clinometer, and calculated the height using the sine method (sin(x) = opposite/hypotenuse).
+In the past, in order to get an accurate height of a tree, you made a triangle between yourself and the tree, got the angle/distance to the top using a clinometer, and calculated the height using the sine method (sin(x) = opposite/hypotenuse).
 
-Now, rangefinders like the Nikon ForestryPro do this for you (using the sine method). The sine method is described in heights_methods_Muller-Landau_2013.
+Now, rangefinders like the Nikon ForestryPro do this for you (using the sine method).
 1. You must be at least 10m away from the tree and have a clear view of the base.
 2. Turn the rangefinder on and make sure the units are in m.
 
