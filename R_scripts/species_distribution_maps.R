@@ -4,7 +4,6 @@
 # R version 3.5.2 - First created April 2019
 ###############################################
 
-# install needed packages
 library(fgeo) #sp is loaded with this package
 library(ggplot2)
 library(rgdal)
@@ -144,5 +143,5 @@ for(i in seq(along = unique(sigeo$SPPCODE))){
     cols
   
   #save maps to folder
-  ggsave(filename = paste0("spatial_data/species_maps/", focus_sp, ".jpg"), plot = ggplot_test)
+  ggsave(filename = paste0("spatial_data/maps/species_maps/", focus_sp, ".jpg"), plot = ggplot_test)
 }
