@@ -11,8 +11,9 @@ Now, rangefinders like the Nikon ForestryPro do this for you (using the sine met
 3. Point the rangefinder at the base, and press the first button (the power button). It will give the height from your eye to the base of tree. Record.
 4. From your same position, point the rangefinder to the top leaves you can see of the tree, and press the same first button. You will get another height, which is the height of the tree from your eye. Record.
 5. Add the two heights together to get the total (this is referred to as the "2-point method" in the ForestryPro manual).
-6. If you want to know the angles and distances, these appear on the side screen after you get the height.
-7. If you hold down the first button as you scan up the tree, the number/diagram on the screen will constantly update (because the rangefinder is constantly shooting laser pulses). This is not necessary but it can be done.
+6. To be fully accurate, steps #1-5 should be done in two separate places for the same tree, then take the average of the two height measurements, since we can't always get a full canopy picture from just one side.
+7. If you want to know the angles and distances, these appear on the side screen after you get the height.
+8. If you hold down the first button as you scan up the tree, the number/diagram on the screen will constantly update (because the rangefinder is constantly shooting laser pulses). This is not necessary but it can be done.
 
 These steps are also outlined on [this website](https://www.monumentaltrees.com/en/content/measuringheight/) with graphics. For easy access, it is recommended data collectors load this website on their phone for reference *before* going out in the field.
 - For anyone questioning the accuracy of the Nikon ForestryPro, it can be tested with an object of known height. In 2018 it was tested against a NEON tower, and the result was very accurate.
