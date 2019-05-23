@@ -7,10 +7,14 @@ Column,Field,Description,Units
 6 / F,height.m,tree heigth,m
 7 / G,DBH.2008.cm,tree diameter recorded in 2008 ForestGEO census,cm
 8 / H,DBH.2013.cm,tree diameter recorded in 2013 ForestGEO census,cm
-9 / I,DBH.with.height.cm,"tree diameter measured at the same time as height,  and by the same researchher",cm
-10 / J,researcher,Researcher in charge of data collection,-
-11 / K,publication,Author-year-journal of publication describing and first using the data,-
-12 / L,publication.doi,DOI of publication,-
-13 / M,data.publication.doi,"DOI of data publication containing these data, if applicable",-
-14 / N,source.file,file from which data were transferred to this file,-
-15 / N,source.file.prior,data file from which data were transferred into source.file,-
+9 / I,DBH.2018.cm,tree diameter recorded in 2018 ForestGEO census,cm
+10 / J,DBH.with.height.cm,"tree diameter measured at the same time as height,  and by the same researcher",cm
+11 / K,instrument,"the rangefinder or alternate method (clinometer, tape, etc) used to get height measurements",-
+12 / L,method,"mathematical method of calculating height, either done by the rangefinder or by hand. This is either ""tangent"" or ""sine""",-
+13 / M,researcher,Researcher in charge of data collection,-
+14 / N,notes,"notes on data, instrument, and/or method",-
+16 / O,publication,Author-year-journal of publication describing and first using the data,-
+17 / P,publication.doi,DOI of publication,-
+18 / Q,data.publication.doi,"DOI of data publication containing these data, if applicable",-
+19 / R,source.file,file from which data were transferred to this file,-
+20  /S,source.file.prior,data file from which data were transferred into source.file,-
