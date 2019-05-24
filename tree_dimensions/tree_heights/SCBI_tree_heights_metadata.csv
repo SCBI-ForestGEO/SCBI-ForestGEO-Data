@@ -5,19 +5,20 @@ Column,Field,Description,Units
 4/D,species.code,Species mnemonic,-
 5/E,species,Species latin name,-
 6/F,height.year,year in which height was measured,-
-7/G,height.m,tree heigth,m
-8/H,DBH.2008.cm,tree diameter recorded in 2008 ForestGEO census,cm
-9/I,DBH.2013.cm,tree diameter recorded in 2013 ForestGEO census,cm
-10/J,DBH.TLS.2015.cm,"tree diameter as measured by terrestrial laser scanning (terrestrial LiDAR) in 2015. Though these differed from the field dbh in 2013, a threshold of 10cm was applied, whereby if the TLS dbh was >10cm above or below the field dbh, then the TLS dbh was not used. Instead, those trees have the DBH.2013.cm reported.",cm
-11/K,DBH.2018.cm,tree diameter recorded in 2018 ForestGEO census,cm
-12/L,DBH.with.height.cm,"tree diameter measured at the same time as height,  and by the same researcher",cm
-13/M,instrument,"the rangefinder or alternate method (clinometer, tape, etc) used to get height measurements",-
-14/N,method,"the method by which measurements were collected, either manually (rangefinder or clinometer) or automatically (LiDAR)",-
-15/O,method_math,"mathematical method of calculating height, either done by the rangefinder or by hand. This is either ""tangent"" or ""sine""",
-16/P,researcher,Researcher in charge of data collection,-
-17/Q,notes,general notes about the data,-
-18/R,notes_instrument,notes on the instrument used,-
-19/S,publication,Author-year-journal of publication describing and first using the data,-
-20/T,publication.doi,DOI of publication,-
-21/U,data.publication.doi,"DOI of data publication containing these data, if applicable",-
-,source.file,file from which data were transferred to this file,-
+7/G,height.season,season during which measurements took place,-
+8/H,height.m,tree heigth,m
+9/I,DBH.2008.cm,tree diameter recorded in 2008 ForestGEO census,cm
+10/J,DBH.2013.cm,tree diameter recorded in 2013 ForestGEO census,cm
+11/K,DBH.TLS.2015.cm,"tree diameter as measured by terrestrial laser scanning (terrestrial LiDAR) in 2015. Though these differed from the field dbh in 2013, a threshold of 10cm was applied, whereby if the TLS dbh was >10cm above or below the field dbh, then the TLS dbh was not used. Instead, those trees have the DBH.2013.cm reported.",cm
+12/L,DBH.2018.cm,tree diameter recorded in 2018 ForestGEO census,cm
+13/M,DBH.with.height.cm,"tree diameter measured at the same time as height,  and by the same researcher",cm
+14/N,instrument,"the rangefinder or alternate method (clinometer, tape, etc) used to get height measurements",-
+15/O,method,"the method by which measurements were collected, either manually (clinometer), digitally (rangefinder), or automatically (LiDAR)",-
+16/P,method_math,"mathematical method of calculating height, either done by the rangefinder or by hand. This is either ""tangent"" or ""sine""",
+17/Q,researcher,Researcher in charge of data collection,-
+18/R,notes,general notes about the data,-
+19/S,notes_instrument,notes on the instrument used,-
+20/T,publication,Author-year-journal of publication describing and first using the data,-
+21/U,publication.doi,DOI of publication,-
+22/V,data.publication.doi,"DOI of data publication containing these data, if applicable",-
+23/W,source.file,file from which data were transferred to this file,-
