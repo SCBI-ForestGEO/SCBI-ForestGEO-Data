@@ -41,9 +41,11 @@ Mounted, sanded cores are stored at the Smithsonian Conservation Biology Institu
 
 ## Data use
 
-Data published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full) are public and may be used as detailed in the metadata of this publication.
+Data are published and open access. **However, as these data are currently being used in an intern-led analysis, we ask that anyone interested in using them please contact the PI (Kristina Anderson-Teixeira) to ensure that there is no conflict.**  We welcome inquiries about potential collaboration.
 
-**2016-17 core data and chronologies are currently being used in intern-led analyses and may not be used without permission of the PI (Kristina Anderson-Teixeira).** We welcome inquiries about potential collaboration.
+Studies using these data should cite:
+- [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full) (original publication of 2010-11 data)
+- [Helcoski et al. 2019](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15906) (2016-17 data, and cross-dating of all cores)
 
 
 ## Contributors
