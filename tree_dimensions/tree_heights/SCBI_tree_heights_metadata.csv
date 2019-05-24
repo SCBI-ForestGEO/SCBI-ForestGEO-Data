@@ -1,20 +1,23 @@
 Column,Field,Description,Units
-1 / A,tag,Tag number used in the field to identify individual trees ,-
-2 / B,stemtag,"Individual stem identifier, default is 1 if plant is single stemmed ",-
-3 / C,species.code,Species mnemonic,-
-4 / D,species,Species latin name,-
-5 / E,height.year,year in which height was measured,-
-6 / F,height.m,tree heigth,m
-7 / G,DBH.2008.cm,tree diameter recorded in 2008 ForestGEO census,cm
-8 / H,DBH.2013.cm,tree diameter recorded in 2013 ForestGEO census,cm
-9 / I,DBH.2018.cm,tree diameter recorded in 2018 ForestGEO census,cm
-10 / J,DBH.with.height.cm,"tree diameter measured at the same time as height,  and by the same researcher",cm
-11 / K,instrument,"the rangefinder or alternate method (clinometer, tape, etc) used to get height measurements",-
-12 / L,method,"mathematical method of calculating height, either done by the rangefinder or by hand. This is either ""tangent"" or ""sine""",-
-13 / M,researcher,Researcher in charge of data collection,-
-14 / N,notes,"notes on data, instrument, and/or method",-
-16 / O,publication,Author-year-journal of publication describing and first using the data,-
-17 / P,publication.doi,DOI of publication,-
-18 / Q,data.publication.doi,"DOI of data publication containing these data, if applicable",-
-19 / R,source.file,file from which data were transferred to this file,-
-20  /S,source.file.prior,data file from which data were transferred into source.file,-
+1/A,tag,Tag number used in the field to identify individual trees ,-
+2/B,stemtag,"Individual stem identifier, default is 1 if plant is single stemmed ",-
+3/C,stemID,unique stem identifier for the ForestGEO census,-
+4/D,species.code,Species mnemonic,-
+5/E,species,Species latin name,-
+6/F,height.year,year in which height was measured,-
+7/G,height.m,tree heigth,m
+8/H,DBH.2008.cm,tree diameter recorded in 2008 ForestGEO census,cm
+9/I,DBH.2013.cm,tree diameter recorded in 2013 ForestGEO census,cm
+10/J,DBH.TLS.2015.cm,"tree diameter as measured by terrestrial laser scanning (terrestrial LiDAR) in 2015. Though these differed from the field dbh in 2013, a threshold of 10cm was applied, whereby if the TLS dbh was >10cm above or below the field dbh, then the TLS dbh was not used. Instead, those trees have the DBH.2013.cm reported.",cm
+11/K,DBH.2018.cm,tree diameter recorded in 2018 ForestGEO census,cm
+12/L,DBH.with.height.cm,"tree diameter measured at the same time as height,  and by the same researcher",cm
+13/M,instrument,"the rangefinder or alternate method (clinometer, tape, etc) used to get height measurements",-
+14/N,method,"the method by which measurements were collected, either manually (rangefinder or clinometer) or automatically (LiDAR)",-
+15/O,method_math,"mathematical method of calculating height, either done by the rangefinder or by hand. This is either ""tangent"" or ""sine""",
+16/P,researcher,Researcher in charge of data collection,-
+17/Q,notes,general notes about the data,-
+18/R,notes_instrument,notes on the instrument used,-
+19/S,publication,Author-year-journal of publication describing and first using the data,-
+20/T,publication.doi,DOI of publication,-
+21/U,data.publication.doi,"DOI of data publication containing these data, if applicable",-
+,source.file,file from which data were transferred to this file,-
