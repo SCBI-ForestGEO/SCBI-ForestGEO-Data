@@ -15,4 +15,4 @@ This table summarizes the different contributions.
 
 ### Stovall data (TLS)
 TLS data was collected in winter, with very high confidence in the results, with no issues from occlusion in the upper canopy. Height allometry was validated with manual estimates, seen in Figure S1 of the associated publication.
-- note: manual measurement data for Stovall et al 2018 are not in online publication. It is recommended when using this data, the TLS measurements (available) be used. Full data with TLS dbh is from a Github source (____________), whereas the TLS-measured height with dbh from the 2013 ForestGEO census is available from the Data in Brief publication.
+- note: manual measurement data for Stovall et al 2018 are not in online publication. It is recommended when using this data, the TLS measurements (available) be used. Full data with TLS dbh is from [heights_Stovall_TLS_raw_2015.csv](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_dimensions/tree_heights/raw_data), whereas the TLS-measured height with dbh from the 2013 ForestGEO census is available from the Data in Brief publication.
