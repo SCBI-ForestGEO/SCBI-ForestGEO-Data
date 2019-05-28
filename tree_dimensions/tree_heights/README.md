@@ -10,7 +10,7 @@ This table summarizes the different contributions.
 |2013|Jonathan Thompson|Jennifer McGarvey|Impulse 200 Standard Rangefinder|digital|tangent|60|[Anderson-Texeira et al 2015](https://doi.org/10.1111/1365-2435.12470)
 |2015|Atticus Stovall|Atticus Stovall|clinometer and tape measure|manual|tangent|48|[Stovall et al 2018, For. Ecology & Man.](https://doi.org/10.1016/j.foreco.2018.06.004)
 |2015|Atticus Stovall|Atticus Stovall|terrestrial laser scanning (TLS)|automatic|NA|329|[Stovall et al 2018 Data in Brief](https://doi.org/10.1016/j.dib.2018.06.046)
-|2018|Sarah Macey|Sarah Macey, Dan |Nikon ForestryPro rangefinder|digital|sine|18
+|2018|Sarah Macey|Sarah Macey, Daniel Spiwak |Nikon ForestryPro rangefinder|digital|sine|18
 |2019|Ian McGregor|Ian McGregor|Nikon ForestryPro rangefinder|digital|sine|36
 
 ### Stovall data (TLS)
