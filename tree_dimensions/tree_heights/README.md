@@ -13,6 +13,9 @@ This table summarizes the different contributions.
 |2018|Sarah Macey|Sarah Macey, Daniel Spiwak |Nikon ForestryPro rangefinder|digital|sine|18
 |2019|Ian McGregor|Ian McGregor|Nikon ForestryPro rangefinder|digital|sine|36
 
+### Thompson data
+The data for Thompson was collected in 2012 and 2013, before the official 2013 ForestGEO census data (for DBH) was completed. In the original data, Thompson's heights were listed with the 2008 ForestGEO DBH. Because of the minimal difference between the measurement years and the second census year, this has been updated: all Thompson data have only the 2013 DBH reported. 
+
 ### Stovall data (TLS)
 TLS data was collected in winter, with very high confidence in the results, with no issues from occlusion in the upper canopy. Height allometry was validated with manual estimates, seen in Figure S1 of the associated publication.
 - note: manual measurement data for Stovall et al 2018 are not in online publication. Full data with TLS dbh is from [heights_Stovall_TLS_raw_2015.csv](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_dimensions/tree_heights/raw_data), whereas the TLS-measured height with dbh from the 2013 ForestGEO census is available from the Data in Brief publication.
