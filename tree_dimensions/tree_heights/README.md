@@ -11,7 +11,7 @@ This table summarizes the different contributions.
 |2015|Atticus Stovall|Atticus Stovall|clinometer and tape measure|manual|tangent|48|[Stovall et al 2018, For. Ecology & Man.](https://doi.org/10.1016/j.foreco.2018.06.004)
 |2015|Atticus Stovall|Atticus Stovall|terrestrial laser scanning (TLS)|automatic|NA|329|[Stovall et al 2018 Data in Brief](https://doi.org/10.1016/j.dib.2018.06.046)
 |2018|Sarah Macey|Sarah Macey, Daniel Spiwak |Nikon ForestryPro rangefinder|digital|sine|18
-|2019|Ian McGregor|Ian McGregor|Nikon ForestryPro rangefinder|digital|sine|36
+|2019|Ian McGregor|Ian McGregor|Nikon ForestryPro rangefinder|digital|sine|40
 
 ### Thompson data
 The data for Thompson was collected in 2012 and 2013, before the official 2013 ForestGEO census data (for DBH) was completed. In the original data, Thompson's heights were listed with the 2008 ForestGEO DBH. Because of the minimal difference between the measurement years and the second census year, this has been updated. 
