@@ -43,7 +43,7 @@ Each file and folder has a very long name when downloaded from the NEON database
 
     ii. (e.g. NEON.D02.SCBI.DP1.10098.001.vst_**apparentindividual.2018-01**.basic.20190211T165957Z.csv).
 - The two files can only be matched using the "individualID". In other words, you need to combine the two to get species information for different height allometries, for example.
-- **NB**: most (but not all) months have the "apparentindividual" file, and the readme file in each folder documents this plus other files in the month's folder (filename example: NEON.D02.SCBI.DP1.10098.001.readme.20190211T165957Z.txt.)
+- **NB**: most (but not all) months have the "apparentindividual" file. The readme file in each folder documents this and describes other files in the month's folder (filename example: NEON.D02.SCBI.DP1.10098.001.readme.20190211T165957Z.txt.)
 
 #### Other NEON notes
 Height of shrubs and "low stature vegetation" is collected with a collapsible measurement rod, whereas height of taller vegetation is done with the rangefinder.
