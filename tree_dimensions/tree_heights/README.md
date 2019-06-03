@@ -27,12 +27,15 @@ TLS data was collected in winter, with very high confidence in the results, with
 ## NEON
 NEON also collects data, organized by months each year.
 
-|Year|Researcher|Data Collector|Instrument|Method|Math|# observations|Publication|
+|Year|Researcher|Data Collector|Instrument|Method|Math|# observations|# observations full NEON dataset|
 |---|----------|-------|-------|-----|-------|-----|--------|
-|2015-present|NEON|NEON|TruPulse 360R, collapsible measurement rod|digital, manual|tangent|6500 (to end 2018)|
+|2015-present|NEON|NEON|TruPulse 360R, collapsible measurement rod|digital, manual|tangent|876 (to end 2018), included in SCBI_tree_heights.csv|6500 (to end 2018)
 
 
 ### NEON data
+**NEON data included in the SCBI_tree_heights.csv is mainly for trees, as subset from the full NEON dataset (see below) for Ian McGregor's research in June 2019. For each month, filtering removed species (unknown ID, vines, shrubs, and non-species-specific ID), odd DBH measurements (<110cm & >150cm point of measurement), records without both DBH and height measurement, dead plants, data errors ("NEON.PLA.D02.SCBI.03428" and "NEON.PLA.D02.SCBI.02787"), and duplicate trees (only the most recent measurement per individualID was kept).**
+
+
 NEON has plots in Posey (outside ForestGEO plot), from which it has collected height data (m) along with dbh (cm) since 2015. The data are arranged in a way different to the ForestGEO census data, and can be downloaded [here](https://data.neonscience.org/static/browse.html), searching for "Woody plant vegetation structure". The official protocol for the data collection is [here](https://data.neonscience.org/data-product-view?dpCode=DP1.10098.001).
 
 Each file and folder has a very long name when downloaded from the NEON database. In order to use these in R / have them work in Windows file explorer, it's recommended you change the names to truncated versions. That being said, we are only concerned with two files for each date's collection:
@@ -49,3 +52,5 @@ Each file and folder has a very long name when downloaded from the NEON database
 Height of shrubs and "low stature vegetation" is collected with a collapsible measurement rod, whereas height of taller vegetation is done with the rangefinder.
 
 Multistemmed plants (mostly shrubs) are recorded as having the same height but different DBH for each stem. In the data, there is no column that acts as a unique identifier for the individual stems.
+
+Be aware that it helps to look at the data visually, as some records have clear errors with large DBH and very small height (e.g. NEON.PLA.D02.SCBI.03428 in 2018-10 and 2018-11.
