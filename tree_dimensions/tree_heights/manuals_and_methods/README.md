@@ -5,6 +5,10 @@
 ### Impulse_200LR_rangefinder.pdf
 This is the manual for the Impulse 200LR rangefinder, which is what Thompson used in 2012/2013 for his height measurements in the SCBI_tree_heights.csv. This uses the tangent method, where the rangefinder calculates the distance between you and the tree from a laser. It then uses the angle between you and the top (and base) of the tree to determine height. *This doesn't require you needing to have a direct line of sight to the top (and base) of the tree, as a laser is not required for getting the angle*.
 
+### TruPulse_360R_rangefinder.pdf
+This is the manual for the TruPulse 360R rangefinder, used by NEON to collect height data for taller trees. It uses the tangent method. For smaller shrubs and "low stature vegetation", NEON collects heights via a collapsible measurement rod.
+- Older data may have been collected with a [TruPulse 360B](https://www.lasertech.com/TruPulse-360-B-Rangefinder.aspx), (aka basic TruPulse 360).
+
 ## Sine method
 
 ### height_methods_Muller-Landau_2013.pdf
