@@ -12,7 +12,7 @@
 
 The basic census is described in [Gonzalez-Akre et al. (2016)](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595). This covers all methods used in 2014 and 2015.
 
-Since 2016, we started monitoring all ash tress (*Fraxinus spp.*) stems down to 1cm DBH in order to capture dynamics of emerald ash borer infestation.
+Since 2016, we started monitoring all ash tress (*Fraxinus spp.*) stems down to 1cm DBH in order to capture dynamics of emerald ash borer infestation. The protocols since 2016 are available [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_mortality/Protocols/Mortality%20Protocol%202018.pdf)
 
 All trees found dead in 2016 and 2017 were cored at breast height and their base except in areas where extreme rot or other hazards prevented boring or resulted in a very poor quality core. Tree core data is [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores).
 
