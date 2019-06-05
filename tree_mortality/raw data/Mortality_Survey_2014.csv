@@ -848,7 +848,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 203,20178,1,frni,DC,70.90000153,DC,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 203,20182,1,acru,L,376.1000061,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 204,20060,1,caco,,344.1000061,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
-204,20066,1,fram,I,371,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
+204,20066,1,juni,I,371,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 204,20068,1,ceoc,,68.59999847,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 204,20090,1,libe,DC,65.69999695,DC,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 204,20092,1,ulru,"DS,L",181.8000031,DS,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
@@ -1266,7 +1266,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 220,22127,1,cagl,,367.5,A,A,,,,,,,,9/23/2014,Wang
 220,22128,1,caca,,56.20000076,A,A,,,,,,,,9/23/2014,Wang
 220,22129,1,cato,,263.7999878,A,A,,,,,,,,9/23/2014,Wang
-220,22130,1,litu,,548,A,A,,,,,,,,9/23/2014,Wang
+220,22130,1,fram,,548,A,A,,,,,,,,9/23/2014,Wang
 220,22131,1,acru,,89.09999847,A,A,,,,,,,Bent,9/23/2014,Wang
 220,22132,1,juni,,187.5,A,A,,,,,,,,9/23/2014,Wang
 220,22133,1,caca,M,76.90000153,A,A,,,,,,,,9/23/2014,Wang
@@ -1662,7 +1662,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 301,30014,1,quru,DS,389.2000122,DS,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 301,30015,1,libe,DC,57.09999847,DC,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 301,30016,1,ceoc,DN,74.09999847,DN,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
-301,30017,1,fram,,227.8000031,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
+301,30017,1,juni,,227.8000031,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 301,30018,1,libe,DN,88.90000153,DN,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 301,30109,1,fram,,543.2999878,A,A,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
 301,30123,1,unk,DN,69.80000305,DN,PD,,,,,,,,9/30/2014,"Gonzalez, Herrmann"
@@ -2106,7 +2106,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 318,32058,1,caca,,76.09999847,A,A,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
 318,32060,1,tiam,,329.5,A,A,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
 318,32061,1,tiam,,690.5,A,A,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
-318,32062,1,juni,,151.5,A,A,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
+318,32062,1,frni,,151.5,A,A,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
 318,32064,1,litu,,675,A,A,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
 318,32065,1,frni,,91,A,A,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
 318,32066,1,unk,DS,203.3999939,DS,PD,,,,,,,,9/22/2014,"Sedaghatpour, Gonzalez, Overstreet"
@@ -3762,7 +3762,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 517,52027,1,havi,M,62.20000076,A,A,,,,,,,,9/17/2014,Wang
 517,52027,6,havi,S,52.40000153,A,A,,,,,,,,9/17/2014,Wang
 517,52028,1,ulru,DS,153,DS,PD,,,,,,,,9/17/2014,Wang
-518,52029,1,caco,M,289.2000122,A,A,,,,,,,,9/17/2014,Wang
+518,52029,1,fram,M,289.2000122,A,A,,,,,,,,9/17/2014,Wang
 518,52030,1,qual,,57.90000153,A,A,,,,,,,,9/17/2014,Wang
 518,52031,1,nysy,,67.59999847,A,A,,,,,,,,9/17/2014,Wang
 518,52033,1,caovl,,85,A,A,,,,,,,,9/17/2014,Wang
@@ -4001,7 +4001,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 528,52337,1,cagl,,60,A,A,,,,,,,,9/17/2014,Herrmann
 528,52339,1,qupr,,110.9000015,A,A,,,,,,,,9/17/2014,Herrmann
 528,52340,1,frni,,185,A,A,,,,,,,,9/17/2014,Herrmann
-528,52342,1,frpe,,283.5,A,A,,,,,,,,9/17/2014,Herrmann
+528,52342,1,caovl,,283.5,A,A,,,,,,,,9/17/2014,Herrmann
 528,52343,1,quru,,392,A,A,,,,,,,,9/17/2014,Herrmann
 528,52344,1,cagl,,268.3999939,A,A,,,,,,,,9/17/2014,Herrmann
 528,52345,1,cagl,,161.1999969,A,A,,,,,,,,9/17/2014,Herrmann
@@ -4162,7 +4162,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 603,60236,1,prav,,112.5,A,A,,,,,,,,9/16/2014,Gonzalez
 603,60237,1,cagl,,339,A,A,,,,,,,,9/16/2014,Gonzalez
 603,60239,1,amar,,51.5,A,A,,,,,,,,9/16/2014,Gonzalez
-603,60241,1,ulru,,145.1000061,A,A,,,,,,,,9/16/2014,Gonzalez
+603,60241,1,nysy,,145.1000061,A,A,,,,,,,,9/16/2014,Gonzalez
 603,60243,1,quru,,191.1000061,A,A,,,,,,,,9/16/2014,Gonzalez
 603,60244,1,qupr,DC,70.30000305,DC,PD,,,,,,,,9/16/2014,Gonzalez
 603,60246,1,nysy,"DS,R",54.70000076,DS,PD,,,,,,,,9/16/2014,Gonzalez
@@ -7861,7 +7861,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 1022,102247,1,quve,,784.0999756,A,A,,,,,,,,10/1/2014,Herrmann
 1022,102248,1,amar,,131,A,A,,,,,,,If prunus dead DC U S CR …Check in the field ,10/1/2014,Herrmann
 1022,102249,1,cato,,178.6000061,A,A,,,,,,,,10/1/2014,Herrmann
-1022,102250,1,cato,,108.9000015,A,A,,,,,,,,10/1/2014,Herrmann
+1022,102250,1,nysy,,108.9000015,A,A,,,,,,,,10/1/2014,Herrmann
 1022,102251,1,ceca,,63.09999847,A,A,,,,,,,,10/1/2014,Herrmann
 1022,102252,1,qual,,462.2999878,A,A,,,,,,,,10/1/2014,Herrmann
 1022,102253,1,nysy,,55,A,A,,,,,,,,10/1/2014,Herrmann
@@ -7920,7 +7920,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 1024,102334,1,cagl,,93.5,A,A,,,,,,,,10/1/2014,Herrmann
 1024,102335,1,cagl,,237.8000031,A,A,,,,,,,,10/1/2014,Herrmann
 1024,102337,1,litu,,138.3000031,A,A,,,,,,,,10/1/2014,Herrmann
-1025,102338,1,astr,,113,A,A,,,,,,,,10/1/2014,Herrmann
+1025,102338,1,nysy,,113,A,A,,,,,,,,10/1/2014,Herrmann
 1025,102339,1,quve,,215.1999969,A,A,,,,,,,,10/1/2014,Herrmann
 1025,102340,1,prav,DN,91.90000153,DN,PD,,,,,,,,10/1/2014,Herrmann
 1025,102341,1,caovl,,87,A,A,,,,,,,,10/1/2014,Herrmann
@@ -8392,7 +8392,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 1121,112179,1,pist,DS,102.0999985,DS,PD,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
 1121,112180,1,pist,,187.3000031,A,A,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
 1121,112184,1,cagl,,470.5,A,A,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
-1121,112188,1,qual,,516.7000122,A,A,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
+1121,112188,1,quve,,516.7000122,A,A,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
 1121,112189,1,pist,DS,101.9000015,DS,PD,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
 1121,112190,1,cato,,143.8999939,A,A,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
 1121,112191,1,cagl,,127.0999985,A,A,,,,,,,,10/6/2014,"Sedaghatpour; Gonzalez, Remy"
@@ -8574,7 +8574,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 1201,120204,1,saal,,248.8000031,A,DS,1,CD,B,F,CR,0,,10/9/2014,Hermann; Wang
 1201,120261,1,cofl,I,103,A,A,,,,,,,,10/9/2014,Hermann; Wang
 1201,120278,1,litu,,830,A,A,,,,,,,,10/9/2014,Hermann; Wang
-1202,120133,1,fram,,393.7000122,A,A,,,,,,,,10/9/2014,Hermann; Wang
+1202,120133,1,juni,,393.7000122,A,A,,,,,,,,10/9/2014,Hermann; Wang
 1202,120136,1,qual,DS,379.8999939,DS,PD,,,,,,,,10/9/2014,Hermann; Wang
 1202,120162,1,quve,,535.0999756,A,A,,,,,,,,10/9/2014,Hermann; Wang
 1202,120200,1,rops,DS,495.7000122,DS,PD,,,,,,,,10/9/2014,Hermann; Wang
@@ -10629,7 +10629,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 1616,161529,1,litu,,391.5,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
 1616,161530,1,nysy,,120.6999969,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
 1616,161532,1,nysy,,122.0999985,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
-1616,161534,1,frni,,523.5999756,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
+1616,161534,1,caco,,523.5999756,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
 1616,161535,1,quru,,592.2999878,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
 1616,161536,1,qual,B,119.3000031,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
 1616,161537,1,cagl,,145.1999969,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe; Gonzalez
@@ -11166,7 +11166,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 1721,172325,1,fram,,775,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1721,172326,1,acne,M,141,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1721,172328,1,fram,,674,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
-1721,172330,1,juni,,284,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
+1721,172330,1,cato,,284,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1721,172332,1,fram,,251,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1722,172139,1,nysy,DS,105.8000031,DS,PD,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1722,172140,1,caco,,190.1999969,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
@@ -11346,8 +11346,8 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 1732,172630,1,fram,,288.5,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1732,172631,1,rops,DS,202.3000031,DS,PD,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1732,172633,1,fram,,400.2999878,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
-1732,172634,1,juni,M,278.5,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
-1732,172634,2,juni,S,151.1999969,A,DS,1,S,U,DF,,0,Fungi growth,10/14/2014,Sedaghatpour; Moncrieffe
+1732,172634,1,fram,M,278.5,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
+1732,172634,2,fram,S,151.1999969,A,DS,1,S,U,DF,,0,Fungi growth,10/14/2014,Sedaghatpour; Moncrieffe
 1732,172637,1,juni,,342,A,A,,,,,,,,10/14/2014,Sedaghatpour; Moncrieffe
 1801,180001,1,litu,,617.2000122,A,A,,,,,,,,10/20/2014,Gonzalez; Sedaghatpour; Moncrieffe
 1801,180005,1,rops,DS,248.6999969,DS,PD,,,,,,,,10/20/2014,Gonzalez; Sedaghatpour; Moncrieffe
@@ -12431,7 +12431,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 2011,201186,1,caco,,117.1999969,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2011,201188,1,ulru,,109.5,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2011,201191,1,ulru,,183,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
-2011,201200,1,frni,,698.2999878,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
+2011,201200,1,caco,,698.2999878,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201062,1,ulru,DC,187,DC,PD,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201065,1,ulru,L,141.1999969,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201066,1,ulru,DS,106,DS,PD,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
@@ -12446,7 +12446,7 @@ quadrat,tag,stem,species,code.2013,dbh.2013,previous.condition,new.condition,per
 2012,201211,1,fram,,104,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201214,1,caco,,120.1999969,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201216,1,caco,,132.5,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
-2012,201218,1,frni,,113,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
+2012,201218,1,frpe,,113,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201223,1,caco,,161.3000031,A,A,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201228,1,ulru,DC,159.1000061,DC,PD,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
 2012,201233,1,unk,DC,183.6000061,DC,PD,,,,,,,,10/21/2014,"Gonzalez, Herrmann"
