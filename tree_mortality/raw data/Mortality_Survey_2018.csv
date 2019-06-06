@@ -305,7 +305,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 121,12132,1,tiam,14.9,6.2,,362.7000122,A,A,A,A,,,,,,,,,,,,,,,,6/12/2018,Prestipino
 121,12133,1,tiam,13.1,8.2,,239.6999969,A,A,A,A,,,,,,,,,,,,,,,,6/12/2018,Prestipino
 121,12134,1,cofl,12.1,6.3,,100.4000015,DS,PD,PD,PD,,,,,,,,,,,,,,,,6/12/2018,Prestipino
-121,12136,1,fram,14.2,15.7,"J,L,B",46.59999847,A,A,A,DS,51,4,S,U,BB,R,DF,5,,5,0,"SS, VB",,,Old Break @ ~ 2.6m,6/12/2018,Prestipino
+121,12136,1,fram,14.2,15.7,"J,L,B",46.59999847,A,A,A,DS,51,4,S,U,BB,R,DF,5,,5,0,"SS, VB",0,,Old Break @ ~ 2.6m,6/12/2018,Prestipino
 121,12139,1,caovl,20,12.3,,168,A,A,A,A,,,,,,,,,,,,,,,,6/12/2018,Prestipino
 121,12141,1,cato,16.6,14.9,,258.7999878,A,A,A,A,,,,,,,,,,,,,,,,6/12/2018,Prestipino
 121,12142,1,fram,10.7,17.3,J,108.3000031,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/12/2018,Prestipino
@@ -3091,7 +3091,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 701,70201,1,cato,20,1.6,,126.5,A,A,A,A,,,,,,,,,,,,,,,,7/2/2018,Prestipino
 701,70203,1,qual,17.9,3,,135.8999939,A,A,AU,A,,,,,,,,,,,,,,,anthracnose / wilt,7/2/2018,Prestipino
 701,70207,1,acru,12.2,2.1,,209.8000031,A,A,A,A,,,,,,,,,,,,,,,,7/2/2018,Prestipino
-701,70208,1,fram,12.3,2,,245.1000061,A,A,AU,DS,249,4,CD,I,BB,,,,,5,0,W,,1 woodpecker area (~1%),no confirmed D-shape,7/2/2018,Prestipino
+701,70208,1,fram,12.3,2,,245.1000061,A,A,AU,DS,249,4,CD,I,BB,,,,,5,0,W,0,1 woodpecker area (~1%),no confirmed D-shape,7/2/2018,Prestipino
 701,70213,1,fram,14.3,9.8,,321,A,AU,AU,A,,,CD,,,,,,,1,1,W,,Leaning; difficult to see crown; UP,Leaning; difficult to see crown; UP,7/2/2018,Prestipino
 701,70215,1,qual,15.6,10,,101,A,A,AU,A,,,,,,,,,,,,,,,,7/2/2018,Prestipino
 701,70216,1,quve,18.7,11.6,,930.2000122,A,A,A,A,,,,,,,,,,,,,,,,7/2/2018,Prestipino
@@ -3581,8 +3581,8 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 802,83012,1,fram,10.5,6,,10.69999981,A,A,DN,A,,,S,,,,,,,1,0,VB,,,right next to fence,6/5/2018,Prestipino
 802,83023,1,fram,11.9,14.1,,11.5,A,AU,AU,DS,11,2,S,B,R,BB,,5,,5,2,"VB, AS, DE",1,stem break at ?1.5 m; probably not EAB-related. ,"stem break @ ~1.5m, epicormics below dbh",6/5/2018,Prestipino
 802,83024,1,fram,10,13.6,,10.5,DS,PD,PD,PD,,,,,,,,,,,,,,,,6/5/2018,Prestipino
-802,83026,1,fram,13.3,13.8,,10.19999981,A,A,AU,DS,11,3,S,U,DF,,,5,,5,0,"VB, SS",,,,6/5/2018,Prestipino
-802,83027,1,fram,13.9,12.5,,10.69999981,A,A,A,DS,11,3,S,U,DF,,,5,,5,1,"SS, VB, AS",,Anthracnose fungus on leaves,dead above breast height,6/5/2018,Prestipino
+802,83026,1,fram,13.3,13.8,,10.19999981,A,A,AU,DS,11,3,S,U,DF,,,5,,5,0,"VB, SS",0,,,6/5/2018,Prestipino
+802,83027,1,fram,13.9,12.5,,10.69999981,A,A,A,DS,11,3,S,U,DF,,,5,,5,1,"SS, VB, AS",0,Anthracnose fungus on leaves,dead above breast height,6/5/2018,Prestipino
 803,80059,1,nysy,9.3,3.4,,121.3000031,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
 803,80063,1,litu,5,1.6,,283.7000122,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
 803,80066,1,quve,1.4,1.7,,356,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
@@ -3597,8 +3597,8 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 803,80160,1,quve,13.7,5.6,,546.2999878,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
 803,80161,1,cato,13.8,9.3,,293.2000122,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
 803,80162,1,nysy,12.1,11.9,,147.3000031,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
-803,83043,1,fram,14,0.6,,13.30000019,No sampled,A,A,A,,,,,,,,,,4,0,VB,,tag missing,duplicate tag? ,6/5/2018,Prestipino
-803,83044,1,fram,12.1,0.4,,14.30000019,A,AU,AU,AU,,,S,,,,,,,4,0,VB,0,,,6/5/2018,Prestipino
+803,83043,1,fram,14,0.6,,13.30000019,No sampled,A,A,A,,,S,,,,,,,1,0,none,,tag missing,duplicate tag? ,6/5/2018,Prestipino
+803,83044,1,fram,12.1,0.4,,14.30000019,A,AU,AU,AU,,,S,,,,,,,4,0,VB,,,,6/5/2018,Prestipino
 804,80089,1,qual,6.9,0,M,534.0999756,A,A,AU,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
 804,80093,1,amar,0.7,9.2,,132.5,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
 804,80095,1,acru,2.4,6.2,,105.3000031,A,A,A,A,,,,,,,,,,,,,,,,6/5/2018,Prestipino
@@ -4097,7 +4097,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 903,90123,1,cagl,5.6,9.8,,123.9000015,A,A,A,A,,,,,,,,,,,,,,,,6/15/2018,Prestipino/Terrell
 903,90125,1,unk,4.9,12.2,DS,882.4000244,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/15/2018,Prestipino/Terrell
 903,90130,1,qual,10.6,11.5,,165.8000031,A,A,A,A,,,,,,,,,,,,,,large epicormic load,,6/15/2018,Prestipino/Terrell
-903,90131,1,fram,10.4,12.9,,610,A,A,A,AU,,,D,DF,,,,4,,,,,,,,6/15/2018,Prestipino/Terrell
+903,90131,1,fram,10.4,12.9,,610,A,A,A,AU,,,D,DF,,,,4,,1,0,none,,,,6/15/2018,Prestipino/Terrell
 903,90136,1,litu,6.1,17.7,,290.7999878,A,A,A,A,,,,,,,,,,,,,,,,6/15/2018,Prestipino/Terrell
 903,90140,1,cagl,4.1,19.2,,193,A,A,A,A,,,,,,,,,,,,,,,,6/15/2018,Prestipino/Terrell
 903,90141,1,quve,7.2,19.2,DS,271.7000122,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/15/2018,Prestipino/Terrell
@@ -5660,7 +5660,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1204,120830,2,litu,16.7,8.9,S,387,A,A,A,A,,,,,,,,,,,,,,,,6/20/2018,Prestipino
 1204,120831,1,ulru,15,8.9,,150.5,A,A,A,A,,,,,,,,,,,,,,,,6/20/2018,Prestipino
 1204,120832,1,litu,12.8,9,,664.2000122,A,A,A,A,,,,,,,,,,,,,,,,6/20/2018,Prestipino
-1204,123095,1,fram,7,5.7,,10.89999962,A,A,AU,DS,11,4,S,U,DF,F,,5,,5,1,VB,,,epicormics below breast height,6/20/2018,Prestipino
+1204,123095,1,fram,7,5.7,,10.89999962,A,A,AU,DS,11,4,S,U,DF,F,,5,,5,1,VB,0,,epicormics below breast height,6/20/2018,Prestipino
 1204,123097,1,fram,8.4,6,,15.19999981,A,A,A,A,,,S,,,,,,,1,0,VB,,thorny vine on crown,,6/20/2018,Prestipino
 1204,123103,1,frpe,9.2,14,,10.19999981,A,A,A,A,,,S,,,,,,,3,3,AS,,,wilting leaves,6/20/2018,Prestipino
 1204,123105,1,frpe,9.4,3.6,,11.19999981,A,A,A,A,,,S,,,,,,,1,0,VB,,,,6/20/2018,Prestipino
@@ -6167,7 +6167,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1305,130657,1,litu,7.9,14.6,,496.5,A,A,A,A,,,,,,,,,,,,,,,,6/19/2018,Prestipino
 1305,130681,1,quve,1,19,,700,A,A,A,AU,,,,DF,,,,4,,,,,,,,6/19/2018,Prestipino
 1305,130838,1,litu,12.2,1,,652.4000244,A,A,A,A,,,,,,,,,,,,,,,,6/19/2018,Prestipino
-1305,130898,1,fram,12.3,15.1,"DC,R",36.20000076,A,A,A,DC,NA,1,S,B,R,F,,,,5,0,none,,,DBH unavailable. 2nd stem HEALTHY. Break @ ~0.3m,6/19/2018,Prestipino
+1305,130898,1,fram,12.3,15.1,"DC,R",36.20000076,A,A,A,DC,NA,1,S,B,R,F,,,,5,0,none,0,,DBH unavailable. 2nd stem HEALTHY. Break @ ~0.3m,6/19/2018,Prestipino
 1305,130910,1,litu,19.3,17.8,,151,A,A,A,A,,,,,,,,,,,,,,,,6/19/2018,Prestipino
 1305,130911,1,quve,16.1,15.2,DS,370.5,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/19/2018,Prestipino
 1305,133193,1,fram,5.9,3.7,,11.30000019,A,A,A,A,,,S,,,,,,,1,0,none,,,,6/19/2018,Prestipino
@@ -6717,7 +6717,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1408,140947,1,cato,9.2,16.1,,241,A,A,A,A,,,,,,,,,,,,,,,,6/18/2018,Prestipino
 1408,143347,1,fram,11.9,2.3,,12.30000019,A,A,A,A,,,S,,,,,,,1,0,none,,,,6/18/2018,Prestipino
 1408,143354,1,fram,15.7,7.2,M,18.10000038,A,A,A,A,,,S,,,,,,,1,0,VB,,,,6/18/2018,Prestipino
-1408,143354,2,fram,15.7,7.2,S,12.39999962,A,A,A,DS,15,3,S,U,BB,I,DF,5,,5,0,"SS, VB",,,no DE,6/18/2018,Prestipino
+1408,143354,2,fram,15.7,7.2,S,12.39999962,A,A,A,DS,15,3,S,U,BB,I,DF,5,,5,0,"SS, VB",0,,no DE,6/18/2018,Prestipino
 1408,143355,1,fram,14.8,8.3,,10.5,A,A,A,A,,,S,,,,,,,1,0,none,,,,6/18/2018,Prestipino
 1408,143358,1,fram,16.1,10.6,,12.89999962,A,A,A,AU,,,S,,,,,,,2,2,VB,,,,6/18/2018,Prestipino
 1408,143367,1,fram,14.6,11.9,,13,A,A,A,A,,,S,,,,,,,1,0,none,,,,6/18/2018,Prestipino
@@ -6728,7 +6728,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1409,140959,1,quve,17.9,4.1,DS,208.8999939,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/18/2018,Prestipino
 1409,140967,1,cato,11.2,6,,168.8999939,A,A,A,A,,,,,,,,,,,,,,,,6/18/2018,Prestipino
 1409,141150,1,cagl,5.4,6.6,,311.7000122,A,A,A,A,,,,,,,,,,,,,,,,6/18/2018,Prestipino
-1409,143421,1,fram,16.1,17.4,,13.19999981,A,A,A,DC,16,1,S,U,B,DF,,5,,5,0,"AS, SS",,,Broken at base,6/18/2018,Prestipino
+1409,143421,1,fram,16.1,17.4,,13.19999981,A,A,A,DC,16,1,S,U,B,DF,,5,,5,0,"AS, SS",0,,Broken at base,6/18/2018,Prestipino
 1410,140802,1,litu,7.3,1,,472.5,A,A,A,A,,,,,,,,,,,,,,,,6/18/2018,Prestipino
 1410,140803,1,cagl,8.2,0.5,,116.1999969,A,A,A,A,,,,,,,,,,,,,,,,6/18/2018,Prestipino
 1410,140809,1,litu,2.2,7.4,,335.8999939,A,A,A,A,,,,,,,,,,,,,,,tag missing,6/18/2018,Prestipino
@@ -6748,7 +6748,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1410,143454,1,frpe,18.5,7.4,M,10.89999962,A,A,A,A,,,S,,,,,,,2,0,none,,resprouted from dead stump,,6/18/2018,Prestipino
 1410,143454,2,frpe,18.5,7.4,S,10.19999981,A,A,A,AU,,,S,,,,,,,4,2,none,,,white wire,6/18/2018,Prestipino
 1410,143454,3,frpe,18.5,7.4,S,10,A,A,A,AU,,,S,,,,,,,3,1,none,,,blue wire,6/18/2018,Prestipino
-1410,143457,1,fram,14.9,10.4,,11.5,A,A,A,DS,11,4,S,U,DF,F,,5,,5,1,"VB, SS",,,,6/18/2018,Prestipino
+1410,143457,1,fram,14.9,10.4,,11.5,A,A,A,DS,11,4,S,U,DF,F,,5,,5,1,"VB, SS",0,,,6/18/2018,Prestipino
 1411,140819,1,litu,1.6,1.5,,203.3999939,A,A,A,AU,,,,B,,,,,,,,,,,break @ 13m; leaning,6/18/2018,Prestipino
 1411,140820,1,litu,2.5,1.5,,184.6000061,A,A,DS,PD,185,4,I,U,R,K,,,1,,,,,main stem dead; stump sprouts (SS),,6/18/2018,Prestipino
 1411,140821,1,litu,4.6,0.4,,531.4000244,A,A,A,A,,,,,,,,,,,,,,,,6/18/2018,Prestipino
@@ -7194,7 +7194,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1508,153246,1,fram,0.6,2.7,,10.39999962,A,A,A,A,,,S,,,,,,,1,0,none,,,,6/18/2018,Prestipino
 1508,153271,1,fram,7.7,0.5,,12.30000019,A,A,A,A,,,S,,,,,,,1,0,none,,,,6/18/2018,Prestipino
 1509,150837,1,fram,13.9,4.9,,22.70000076,A,A,A,A,,,S,,,,,,,1,0,VB,,,,6/18/2018,Prestipino
-1509,150844,1,fram,9.4,3.9,,14.89999962,A,A,A,DS,16,3,S,UP,DF,R,F,5,,5,2,"VB, SS",,,epicormics,6/18/2018,Prestipino
+1509,150844,1,fram,9.4,3.9,,14.89999962,A,A,A,DS,16,3,S,UP,DF,R,F,5,,5,2,"VB, SS",0,,epicormics,6/18/2018,Prestipino
 1509,150846,1,frpe,8.6,2,"X,R",16.29999924,A,A,A,DS,17,1,S,B,R,,,,,5,0,"AS, SS, VB",,Break at ?1.3; R(alive),Break at ?1.3; R,6/18/2018,Prestipino
 1509,150847,1,cato,7.9,5.8,,352,A,A,A,A,,,,,,,,,,,,,,,,6/18/2018,Prestipino
 1509,150849,1,quve,13.4,7.7,DS,561.0999756,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/18/2018,Prestipino
@@ -7537,7 +7537,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1529,152645,1,quve,4.2,11.6,,665,A,A,A,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1529,152646,1,ulru,5.7,9.7,,119.9000015,A,A,AU,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1529,152647,1,ulru,7.9,12.5,,129,A,A,AU,AU,,,I,DF,,,,3,,,,,,,,8/14/2018,Prestipino
-1529,152650,1,fram,7.1,15.7,,101,A,A,A,DS,102,3,I,I,,,,,,5,0,"AS, SS",,,no D holes within DBH window,8/14/2018,Prestipino
+1529,152650,1,fram,7.1,15.7,,101,A,A,A,DS,102,3,I,I,,,,,,5,0,"AS, SS",0,,no D holes within DBH window,8/14/2018,Prestipino
 1529,152651,1,quve,9.4,15.4,,551.9000244,A,DS,PD,PD,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1529,152653,1,litu,9.6,18.2,,259,A,A,A,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1529,152655,1,litu,18.2,18,,250,A,A,A,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
@@ -7564,7 +7564,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1531,152684,1,litu,1,6.9,,590.7999878,A,A,A,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1531,152685,1,unk,0.3,7.4,DC,147.8999939,PD,PD,PD,PD,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1531,152686,1,pipu,6.2,6.8,,416.1000061,A,A,A,AU,,,,DF,,,,4,,,,,,,,8/14/2018,Prestipino
-1531,152688,1,fram,8.3,2.6,,80.19999695,A,A,A,DS,80,3,S,U,R,,,,,5,0,"AS, VB, SS",,,,8/14/2018,Prestipino
+1531,152688,1,fram,8.3,2.6,,80.19999695,A,A,A,DS,80,3,S,U,R,,,,,5,0,"AS, VB, SS",0,,,8/14/2018,Prestipino
 1531,152690,1,cagl,18,3.8,M,283.5,A,A,A,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1531,152690,2,cagl,18,3.8,S,190,A,A,A,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
 1531,152690,3,cagl,18,3.8,S,226,A,A,A,A,,,,,,,,,,,,,,,,8/14/2018,Prestipino
@@ -7739,7 +7739,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1610,160958,1,cato,0.5,16.2,inside,346,A,A,A,A,,,,,,,,,,,,,,,fence,6/18/2018,Prestipino
 1610,163373,1,fram,0.3,1.1,,15.19999981,A,AU,AU,AU,,,S,,,,,,,2,0,none,,"crushed by dead log, tag underneath","INSIDE; crushed by deda log, tag underneath",6/18/2018,Prestipino
 1610,163376,1,fram,1.7,8.1,,13.80000019,A,A,A,A,,,S,,,,,,,1,0,none,,,INSIDE,6/18/2018,Prestipino
-1610,163378,1,fram,1.3,9.6,,12.69999981,A,A,A,DS,14,4,S,U,BB,I,,,,5,0,"SS, VB",,,"round, smaller BB",6/18/2018,Prestipino
+1610,163378,1,fram,1.3,9.6,,12.69999981,A,A,A,DS,14,4,S,U,BB,I,,,,5,0,"SS, VB",0,,"round, smaller BB",6/18/2018,Prestipino
 1611,160814,1,cato,14.3,5.7,,443.8999939,A,A,A,A,,,,,,,,,,,,,,,,8/15/2018,Prestipino
 1611,160815,1,cagl,16.1,8.8,,134.6000061,A,A,A,A,,,,,,,,,,,,,,,,8/15/2018,Prestipino
 1611,160816,1,litu,14.6,14.4,,496.5,A,A,A,A,,,,,,,,,,,,,,,,8/15/2018,Prestipino
@@ -8635,7 +8635,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1804,180723,1,unk,19.9,17.3,DS,169.3999939,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1804,180725,1,ulru,16.2,19.8,,146.1999969,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1804,180726,1,fram,6.3,19.3,,70.5,A,A,AU,DS,71,4,I,U,BB,I,,,,5,0,"AS, SS, DE",2,only epicormics alive,,6/26/2018,Prestipino
-1804,180727,1,fram,7.2,17.7,,94,A,A,AU,DS,95,4,I,BB,I,F,,,,5,0,"SS, VB",,only epicormics alive,cannot confirm D-shape,6/26/2018,Prestipino
+1804,180727,1,fram,7.2,17.7,,94,A,A,AU,DS,95,4,I,BB,I,F,,,,5,0,"SS, VB",0,only epicormics alive,cannot confirm D-shape,6/26/2018,Prestipino
 1804,180728,1,litu,3.1,12.7,,409,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1805,180654,1,litu,6,0.3,,332.2000122,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1805,180655,1,fram,6.5,4,,45,A,A,AU,A,,,S,,,,,,,2,0,AS,,,,6/26/2018,Prestipino
@@ -8759,7 +8759,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1812,180811,1,ulru,18.1,8.8,DS,268.2000122,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1812,180813,1,ceoc,13.3,11.8,DC,159.3000031,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1812,180816,1,ulru,9.4,13,DC,179.1999969,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/26/2018,Prestipino
-1812,180817,1,fram,12.6,15.1,,131,A,A,AU,DS,134,2,I,U,B,,,,,5,1,"SS, AS, VB",,only lower branches alive and stump sprouts,B @ ~2m,6/26/2018,Prestipino
+1812,180817,1,fram,12.6,15.1,,131,A,A,AU,DS,134,2,I,U,B,,,,,5,1,"SS, AS, VB",0,only lower branches alive and stump sprouts,B @ ~2m,6/26/2018,Prestipino
 1812,180818,1,tiam,14,16.3,M,509,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1812,180818,2,tiam,14,16.3,S,237.1999969,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1812,180820,1,fram,11.7,17.2,,89.59999847,A,A,A,A,,,I,,,,,,,1,0,W,,,,6/26/2018,Prestipino
@@ -9205,7 +9205,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1908,190478,1,litu,14.4,5,DS,160,PD,PD,PD,PD,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1908,190479,1,litu,17.5,8.1,,285,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1908,190483,1,juni,19.2,16.7,,447.8999939,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
-1908,190488,1,fram,12.6,9.6,B,81,A,A,AU,DS,77,1,S, B,R,BB,,,,5,0,AS,,old break at ?2 m,old break at ?2 m,6/26/2018,Prestipino
+1908,190488,1,fram,12.6,9.6,B,81,A,A,AU,DS,77,1,S, B,R,BB,,,,5,0,AS,0,old break at ?2 m,old break at ?2 m,6/26/2018,Prestipino
 1908,190491,1,litu,5.1,19.6,,488.1000061,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1908,190667,1,litu,1.8,3.6,,254,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
 1908,190670,1,litu,8,3.2,,548.9000244,A,A,A,A,,,,,,,,,,,,,,,,6/26/2018,Prestipino
@@ -9478,7 +9478,7 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 1924,192171,1,ulru,11.2,16.9,,127.0999985,DS,PD,PD,PD,,,,,,,,,,,,,,,,7/13/2018,Prestipino/Terrell
 1924,192177,1,ulru,7.9,14.9,,147.8999939,A,A,AU,AU,,,,,,,,,4,,,,,,liana load,7/13/2018,Prestipino/Terrell
 1924,192183,1,quru,8,15.9,,129,A,A,A,A,,,,,,,,,,,,,,,,7/13/2018,Prestipino/Terrell
-1924,192318,1,fram,1.4,0.3,,156,A,A,A,A,,,I,,,,,,,1,0,none,0,,no DE found,7/13/2018,Prestipino/Terrell
+1924,192318,1,fram,1.4,0.3,,156,A,A,A,A,,,I,,,,,,,1,0,none,,,no DE found,7/13/2018,Prestipino/Terrell
 1924,192319,1,caco,2.6,5.6,,178,A,A,A,A,,,,,,,,,,,,,,,,7/13/2018,Prestipino/Terrell
 1924,192350,1,fram,7.9,2,,108.4000015,A,A,A,A,,,I,,,,,,,1,0,"VB, W, AS",,,,7/13/2018,Prestipino/Terrell
 1924,192600,1,ulru,12,1,DS,106,PD,PD,PD,PD,,,,,,,,,,,,,,,,7/13/2018,Prestipino/Terrell
@@ -10135,5 +10135,5 @@ quadrat,tag,stem,sp,lx,ly,codes.2013,dbh.2013,status.2015,status.2016,status. 20
 2032,202965,1,fram,17.2,16.3,,427.5,A,A,A,A,,,CD,,,,,,,1,4,"DE, W",1,,,6/27/2018,Prestipino
 2032,202968,1,ulru,12.3,14.1,,162.1999969,A,A,A,A,,,,,,,,,,,,,,,,6/27/2018,Prestipino
 2032,202971,1,fram,5.6,10.2,,455,A,A,A,A,,,D,,,,,,,4,5,"W, DE",3,,,6/27/2018,Prestipino
-2032,202973,1,fram,1,10.5,,441.7000122,A,A,A,AU,,,D,AN,,,,4,,4,1,"W, DE",16,,,6/27/2018,Prestipino
+2032,202973,1,fram,1,10.5,,441.7000122,A,A,A,AU,,,D,DF,AN,,,4,,4,1,"W, DE",16,,,6/27/2018,Prestipino
 2032,202975,1,ulru,1.2,8.8,,135,A,A,A,A,,,,,,,,,,,,,,,,6/27/2018,Prestipino
