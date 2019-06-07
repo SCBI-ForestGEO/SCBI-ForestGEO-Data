@@ -1,4 +1,8 @@
-# Merge to see all tree cores compared to tree surveys
+######################################################
+# Purpose: Merge to see all tree cores compared to ForestGEO censuses
+# Developed by: Ian McGregor - mcgregori@si.edu
+# R version 3.5.1 - First created November 2018
+######################################################
 
 ## First files we're working with
 cores <- read.csv("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/climate_sensitivity_cores/data/census_data_for_cored_trees.csv")
@@ -26,10 +30,6 @@ dendro_all <- dendro_merge[c(1:13,17:22)]
 dendro_all <- dendro_all[order(dendro_all$tag,dendro_all$biannual),]
 
 dendro_all$stemID[is.na(dendro_all$stemID)] <- 0
-##WARNING:assign stemID values for 30365 and 131352 (discrepancy with 2013 census). THIS PART SHOULD BE DELETED once the 2018 census data includes these tags with the appropriate info.
-dendro_all[91,6]=11 
-dendro_all[867,6]=12
-
 
 dendro_all<-dendro_all[!duplicated(dendro_all$stemID),]
 
