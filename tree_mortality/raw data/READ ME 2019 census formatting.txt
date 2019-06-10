@@ -1,0 +1,13 @@
+Documentation of formatting procedure fpr the 2019 Mort Census file:
+Alyssa Terrell
+2019
+
+- Data from 2018 copied. New status (2019) column added and old status column (2015) removed
+- Trees marked DS, DC, or Pd from 2018 marked as PD in 2019 column
+- Date and surveyer columns cleared
+- New column made for 2019 comments for the purpose of keeping old comments like "tag lost" or "being crushed"
+- 2018 comment column renamed "old comments"
+- Alive Fraxiinus data from previous years cleared except for comments ("old comments" column)
+- Previous Factors of Death (FAD) and liana load for 2018 Alive Unhealthy (AU) trees cleared
+- Erroneous data entries from previous years in Alive Healthy (A) trees (like the marking of crown position) cleared
+- Cleared Alive Healthy (A) data from previous years besides comments
