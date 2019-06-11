@@ -41,8 +41,12 @@ mort19$status.2018 <- mort18$new.status[match(mort19$con, mort18$con)]
 mort19$new.status <- ""
 
 #add in other columns for the survey
-extracols <- colnames(mort18[c(13:ncol(mort18))])
+extracols <- setdiff(colnames(mort18), colnames(mort19))
 mort19[extracols] <- ""
+
+##specifically keep in comments from last year
+mort19$Old.comments<- mort18$X2018.comments[match(mort19$con, mort18$con)]
+setnames(mort19, old="X2018.comments", new="X2019.comments")
 
 #remove concatenation because was only necessary for copying over status information
 mort19$con <- NULL
