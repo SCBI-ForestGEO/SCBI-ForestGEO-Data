@@ -76,9 +76,21 @@ write.csv(sigeo, file= "tree_main_census/data/census-csv-files/scbi_stem_utm_lat
 # how to find grid corners
 library(rgdal)
 library(broom)
+library(data.table)
 
-grid <- readOGR("C:/Users/mcgregori/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data", layer="ForestGEO_grid_outline")
+#get corner coordinates in UTM
+grid <- readOGR("D:/Dropbox (Smithsonian)/Github_Ian/SCBI-ForestGEO-Data/spatial_data/shapefiles", layer="ForestGEO_grid_outline")
 grid <- tidy(grid)
 
 grid <- grid[1:4, ]
 grid$position <- c("NW", "SW", "SE", "NE")
+
+grid_utm <- grid[, c(1:2)]
+
+#convert coordinates to WGS84
+sputm <- SpatialPoints(grid_utm, proj4string=CRS("+proj=utm +zone=17N +datum=WGS84"))
+spgeo <- spTransform(sputm, CRS("+proj=longlat +datum=WGS84"))
+spgeo <- as.data.frame(spgeo)
+
+setnames(spgeo, old=c("long", "lat"), new=c("long_WGS84", "lat_WGS84"))
+grid <- cbind(grid, spgeo)
