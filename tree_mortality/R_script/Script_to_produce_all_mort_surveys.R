@@ -28,7 +28,7 @@ mort18$tag_stem <- paste(mort18$tag,  mort18$stem, sep = "_")
 census3$DBH_2018 <- mort18$dbh.2013[match(census3$tag_stem, mort18$tag_stem)]
 
 # Subset for trees that are DBH >= 100 in census 3 or that are dead (dbh is NA or 0) in census 3  BUT for which the DBH in mort18 is >= 100 AND all fraxinus species >= 10
-mort19 <- census3[(!is.na(census3$DBH) & census3$DBH >= 100) | ((is.na(census3$DBH) | census3$DBH == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) | (census3$Mnemonic %in% c("fram", "frni", "frpe", "frsp") & census3$DBH >= 10), ]
+mort19 <- census3[(!is.na(census3$DBH) & census3$DBH >= 100) | ((is.na(census3$DBH) | census3$DBH == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) | (census3$Mnemonic %in% c("fram", "frni", "frpe", "frsp") & !is.na(census3$DBH) & census3$DBH >= 10), ]
 
 # Format mort19 ####
 
@@ -64,5 +64,5 @@ mort19[irrelevant] <- NULL
 mort19 <- mort19[order(mort19$quadrat, mort19$tag), ]
 
 # Save as csv ####
-write.csv(mort19, "C:/Users/terrella3/Dropbox (Smithsonian)/GitHub_Alyssa/SCBI-ForestGEO-Data/tree_mortality/raw data/Mortality_Survey_2019.csv", row.names = FALSE)
+write.csv(mort19, "C:/Users/terrella3/Dropbox (Smithsonian)/GitHub_Alyssa/SCBI-ForestGEO-Data/tree_mortality/raw data/Mortality_Survey_2019REALLYUPDATED.csv", row.names = FALSE)
 
