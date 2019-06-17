@@ -27,7 +27,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **[Insect pests and pathogens](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/insects_pathogens)**
 
 ### Tree censuses
-- **Main ForestGEO census data** - Three (3) full censuses following ForestGEO protocol of our 25.6ha plot have been conducted in 2008, 2013, and 2018. Data for census 1 and census 2 are avaible [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census). Data entry and checking for census 3 is still in progress. These data are available upon request through [ForestGEO Data Portal](http://ctfs.si.edu/datarequest/).
+- **Main ForestGEO census data** - Three (3) full censuses following ForestGEO protocol of our 25.6ha plot have been conducted in 2008, 2013, and 2018. Data are available upon request through [ForestGEO Data Portal](http://ctfs.si.edu/datarequest/). Copies are also posted [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census), but the master version resides on the ForestGEO Data Portal, and anyone wishing to use the data should obtain from there. 
 
 - **[Tree mortality (annual)](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_mortality)**
 
