@@ -16,9 +16,8 @@ census3 <- read.csv("C:/Users/terrella3/Dropbox (Smithsonian)/GitHub_Alyssa/SCBI
 mort18 <- read.csv("C:/Users/terrella3/Dropbox (Smithsonian)/GitHub_Alyssa/SCBI-ForestGEO-Data/tree_mortality/raw data/Mortality_Survey_2018.csv", stringsAsFactors=FALSE)
 
 # Prepare census 3 ####
-census3 <- census3[census3$CensusID %in% 3, ] # Subset to keep only data collected during census3
+census3 <- census3[census3$CensusID %in% 3, ] # Subset to keep only data collected during census 3
 census3$DBH <- as.numeric(census3$DBH) # Make sure DBH is a numeric, will coerce NULL to NA
-# Add code to filter out fraxinus > 1cm in future!!!
 
 # Create a unique ID ####
 census3$tag_stem <- paste(census3$Tag, census3$StemTag, sep = "_") 
