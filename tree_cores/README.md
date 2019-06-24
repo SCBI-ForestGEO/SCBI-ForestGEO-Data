@@ -2,7 +2,7 @@
 
 ## Overview 
 This folder contains tree-ring data from the SCBI ForestGEO plot. It includes two sets of cores (live tree cores taken 2010-2011, dead tree cores taken 2016-2017), which have been combined to build chronologies. 
-- **[chronologies](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_cores/chronologies)** - These are our current best chronologies, some of which are complete and others of which are in the process of development. These were developed for and an analysis led by Ryan Helcoski (see [this repository](https://github.com/SCBI-ForestGEO/climate_sensitivity_cores)) and match chronologies used in that analysis as of December 2018. This repository is considered the master version of SCBI chronologies, and future developments will be registered here.
+- **[chronologies](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_cores/chronologies)** - These are our current best chronologies, some of which are complete and others of which are in the process of development. These were developed for an analysis led by Ryan Helcoski (see [this repository](https://github.com/SCBI-ForestGEO/climate_sensitivity_cores)) and match chronologies used in that analysis as of December 2018. This repository is considered the master version of SCBI chronologies, and future developments will be registered here.
 - **[cross-dated_cores_CSVformat](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores/cross-dated_cores_CSVformat)** - This folder contains all cross-dated cores (those in [chronologies](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_cores/chronologies)) rearranged into .csv format, which is more convenient than .rwl for certain types of analyses. 
 - **[R-script](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores/R-script)**-This folder contains scripts used to manipulate the data in this repository. Included are scripts for data rearrangement and general-interest scripts; those used for specific analyses are housed elsewhere.
 - **[measurement files](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_cores/measurement_files)**- This folder contains raw and intermediary data files, the latter of which were produced during the process of chronology building. These files are not ready for analysis (*i.e.*, not fully cross-dated), but are archived here in case they are ever needed. 
@@ -28,7 +28,7 @@ Dead tree cores: summer 2016, summer 2017
 
 As of 2018, we have final chronologies for 14 canopy species, including the top 12 contributors to ANPP_stem (all species contributing >1% of ANPP_stem). We have cores for other species for which we not yet developed chronologies because of insufficient sample size and/or the difficult nature of working with cores from the species. 
 
-All species for which cores were taken and the statuses of their chronologies are give [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/tree_cores/chronologies/chronology_list.csv).
+All species for which cores were taken and the statuses of their chronologies are given [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/blob/master/tree_cores/chronologies/chronology_list.csv).
 
 
 ## Tree data
