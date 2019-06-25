@@ -71,7 +71,7 @@ ggsave(filename = "spatial_data/maps/ForestGEO_plot.jpg", plot = ggplot_test)
 ##if you want to add points to this map (similar to dendrobands or some other research), use the following lines before making the map.
 ##This is the same methodology used in the "survey_maps.R" script for dendrobands.
 
-library (RCurl)
+library(RCurl)
 sigeo <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/scbi.stem3_TEMPORARY.csv"))
 
 # plot grid coordinates to see if they make sense
