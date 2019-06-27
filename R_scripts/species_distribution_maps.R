@@ -1,16 +1,16 @@
 ###############################################
 # Purpose: Create maps via 'ggplot2' that displays the distribution of each species throughout the SCBI plot
-# Developed by: Alyssa Terrell - terrella3@si.edu | Altered by Ian McGregor
+# Developed by: Alyssa Terrell - terrella3@si.edu | Modified by Ian McGregor
 # R version 3.5.2 - First created April 2019
 ###############################################
 
 library(RCurl) #1
 library(rgdal) #2a
-library(fgeo) #2a, package sp is loaded with this package
+library(fgeo) #2a (sp is loaded), 5
 library(broom) #2a for the tidy function
 library(ggplot2) #3, 4
-library(sf) #3 for mapping
-library(ggthemes) #3 needed for plot theme
+library(sf) #4 for mapping
+library(ggthemes) #4 needed for plot theme
 
 
 #1 Convert SIGEO coordinates to decimal degrees and UTM NAD83 coordinates #####
@@ -94,13 +94,53 @@ contour_10m_df <- tidy(contour_10m)
 
 elevation_labels <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/spatial_data/elevation/contour10m_SIGEO_coords.csv"), stringsAsFactors = FALSE)
 
-#3. Loop to create maps for all species ####
+#3. Define axis labels to add to plot maps ####
+##this code adds in meter marks and associated tick marks
+x_meters <- annotate("text", 
+                     x = seq(747390, 747780, length.out = 5), 
+                     y = seq(4308495, 4308505, length.out = 5), 
+                     label = c("0", "100", "200", "300", "400"), 
+                     size = 3, color = "black")
+
+y_meters <- annotate("text", 
+                     x = seq(747350, 747365, length.out = 7), 
+                     y = seq(4309125, 4308505, length.out = 7), 
+                     label = c("600", "500", "400", "300", "200", "100", "0"), 
+                     size = 3, color = "black")
+
+x_ticks <- annotate("point",
+                    x = seq(747386, 747786, length.out = 5), 
+                    y = seq(4308506, 4308515, length.out = 5),
+                    shape = 3,
+                    color = "black")
+
+y_ticks <- annotate("point",
+                    x = seq(747371, 747386, length.out = 7),
+                    y = seq(4309125, 4308506, length.out = 7), 
+                    shape = 3,
+                    color = "black")
+
+## this code adds the row and column numbers based on coordinates
+rows <- annotate("text", x = seq(747350, 747365, length.out = 32), y = seq(4309125, 4308505, length.out = 32), label = sprintf("%02d", 32:1), size = 3, color = "black")
+
+cols <- annotate("text", x = seq(747390, 747765, length.out = 20), y = seq(4308495, 4308505, length.out = 20), label = sprintf("%02d", 1:20), size = 2.8, color = "black")
+# x and y give the x/yposition on the plot; sprintf says to add 0 for single digits, the x/y=seq(...,length.out) says fit the label within these parameters, fitting the length of the label evenly.
+
+##add this code at end of loop above and before saving
+ggplot_test <- ggplot_test + rows + cols
+
+#4. Loop to create maps for all species ####
 ##reminder as from #1 above, these column names and statuses WILL need to be changed when the 2018 data goes public
 
+##prepare sigeo
 sigeo$Status <- ifelse(grepl("dead", sigeo$Status), "dead", "live")
 sigeo$DBH <- ifelse(grepl("dead", sigeo$Status), 0, sigeo$DBH)
 sigeo$DBH <- as.numeric(sigeo$DBH)
+sigeo$color <- ifelse(sigeo$DBH == 0, "black",
+                      ifelse(sigeo$DBH >0 & sigeo$DBH<=100, "green",
+                      ifelse(sigeo$DBH > 100 & sigeo$DBH <= 350, "gold", "blue")))
 
+##make maps
 for(i in seq(along = unique(sigeo$Mnemonic))){
   focus_sp <- unique(sigeo$Mnemonic)[[i]]
   focus_sp_df <- sigeo[sigeo$Mnemonic == focus_sp, ]
@@ -108,21 +148,15 @@ for(i in seq(along = unique(sigeo$Mnemonic))){
   focus_sp_dead <- subset(focus_sp_df, Status == "dead")
   
   #ggplot code ####
-  ggplot_test <- ggplot() +
-    geom_point(data = focus_sp_alive, aes(x = NAD83_X, y = NAD83_Y, color = DBH)) +
-    #color for focus_sp_dead = black by default!! This is not included in legend.
-    geom_point(data = focus_sp_dead, aes(x = NAD83_X, y = NAD83_Y)) +
-    #geom_path(data = ForestGEO_grid_outline_df, aes(x = long, y = lat, group = group)) +
+  sp_map <- ggplot() +
+    geom_point(data = focus_sp_alive, aes(x = NAD83_X, y = NAD83_Y), color = focus_sp_alive$color) +
+    geom_point(data = focus_sp_dead, aes(x = NAD83_X, y = NAD83_Y), color = focus_sp_dead$color) +
     geom_path(data = scbi_plot_df, aes(x = long, y = lat, group = group)) +
     geom_path(data = roads_df, aes(x = long, y = lat, group = group), color = "brown",
               linetype = 2, size = 0.8) +
-    geom_path(data = streams_df, aes(x = long, y = lat, group = group), color = "blue", size = 0.5) +
-    labs() +
+    geom_path(data = streams_df, aes(x = long, y = lat, group = group), color = "light blue", size = 0.5) +
     geom_path(data = deer_df, aes(x = long, y = lat, group = group), size = .7) +
     geom_path(data = contour_10m_df, aes(x = long, y = lat, group = group), color = "gray", linetype = 1) +
-    scale_colour_gradientn(colours=rainbow(3)) +
-    ### scale_fill_continuous(type = "viridis") + ###
-    ### scale_color_viridis_c() + ###
     theme(plot.title = element_text(vjust=0.1),
           axis.title.x = element_blank(),
           axis.text.x = element_blank(),
@@ -132,20 +166,35 @@ for(i in seq(along = unique(sigeo$Mnemonic))){
           axis.ticks.y = element_blank()) +
     coord_sf(crs = "crs = +proj=merc", xlim = c(747350, 747800), ylim = c(4308500, 4309125)) +
     theme(panel.grid.major = element_line(colour = 'transparent')) +
-    theme(legend.position = "bottom", legend.box = "horizontal") +
-    theme(panel.background = element_rect(fill = "gray98")) +
-    ggtitle(paste0(focus_sp, "_2018"))
+    # theme(legend.position = "bottom", legend.box = "horizontal") +
+    theme(panel.background = element_blank())
   
+    ggplot_test <- sp_map + 
+      x_meters +
+      x_ticks +
+      y_meters +
+      y_ticks
+    
   #save maps to folder
   ggsave(filename = paste0("spatial_data/maps/species_maps/", focus_sp, ".jpg"), plot = ggplot_test)
 }
 
-#4. Add in row and column numbers to plot graphs ####
-## this code adds the row and column numbers based on coordinates
-rows <- annotate("text", x = seq(747350, 747365, length.out = 32), y = seq(4309125, 4308505, length.out = 32), label = sprintf("%02d", 32:1), size = 3, color = "black")
+#5. Create map with fgeo package ####
+##this package easily creates faceted maps of all species distributions in our plot (as seen below). However, this doesn't allow for manually changing the colors of the points based on DBH, nor does it include the stream and road lines.
 
-cols <- annotate("text", x = seq(747390, 747765, length.out = 20), y = seq(4308495, 4308505, length.out = 20), label = sprintf("%02d", 1:20), size = 2.8, color = "black")
-# x and y give the x/yposition on the plot; sprintf says to add 0 for single digits, the x/y=seq(...,length.out) says fit the label within these parameters, fitting the length of the label evenly.
+## for further reference, see source: https://github.com/forestgeo/fgeo.plot
 
-##add this code at end of loop above and before saving
-ggplot_test <- ggplot_test + rows + cols
+#note, read_vft specifically is regarding the "ViewFullTable" file
+test <- read_vft(file = (getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/master/census%20data/ViewFullTable_crc_master.csv?token=AJNRBEKU5NOO5E7BOP73SHS5DYGNI")))
+
+setnames(test1, old=c("PX", "PY", "Mnemonic"), new=c("gx", "gy", "sp"))
+
+elevation <- scbi_elev
+
+test1 <- test %>%
+  filter(CensusID == 3) %>%
+  filter(sp %in% c("libe"))
+
+
+
+autoplot(sp_elev(test1, elevation))
