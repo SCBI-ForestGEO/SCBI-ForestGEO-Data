@@ -11,6 +11,7 @@ library(broom) #2a for the tidy function
 library(ggplot2) #3, 4
 library(sf) #4 for mapping
 library(ggthemes) #4 needed for plot theme
+library(directlabels)
 
 
 #1 Convert SIGEO coordinates to decimal degrees and UTM NAD83 coordinates #####
@@ -72,7 +73,7 @@ ForestGEO_grid_outline <- readOGR("spatial_data/shapefiles/ForestGEO_grid_outlin
 deer <- readOGR("spatial_data/shapefiles/deer_exclosure_2011.shp")
 roads <- readOGR("spatial_data/shapefiles/SCBI_roads_edits.shp")
 streams <- readOGR("spatial_data/shapefiles/SCBI_streams_edits.shp")
-contour_10m <- readOGR("spatial_data/shapefiles/contour10m_SIGEO_clipped.shp")
+# contour_10m <- readOGR("spatial_data/shapefiles/contour10m_SIGEO_clipped.shp") #taken care of by elevation labels in 2b
 
 #Use this option if you want to visualize the plot WITH quadrat/grid lines
 # scbi_plot_df <- tidy(scbi_plot)
@@ -84,7 +85,7 @@ scbi_plot_df <- tidy(ForestGEO_grid_outline)
 deer_df <- tidy(deer)
 roads_df <- tidy(roads)
 streams_df <- tidy(streams)
-contour_10m_df <- tidy(contour_10m)
+# contour_10m_df <- tidy(contour_10m)
 
 
 #2b. Get contour labels ####
@@ -93,6 +94,8 @@ contour_10m_df <- tidy(contour_10m)
 # direct.label.ggplot(ggplot_test, method="bottom.pieces")
 
 elevation_labels <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/spatial_data/elevation/contour10m_SIGEO_coords.csv"), stringsAsFactors = FALSE)
+
+elevation_labels$label <- ifelse(elevation_labels$order == 1, elevation_labels$elev, NA)
 
 #3. Define axis labels to add to plot maps ####
 ##this code adds in meter marks and associated tick marks
@@ -134,18 +137,21 @@ ggplot_test <- ggplot_test + rows + cols
 
 ##prepare sigeo
 sigeo$Status <- ifelse(grepl("dead", sigeo$Status), "dead", "live")
-sigeo$DBH <- ifelse(grepl("dead", sigeo$Status), 0, sigeo$DBH)
 sigeo$DBH <- as.numeric(sigeo$DBH)
+sigeo$DBH <- ifelse(is.na(sigeo$DBH), 0, sigeo$DBH)
+
 sigeo$color <- ifelse(sigeo$DBH == 0, "black",
-                      ifelse(sigeo$DBH >0 & sigeo$DBH<=100, "green",
+                      ifelse(sigeo$DBH >0 & sigeo$DBH<=100, "dark green",
                       ifelse(sigeo$DBH > 100 & sigeo$DBH <= 350, "gold", "blue")))
 
 ##make maps
+
+
 for(i in seq(along = unique(sigeo$Mnemonic))){
   focus_sp <- unique(sigeo$Mnemonic)[[i]]
   focus_sp_df <- sigeo[sigeo$Mnemonic == focus_sp, ]
-  focus_sp_alive <- subset(focus_sp_df, Status == "live")
-  focus_sp_dead <- subset(focus_sp_df, Status == "dead")
+  focus_sp_alive <- focus_sp_df[focus_sp_df$Status == "live", ]
+  focus_sp_dead <- focus_sp_df[focus_sp_df$Status == "dead", ]
   
   #ggplot code ####
   sp_map <- ggplot() +
@@ -154,9 +160,10 @@ for(i in seq(along = unique(sigeo$Mnemonic))){
     geom_path(data = scbi_plot_df, aes(x = long, y = lat, group = group)) +
     geom_path(data = roads_df, aes(x = long, y = lat, group = group), color = "brown",
               linetype = 2, size = 0.8) +
-    geom_path(data = streams_df, aes(x = long, y = lat, group = group), color = "light blue", size = 0.5) +
+    geom_path(data = streams_df, aes(x = long, y = lat, group = group), color = "light blue", size = 1) +
     geom_path(data = deer_df, aes(x = long, y = lat, group = group), size = .7) +
-    geom_path(data = contour_10m_df, aes(x = long, y = lat, group = group), color = "gray", linetype = 1) +
+    geom_path(data = elevation_labels, aes(x = x, y = y, group = group), color = "grey", linetype = 1) +
+    geom_text(data = elevation_labels, aes(x = x, y = y, label = label), angle=-70, nudge_x = 8, nudge_y = -15, size = 3) +
     theme(plot.title = element_text(vjust=0.1),
           axis.title.x = element_blank(),
           axis.text.x = element_blank(),
@@ -175,9 +182,10 @@ for(i in seq(along = unique(sigeo$Mnemonic))){
       y_meters +
       y_ticks
     
-  #save maps to folder
-  ggsave(filename = paste0("spatial_data/maps/species_maps/", focus_sp, ".jpg"), plot = ggplot_test)
+    #the dimensions of the outputs need to be played with
+    ggsave(filename = paste0("D:/Dropbox (Smithsonian)/Github_Ian/SCBI-Plot-Book/maps_figures_tables/ch_3_distribution_maps/", focus_sp, ".jpg"), plot = ggplot_test, device = "jpeg")
 }
+
 
 #5. Create map with fgeo package ####
 ##this package easily creates faceted maps of all species distributions in our plot (as seen below). However, this doesn't allow for manually changing the colors of the points based on DBH, nor does it include the stream and road lines.
@@ -187,7 +195,7 @@ for(i in seq(along = unique(sigeo$Mnemonic))){
 #note, read_vft specifically is regarding the "ViewFullTable" file
 test <- read_vft(file = (getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/master/census%20data/ViewFullTable_crc_master.csv?token=AJNRBEKU5NOO5E7BOP73SHS5DYGNI")))
 
-setnames(test1, old=c("PX", "PY", "Mnemonic"), new=c("gx", "gy", "sp"))
+setnames(test, old=c("PX", "PY", "Mnemonic"), new=c("gx", "gy", "sp"))
 
 elevation <- scbi_elev
 
