@@ -1,8 +1,8 @@
 # SCBI Tree census
 
 ## Overview 
-This [folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census/data) contains the _R Analytical tables_ for census 1 (2008) and census 2 (2013) at SCBI (also available in .csv format). 
-R tables are created once all data have been checked and corrected after a tree survey is finished in a ForestGEO plot. In general, each plot have a `full table` and a `stem table` per census. This is the most convenient format for analyzing census data using R functions from the ForestGEO R Package available [here](https://forestgeo.github.io/fgeo/).
+This [folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census/data) contains the _R Analytical tables_ for census 1 (2008), census 2 (2013), and census 3 (2018) at SCBI (also available in .csv format). 
+R tables are created once all data have been checked and corrected after a tree survey is finished in a ForestGEO plot. Each plot have a a `stem table` per census. This is the most convenient format for analyzing census data using R functions from the ForestGEO R Package available [here](https://forestgeo.github.io/fgeo/).
 
 ## Sampling location
 [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute)
@@ -10,7 +10,9 @@ R tables are created once all data have been checked and corrected after a tree 
 
 ## Species
 
-List of tagged tree species can be found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Tree%20ecology)
+List of tagged tree species can be found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_main_census/data/census-csv-files/scbi.spptable.csv).
+
+A more comprehensive list of species with ecological and botanical data for the plot is found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/Tree%20ecology)
 
 
 ## Sampling dates
@@ -27,7 +29,7 @@ See [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/ful
 Check metadata and other details for [full table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_main_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Full.pdf) and [stem table](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_main_census/metadata/CTFS_R_FORMATTED_DATA_TABLES_Stem.pdf).
 
 ## Data version
-Data in this repository (as of November 2018) were last updated in 2014.
+Data in this repository were last updated in June 28, 2019.
 
 ## Data use
 
