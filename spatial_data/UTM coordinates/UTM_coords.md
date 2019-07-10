@@ -2,7 +2,7 @@
 
 These are the plot corners, perimeter midpoints and center point geo-corrected in NAD83, UTM Zone 17S.  If they need UTM coordinates for each stem, they can be calculated from the southwest corner (quadrat stake 01,01) coordinates and the global x, y (gx, gy coordinates).
 
-*Point* | *UTM Zone 15S Northing* | *UTM Zone 17S Easting*
+*Point* | *UTM Zone 17S Northing* | *UTM Zone 17S Easting*
 --- | --- | ---
 SW plot corner (origin - 01,01) | 4308503.857 | 747383.614 
 S perimeter midpoint (11,01) |	4308509.013	|747585.729
