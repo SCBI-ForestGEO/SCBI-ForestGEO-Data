@@ -1,12 +1,17 @@
-##### Script to go from SIGEO quadrat coordinates to SIGEO grid coordinates to NAD83 coordinates #####
-## written by Dunbar Carpenter, edited by J.Thompson ###
-## 2/1/2011
-
-#Modified by Erika Gonzalez 03/01/2017 and Ian McGregor 04/08/2019
+######################################################
+# Purpose: Script to go from SIGEO quadrat coordinates to SIGEO grid coordinates to NAD83 coordinates
+# Developed by: Dunbar Carpenter, 2/1/2011
+## Edited by: Jonathan Thompson, 2/1/2011
+## Modified by: Erika Gonzalez, 3/1/2017 & Ian McGregor 4/8/2019
+# R version 3.5.3
+######################################################
+library(RCurl)
+library(rgdal)
+library(sp)
 
 #Read full data or stem data files, bring them from V:\SIGEO\3-RECENSUS 2013\DATA\FINAL DATA to use, to share
 #Here we will use stem2, where all stems measured in 2013 (last census) are included.
-sigeo <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem2.csv"), stringsAsFactors=FALSE)
+sigeo <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv"), stringsAsFactors=FALSE)
 #from Github/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files
 
 #plot grid coordinates to see if they make sense
@@ -24,7 +29,7 @@ sigeo$ly <- round(sigeo$ly, digits=1)
 
 names(sigeo)
 
-## these lines below are greyed out because they do were originally used to calculate the lx and ly (which are done above in one line of code). They can be deleted, but are kept only for posterity.
+## these lines below are greyed out because they do were originally used to calculate the lx and ly (which are done above in one line of code). They can be deleted, but are kept for posterity.
 
 ## divide 4-digit quadrat number by 100 w/o remainder and w/ remainder to get quadrat x and y columns and rows separately
 # sigeo$quadrat_x <- as.numeric(as.character(sigeo$quadrat)) %/% 100
@@ -35,11 +40,6 @@ names(sigeo)
 # sigeo$grid_x <- 20*(sigeo$quadrat_x - 1)
 # sigeo$grid_y <- 20*(sigeo$quadrat_y - 1)
 
-
-#Instal this package if you don't have it, get libraries
-#install.packages("rgdal")
-library(rgdal)
-library(sp)
 
 ## NAD83 coordinates of the SW and NW corners of the SIGEO plot
 NAD83.SW <- c(747385.521, 4308506.438)                     
@@ -70,7 +70,7 @@ sigeo$lon <- coordinates(longlatcoor)[,1]
 plot(sigeo$lon, sigeo$lat)
 
 #write a csv if you need to
-write.csv(sigeo, file= "tree_main_census/data/census-csv-files/scbi_stem_utm_lat_long.csv", row.names=FALSE)
+write.csv(sigeo, file= "spatial_data/UTM coordinates/scbi_stem_utm_lat_long_2018.csv", row.names=FALSE)
 
 ############################################################################################
 # how to find grid corners

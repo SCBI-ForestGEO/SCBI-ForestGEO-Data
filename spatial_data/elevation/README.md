@@ -22,12 +22,15 @@ similarly to 640 m (rebar 01,33)._
 |elev|Elevation in meters |
 
 ## Additional files
+[dem-sigeo]() = raster file with elevation of the SIGEO plot (and immediate surroundings). File is a USGS DEM originally obtained by Jonathan Thompson via reprojection in ArcGIS. To get elevation data for lon/lat coordinates of census stems in ArcGIS, use Geoprocessing Tools > Spatial Analyst > Extraction > Extract Multivalues to Points. An example of an output using the 2013 census data is below.
+- For the record, this file won't open in ArcGIS 10.7 and it is unclear why
+
+[rasters](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data/elevation/rasters) = folder of raster files (.tif) showing elevation of plot, along with upslope area and topographic wetness index. Because these files are not viewable in standard image viewers, corresponding .png files are also present.
+
+[sigeo_5m_dem](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data/elevation/sigeo_5m_dem) = elevation shapefile at 5m intervals
+
 [contour_10m_SIGEO_coords](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/spatial_data/elevation/contour10m_SIGEO_coords.csv) = csv with UTM coordinates of contour polylines in 10m increments. This is a dataframe output of the contour_10m shapefile.
 
-[dem-sigeo]() = raster file with elevation of the SIGEO plot (and immediate surroundings). File is a USGS DEM originally obtained by Jonathan Thompson via reprojection in ArcGIS. To get elevation data for lon/lat coordinates of census stems in ArcGIS, use Geoprocessing Tools > Spatial Analyst > Extraction > Extract Multivalues to Points. An example of an output using the 2013 census data is below.
-
 [full_stem_elevation_2013.csv](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/spatial_data/elevation/full_stem_elevation_2013.csv) = csv with full stem data from 2013 (scbi.stem2), but with elevation (m) for each stem. This was obtained from using the dem-sigeo raster in ArcGIS.
-
-
 
 
