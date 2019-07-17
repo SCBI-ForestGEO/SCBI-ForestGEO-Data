@@ -12,17 +12,15 @@ library(dynatopmodel)
 #https://cran.r-project.org/web/packages/dynatopmodel/dynatopmodel.pdf
 
 #1 Define an empty raster to match plot dimensions
+# grid <- readOGR(dsn = "spatial_data/shapefiles", layer = "ForestGEO_grid_outline")
 
-# scbi_plot <- readOGR(dsn = "spatial_data/shapefiles", layer = "ForestGEO_grid_outline")
-# ext <- extent(scbi_plot)
-
-##If these x and y min/max aren't working or dimensions need to be more exact, use the extent from the shapefile above
-ext <-  extent(747375, 747783, 4308510, 4309155)
+ext <- extent(747370.6, 747785.8, 4308505.5, 4309154.8) #these come from the grid shapefile and represent the tilted plot
 xy <- abs(apply(as.matrix(bbox(ext)), 1, diff))
 n <- 5
 r <- raster(ext, ncol=xy[1]*n, nrow=xy[2]*n)
 proj4string(r) <- CRS("+proj=utm +zone=17 +datum=NAD83 +units=m +no_defs +ellps=GRS80 +towgs84=0,0,0")
 
+# ext <- extent(747375, 747785, 4308510, 4309155) #these are for a vertical representation of the plot
 
 #2 Get elevation raster from online
 q <- get_elev_raster(r, z=14)
@@ -32,6 +30,7 @@ q <- get_elev_raster(r, z=14)
 r <- raster(ext, res = 5)
 q <- resample(q, r)
 res(q)
+proj4string(q) <- CRS("+proj=utm +zone=17 +datum=NAD83 +units=m +no_defs +ellps=GRS80 +towgs84=0,0,0") #q lost its crs in the resample function
 plot(q)
 
 
@@ -64,3 +63,30 @@ for(i in seq(along=1:4)){
 }
 
 
+#7 overlay with plot
+grid <- readOGR(dsn = "spatial_data/shapefiles", layer = "20m_grid")
+
+w <- mask(layers[[3]], grid) #clips raster to grid polygon
+plot(w)
+plot(grid, add=TRUE)
+points(trees$NAD83_X, trees$NAD83_Y)
+
+
+#8 extract TWI value for specific trees
+trees <- read.csv("D:/Dropbox (Smithsonian)/Github_Ian/McGregor_climate-sensitivity-variation/data/core_list_for_neil.csv")
+trees <- trees[, c(1,23:24)]
+trees1 <- trees[, c(2:3)]
+
+twi_values <- extract(layers[[3]], trees1, method="simple")
+
+trees$TWI <- twi_values
+
+
+########################################################################################
+#for the record, here is the angle at which the plot is rotated compared to vertical
+## NAD83 coordinates of the SW and NW corners of the SIGEO plot
+NAD83.SW <- c(747385.521, 4308506.438)                     
+NAD83.NW <- c(747370.676, 4309146.156)
+
+## Angle (in radians) at which the plot's western boundary is offset from true NAD83 line of latitude
+Offset <- atan2(NAD83.NW[1] - NAD83.SW[1], NAD83.NW[2] - NAD83.SW[2])
