@@ -1378,7 +1378,7 @@ cagl,316,8.4,3.3,30567,1,NA,DC,A,DS,PD,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/W
 qusp,316,9.2,3.2,30568,1,NA,DC,PD,PD,PD,PD,PD ,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 tiam,316,1.9,3.4,30570,1,245,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cagl,316,2.4,4.3,30571,1,311,NULL,A,A,A,A,A,,,,,,,,,,,,,,,tag swallowed,,7/16/2019,Terrell/Ward
-cato,316,11.7,8.3,30574,1,131,NULL,A,A,A,A,AU,,,I,Break in crown,,,,,,,,,,main stem break at ?5 m but looks healthy,,,7/16/2019,Terrell/Ward
+cato,316,11.7,8.3,30574,1,131,NULL,A,A,A,A,AU,,,I,B,,,,,,,,,,main stem break at ?5 m but looks healthy,Break in crown,,7/16/2019,Terrell/Ward
 cagl,316,7.2,10.3,30578,1,130,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cato,316,3.5,8.9,30580,1,227,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cato,316,1.4,8.2,30581,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
@@ -4833,7 +4833,7 @@ nysy,1006,4.7,7.4,100795,1,216,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Wool
 litu,1006,8.7,5.6,100799,1,140,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,1006,13.1,6.7,100832,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,1006,16.1,5.6,100834,1,211,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-nysy,1006,15.2,10.5,100839,1,225,F;M,A,A,A,A,AU,,,I,,,,,,,,,,,,see pic of bark shed - doesn't seem indicative of animal,,7/9/2019,Terrell/Woolford/Ward
+nysy,1006,15.2,10.5,100839,1,225,F;M,A,A,A,A,AU,,,I,,,,,,,,,,,,"see pic of bark shed - doesn't seem indicative of animal, maybe from a branch",,7/9/2019,Terrell/Woolford/Ward
 litu,1006,14,16.2,100855,1,641,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 litu,1006,20,18.6,100861,1,183,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,1006,7.2,9,101005,1,616,F;I,A,A,A,A,A,,,,,,,,,,,,,,,AN,,7/9/2019,Terrell/Woolford/Ward
@@ -9561,7 +9561,7 @@ ulru,1912,13.4,3.2,190755,1,138,A,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Woolford/W
 caco,1912,16.9,8.2,190762,1,128,NULL,A,A,A,A,A,,,,,,,,,,,,,,,liana,,7/11/2019,Woolford/Ward
 fram,1912,12.5,11.5,190765,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 fram,1912,14.7,14.1,190767,1,154,NULL,A,A,AU,A,AU,,,I,AN,DF,LF,,3,,2,2,none,,,leaves eaten,,7/11/2019,Woolford/Ward
-fram,1912,14.2,16.9,190770,1,212,NULL,A,A,A,A,DS,213,,CD,R1,,,,,,5,4,SS,,,,could not core,7/11/2019,Woolford/Ward
+fram,1912,14.2,16.9,190770,1,212,NULL,A,A,A,A,DS,213,,CD,R1,,,,,,5,4,SS,,,could not core,no,7/11/2019,Woolford/Ward
 ceca,1912,19.7,16,190773,1,NA,DC,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 frni,1912,18,18.2,190774,1,112,DS,A,AU,DS,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 caco,1912,18.9,19.4,190775,1,129,I,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
