@@ -135,7 +135,7 @@ litu,109,2.5,19.1,10556,1,819,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Te
 caca,110,1.9,3.7,10487,1,132,L;M,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
 acru,110,3.2,5.2,10488,1,341,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
 caca,110,11.5,3.8,10489,1,115,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
-havi,110,18.5,2.6,10491,1,113,DS,A,AU,AU,AU,,,,,,,,,,,,,,,old break @ ~1.5m,,,7/11/2019,Alyssa Terrell
+havi,110,18.5,2.6,10491,1,113,DS,A,AU,AU,AU,DS,110,1,I,B,R,,,,0,,,,,old break @ ~1.5m,break in crown; too small to core,no,7/11/2019,Alyssa Terrell
 caca,110,14.4,4.8,10492,1,195,B,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
 havi,110,19.2,6.3,10494,1,NA,DS,A,A,AU,DS,PD,,,,,,,,,,,,,,stem split; break at ?1.3m - cannot core,,,7/11/2019,Alyssa Terrell
 havi,110,19.2,6.3,10494,2,103,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
@@ -9045,7 +9045,7 @@ caco,1812,2.2,15.4,180973,1,278,NULL,A,A,A,A,A,,,,,,,,,,,,,,tag missing; sp=caco
 ceca,1813,13.5,2.1,180822,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 ceca,1813,15.6,4.8,180825,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 juni,1813,12.4,6.5,180826,1,390,NULL,A,A,A,A,A,,,,,,,,,,,,,,tag missing,,,7/11/2019,Woolford/Ward
-fram,1813,16.1,10.1,180828,1,255,NULL,A,A,A,AU,DS,,,I,,,,,,,2,4,"VB, SS, AS, W",,STINGING NETTLE,,,7/11/2019,Woolford/Ward
+fram,1813,16.1,10.1,180828,1,255,NULL,A,A,A,AU,AU,,,I,DF,,,,2,,2,4,"VB, SS, AS, W",,STINGING NETTLE,,,7/11/2019,Woolford/Ward
 ceoc,1813,19.2,10,180829,1,107,M,A,A,A,AU,AU,,,I,LF,,,,,,,,,,wilty leaves,wilting,,7/11/2019,Woolford/Ward
 ceoc,1813,18.7,12.7,180830,1,197,NULL,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaf discoloration; liana,,7/11/2019,Woolford/Ward
 ceoc,1813,17.9,13.2,180831,1,142,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
@@ -10021,7 +10021,7 @@ fram,2007,8.8,17.9,200594,1,99,DS,A,A,A,DS,PD,,,,,,,,,,,,,,,,,6/12/2019,Alyssa T
 juni,2007,15,3,200638,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/12/2019,Alyssa Terrell
 litu,2007,12.7,3.9,200639,1,198,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/12/2019,Alyssa Terrell
 litu,2007,19.7,18,200660,1,662,A,A,A,A,A,A,,,,,,,,,,,,,,,,,6/12/2019,Alyssa Terrell
-fram,2008,19.6,6.5,200670,1,234,NULL,A,AU,AU,AU,DS,221,1,CD,DF,,,,4,0,5,2,"AS, W",,Break @ ~5m,60% whitening; could not core,no,6/12/2019,Alyssa Terrell
+fram,2008,19.6,6.5,200670,1,234,NULL,A,AU,AU,AU,DS,221,1,CD,DF,,,,5,0,5,2,"AS, W",,Break @ ~5m,60% whitening; could not core,no,6/12/2019,Alyssa Terrell
 fram,2008,18.8,6.8,200673,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/12/2019,Alyssa Terrell
 litu,2008,12.2,6.9,200676,1,893,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/12/2019,Alyssa Terrell
 fram,2008,12.1,7.2,200677,1,45,J;M,A,A,A,A,A,,,S,,,,,,,1,0,none,,,,,6/12/2019,Alyssa Terrell
