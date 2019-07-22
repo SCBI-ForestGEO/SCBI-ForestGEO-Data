@@ -135,7 +135,7 @@ litu,109,2.5,19.1,10556,1,819,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Te
 caca,110,1.9,3.7,10487,1,132,L;M,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
 acru,110,3.2,5.2,10488,1,341,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
 caca,110,11.5,3.8,10489,1,115,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
-havi,110,18.5,2.6,10491,1,113,DS,A,AU,AU,AU,DS,110,1,I,B,R,,,,0,,,,,old break @ ~1.5m,break in crown; too small to core,no,7/11/2019,Alyssa Terrell
+havi,110,18.5,2.6,10491,1,113,DS,A,AU,AU,AU,DS,110,1,I,B,R,,,,0,,,,,old break @ ~1.5m,B in crown; too small to core,no,7/11/2019,Alyssa Terrell
 caca,110,14.4,4.8,10492,1,195,B,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
 havi,110,19.2,6.3,10494,1,NA,DS,A,A,AU,DS,PD,,,,,,,,,,,,,,stem split; break at ?1.3m - cannot core,,,7/11/2019,Alyssa Terrell
 havi,110,19.2,6.3,10494,2,103,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/11/2019,Alyssa Terrell
@@ -251,7 +251,7 @@ litu,117,10.9,3.2,12005,1,248,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/W
 caco,117,2.9,9,12007,1,264,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 litu,117,14.1,0.4,12009,1,443,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cagl,117,11.6,9.8,12010,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
-litu,117,12.3,9.7,12012,1,119,B,A,AU,AU,AU,AU,,,S,B,,,,,,,,,,break at ~4m,break at ~5m,,7/16/2019,Terrell/Ward
+litu,117,12.3,9.7,12012,1,119,B,A,AU,AU,AU,AU,,,S,B,,,,,,,,,,break at ~4m,B @ 5m,,7/16/2019,Terrell/Ward
 cagl,117,14.6,17.6,12016,1,140,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cato,117,14.2,16.6,12017,1,200,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 quve,117,10.8,19.1,12018,1,559,NULL,A,A,A,A,A,,,,,,,,,,,,,,B in one crown stem,,,7/16/2019,Terrell/Ward
@@ -291,7 +291,7 @@ nysy,119,0.3,10.5,12087,1,341,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/W
 litu,120,1,0.6,12088,1,696,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 caovl,120,5.4,1.5,12089,1,145,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 nysy,120,3.3,9.2,12091,1,265,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
-qupr,120,1,6.7,12092,1,136,NULL,A,A,A,A,AU,,,I,DF,LF,,,3,,,,,,,,leaves eaten,7/16/2019,Terrell/Ward
+qupr,120,1,6.7,12092,1,136,NULL,A,A,A,A,AU,,,I,DF,LF,,,3,,,,,,,leaves eaten,,7/16/2019,Terrell/Ward
 cofl,120,0.8,1.6,12093,1,100,NULL,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 qupr,120,18.8,2.3,12094,1,NA,DC,A,AU,AU,AU,DC,686,,D,S,,,,,,,,,,"crushed & leaning, coping well",fell in tag,yes - 2019,7/16/2019,Terrell/Ward
 cagl,120,11.5,6.6,12097,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
@@ -595,7 +595,7 @@ ceoc,204,14.2,9.2,20099,1,238,I,A,A,A,A,A,,,,,,,,,,,,,,anthracnose/wilt,,,6/25/2
 unk,204,15.4,11.9,20201,1,NA,DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 juni,204,15.4,13.3,20203,1,673,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 ceoc,204,13.3,9,20213,1,274,NULL,A,A,A,A,A,,,,,,,,,,,,,,anthracnose/wilt,,,6/25/2019,Terrell/Woolford
-fram,204,8.1,9.7,20243,1,411,NULL,A,A,A,A,DS,407,3,CD,I,BB,AN,,,0,3,0,"W, DE",3,,could not core,no,6/25/2019,Terrell/Woolford
+fram,204,8.1,9.7,20243,1,411,NULL,A,A,A,A,DS,407,3,CD,I,BB,AN,,,0,3,0,"W, DE",3,,bark too thick to core,no,6/25/2019,Terrell/Woolford
 fram,204,3,6.4,20251,1,73,DS,No sampled,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 fram,204,2.9,9.2,20256,1,72,DS,No sampled,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 fram,204,5.8,12.4,20404,1,NA,DS,A,A,AU,DS,PD,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
@@ -1140,7 +1140,7 @@ caca,302,11.3,15.1,30144,1,103,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell
 frni,302,11.5,16.3,30145,1,174,DS,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 frni,302,11.5,16.3,30145,2,159,DS,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 frni,302,15.3,17.9,30148,1,NA,DS,A,A,A,DS,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
-fram,303,12.4,4.5,30057,1,134,I,A,A,A,AU,AU,,,I,I,BB,R,,,,2,1,"SS, DE",6,Break @ ~3m,regrowth from break @ ~3m,,6/24/2019,Terrell/Woolford
+fram,303,12.4,4.5,30057,1,134,I,A,A,A,AU,AU,,,I,I,BB,R,,,,2,1,"SS, DE",6,Break @ ~3m,break and regrowth @ 3m,,6/24/2019,Terrell/Woolford
 caca,303,4.4,11.2,30059,1,131,L;M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 caca,303,4.4,11.2,30059,2,119,A;S;L,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 caca,303,3,12.4,30060,1,NA,DC,A,A,A,A,DC,162,3,CD,CR,,,,,0,,,,,,crushed by another tree and could not core,no,6/24/2019,Terrell/Woolford
@@ -1162,7 +1162,7 @@ unk,303,18.6,15.6,30175,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell
 unk,303,14.6,19.5,30189,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 ceoc,304,1,3.3,30069,1,103,NULL,NA,NA,NA,NA,AU,,,I,DF,,,,1,,,,,,,DF in lower part of canopy,,6/24/2019,Terrell/Woolford
 juni,304,0.3,3.3,30070,1,431,B,A,AU,AU,AU,AU,,,CD,DF,,,,3,,,,,,stem break at ?4 m; only secondary branches alive,stem break @ ~4m,,6/24/2019,Terrell/Woolford
-fram,304,4.2,2.4,30072,1,140,NULL,A,A,A,A,AU,,,I,DF,,,,4,,4,0,none,,,break in canopy but there is regrowth,,6/24/2019,Terrell/Woolford
+fram,304,4.2,2.4,30072,1,140,NULL,A,A,A,A,AU,,,I,DF,,,,4,,4,0,none,,,break and regrowth in canopy,,6/24/2019,Terrell/Woolford
 caco,304,7.4,0,30073,1,NA,DC,A,AU,DC,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 quru,304,2.5,13.2,30075,1,NA,DC,A,A,AU,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 qual,304,2.5,14.6,30076,1,465,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
@@ -1378,14 +1378,14 @@ cagl,316,8.4,3.3,30567,1,NA,DC,A,DS,PD,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/W
 qusp,316,9.2,3.2,30568,1,NA,DC,PD,PD,PD,PD,PD ,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 tiam,316,1.9,3.4,30570,1,245,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cagl,316,2.4,4.3,30571,1,311,NULL,A,A,A,A,A,,,,,,,,,,,,,,,tag swallowed,,7/16/2019,Terrell/Ward
-cato,316,11.7,8.3,30574,1,131,NULL,A,A,A,A,AU,,,I,B,,,,,,,,,,main stem break at ?5 m but looks healthy,Break in crown,,7/16/2019,Terrell/Ward
+cato,316,11.7,8.3,30574,1,131,NULL,A,A,A,A,AU,,,I,B,,,,,,,,,,main stem break at ?5 m but looks healthy,B in crown,,7/16/2019,Terrell/Ward
 cagl,316,7.2,10.3,30578,1,130,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cato,316,3.5,8.9,30580,1,227,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 cato,316,1.4,8.2,30581,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 quve,316,2.2,14.4,30584,1,924,NULL,A,A,A,A,A,,,,,,,,,,,,,,,tag scratched,,7/16/2019,Terrell/Ward
 cagl,316,5.2,15.4,30585,1,257,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 caca,316,15.2,0.8,30605,1,118,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
-cato,316,18.6,3.8,30606,1,201,NULL,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaf discoloration; being leaned on by dead tree,,7/16/2019,Terrell/Ward
+cato,316,18.6,3.8,30606,1,201,NULL,A,A,A,A,AU,,,I,LF,,,,,,,,,,,discoloration; being leaned on by dead tree,,7/16/2019,Terrell/Ward
 tiam,316,18.9,4.5,30607,1,415,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 casp,316,17.2,2.2,30609,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 fram,316,17.5,8.7,30610,1,242,NULL,A,A,A,A,A,,,I,,,,,,,1,0,"SS, W",,,,,7/16/2019,Terrell/Ward
@@ -1856,7 +1856,7 @@ caca,412,14.4,17.3,40877,1,148,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/
 nysy,412,15.5,18.2,40879,1,448,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 ulru,412,5.3,10.1,40883,1,NA,DC,A,DS,PD,PD,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 caca,413,15,1.5,40886,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
-fram,413,14.2,3,40888,1,163,NULL,A,A,A,AU,AU,,,I,B,,,,,,2,0,none,,Break @ 8m,break at 8m,,7/18/2019,Terrell/Ward
+fram,413,14.2,3,40888,1,163,NULL,A,A,A,AU,AU,,,I,B,,,,,,2,0,none,,Break @ 8m,B @ 8m,,7/18/2019,Terrell/Ward
 fagr,413,14.9,4.2,40889,1,166,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 fram,413,11.4,2.5,40891,1,NA,DS,A,A,A,DS,PD,,,,,,,,,,,,,,dead leaves; may regrow,,,7/18/2019,Terrell/Ward
 acru,413,13.5,8.3,40892,1,265,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
@@ -2216,7 +2216,7 @@ qupr,502,4.2,14.9,50161,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell
 fram,502,4.2,16,50162,1,652,DS,A,A,AU,DS,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 litu,502,8.5,0.9,50201,1,636,I;M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 fram,502,13,5.9,50202,1,485,DS,A,AU,DS,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
-prav,502,14.8,3.8,50203,1,325,L,A,A,AU,AU,AU,,,CD,U,,,,,,,,,,heavy epicormic load; leaning,liana load; leaning,,6/24/2019,Terrell/Woolford
+prav,502,14.8,3.8,50203,1,325,L,A,A,AU,AU,AU,,,CD,U,,,,,,,,,,heavy epicormic load; leaning,liana; leaning,,6/24/2019,Terrell/Woolford
 fagr,502,18.7,2.8,50205,1,216,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 cato,502,17,8.3,50206,1,291,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 caco,502,11,7.8,50209,1,177,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
@@ -2455,7 +2455,7 @@ unk,517,1.4,0.2,52001,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/W
 caca,517,4.6,2.4,52003,1,121,M,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 unk,517,5.4,1.5,52004,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 caca,517,5.9,0.5,52005,1,113,J,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
-caca,517,8.2,0.9,52006,1,NA,DS,A,A,A,A,DS,105,3,S,B,F,,,,,,,,,,break at 2.5m; could not core,no,7/18/2019,Terrell/Ward
+caca,517,8.2,0.9,52006,1,NA,DS,A,A,A,A,DS,105,3,S,B,F,,,,,,,,,,B @ 2.5m; bark too thick to core,no,7/18/2019,Terrell/Ward
 cagl,517,6.7,4.1,52007,1,453,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 fagr,517,9.9,5.7,52010,1,230,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 fagr,517,7.6,9.7,52012,1,312,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
@@ -2694,7 +2694,7 @@ unk,532,7.2,15.1,52465,1,NA,DS,PD,PD,PD,PD,,,,,,,,,,,,,,,,,,,
 cagl,532,9.3,15.4,52466,1,166,NULL,A,A,A,A,,,,,,,,,,,,,,,,,,,
 litu,532,0.4,15.1,52467,1,206,NULL,A,A,A,A,,,,,,,,,,,,,,,,,,,
 ulru,601,15.6,0.1,60001,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
-fram,601,13.4,0.3,60002,1,34,NULL,A,A,A,A,A,,,S,,,,,,,1,0,VB,,Break @ ~2m,break @ 2m,,6/24/2019,Terrell/Woolford
+fram,601,13.4,0.3,60002,1,34,NULL,A,A,A,A,A,,,S,,,,,,,1,0,VB,,Break @ ~2m,B @ 2m,,6/24/2019,Terrell/Woolford
 caco,601,12.3,2.6,60003,1,258,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 ulru,601,6.1,2.2,60006,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 unk,601,7.6,3.7,60007,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
@@ -2800,7 +2800,7 @@ qupr,607,10,9,60337,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/10/2019,Terrell/W
 fagr,607,6.2,7.6,60339,1,173,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/10/2019,Terrell/Woolford
 saal,608,12.6,16.8,60148,1,NA,F;DS;R,A,DS,PD,PD,PD,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 cato,608,20,12,60160,1,170,F,A,A,A,A,A,,,,,,,,,,,,,,tag missing,tag missing,,6/27/2019,Terrell/Woolford
-qupr,608,17.5,11.7,60161,1,869,F,A,A,A,A,AU,,,D,B,,,,,,,,,,,break in crown @20m/canopy,,6/27/2019,Terrell/Woolford
+qupr,608,17.5,11.7,60161,1,869,F,A,A,A,A,AU,,,D,B,,,,,,,,,,,B in crown @20m,,6/27/2019,Terrell/Woolford
 cato,608,15.3,17.9,60163,1,130,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 quru,608,3.8,3.5,60345,1,232,A;F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 cato,608,7.3,3.8,60346,1,118,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
@@ -2834,7 +2834,7 @@ caca,610,19,11.3,60200,2,145,F;S;I,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/W
 cagl,610,5.1,7.4,60403,1,296,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 nysy,610,2.4,10.1,60404,1,188,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 nysy,610,3,14,60406,1,163,NULL,A,A,AU,AU,AU,,,I,CR,,,,,,,,,,crushed by 60408,,,6/25/2019,Terrell/Woolford
-cato,610,1,14,60407,1,299,NULL,A,A,AU,AU,DS,350,1,CD,I,R,B,,,2,,,,,break at ? 15m,break in canopy @  ~15m,yes - 2019,6/25/2019,Terrell/Woolford
+cato,610,1,14,60407,1,299,NULL,A,A,AU,AU,DS,350,1,CD,I,R,B,,,2,,,,,break at ? 15m,B in  @  ~15m,crown,6/25/2019,Terrell/Woolford
 fram,610,7.3,15.7,60410,1,469,NULL,A,A,A,A,A,,,CD,,,,,,,2,1,"AS, W",,,20% whitening,,6/25/2019,Terrell/Woolford
 caca,610,7,19.4,60413,1,123,M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 qual,610,11.5,19.5,60507,1,415,M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
@@ -2880,8 +2880,8 @@ quru,613,19.4,10,60550,1,570,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Wo
 litu,613,17.7,10.4,60551,1,535,NULL,A,A,A,A,AU,,,D,AN,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 caca,613,17.7,15.3,60552,1,NA,DS,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,6/25/2019,Terrell/Woolford
 acru,613,19.8,9.7,60555,1,287,NULL,A,A,A,A,A,,,,,,,,,,,,,,Coordinates switched; healthy despite breaks,,,6/25/2019,Terrell/Woolford
-acru,614,7.8,4.7,60449,1,170,NULL,A,A,A,AU,AU,,,I,B,,,,,,,,,,crown break,break in crown,,7/18/2019,Terrell/Ward
-litu,614,6.5,4.9,60450,1,686,NULL,A,A,A,A,A,,,D,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
+acru,614,7.8,4.7,60449,1,170,NULL,A,A,A,AU,AU,,,I,B,,,,,,,,,,crown break,B in crown,,7/18/2019,Terrell/Ward
+litu,614,6.5,4.9,60450,1,686,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 unk,614,6,7.9,60452,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 ulam,614,6.1,9.7,60453,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 caca,614,1.5,11.2,60454,1,109,NULL,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
@@ -3218,7 +3218,7 @@ qual,702,1.8,9,70027,1,475,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Wool
 quve,702,5.3,12,70030,1,514,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 litu,702,7,17.8,70040,1,487,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 juni,702,6,18.7,70041,1,354,F;I,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
-qual,702,18.3,0.8,70220,1,554,NULL,A,A,AU,A,AU,,,CD,LF,,,,,,,,,,,leaves discolored/browning,,6/24/2019,Terrell/Woolford
+qual,702,18.3,0.8,70220,1,554,NULL,A,A,AU,A,AU,,,CD,LF,,,,,,,,,,,leaves discoloration,,6/24/2019,Terrell/Woolford
 fagr,702,10.1,4,70221,1,110,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 cato,702,12.2,5.6,70222,1,134,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 fagr,702,10.5,13.1,70223,1,257,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
@@ -3296,7 +3296,7 @@ litu,707,18.5,11,70352,1,767,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/10/2019,Terrell/Woolf
 cato,707,17,12.1,70354,1,118,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/10/2019,Terrell/Woolford
 qupr,708,0.2,0.9,70184,1,138,F,A,A,A,A,A,,,,,,,,,,,,,,being crushed by 70189,,,7/10/2019,Terrell/Woolford
 cagl,708,4.3,3.5,70186,1,493,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/10/2019,Terrell/Woolford
-qupr,708,3.1,7.8,70189,1,NA,F;DC,A,A,A,AU,DC,585,3,CD,S,UP,,,,,,,,,,weighing on 60143,,7/10/2019,Terrell/Woolford
+qupr,708,3.1,7.8,70189,1,NA,F;DC,A,A,A,AU,DC,585,3,CD,S,UP,,,,,,,,,,weighing on 60143,yes - 2019,7/10/2019,Terrell/Woolford
 quve,708,7.3,8.8,70192,1,195,F;DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/10/2019,Terrell/Woolford
 qupr,708,8.2,13.1,70196,1,710,F,A,A,A,A,A,,,,,,,,,,,,,,,AN,,7/10/2019,Terrell/Woolford
 cato,708,4.1,16.1,70197,1,115,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/10/2019,Terrell/Woolford
@@ -3705,7 +3705,7 @@ nysy,802,2.6,11.8,80029,1,128,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolf
 litu,802,7.5,14.9,80036,1,278,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 prav,802,5.1,17.5,80037,1,196,F;DS,A,DS,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 amar,802,4.6,17.1,80038,1,100,F,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-fram,802,5.1,18.5,80040,1,NA,F;DC,A,A,A,A,A,,,S,,,,,,,2,2,SS,,"main stem gone, new stem dbh ~13.3",Alive! - newest stem,,7/9/2019,Terrell/Woolford/Ward
+fram,802,5.1,18.5,80040,1,NA,F;DC,A,A,A,A,A,,,S,,,,,,,2,2,SS,,"main stem gone, new stem dbh ~13.3",Alive!; new growth,,7/9/2019,Terrell/Woolford/Ward
 litu,802,11.3,17.7,80045,1,238,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 quve,802,11.8,17.7,80046,1,625,F,A,A,AU,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 quve,802,13.6,13.6,80049,1,846,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
@@ -3771,7 +3771,7 @@ caca,806,2.6,2.4,80263,1,130,F;M,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Wool
 cagl,806,5.8,9.9,80281,1,249,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 litu,806,7.1,9.3,80282,1,277,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,806,14.6,3.9,80284,1,184,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-qupr,806,2,0.7,80286,1,197,F;DS,A,A,A,AU,DS,196,4,I,U,,,,,,,,,,,could not core,no,7/9/2019,Terrell/Woolford/Ward
+qupr,806,2,0.7,80286,1,197,F;DS,A,A,A,AU,DS,196,4,I,U,,,,,,,,,,,bark too thick to core,no,7/9/2019,Terrell/Woolford/Ward
 cagl,806,8.8,0.2,80288,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,806,16.6,4,80290,1,132,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 havi,806,2.5,19.4,80313,1,103,F;M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
@@ -3784,7 +3784,7 @@ litu,806,19.5,3.5,80337,1,295,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolf
 havi,806,2.2,14.5,83628,1,103,F;M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 caco,807,19.1,3.6,80338,1,474,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 qual,807,18.1,1.9,80346,1,NA,F;DS,A,A,A,DS,PD,,,,,,,,,,,,,,break @ ~4m,,,7/9/2019,Terrell/Woolford/Ward
-acru,807,16.1,4.3,80348,1,175,F,A,A,A,A,AU,,,I,DF,,,,3,,,,,,,break in branches @ 5 and 9m,,7/9/2019,Terrell/Woolford/Ward
+acru,807,16.1,4.3,80348,1,175,F,A,A,A,A,AU,,,I,DF,,,,3,,,,,,,B in branches @ 5 and 9m,,7/9/2019,Terrell/Woolford/Ward
 saal,807,8,4.1,80355,1,188,B;I;L;F,A,AU,AU,A,A,,,,,,,,,,,,,,main stem on ground; healthy,,,7/9/2019,Terrell/Woolford/Ward
 saal,807,3.2,9.3,80359,1,NA,F;DS,DS,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 cagl,807,8.6,9.3,80362,1,108,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
@@ -3847,7 +3847,7 @@ cagl,810,17.5,6.2,80710,1,270,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Wool
 litu,810,15.9,8.2,80711,1,554,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 nysy,810,10.9,10.5,80714,1,206,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 litu,810,18,14.8,80719,1,219,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
-quve,811,7.5,3,80628,1,560,F,A,A,AU,A,AU,,,CD,R,,,,,,,,,,,dendroband tree; bark shed,,6/27/2019,Terrell/Woolford
+quve,811,7.5,3,80628,1,560,F,A,A,AU,A,AU,,,CD,R,,,,,,,,,,,bark shed,,6/27/2019,Terrell/Woolford
 unk,811,0.1,4,80629,1,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 nysy,811,1.5,5.1,80630,1,175,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 litu,811,0.2,6.1,80631,1,541,F,A,A,A,A,AU,,,CD,AN,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
@@ -3908,7 +3908,7 @@ litu,813,9.8,16.2,80553,1,382,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Wool
 caovl,813,6.9,11.2,80554,1,529,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 cato,813,4.8,12.8,80555,1,190,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 cato,813,5.4,16.9,80557,1,290,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
-nysy,813,8.9,17.8,80559,1,434,F,A,A,A,A,AU,,,CD,DF,LF,,,2,,,,,,,leaves browning,,6/27/2019,Terrell/Woolford
+nysy,813,8.9,17.8,80559,1,434,F,A,A,A,A,AU,,,CD,DF,LF,,,2,,,,,,,leaves discoloration,,6/27/2019,Terrell/Woolford
 litu,814,19.9,8.4,80675,1,382,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/27/2019,Terrell/Woolford
 saal,814,19.6,9.6,80676,1,NA,DS,A,AU,AU,AU,,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 nysy,814,16.7,12.6,80681,1,109,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
@@ -4338,7 +4338,7 @@ fram,907,15.2,14.4,93312,1,12,F;L,A,A,A,AU,A,,,S,,,,,,,2,2,SS,,CR by 101028,,,7/
 litu,908,0.4,1.8,91351,1,244,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 quru,908,3.8,10.2,91372,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 litu,908,4.4,12.9,91376,1,287,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-litu,908,5.6,18.4,91377,1,385,F,A,A,A,A,A,,,,,,,,,,,,,,,Sapsucker,,7/9/2019,Terrell/Woolford/Ward
+litu,908,5.6,18.4,91377,1,385,F,A,A,A,A,A,,,,,,,,,,,,,,,sapsucker,,7/9/2019,Terrell/Woolford/Ward
 litu,908,10.3,1.8,91468,1,379,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 litu,908,14.5,4.7,91474,1,457,F,A,A,A,A,AU,,,CD,R,,,,,,,,,,,R at base,,7/9/2019,Terrell/Woolford/Ward
 litu,908,18.4,2.4,91476,1,515,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
@@ -4359,7 +4359,7 @@ litu,909,18.6,17.8,90511,1,563,F,A,A,A,A,A,,,,,,,,,,,,,,tag swallowed,,,7/9/2019
 litu,909,11.7,19.1,90512,1,493,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 cato,909,2,1.8,91378,1,274,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 cato,909,4,6.4,91382,1,NA,F;DS,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-caovl,909,8,9.6,91385,1,442,F,A,A,A,A,AU,,,CD,I,,,,,,,,,,,,termites,7/9/2019,Terrell/Woolford/Ward
+caovl,909,8,9.6,91385,1,442,F,A,A,A,A,AU,,,CD,I,,,,,,,,,,,termites,,7/9/2019,Terrell/Woolford/Ward
 litu,909,11.2,12.4,91387,1,680,F,A,A,A,A,A,,,,,,,,,,,,,,tag missing,bark loss at base,,7/9/2019,Terrell/Woolford/Ward
 caca,909,6.4,15.3,91390,1,106,F;M;I,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 cato,909,4,14.3,91391,1,NA,F;DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
@@ -4767,7 +4767,7 @@ quve,1002,17.5,7.2,100168,1,574,F,A,A,A,A,A,,,,,,,,,,,,,,,heavy liana; swallowin
 fram,1002,19.9,9.8,100180,1,16,F,A,A,A,A,A,,,S,,,,,,,1,0,none,,,,,7/9/2019,Terrell/Woolford/Ward
 frpe,1002,17.3,13.4,100194,1,NA,F;DC,A,A,A,DS,PD,,,,,,,,,,,,,,B @ ~0.7m. 2nd stem alive,,,7/9/2019,Terrell/Woolford/Ward
 fram,1002,6.8,6.9,100336,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-cagl,1002,2.2,12.2,100366,1,416,F,A,A,A,A,A,,,,,,,,,,,,,,,AN; sapsucker,,7/9/2019,Terrell/Woolford/Ward
+cagl,1002,2.2,12.2,100366,1,416,F,A,A,A,A,A,,,,,,,,,,,,,,,sapsucker,,7/9/2019,Terrell/Woolford/Ward
 ulru,1002,4.8,13.6,100388,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 saal,1002,11.4,18.6,100430,1,189,F,A,AU,AU,AU,AU,,,I,U,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 ulru,1002,10,16.2,100434,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
@@ -4801,7 +4801,7 @@ quru,1004,11.2,19.1,100558,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Ter
 litu,1004,9.8,18.4,100561,1,106,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 litu,1004,9.1,19.2,100562,1,649,F,A,A,AU,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 unk,1004,1.1,17.2,100572,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-cagl,1004,1.6,1,100680,1,278,F;DS,A,A,A,A,DS,281,4,CD,AN,,,,,,,,,,,could not core,no,7/9/2019,Terrell/Woolford/Ward
+cagl,1004,1.6,1,100680,1,278,F;DS,A,A,A,A,DS,281,4,CD,AN,,,,,,,,,,,bark too thick to core,no,7/9/2019,Terrell/Woolford/Ward
 litu,1004,6.9,3.7,100700,1,233,F,A,A,A,A,A,,,,,,,,,,,,,,,vine,,7/9/2019,Terrell/Woolford/Ward
 quve,1004,9.5,11.4,100716,1,723,F,A,A,A,A,AU,,,D,F,DF,,,1,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 litu,1004,1.7,10.6,100719,1,359,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
@@ -4833,7 +4833,7 @@ nysy,1006,4.7,7.4,100795,1,216,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Wool
 litu,1006,8.7,5.6,100799,1,140,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,1006,13.1,6.7,100832,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,1006,16.1,5.6,100834,1,211,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
-nysy,1006,15.2,10.5,100839,1,225,F;M,A,A,A,A,AU,,,I,,,,,,,,,,,,"see pic of bark shed - doesn't seem indicative of animal, maybe from a branch",,7/9/2019,Terrell/Woolford/Ward
+nysy,1006,15.2,10.5,100839,1,225,F;M,A,A,A,A,AU,,,I,,,,,,,,,,,,"doesn't seem indicative of animal, maybe from a branch",,7/9/2019,Terrell/Woolford/Ward
 litu,1006,14,16.2,100855,1,641,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 litu,1006,20,18.6,100861,1,183,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/9/2019,Terrell/Woolford/Ward
 nysy,1006,7.2,9,101005,1,616,F;I,A,A,A,A,A,,,,,,,,,,,,,,,AN,,7/9/2019,Terrell/Woolford/Ward
@@ -5004,7 +5004,7 @@ nysy,1015,14,10.9,101252,1,245,NULL,A,A,A,A,A,,,,,,,,,,,,,,shedding,,,7/11/2019,
 nysy,1015,12.3,11.1,101253,1,567,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 fram,1015,12.4,17.6,101259,1,NA,B;DS,A,AU,DS,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 unk,1015,13,19.2,101260,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
-qual,1015,2.6,13.2,101264,1,759,NULL,A,A,AU,A,A,,,D,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
+qual,1015,2.6,13.2,101264,1,759,NULL,A,A,AU,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 nysy,1016,5.3,2.2,101191,1,287,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 qual,1016,6.3,3.1,101192,1,624,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 nysy,1016,11.6,2.9,101196,1,207,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
@@ -5277,7 +5277,7 @@ litu,1101,17,10,110061,1,1202,F;I,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Wo
 ulru,1101,10.5,9.8,110086,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 ulru,1101,10.5,9.8,110086,2,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 litu,1101,12.7,18,110128,1,762,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
-litu,1101,17.4,19,110141,1,214,F,A,A,A,A,A,,,,,,,,,,,,,,Break @ ~7.5m,regrowth out of previous break,,6/26/2019,Terrell/Woolford
+litu,1101,17.4,19,110141,1,214,F,A,A,A,A,A,,,,,,,,,,,,,,Break @ ~7.5m,regrowth from previous break,,6/26/2019,Terrell/Woolford
 ulru,1101,7.6,18.9,110155,1,160,F;M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 litu,1101,6.5,18.6,110156,1,508,F;I,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 saal,1101,3.4,1.9,110211,1,NA,F;DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
@@ -5323,7 +5323,7 @@ acru,1104,19.3,7.4,110770,1,160,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/2/2019,Terrell/Woo
 fram,1104,10.3,5.1,110780,1,43,F,A,A,A,A,AU,,,S,DF,,,,4,,4,0,none,,,,,7/2/2019,Terrell/Woolford
 fram,1104,12.2,7.8,110783,1,124,F,A,A,AU,AU,DS,123,4,I,AN,,,,,0,5,1,none,,,woodpecker; could not core,no,7/2/2019,Terrell/Woolford
 litu,1104,19.9,11.7,110788,1,656,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/2/2019,Terrell/Woolford
-litu,1104,11.3,10,110791,1,660,F,A,A,A,A,AU,,,D,R,,,,,,,,,,,dendroband tree,,7/2/2019,Terrell/Woolford
+litu,1104,11.3,10,110791,1,660,F,A,A,A,A,AU,,,D,R,,,,,,,,,,,,,7/2/2019,Terrell/Woolford
 fagr,1104,9.5,16.4,110795,1,224,F;M,A,A,A,A,A,,,,,,,,,,,,,,,,,7/2/2019,Terrell/Woolford
 fagr,1104,13.1,18,110797,1,241,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/2/2019,Terrell/Woolford
 litu,1104,16,15.5,110798,1,744,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/2/2019,Terrell/Woolford
@@ -5832,7 +5832,7 @@ fram,1203,13.4,16.9,120686,1,52,F;J,A,A,A,A,AU,,,S,I,AN,,,,,3,1,"VB, AS",,,,,6/2
 fram,1203,15,17.3,120689,1,23,F;M;J;L,A,A,A,A,A,,,S,I,BB,,,,,1,0,"VB, DE",3,,,,6/26/2019,Terrell/Woolford
 fram,1203,15,17.3,120689,2,22,F;S;J;L,A,A,A,A,A,,,S,,,,,,,1,0,none,,,,,6/26/2019,Terrell/Woolford
 fram,1203,15,17.3,120689,3,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
-fram,1203,18.9,17.3,120697,1,33,F,A,A,A,AU,DS,35,4,S,U,,,,,3,5,1,AS,,,could not core,no,6/26/2019,Terrell/Woolford
+fram,1203,18.9,17.3,120697,1,33,F,A,A,A,AU,DS,35,4,S,U,,,,,3,5,1,AS,,,bark too thick to core,no,6/26/2019,Terrell/Woolford
 ceca,1203,19.2,18.8,120698,1,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 fram,1203,12.7,19.3,120702,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 fram,1203,12.7,19.3,120702,2,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
@@ -5973,8 +5973,8 @@ caco,1212,15.6,19.4,121314,1,237,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrel
 cagl,1212,15.6,13,121316,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 litu,1212,19.9,8.5,121318,1,267,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 cagl,1212,18.6,0.5,121405,1,302,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
-cagl,1212,11.3,1.1,121406,1,151,F,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaves eaten and discolored,,7/1/2019,Terrell/Woolford
-caovl,1212,15,4.4,121407,1,118,F,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaves eaten and discolored,,7/1/2019,Terrell/Woolford
+cagl,1212,11.3,1.1,121406,1,151,F,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaves eaten and discoloration,,7/1/2019,Terrell/Woolford
+caovl,1212,15,4.4,121407,1,118,F,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaves eaten and discoloration,,7/1/2019,Terrell/Woolford
 cagl,1212,11.3,6,121408,1,371,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 caovl,1212,9.4,5.5,121409,1,150,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 quru,1212,7.5,5.1,121410,1,658,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
@@ -6026,7 +6026,7 @@ cagl,1215,11.4,0,121439,1,209,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/M
 litu,1215,12.5,3.9,121442,1,269,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 ulru,1215,15.7,12.2,121447,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
 caco,1215,17.7,17.4,121449,1,623,I,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Terrell/McGregor
-caovl,1215,15.9,16.5,121450,1,117,NULL,A,A,A,AU,AU,,,I,DF,LF,,,2,,,,,,leaves are brown and dying,wiliting and discoloration,,7/11/2019,Terrell/McGregor
+caovl,1215,15.9,16.5,121450,1,117,NULL,A,A,A,AU,AU,,,I,DF,LF,,,2,,,,,,leaves are brown and dying,wilting and discoloration,,7/11/2019,Terrell/McGregor
 fram,1216,10.9,12,121358,1,1061,NULL,A,A,A,AU,,,,,,,,,,,,,,,,,,,
 ulru,1216,4.9,2.8,121360,1,110,NULL,A,A,A,A,,,,,,,,,,,,,,,,,,,
 saal,1216,6.2,0.3,121361,1,233,NULL,A,A,A,A,,,,,,,,,,,,,,,,,,,
@@ -6371,7 +6371,7 @@ unk,1305,5.1,8.1,130638,1,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terre
 litu,1305,8.5,11.2,130651,1,NA,F;DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 litu,1305,8.4,11.9,130652,1,693,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 litu,1305,7.9,14.6,130657,1,509,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
-quve,1305,1,19,130681,1,705,F,A,A,A,AU,DS,730,2,D,AN,,,,,0,,,,,,break in crown; core produced vinegar smell,yes - 2019,6/26/2019,Terrell/Woolford
+quve,1305,1,19,130681,1,705,F,A,A,A,AU,DS,730,2,D,AN,,,,,0,,,,,,B in crown; core produced vinegar smell,yes - 2019,6/26/2019,Terrell/Woolford
 litu,1305,12.2,1,130838,1,671,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 fram,1305,12.3,15.1,130898,1,NA,F;R,A,A,A,DC,PD,,,,,,,,,,,,,,DBH unavailable. 2nd stem HEALTHY. Break @ ~0.3m,,,6/26/2019,Terrell/Woolford
 litu,1305,19.3,17.8,130910,1,155,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
@@ -6429,7 +6429,7 @@ litu,1308,15.8,12.8,131023,1,190,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Wo
 litu,1308,9.6,13,131027,1,190,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 cagl,1308,14.5,17.7,131032,1,345,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 litu,1309,4.7,3,130785,1,759,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
-caca,1309,7.7,5.1,130787,1,144,F;M;I,A,A,A,A,AU,,,I,B,,,,,,,,,,,main stem broken @ 1.7m; secondary stem broken @ 3m; holding up fallen branch of another tree,,7/1/2019,Terrell/Woolford
+caca,1309,7.7,5.1,130787,1,144,F;M;I,A,A,A,A,AU,,,I,B,,,,,,,,,,,main stem B @ 1.7m; secondary stem B @ 3m; holding up fallen branch of another tree,,7/1/2019,Terrell/Woolford
 caovl,1309,7.7,7.7,130788,1,149,F,A,A,A,DS,PD,,,,,,,,,,,,,,Swelling at base,,,7/1/2019,Terrell/Woolford
 litu,1309,1.3,6.7,130792,1,174,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 litu,1309,1.1,8.8,130793,1,573,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
@@ -6928,7 +6928,7 @@ quve,1408,17.1,10.1,140934,1,502,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Wo
 quve,1408,19.8,15,140935,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 fram,1408,18.2,18.1,140939,1,68,F;DS,A,DS,PD,PD,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 fram,1408,18.2,18,140939,2,30,F;M,A,AU,A,A,A,,,S,,,,,,,2,1,SS,,,,,7/1/2019,Terrell/Woolford
-cato,1408,12.8,15,140944,1,208,F,A,A,A,A,AU,,,I,B,,,,,,,,,,,break @ 10m,,7/1/2019,Terrell/Woolford
+cato,1408,12.8,15,140944,1,208,F,A,A,A,A,AU,,,I,B,,,,,,,,,,,B @ 10m,,7/1/2019,Terrell/Woolford
 cato,1408,9.2,16.1,140947,1,239,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 fram,1408,11.9,2.3,143347,1,15,F,A,A,A,A,A,,,S,,,,,,,1,0,none,,,,,7/1/2019,Terrell/Woolford
 fram,1408,15.7,7.2,143354,1,24,F;M,A,A,A,A,A,,,S,,,,,,,1,0,none,,,,,7/1/2019,Terrell/Woolford
@@ -6949,10 +6949,10 @@ cagl,1410,8.2,0.5,140803,1,122,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Wool
 litu,1410,2.2,7.4,140809,1,362,F,A,A,A,A,A,,,,,,,,,,,,,,tag missing,,,7/1/2019,Terrell/Woolford
 caovl,1410,5.2,8.4,140810,1,222,F;I,A,A,A,A,A,,,,,,,,,,,,,,,liana,,7/1/2019,Terrell/Woolford
 litu,1410,10.1,7.5,140812,1,514,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
-litu,1410,8.3,11.2,140813,1,725,F,A,A,A,A,A,,,,,,,,,,,,,,,dendroband,,7/1/2019,Terrell/Woolford
-cagl,1410,9.8,11.2,140814,1,190,F,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaves eaten and discolored,,7/1/2019,Terrell/Woolford
+litu,1410,8.3,11.2,140813,1,725,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
+cagl,1410,9.8,11.2,140814,1,190,F,A,A,A,A,AU,,,I,LF,,,,,,,,,,,leaves eaten and discoloration,,7/1/2019,Terrell/Woolford
 casp,1410,3.5,11.6,140815,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
-litu,1410,2.3,19.2,140818,1,549,F,A,A,A,A,A,,,,,,,,,,,,,,,dendroband,,7/1/2019,Terrell/Woolford
+litu,1410,2.3,19.2,140818,1,549,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 litu,1410,19.3,5.2,140988,1,538,F;M,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 litu,1410,12.8,5.1,140989,1,425,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 litu,1410,13.6,10.4,140993,1,205,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
@@ -6964,7 +6964,7 @@ frpe,1410,18.5,7.4,143454,1,11,F;M,A,A,A,A,A,,,S,,,,,,,2,2,none,,,,,7/1/2019,Ter
 frpe,1410,18.5,7.4,143454,2,12,F;S,A,A,A,AU,A,,,S,,,,,,,1,0,none,,white wire,,,7/1/2019,Terrell/Woolford
 frpe,1410,18.5,7.4,143454,3,11,F;S,A,A,A,AU,AU,,,S,DF,,,,2,,2,2,AS,,blue wire,tertiary branch dead,,7/1/2019,Terrell/Woolford
 fram,1410,14.9,10.4,143457,1,11,F;DS;R,A,A,A,DS,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
-litu,1411,1.6,1.5,140819,1,204,F,A,A,A,AU,AU,,,I,DF,,,,4,,,,,,break @ 13m; leaning,dendroband,,7/1/2019,Terrell/Woolford
+litu,1411,1.6,1.5,140819,1,204,F,A,A,A,AU,AU,,,I,DF,,,,4,,,,,,break @ 13m; leaning,,,7/1/2019,Terrell/Woolford
 litu,1411,2.5,1.5,140820,1,NA,F;DC,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 litu,1411,4.6,0.4,140821,1,560,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 litu,1411,8.1,1.2,140823,1,NA,F;DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
@@ -7356,7 +7356,7 @@ unk,1505,13.6,13.1,150586,1,NA,DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/20/2019,Alyss
 unk,1505,11,10,150587,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 litu,1505,10,8.2,150588,1,321,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 saal,1505,11.8,17.5,150589,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
-nysy,1505,3.7,19.7,150590,1,196,B,A,A,A,A,AU,,,I,B,,,,,,,,,,,break in crown,,6/20/2019,Alyssa Terrell
+nysy,1505,3.7,19.7,150590,1,196,B,A,A,A,A,AU,,,I,B,,,,,,,,,,,B in crown,,6/20/2019,Alyssa Terrell
 litu,1505,0.4,2.4,150783,1,586,A;M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 litu,1505,0.4,2.4,150783,2,269,A;S,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 ulru,1505,1.1,5.9,150785,1,135,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
@@ -7453,7 +7453,7 @@ fram,1510,17.4,14.2,151013,2,20,F;M,A,A,A,A,A,,,S,,,,,,,2,1,none,,,,,7/1/2019,Te
 cato,1510,12.5,18.8,151017,1,508,F,A,A,A,A,A,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 caca,1510,5,15,151020,1,100,F;M,NA,NA,NA,NA,AU,,,I,R,AN,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 quru,1510,3.7,16.7,151021,1,563,F;DS,A,A,A,AU,DS,566,3,CD,DF,,,,5,2,,,,,epicormics,bark shed; could not core,no,7/1/2019,Terrell/Woolford
-fram,1510,18.5,7,151101,1,39,F,A,A,A,AU,DS,41,3,S,U,,,,,0,5,3,none,,,could not core,no,7/1/2019,Terrell/Woolford
+fram,1510,18.5,7,151101,1,39,F,A,A,A,AU,DS,41,3,S,U,,,,,0,5,3,none,,,bark too thick to core,no,7/1/2019,Terrell/Woolford
 fram,1510,20,5.4,151103,1,NA,F;DC,A,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 fram,1510,20,5.4,151103,2,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/1/2019,Terrell/Woolford
 frpe,1511,7.8,1.2,151027,1,15,F,A,A,A,A,A,,,S,,,,,,,1,0,none,,Inside,,,6/20/2019,Alyssa Terrell
@@ -7526,7 +7526,7 @@ nysy,1515,12,7.6,151094,1,175,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/W
 quru,1515,10.9,8.4,151096,1,182,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 ceca,1515,11.3,11.8,151181,1,154,L;X,A,A,AU,A,A,,,,,,,,,,,,,,on the ground; branches still alive,,,7/16/2019,Terrell/Ward
 cofl,1515,7.8,13.1,151182,1,NA,DC,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
-ceca,1515,12.2,12.7,151183,1,130,P,A,A,AU,AU,A,,,I,,,,,,,,,,,on the ground; branches still alive,,,7/16/2019,Terrell/Ward
+ceca,1515,12.2,12.7,151183,1,130,P,A,A,AU,AU,A,,,,,,,,,,,,,,on the ground; branches still alive,,,7/16/2019,Terrell/Ward
 havi,1515,16.8,10.1,151184,1,121,M,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 caco,1515,19.6,10.2,151185,1,387,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 quru,1515,16.7,17.8,151190,1,183,NULL,A,A,A ,A,A,,,,,,,,,,,,,,tag on the ground,,,7/16/2019,Terrell/Ward
@@ -7890,7 +7890,7 @@ fram,1605,10.7,9,160746,1,42,DS,A,A,A,A,A,,,S,LF,,,,,,4,3,SS,,,Alive!,,6/20/2019
 fram,1605,13.4,17.4,160749,1,103,NULL,A,A,A,A,AU,,,I,DF,,,,4,,4,1,SS,,,,,6/20/2019,Alyssa Terrell
 nysy,1605,18.8,19.3,160750,1,273,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 litu,1606,0.6,2.9,160698,1,683,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
-litu,1606,18.8,6.9,160752,1,596,NULL,A,A,A,A,A,,,,B,,,,,,,,,,,break @ ~10m,,6/20/2019,Alyssa Terrell
+litu,1606,18.8,6.9,160752,1,596,NULL,A,A,A,A,A,,,,B,,,,,,,,,,,B @ ~10m,,6/20/2019,Alyssa Terrell
 fram,1606,18.4,8.5,160753,1,95,NULL,A,A,A,A,A,,,I,,,,,,,1,0,none,,,,,6/20/2019,Alyssa Terrell
 cato,1606,14,4.8,160754,1,114,J,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 frpe,1606,12.9,9.2,160757,1,76,J,A,A,A,A,A,,,S,LF,,,,,,1,0,none,,,,,6/20/2019,Alyssa Terrell
@@ -7954,7 +7954,7 @@ quru,1609,0.5,11.3,160942,1,371,F;I,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa T
 quve,1609,0.9,16.9,160946,1,NA,F;DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 fram,1609,0.1,11.1,163367,1,14,F;M,A,A,A,A,A,,,S,,,,,,,1,0,none,,inside,,,6/20/2019,Alyssa Terrell
 fram,1610,16,1.4,160793,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
-quve,1610,14.6,2.2,160795,1,534,DS;R,A,A,A,DS,AU,,,D,B,,,,,,,,,,Break @ ~5m. Epicormics could grow back,Regrowth from broken crown!,,6/20/2019,Alyssa Terrell
+quve,1610,14.6,2.2,160795,1,534,DS;R,A,A,A,DS,AU,,,D,B,,,,,,,,,,Break @ ~5m. Epicormics could grow back,regrowth from B in crown,,6/20/2019,Alyssa Terrell
 fram,1610,12.1,0.1,160797,1,53,NULL,A,A,A,A,A,,,S,,,,,,,1,0,VB,,,,,6/20/2019,Alyssa Terrell
 quve,1610,11.2,0.6,160798,1,549,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
 cato,1610,9.5,1.1,160799,1,171,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/20/2019,Alyssa Terrell
@@ -8538,7 +8538,7 @@ fram,1714,16,14.1,171358,1,924,NULL,A,A,A,A,A,,,D,,,,,,,2,0,VB,,,,,7/17/2019,Ter
 vipr,1714,3.5,0.2,171445,1,116,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Ward
 fram,1714,4.7,0.3,171446,1,439,NULL,A,A,A,AU,A,,,CD,,,,,,,4,1,W,,,,,7/17/2019,Terrell/Ward
 nysy,1714,8.1,0.1,171447,1,133,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Ward
-fram,1714,8.3,3.6,171448,1,143,L,A,A,AU,AU,AU,,,I,B,,,,,,3,2,"VB, SS, AS",,break at ?4.5m,break at 5m,,7/17/2019,Terrell/Ward
+fram,1714,8.3,3.6,171448,1,143,L,A,A,AU,AU,AU,,,I,B,,,,,,3,2,"VB, SS, AS",,break at ?4.5m,B @ 5m,,7/17/2019,Terrell/Ward
 vipr,1714,5.6,9,171450,1,100,P,A,A,AU,AU,AU,,,S,DF,,,,4,,,,,,ON THE GROUND,will most likely die soon,,7/17/2019,Terrell/Ward
 vipr,1714,5.8,8.8,171451,1,106,M;P,A,A,A,AU,AU,,,S,,,,,,,,,,,leaning heavily!,on ground,,7/17/2019,Terrell/Ward
 vipr,1714,6.8,8.5,171452,1,101,NULL,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Ward
@@ -8928,7 +8928,7 @@ litu,1806,6.8,16.1,180674,1,611,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/18/2019,Alyssa 
 litu,1806,6.5,18.4,180675,1,536,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 litu,1806,3.5,17.8,180677,1,629,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 fagr,1806,18.2,6.5,180740,1,199,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
-litu,1806,12.1,7.3,180742,1,705,NULL,A,A,A,A,A,,,,,,,,,,,,,,,liana load,,6/18/2019,Alyssa Terrell
+litu,1806,12.1,7.3,180742,1,705,NULL,A,A,A,A,A,,,,,,,,,,,,,,,liana,,6/18/2019,Alyssa Terrell
 litu,1806,14.9,10,180744,1,239,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 unk,1806,17.8,17.7,180745,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 fram,1807,4.9,1.9,180680,1,82,NULL,A,A,A,A,A,,,I,,,,,,,1,0,none,,,,,6/18/2019,Alyssa Terrell
@@ -8954,7 +8954,7 @@ litu,1808,17.1,4.6,180698,1,NA,DS,DS,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/18/2019,Alyss
 litu,1808,15.1,3.2,180699,1,204,M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 rops,1808,14.5,3.1,180700,1,NA,DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 litu,1808,16.7,5.7,180754,1,424,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
-juni,1808,15.5,9.5,180756,1,609,I,A,A,A,A,A,,,,AN,,,,,,,,,,,rot at base; bear,,6/18/2019,Alyssa Terrell
+juni,1808,15.5,9.5,180756,1,609,I,A,A,A,A,A,,,,AN,,,,,,,,,,,R at base; bear,,6/18/2019,Alyssa Terrell
 litu,1808,18.9,12.8,180758,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 fram,1808,17,16.2,180763,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
 fram,1808,12.3,11.7,180764,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/18/2019,Alyssa Terrell
@@ -9553,7 +9553,7 @@ fram,1912,1.4,17.3,190565,1,189,NULL,A,A,A,A,AU,,,I,DF,,,,1,,2,0,none,,,,,7/11/2
 fram,1912,0.2,18.3,190567,1,71,NULL,A,A,A,A,A,,,I,,,,,,,1,0,none,,,,,7/11/2019,Woolford/Ward
 juni,1912,2.6,18.8,190568,1,934,NULL,A,A,A,A,AU,,,D,AN,R,,,,,,,,,,liana,,7/11/2019,Woolford/Ward
 ceca,1912,5.8,18.6,190571,1,NA,DC,DS,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
-caco,1912,18.6,2.2,190744,1,380,NULL,A,A,A,A,AU,,,CD,AN,LF,,,,,,,,,,liana; leaf discoloration,,7/11/2019,Woolford/Ward
+caco,1912,18.6,2.2,190744,1,380,NULL,A,A,A,A,AU,,,CD,AN,LF,,,,,,,,,,leaf discoloration; liana,,7/11/2019,Woolford/Ward
 fram,1912,18.3,2.9,190747,1,NA,DS,DS,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 caco,1912,16.1,2.2,190749,1,171,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 fram,1912,14.5,0.7,190750,1,161,DS,A,A,AU,AU,AU,,,I,AN,,,,,,2,2,W,,,,,7/11/2019,Woolford/Ward
@@ -9561,7 +9561,7 @@ ulru,1912,13.4,3.2,190755,1,138,A,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Woolford/W
 caco,1912,16.9,8.2,190762,1,128,NULL,A,A,A,A,A,,,,,,,,,,,,,,,liana,,7/11/2019,Woolford/Ward
 fram,1912,12.5,11.5,190765,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 fram,1912,14.7,14.1,190767,1,154,NULL,A,A,AU,A,AU,,,I,AN,DF,LF,,3,,2,2,none,,,leaves eaten,,7/11/2019,Woolford/Ward
-fram,1912,14.2,16.9,190770,1,212,NULL,A,A,A,A,DS,213,,CD,R1,,,,,,5,4,SS,,,could not core,no,7/11/2019,Woolford/Ward
+fram,1912,14.2,16.9,190770,1,212,NULL,A,A,A,A,DS,213,,CD,R1,,,,,,5,4,SS,,,bark too thick to core,no,7/11/2019,Woolford/Ward
 ceca,1912,19.7,16,190773,1,NA,DC,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 frni,1912,18,18.2,190774,1,112,DS,A,AU,DS,PD,PD,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
 caco,1912,18.9,19.4,190775,1,129,I,A,A,A,A,A,,,,,,,,,,,,,,,,,7/11/2019,Woolford/Ward
@@ -9937,7 +9937,7 @@ fram,2001,0.8,10,200040,1,74,NULL,A,A,A,A,A,,,S,I,BB,,,,,1,1,DE,8,,,,6/11/2019,A
 juni,2001,16.6,17,200108,1,171,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
 juni,2001,18.1,14.8,200135,1,351,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
 ceca,2001,16.3,6.2,200253,1,NA,DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
-fram,2001,18.6,8.6,200280,1,184,NULL,A,A,A,A,A,,,I,,,,,,,2,1,none ,,"liana, old Break @ ~6m","liana, old break @ 6m",,6/11/2019,Alyssa Terrell
+fram,2001,18.6,8.6,200280,1,184,NULL,A,A,A,A,A,,,I,,,,,,,2,1,none ,,"liana, old Break @ ~6m",liana; old B @ 6m,,6/11/2019,Alyssa Terrell
 fram,2001,14.9,9.8,200289,1,73,J,A,A,A,A,A,,,S,I,BB,,,,,4,1,DE,3,x = 17.7,,,6/11/2019,Alyssa Terrell
 litu,2002,1.3,3.5,200142,1,614,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
 litu,2002,6.9,4,200151,1,688,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
@@ -9973,7 +9973,7 @@ juni,2003,1.6,13.3,200498,1,561,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/11/2019,Alyssa 
 saal,2004,17.3,4.4,200396,1,NA,DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
 litu,2004,13.4,7.3,200397,1,688,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
 fram,2004,2.6,13.6,200537,1,47,NULL,A,A,A,A,A,,,S,,,,,,,1,0,none,,,,,6/11/2019,Alyssa Terrell
-fram,2004,2.4,14.6,200538,1,47,B;M,A,A,A,A,A,,,S,,,,,,,1,0,VB,,old break ?1.3 m,break ~1.3m,,6/11/2019,Alyssa Terrell
+fram,2004,2.4,14.6,200538,1,47,B;M,A,A,A,A,A,,,S,,,,,,,1,0,VB,,old break ?1.3 m,B @ 1.3m,,6/11/2019,Alyssa Terrell
 fram,2004,2.4,14.6,200538,2,25,S,A,A,A,A,A,,,S,,,,,,,1,0,VB,,,,,6/11/2019,Alyssa Terrell
 juni,2004,6.9,20,200544,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
 ceca,2004,16.6,12.6,200609,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/11/2019,Alyssa Terrell
@@ -10184,7 +10184,7 @@ ceca,2017,20,3.4,202002,1,116,I,A,A,AU,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woo
 nysy,2017,17.8,3.9,202003,1,100,NULL,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 quru,2017,15.4,2.7,202004,1,454,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 litu,2017,16.1,0.4,202007,1,496,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
-ceca,2017,17.6,7.2,202009,1,100,NULL,NA,NA,NA,NA,DS,101,,I,AN,B,,,,,,,,,,woodpecker caused break in crown,,7/17/2019,Terrell/Woolford
+ceca,2017,17.6,7.2,202009,1,100,NULL,NA,NA,NA,NA,DS,101,,I,AN,B,,,,,,,,,,woodpecker caused break at dbh; could not core - middle of tree does not exist,no,7/17/2019,Terrell/Woolford
 qupr,2017,17.2,13.6,202010,1,NA,DS,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 qual,2017,17.4,16.7,202011,1,458,NULL,A,A,A,A,A,,,,,,,,,,,,,,,tag missing,,7/17/2019,Terrell/Woolford
 cato,2017,3.2,1.1,202201,1,141,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
@@ -10198,7 +10198,7 @@ unk,2018,19.3,2.9,202014,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/17/2019,Terrel
 qual,2018,3.6,15.9,202016,1,421,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 qual,2018,16.2,1.3,202017,1,572,NULL,A,A,A,A,AU,,,D,AN,LF,,,,,,,,,,woodpecker; leaf discoloration,,7/17/2019,Terrell/Woolford
 fram,2018,0.4,13.7,202018,1,54,NULL,A,A,A,A,A,,,S,,,,,,,1,2,none,,,,,7/17/2019,Terrell/Woolford
-fram,2018,13.4,5,202019,1,51,NULL,A,A,A,A,A,,,S,,,,,,,1,1,"W, DE",1,galleries seen,gallary present,,7/17/2019,Terrell/Woolford
+fram,2018,13.4,5,202019,1,51,NULL,A,A,A,A,A,,,S,,,,,,,1,1,"W, DE",1,galleries seen,gallery present,,7/17/2019,Terrell/Woolford
 acru,2018,19.4,11,202022,1,131,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 qupr,2018,18.4,18.9,202028,1,151,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 qupr,2018,15.8,17.1,202029,1,NA,DS,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
@@ -10220,7 +10220,7 @@ fram,2019,14.1,6,202041,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/17/2019,Terrell
 caovl,2019,14.7,7.6,202042,1,293,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 qual,2019,17.3,12.8,202046,1,483,NULL,A,A,AU,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 caovl,2019,13.2,12.8,202048,1,185,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
-qual,2019,9.2,14.5,202050,1,494,NULL,A,A,A,A,A,,,,,,,,,,,,,,,AN - woodpecker,,7/17/2019,Terrell/Woolford
+qual,2019,9.2,14.5,202050,1,494,NULL,A,A,A,A,A,,,,,,,,,,,,,,,woodpecker,,7/17/2019,Terrell/Woolford
 cato,2019,14.6,17,202052,1,202,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 acru,2019,2.2,4.2,202259,1,115,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Woolford
 quru,2019,4.2,4.4,202260,1,384,NULL,A,A,A,A,A,,,,,,,,,,,,,,tag missing,tag missing,,7/17/2019,Terrell/Woolford
