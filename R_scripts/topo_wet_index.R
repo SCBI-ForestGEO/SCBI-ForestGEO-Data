@@ -50,7 +50,7 @@ sp::plot(layers, main=c("Elevation masl", "Upslope area (log(m^2/m))", "TWI ((lo
 titles <- c("Elevation masl", "Upslope area (log(m^2/m))", "TWI ((log(m^2/m))", "TWI per quadrat")
 files <- c("plot_elevation", "plot_upslope", "plot_TWI", "plot_TWI_quadrat")
 
-##this writes to a TIFF file that is perfectly read into ArcGIS. However, these files are not viewable in standard image viewers.
+##this writes to a GeoTIFF file that is perfectly read into ArcGIS. However, these files are not viewable in standard image viewers.
 for(i in seq(along=1:4)){
   writeRaster(layers[[i]], paste0("spatial_data/elevation/rasters/", files[i], ".tif"), format="GTiff", overwrite=TRUE)
 }
