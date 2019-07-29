@@ -1,16 +1,19 @@
 ######################################################
-# Purpose: Get topographical wetness index (TWI) for each quadrat in SCBI ForestGEO plot
+# Purpose: Get topographical wetness index (TWI) for SCBI ForestGEO plot
+# Sub-purpose: Create plot DEM, create raster of stream areas, see 3D rendering of plot
 # Developed by: Ian McGregor - mcgregori@si.edu &
 #               Valentine Herrmann - herrmannv@si.edu
 # R version 3.5.3 - First created July 2019
 ######################################################
-library(rgdal)
-library(raster)
-library(elevatr) 
+library(rgdal) #A
+library(raster) #A,B
+library(elevatr) #A
 #https://cran.r-project.org/web/packages/elevatr/vignettes/introduction_to_elevatr.html
-library(dynatopmodel)
+library(dynatopmodel) #A
 #https://cran.r-project.org/web/packages/dynatopmodel/dynatopmodel.pdf
+library(rasterVis) #B
 
+#A: Create rasters ####
 #1 Define an empty raster to match plot dimensions
 # grid <- readOGR(dsn = "spatial_data/shapefiles", layer = "ForestGEO_grid_outline")
 
@@ -51,16 +54,16 @@ titles <- c("Elevation masl", "Upslope area (log(m^2/m))", "TWI ((log(m^2/m))", 
 files <- c("plot_elevation", "plot_upslope", "plot_TWI", "plot_TWI_quadrat")
 
 ##this writes to a GeoTIFF file that is perfectly read into ArcGIS. However, these files are not viewable in standard image viewers.
-for(i in seq(along=1:4)){
-  writeRaster(layers[[i]], paste0("spatial_data/elevation/rasters/", files[i], ".tif"), format="GTiff", overwrite=TRUE)
-}
+# for(i in seq(along=1:4)){
+#   writeRaster(layers[[i]], paste0("spatial_data/elevation/rasters/", files[i], ".tif"), format="GTiff", overwrite=TRUE)
+# }
 
 ##write to png for viewable images
-for(i in seq(along=1:4)){
-  png(paste0("spatial_data/elevation/rasters/", files[i], ".png")) 
-  sp::plot(layers[[i]], main=titles[i]) 
-  dev.off()
-}
+# for(i in seq(along=1:4)){
+#   png(paste0("spatial_data/elevation/rasters/", files[i], ".png")) 
+#   sp::plot(layers[[i]], main=titles[i]) 
+#   dev.off()
+# }
 
 
 #7 overlay with plot
@@ -81,6 +84,14 @@ twi_values <- extract(layers[[3]], trees1, method="simple")
 
 trees$TWI <- twi_values
 
+###################################################################################
+#B: 3D rendering of plot #####
+##the plot can easily be rendered as a semi-interactive 3D image as long as you have a raster
+elev <- raster("spatial_data/elevation/rasters/plot_elevation.tif")
+plot_TWI <- raster("spatial_data/elevation/rasters/plot_TWI.tif")
+
+plot3D(elev) #DEM
+plot3D(plot_TWI) #not a DEM but can be used as another way to visualize where the streams are
 
 ########################################################################################
 #for the record, here is the angle at which the plot is rotated compared to vertical
