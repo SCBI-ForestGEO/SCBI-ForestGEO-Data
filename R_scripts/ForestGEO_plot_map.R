@@ -16,8 +16,9 @@ scbi_plot <- readOGR("spatial_data/shapefiles/20m_grid.shp")
 ForestGEO_grid_outline <- readOGR("spatial_data/shapefiles/ForestGEO_grid_outline.shp")
 deer <- readOGR("spatial_data/shapefiles/deer_exclosure_2011.shp")
 roads <- readOGR("spatial_data/shapefiles/SCBI_roads_edits.shp")
-streams <- readOGR("spatial_data/shapefiles/SCBI_streams_edits.shp")
+streams <- readOGR("spatial_data/shapefiles/streams_ForestGEO/streams_ForestGEO_full.shp")
 contour_10m <- readOGR("spatial_data/shapefiles/contour10m_SIGEO_clipped.shp")
+
 
 # convert all shp to dataframe so that it can be used by ggplot ####
 # if tidy isn't working, can also do: xxx_df <- as(xxx, "data.frame")
@@ -44,7 +45,7 @@ ggplot_test <- ggplot() +
   geom_path(data = scbi_plot_df, aes(x = long, y = lat, group = group)) +
   geom_path(data = roads_df, aes(x = long, y = lat, group = group), color = "#993300",
             linetype = 2, size = 0.8) +
-  geom_path(data = streams_df, aes(x = long, y = lat, group = group), color = "blue", size = 0.5) +
+  geom_path(data=streams_df, aes(x=long, y=lat, group=group), color = "blue", size=0.5) +
   labs() +
   geom_path(data = deer_df, aes(x = long, y = lat, group = group), size = .7) +
   geom_path(data = contour_10m_df, aes(x = long, y = lat, group = group), color = "gray", linetype = 1) +
