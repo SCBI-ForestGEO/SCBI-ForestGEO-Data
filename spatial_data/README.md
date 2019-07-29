@@ -15,6 +15,7 @@ The file [scbi_elev](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/
 |SCBI_roads_edits| all roads in SCBI|
 |SCBI_streams_clipped_to_plot|the streams going through the ForestGEO plot. This shapefile clipped from a larger shapefile showing all streams in SCBI (SCBI_streams_edits)|
 |SCBI_streams_edits|all streams in SCBI|
+|streams_ForestGEO|more accurate shapefiles for plot, drawn from topographic wetness index raster. There are 3 separate shapefiles ("left", "top", "mid") for easy editing if need be, with the "full" shapefile for the combined. More detailed info can be found in the associated [script](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/R_scripts/create_shapefile_from_raster.R)|
 |Virginia|outline of the state of Virginia|
 |cb_2017_us_state_5m|outline of all US states|
 |contour10m_SIGEO_clipped|contour lines within the ForestGEO plot|
