@@ -5,74 +5,125 @@
 ###############################################
 
 library(RCurl) #1
-library(rgdal) #2a
-library(fgeo) #2a (sp is loaded), 5
-library(broom) #2a for the tidy function
+library(rgdal) #3b
+library(fgeo) #3b (sp is loaded), 5
+library(broom) #3b for the tidy function
 library(ggplot2) #3, 4
 library(sf) #4 for mapping
 library(ggthemes) #4 needed for plot theme
 library(directlabels)
 
 
-#1 Convert SIGEO coordinates to decimal degrees and UTM NAD83 coordinates #####
-# This chunk of code is sourced from the original found within the 'spatial_data' folder located in the SCBI-ForestGEO-Data repo on GitHub
-## contributors: Dunbar Carpenter, Jonathan Thompson, Erika Gonzalez-Akre, Ian McGregor
+#1 Load in scbi.stem3
+sigeo <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv"), stringsAsFactors = FALSE)
 
-##NOTES FOR #1
-###until the 2018 data is public, this raw website will need to be sporadically updated because it is coming from a private repo
-###this means the column names WILL need to be updated eventually
-sigeo <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/master/census%20data/ViewFullTable_crc_master.csv?token=AJNRBEKU5NOO5E7BOP73SHS5DYGNI"), stringsAsFactors = FALSE)
 
-sigeo <- sigeo[sigeo$CensusID == 3, ]
+#2. Create function to make one map with multiple species based on criteria ####
+species <- c("caco", "cato", "cagl", "caovl", "fram")
+colsp <- c("red", "dark green", "orange", "yellow", "blue")
 
-# plot grid coordinates to see if they make sense
-plot(sigeo$PX, sigeo$PY)
-
-## get local coordinates by calculating based on grid coordinates.
-## To replicate, you subtract gx by (20*(quadrat divided by 100) minus 1).
-## For gy, it's the same thing but the remainder of the quadrat divided by 100.
-sigeo$lx <- sigeo$PX - 20*((sigeo$QuadratName %/% 100) - 1)
-sigeo$ly <- sigeo$PY - 20*((sigeo$QuadratName %% 100) - 1)
-
-#round local coordinates to nearest tenth
-sigeo$lx <- round(sigeo$lx, digits = 1)
-sigeo$ly <- round(sigeo$ly, digits = 1)
-
-## NAD83 coordinates of the SW and NW corners of the SIGEO plot
-NAD83.SW <- c(747385.521, 4308506.438)                     
-NAD83.NW <- c(747370.676, 4309146.156)
-
-## Angle (in radians) at which the plot's western boundary is offset from true NAD83 line of latitude
-Offset <- atan2(NAD83.NW[1] - NAD83.SW[1], NAD83.NW[2] - NAD83.SW[2])
-
-## Function that transforms grid coordinates into NAD83 coordinates
-grid2nad83 <- function(x, y) {
-  NAD83.X <- NAD83.SW[1] + (x*cos(Offset) + y*sin(Offset))
-  NAD83.Y <- NAD83.SW[2] + (-x*sin(Offset) + y*cos(Offset))
-  nad83 <- list(NAD83.X, NAD83.Y)
-  names(nad83) <- c("NAD83_X", "NAD83_Y")
-  nad83
+#the function inputs are
+##df = sigeo
+##dbh_filter = filter out all species with dbh < dbh_filter (number)
+##species = one species or vector of species
+##sp_colors = one color or vector of colors to be used for map
+plot_sp_by_filter <- function(df, dbh_filter, species, sp_colors) {
+  source("R_scripts/SIGEO_plot_grid_UTMcoord.R")
+  plot_to_UTM(df)
+  
+  sigeo_sub <- sigeo_coords[sigeo_coords$sp %in% species, ]
+  sigeo_sub$dbh <- as.numeric(sigeo_sub$dbh)
+  sigeo_sub$dbh <- ifelse(is.na(sigeo_sub$dbh), 0, sigeo_sub$dbh)
+  
+  #assign filter
+  sigeo_sub <- sigeo_sub[sigeo_sub$dbh > 0 & sigeo_sub$dbh < dbh_filter, ]
+  sigeo_sub <- sigeo_sub[grepl("A", sigeo_sub$status), ]
+  
+  scbi_plot <- readOGR("spatial_data/shapefiles/20m_grid.shp")
+  deer <- readOGR("spatial_data/shapefiles/deer_exclosure_2011.shp")
+  roads <- readOGR("spatial_data/shapefiles/SCBI_roads_edits.shp")
+  streams <- readOGR("spatial_data/shapefiles/streams_ForestGEO/streams_ForestGEO_full.shp")
+  
+  scbi_plot_df <- tidy(scbi_plot)
+  deer_df <- tidy(deer)
+  roads_df <- tidy(roads)
+  streams_df <- tidy(streams)
+  
+  x_meters <- annotate("text", 
+                       x = seq(747390, 747780, length.out = 5), 
+                       y = seq(4308495, 4308505, length.out = 5), 
+                       label = c("0", "100", "200", "300", "400"), 
+                       size = 3, color = "black")
+  
+  y_meters <- annotate("text", 
+                       x = seq(747350, 747365, length.out = 7), 
+                       y = seq(4309125, 4308505, length.out = 7), 
+                       label = c("600", "500", "400", "300", "200", "100", "0"), 
+                       size = 3, color = "black")
+  
+  x_ticks <- annotate("point",
+                      x = seq(747386, 747786, length.out = 5), 
+                      y = seq(4308506, 4308515, length.out = 5),
+                      shape = 3,
+                      color = "black")
+  
+  y_ticks <- annotate("point",
+                      x = seq(747371, 747386, length.out = 7),
+                      y = seq(4309125, 4308506, length.out = 7), 
+                      shape = 3,
+                      color = "black")
+  
+  ## this code adds the row and column numbers based on coordinates
+  rows <- annotate("text", x = seq(747350, 747365, length.out = 32), y = seq(4309125, 4308505, length.out = 32), label = sprintf("%02d", 32:1), size = 3, color = "black")
+  
+  cols <- annotate("text", x = seq(747390, 747765, length.out = 20), y = seq(4308495, 4308505, length.out = 20), label = sprintf("%02d", 1:20), size = 2.8, color = "black")
+  # x and y give the x/yposition on the plot; sprintf says to add 0 for single digits, the x/y=seq(...,length.out) says fit the label within these parameters, fitting the length of the label evenly.
+  
+  sp_map <- ggplot() +
+    geom_point(data = sigeo_sub, aes(x = NAD83_X, y = NAD83_Y, color = sigeo_sub$sp)) +
+    geom_path(data = scbi_plot_df, aes(x = long, y = lat, group = group)) +
+    geom_path(data = roads_df, aes(x = long, y = lat, group = group), color = "brown",
+              linetype = 2, size = 0.8) +
+    geom_path(data = streams_df, aes(x = long, y = lat, group = group), color = "dark blue", size = 1) +
+    geom_path(data = deer_df, aes(x = long, y = lat, group = group), size = .7) +
+    ggtitle("Location in ForestGEO plot") +
+    theme(axis.title.x = element_blank(),
+          axis.text.x = element_blank(),
+          axis.ticks.x = element_blank(),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank()) +
+    coord_sf(crs = "crs = +proj=merc", xlim = c(747350, 747800), ylim = c(4308500, 4309125)) +
+    theme(panel.grid.major = element_line(colour = 'transparent')) +
+    theme(legend.position = "right") +
+    scale_color_manual(breaks = species, values = sp_colors) +
+    guides(color=guide_legend(title="Species"))
+  
+  sp_map <<- sp_map + 
+    rows +
+    cols 
+  
+  sigeo_sub <<- sigeo_sub
 }
 
-## add NAD83 coordinate columns to SIGEO data table
-sigeo <- data.frame(sigeo, grid2nad83(sigeo$PX, sigeo$PY))
+plot_sp_by_filter(sigeo, 100, species, colsp)
 
-# Add lat lon to the file, first run these 2 lines
-utmcoor <- SpatialPoints(cbind(sigeo$NAD83_X, sigeo$NAD83_Y), proj4string=CRS("+proj=utm +zone=17N"))
-longlatcoor <- spTransform(utmcoor, CRS("+proj=longlat"))
+#save map and csv if want specific coordinates
+ggsave(filename = paste0("spatial_data/maps/", "carya-fram_map", ".jpg"), plot = sp_map, height = 11, width = 8.5)
 
-# add the results ('latlongcoor' output) as two new columns in original dataframe 
-sigeo$lat <- coordinates(longlatcoor)[,2]
-sigeo$lon <- coordinates(longlatcoor)[,1]
-plot(sigeo$lon, sigeo$lat)
+sigeo_sub <- sigeo_sub[, c(3:6,11,18:19)]
+write.csv(sigeo_sub, "spatial_data/coordinates.csv", row.names=FALSE)
 
-#2 Load data to create maps ####
-##2a. Load in shapefiles ####
+#3 Make map for each species' distribution in plot from for-loop ####
+##3a. Convert gx/gy to lat/lon ####
+source("R_scripts/SIGEO_plot_grid_UTMcoord.R")
+plot_to_UTM(sigeo)
+##3b. Load in shapefiles ####
 scbi_plot <- readOGR("spatial_data/shapefiles/20m_grid.shp")
 ForestGEO_grid_outline <- readOGR("spatial_data/shapefiles/ForestGEO_grid_outline.shp")
 deer <- readOGR("spatial_data/shapefiles/deer_exclosure_2011.shp")
 roads <- readOGR("spatial_data/shapefiles/SCBI_roads_edits.shp")
-streams <- readOGR("spatial_data/shapefiles/SCBI_streams_edits.shp")
+streams <- readOGR("spatial_data/shapefiles/streams_ForestGEO/streams_ForestGEO_full.shp")
 # contour_10m <- readOGR("spatial_data/shapefiles/contour10m_SIGEO_clipped.shp") #taken care of by elevation labels in 2b
 
 #Use this option if you want to visualize the plot WITH quadrat/grid lines
@@ -88,8 +139,8 @@ streams_df <- tidy(streams)
 # contour_10m_df <- tidy(contour_10m)
 
 
-#2b. Get contour labels ####
-##needed to add contour lines - online research says that function needed to do this is upgraded to current R version yet
+##3b. Get contour labels ####
+##needed to add contour lines - online research says that function needed to do this is not upgraded to current R version yet
 # library(directlabels)
 # direct.label.ggplot(ggplot_test, method="bottom.pieces")
 
@@ -97,7 +148,7 @@ elevation_labels <- read.csv(text=getURL("https://raw.githubusercontent.com/SCBI
 
 elevation_labels$label <- ifelse(elevation_labels$order == 1, elevation_labels$elev, NA)
 
-#3. Define axis labels to add to plot maps ####
+##3c. Define axis labels to add to plot maps ####
 ##this code adds in meter marks and associated tick marks
 x_meters <- annotate("text", 
                      x = seq(747390, 747780, length.out = 5), 
@@ -132,26 +183,22 @@ cols <- annotate("text", x = seq(747390, 747765, length.out = 20), y = seq(43084
 ##add this code at end of loop above and before saving
 ggplot_test <- ggplot_test + rows + cols
 
-#4. Loop to create maps for all species ####
-##reminder as from #1 above, these column names and statuses WILL need to be changed when the 2018 data goes public
-
+##3d. Loop to create maps for all species ####
 ##prepare sigeo
-sigeo$Status <- ifelse(grepl("dead", sigeo$Status), "dead", "live")
-sigeo$DBH <- as.numeric(sigeo$DBH)
-sigeo$DBH <- ifelse(is.na(sigeo$DBH), 0, sigeo$DBH)
+sigeo_coords$DFstatus <- ifelse(grepl("dead", sigeo_coords$DFstatus), "dead", "alive")
+sigeo_coords$dbh <- as.numeric(sigeo_coords$dbh)
+sigeo_coords$dbh <- ifelse(is.na(sigeo_coords$dbh), 0, sigeo$dbh)
 
-sigeo$color <- ifelse(sigeo$DBH == 0, "black",
-                      ifelse(sigeo$DBH >0 & sigeo$DBH<=100, "dark green",
-                      ifelse(sigeo$DBH > 100 & sigeo$DBH <= 350, "gold", "blue")))
+sigeo_coords$color <- ifelse(sigeo_coords$dbh == 0, "black",
+                      ifelse(sigeo_coords$dbh >0 & sigeo_coords$dbh<=100, "dark green",
+                      ifelse(sigeo_coords$dbh > 100 & sigeo_coords$dbh <= 350, "gold", "blue")))
 
 ##make maps
-
-
-for(i in seq(along = unique(sigeo$Mnemonic))){
-  focus_sp <- unique(sigeo$Mnemonic)[[i]]
-  focus_sp_df <- sigeo[sigeo$Mnemonic == focus_sp, ]
-  focus_sp_alive <- focus_sp_df[focus_sp_df$Status == "live", ]
-  focus_sp_dead <- focus_sp_df[focus_sp_df$Status == "dead", ]
+for(i in seq(along = unique(sigeo_coords$sp))){
+  focus_sp <- unique(sigeo_coords$sp)[[i]]
+  focus_sp_df <- sigeo[sigeo_coords$sp == focus_sp, ]
+  focus_sp_alive <- focus_sp_df[focus_sp_df$DFstatus == "live", ]
+  focus_sp_dead <- focus_sp_df[focus_sp_df$DFstatus == "dead", ]
   
   #ggplot code ####
   sp_map <- ggplot() +
@@ -187,7 +234,7 @@ for(i in seq(along = unique(sigeo$Mnemonic))){
 }
 
 
-#5. Create map with fgeo package ####
+#4. Create map with fgeo package ####
 ##this package easily creates faceted maps of all species distributions in our plot (as seen below). However, this doesn't allow for manually changing the colors of the points based on DBH, nor does it include the stream and road lines.
 
 ## for further reference, see source: https://github.com/forestgeo/fgeo.plot
@@ -202,7 +249,5 @@ elevation <- scbi_elev
 test1 <- test %>%
   filter(CensusID == 3) %>%
   filter(sp %in% c("libe"))
-
-
 
 autoplot(sp_elev(test1, elevation))
