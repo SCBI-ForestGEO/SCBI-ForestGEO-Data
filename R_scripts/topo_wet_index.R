@@ -76,7 +76,9 @@ points(trees$NAD83_X, trees$NAD83_Y)
 
 
 #8 extract TWI value for specific trees
-trees <- read.csv("D:/Dropbox (Smithsonian)/Github_Ian/McGregor_climate-sensitivity-variation/data/core_list_for_neil.csv")
+##the trees need to already have lat/lon info. In this case, this dataset had Nad83X and Y in UTM to match the raster projection
+##e.g. you can get TWI values for ForestGEO plot trees when using the function in SIGEO_plot_grid_UTM_coord.R script in this repo.
+trees <- read.csv("~core_list_for_neil.csv")
 trees <- trees[, c(1,23:24)]
 trees1 <- trees[, c(2:3)]
 
