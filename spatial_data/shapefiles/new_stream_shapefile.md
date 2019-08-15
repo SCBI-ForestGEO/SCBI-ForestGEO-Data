@@ -1,4 +1,4 @@
-# Other intern project
+# Need to update stream shapefile (by @mcgregorian1)
 
 **Context**: the scbi streams shapefile [found here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data/shapefiles) is old and a little inaccurate. It should be remade.
 
