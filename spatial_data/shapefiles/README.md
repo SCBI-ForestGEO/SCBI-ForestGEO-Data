@@ -6,7 +6,7 @@
 |ForestGEO_grid_outline|perimeter of the ForestGEO plot|
 |SCBI_roads_clipped_to_plot| the dirt road running through the ForestGEO plot. This shapefile is clipped from a larger shapefile showing all roads in SCBI (SCBI_roads_edits)|
 |SCBI_roads_edits| all roads in SCBI|
-|SCBI_streams_clipped_to_plot|the streams going through the ForestGEO plot. This shapefile clipped from a larger shapefile showing all streams in SCBI (SCBI_streams_edits)|
+|SCBI_streams_clipped_to_plot|the streams going through the ForestGEO plot. This shapefile clipped from a larger shapefile showing all streams in SCBI (SCBI_streams_edits). Not accurate--see[here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/spatial_data/shapefiles/new_stream_shapefile.md)|
 |SCBI_streams_edits|all streams in SCBI|
 |Virginia|outline of the state of Virginia|
 |cb_2017_us_state_5m|outline of all US states|
