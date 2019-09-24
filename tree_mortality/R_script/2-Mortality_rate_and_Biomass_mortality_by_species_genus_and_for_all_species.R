@@ -30,21 +30,24 @@ for(agb.c  in agb.columns) {
 
 
 #Calculate mortality rates for each inter-census period
-census.years <- as.numeric(unique(sapply(strsplit(grep("[0-9]", names(allmort), value = T), "\\."), tail, 1))) # get the years we have data for.
+census.years <- sort(as.numeric(unique(sapply(strsplit(grep("[0-9]", names(allmort), value = T), "\\."), tail, 1)))) # get the years we have data for.
 
 mortality.rates <- NULL
 biomass.mortality.rates <- NULL
 
 for(c.y in census.years[-1]) { # start looking at second census (so that there is census to look back)
 
+  if(c.y == 2013) dbh.to.look.at = "dbh.2008"
+  if(c.y %in% c(2014:2018)) dbh.to.look.at = "dbh.2013"
+  if(c.y >= 2019) dbh.to.look.at = "dbh.2018"
   
   # get the elements we need ####
   year.previous.census <- census.years[which(census.years %in% c.y) -1]
      
-  # get index of trees that were stared big enough (in 2008 or 2013) and were Live in the previous census
-  if(c.y == 2013) idx.Live1 <- !is.na(allmort$dbh.2008) & allmort$dbh.2008 >= mindbh & allmort[, paste0("status.", year.previous.census)] %in% "Live"
+  # get index of trees that were stared big enough (in 2008, 2013 or 2018) and were Live in the previous census
+  idx.Live1 <- !is.na(allmort[, dbh.to.look.at]) & allmort[, dbh.to.look.at] >= mindbh & allmort[, paste0("status.", year.previous.census)] %in% "Live"
   
-  if(c.y != 2013) idx.Live1 <- !is.na(allmort$dbh.2013) & allmort$dbh.2013 >= mindbh & allmort[, paste0("status.", year.previous.census)] %in% "Live"
+
   
   # giev 1 to dead trees, 0 to others
   mort <- ifelse(allmort[, paste0("status.", c.y )] %in% "Dead", 1, 0)
