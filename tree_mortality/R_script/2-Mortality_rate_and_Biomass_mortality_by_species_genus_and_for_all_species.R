@@ -200,7 +200,7 @@ for(i in 1:nrow(mortality.rates)) {
 
 # Plot results ####
 
-# tiff file name ####
+# Barplots of mortality rates and Biomass mortality ####
 tiff("tree_mortality/R_results/Barplots_MortalityRates_and_BiomassMortality.tiff", width = 2500, height = 2500, units = "px", res = 300)
 
 par(mfrow = c(2, 1), mar = c(3, 5.1, 0, 0), oma = c(2,0,3,0), xpd=F)
@@ -236,7 +236,7 @@ arrows(b, tapply(x$ci.lo,  list(x$census ,x$sp ), function(x) x), b,
        tapply(x$ci.hi,  list(x$census ,x$sp ), function(x) x), lwd = 1, angle = 90,
        code = 3, length = 0.01)
 
-## plot mortality biomass ####
+## plot Biomass mortality ####
 
 
 x <- droplevels(biomass.mortality.rates[biomass.mortality.rates$sp %in% x$sp, ])
@@ -257,7 +257,6 @@ b <- barplot(x$biomass.mortality.Mg.C.ha.1.yr.1 ~ x$census +x$sp , beside = T, l
 
 mtext("Species", 1, line = 0, outer = T)
 # dev.off() ####
-
 dev.off()
 
 # SAVE ####
