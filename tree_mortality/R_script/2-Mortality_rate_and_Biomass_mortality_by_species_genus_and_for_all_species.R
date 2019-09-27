@@ -198,6 +198,67 @@ for(i in 1:nrow(mortality.rates)) {
   
 }
 
+# Plot results ####
+
+# tiff file name ####
+tiff("tree_mortality/R_results/Barplots_MortalityRates_and_BiomassMortality.tiff", width = 2500, height = 2500, units = "px", res = 300)
+
+par(mfrow = c(2, 1), mar = c(3, 5.1, 0, 0), oma = c(2,0,3,0), xpd=F)
+
+
+## plot Mortality rates ####
+
+x <- droplevels(mortality.rates[!is.na(mortality.rates$sp) & !mortality.rates$sp %in% "unk" & mortality.rates$ninit > 100 , ])
+
+# species_that_always_have_at_leat_100_to_start_with <- tapply( mortality.rates$ninit,  mortality.rates$sp, function(x) all(x > 100))
+# species_that_always_have_at_leat_100_to_start_with <- names(species_that_always_have_at_leat_100_to_start_with[species_that_always_have_at_leat_100_to_start_with])
+# x <- droplevels(mortality.rates[!is.na(mortality.rates$sp) & mortality.rates$sp %in% species_that_always_have_at_leat_100_to_start_with, ])
+
+b <- barplot(x$mortality.rates.yr.1 ~ x$census +x$sp , beside = T, legend.text = T, space  = c(0.01, 2), 
+        col = hcl.colors(nlevels(x$census)), 
+        border = hcl.colors(nlevels(x$census)),
+        args.legend = list(x = 2,
+                           y = 22,
+                           xjust = 0,
+                           bty = "n",
+                           title = expression(bold("SCBI\nn>100 & dbh>10cm")),
+                           xpd = NA,
+                           ncol = 1,
+                           cex = 0.9
+                           ),
+        las = 2,
+        xlab = "",# "Species",
+        ylab = expression("Mortality Rates (%y"^"-1"*")"),
+        ylim = c(0, max(x$ci.hi))
+)
+
+arrows(b, tapply(x$ci.lo,  list(x$census ,x$sp ), function(x) x), b,
+       tapply(x$ci.hi,  list(x$census ,x$sp ), function(x) x), lwd = 1, angle = 90,
+       code = 3, length = 0.01)
+
+## plot mortality biomass ####
+
+
+x <- droplevels(biomass.mortality.rates[biomass.mortality.rates$sp %in% x$sp, ])
+
+
+b <- barplot(x$biomass.mortality.Mg.C.ha.1.yr.1 ~ x$census +x$sp , beside = T, legend.text = F, space  = c(0.01, 2), 
+             col = hcl.colors(nlevels(x$census)), 
+             border = hcl.colors(nlevels(x$census)),
+             args.legend = list(x = 2,
+                                y = 1,
+                                xjust = 0,
+                                bty = "n",
+                                title = "SCBI\nN>100 & DBH>10cm"),
+             las = 2,
+             # xlab = "Species",
+             ylab = expression("Biomass Mortality (Mg C ha"^"-1"*"y"^"-1"*")")
+)
+
+mtext("Species", 1, line = 0, outer = T)
+# dev.off() ####
+
+dev.off()
 
 # SAVE ####
 write.csv(mortality.rates, paste0("tree_mortality/R_results/SCBI_mortality_rates_up_to_", max(census.years), ".csv"), row.names = F)
