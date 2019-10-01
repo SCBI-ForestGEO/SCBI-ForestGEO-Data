@@ -1,0 +1,86 @@
+---
+title: "SCBI Forest"
+author: "Albert Y. Kim"
+date: "Last updated on `r Sys.Date()`"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    theme: cosmo
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+library(tidyverse)
+library(sf)
+library(leaflet)
+library(viridis)
+# library(USAboundaries)
+# VA_counties <- 
+#   USAboundaries::us_counties(resolution = "high", states = c("virginia")) 
+```
+
+# Map 1
+
+```{r, cache=TRUE, include=FALSE}
+# Load script to convert quadrat grid to lat/long
+source("R_scripts/SIGEO_plot_grid_UTMcoord.R")
+
+# Load map data
+forest_geo <- "spatial_data/shapefiles" 
+elevation <- "spatial_data/elevation/sigeo_5m_dem/"
+
+# Load tree data
+load("tree_main_census/data/scbi.stem1.rdata")
+scbi_stem1 <- scbi.stem1 %>% 
+  mutate(
+    quadrat = as.numeric(quadrat),
+    dbh = as.numeric(dbh)
+    ) %>% 
+  plot_to_UTM() %>% 
+  select(-c(NAD83_X, NAD83_Y)) %>% 
+  as_tibble()
+
+# Convert to sf and sample 1000
+scbi_stem1_sf <- scbi_stem1 %>% 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
+  sample_n(size = 1000) 
+```
+
+```{r}
+ggplot() +
+  # geom_sf(data = VA_counties, col = "black") + 
+  geom_sf(data = read_sf(forest_geo, layer = "20m_grid"), color = "grey", size = 0.25) + 
+  # geom_sf(data = read_sf(forest_geo, layer = "deer_exclosure_2011"), col = "red") +
+  geom_sf(data = read_sf(forest_geo, layer = "SCBI_streams_clipped_to_plot"), col = "blue") +
+  geom_sf(data = read_sf(elevation), col = "black", linetype = "dashed", alpha = 0.25) +
+  geom_sf(data = scbi_stem1_sf, aes(color = sp))  + 
+  labs(title = "Forest GEO")
+```
+
+
+# Map 2
+
+[Google Maps](https://www.google.com/maps/place/Smithsonian+Conservation+Biology+Institute/@38.8922121,-78.1504073,1185m/data=!3m1!1e3!4m13!1m7!3m6!1s0x89b5c5b42db888c3:0xda2cea8374e94e78!2sFront+Royal,+VA+22630!3b1!8m2!3d38.9181671!4d-78.1944446!3m4!1s0x89b5c5815200b9d9:0x7fa1eed8ecb53d09!8m2!3d38.8871455!4d-78.165316){target="_blank"}
+
+
+```{r, echo=FALSE}
+n_species <- length(unique(scbi_stem1$sp))
+pal <- colorFactor(viridis_pal(option = "A")(n_species), scbi_stem1$sp)
+
+scbi_stem1 %>% 
+  sample_n(size = 1000) %>% 
+  leaflet(data = .) %>%
+  addTiles() %>%
+  addCircleMarkers(
+    ~lon, ~lat, popup = ~location, label = ~sp, 
+    # Map our color palette to the variable candidate
+    color = ~pal(sp),
+    stroke = FALSE, fillOpacity = 0.5
+  )
+```
+
