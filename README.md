@@ -9,7 +9,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 ### Location & Maps
 - Geographic Coordinates: 38°53'36.6" N, 78°08'43.4" W
-- [UTM Coordinates of SCBI plot corners](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data/UTM%20corners)
+- [UTM Coordinates of SCBI plot corners](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data/UTM%20coordinates)
 - [GIS files for plot](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data) 
 
 ### Biophysical environment
