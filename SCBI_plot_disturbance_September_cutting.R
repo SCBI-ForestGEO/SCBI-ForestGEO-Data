@@ -1,0 +1,22 @@
+The ids listed below are *some* of the trees that were cut due to miscommunication:
+  20226
+  20241
+  20245
+  20314
+  20334
+  20336
+  20366
+  20370
+  20380
+  20384
+  20385
+  20390
+  20412
+  20413
+  20415
+  20416
+  20418
+  23120
+  23152
+  23228
+  27135
