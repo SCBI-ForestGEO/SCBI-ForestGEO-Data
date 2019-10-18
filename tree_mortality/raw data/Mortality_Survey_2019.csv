@@ -375,7 +375,7 @@ fram,123,1.5,13.6,12229,1,201,M,A,A,A,A,A,,,I,,,,,,,1,0,none,,,,,7/30/2019,Terre
 fram,123,1.5,13.6,12229,2,180,S,A,A,A,A,A,,,I,,,,,,,1,0,W,,,10% whitening,,7/30/2019,Terrell/Georgopolis
 tiam,124,9.9,9.3,12231,1,NA,DC,A,AU,AU,AU,AU,,,OG,UP,,,,,,,,,,Vertical branches alive,Alive! -  vertical branches,,7/30/2019,Terrell/Georgopolis
 acru,124,2.7,5.3,12232,1,126,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
-havi,124,12.9,1,12233,1,NA,DC,PD,PD,A,A,AU,,,OG,AN,DF,,,4,,,,,,,skunk den!,,7/30/2019,Terrell/Georgopolis
+havi,124,12.9,1,12233,1,NA,DC,PD,PD,A,A,DC,94.8,,CD,UP,,,,,,,,,,,skunk den!,,7/30/2019,Terrell/Georgopolis
 havi,124,12.9,1,12233,6,113,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 fram,124,14.2,1.2,12234,1,320,NULL,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 caca,124,18,5.8,12236,1,187,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
@@ -877,7 +877,7 @@ tiam,220,0.2,19,22139,1,149,I,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 tiam,221,1.9,1.2,22141,1,142,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 litu,221,8,0.8,22144,1,797,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 caca,221,9.3,0.1,22145,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
-caca,221,9,4.2,22146,1,NA,DC,A,A,AU,AU,AU,,,OG,UP,F,,,,,,,,,"Second stem healthy, one branch healthy",one branch with growth,,7/30/2019,Terrell/Georgopolis
+caca,221,9,4.2,22146,1,NA,DC,A,A,AU,AU,DC,104.9,,OG,UP,F,,,,,,,,,"Second stem healthy, one branch healthy",one branch with growth,,7/30/2019,Terrell/Georgopolis
 tiam,221,7,8,22150,1,138,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 tiam,221,1.6,5.3,22151,1,184,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 frni,221,18.5,9.7,22154,1,114,DS,A,A,A,DS,PD,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
@@ -1685,8 +1685,8 @@ unk,401,12.5,2.6,40047,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/
 unk,401,17.2,2.9,40054,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 fram,401,19.4,2.9,40055,1,100,NULL,No sampled,A,A,A,A,,,I,,,,,,,2,2,VB,,,,,6/24/2019,Terrell/Woolford
 caco,401,6.3,20,40077,1,130,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
-fram,401,20,17.1,40085,1,NA,DS,A,A,AU,DS,AU,,,S,I,BB,,,,,4,0,"SS, W, DE",5,Poison ivy on stem; Covered by vitis,"regrowth in canopy; liana, 40% whitening",,6/24/2019,Terrell/Woolford
-fram,401,20,17.1,40085,2,NA,DS,A,A,AU,DS,AU,,,S,I,BB,,,,,4,0,"SS, W, DE",7,Covered by vitis - may not be EAB caused,regrowth in canopy; liana; 40% whitening,,6/24/2019,Terrell/Woolford
+fram,401,20,17.1,40085,1,NA,DS,A,A,AU,DS,PD,,,,,,,,,,,,,,Poison ivy on stem; Covered by vitis,,,6/24/2019,Terrell/Woolford
+fram,401,20,17.1,40085,2,NA,DS,A,A,AU,DS,PD,,,,,,,,,,,,,,Covered by vitis - may not be EAB caused,,,6/24/2019,Terrell/Woolford
 fram,401,20,14.4,40088,1,325,M,A,A,A,A,A,,,CD,I,BB,,,,,2,0,"W, DE",3,A little thinning? Close to a 2,60% whitening,,6/24/2019,Terrell/Woolford
 fram,401,20,14.4,40088,2,NA,DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 ulsp,401,19.6,13.1,41045,1,NA,DS,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
@@ -2890,7 +2890,7 @@ caca,614,4,15.2,60457,1,104,NULL,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell
 caco,614,13.8,2.1,60556,1,242,NULL,A,A,A,A,A,,,,,,,,,,,,,,gall or bullet wilt/anthracnose,,,7/18/2019,Terrell/Ward
 fram,614,16.7,7.7,60557,1,415,NULL,A,A,A,A,A,,,CD,,,,,,,1,1,none,,,,,7/18/2019,Terrell/Ward
 ulru,614,14.3,5.5,60560,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
-fagr,614,19,8.7,60562,1,157,NULL,A,A,A,A,PD,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
+fagr,614,19,8.7,60562,1,157,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 fagr,614,10,11,60566,1,219,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 litu,614,11.6,11.2,60567,1,556,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
 caca,614,19.4,16.2,60569,1,100,NULL,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/18/2019,Terrell/Ward
@@ -3225,7 +3225,7 @@ fagr,702,10.5,13.1,70223,1,257,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/
 fagr,702,9.5,12.3,70224,1,138,M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 fagr,702,11.1,15.4,70225,1,208,M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 qual,702,19.1,7.6,70226,1,148,M,A,A,A,A,A,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
-quve,702,15.6,10.3,70228,1,687,DS,A,A,DS,PD,AU,,,D,DF,,,,4,,,,,,,Alive!; new growth on lower epicormics,,6/24/2019,Terrell/Woolford
+quve,702,15.6,10.3,70228,1,687,DS,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,6/24/2019,Terrell/Woolford
 qupr,702,17.9,15.2,70230,1,189,F,A,A,A,A,A,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 unk,702,12.9,17.7,70233,1,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,6/26/2019,Terrell/Woolford
 unk,703,8.2,3.3,70052,1,NA,F;DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/10/2019,Terrell/Woolford
@@ -8529,7 +8529,7 @@ fram,1713,4.2,1.7,171426,1,NA,DS,A,A,A,DS,PD,,,,,,,,,,,,,,,,,7/17/2019,Terrell/W
 ulru,1713,5.2,5.5,171434,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Ward
 qual,1713,8,9.4,171438,1,NA,DC,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Ward
 saal,1713,7,14.8,171440,1,130,I,A,A,AU,AU,A,,,,,,,,,,,,,,bent @ 1m,,,7/17/2019,Terrell/Ward
-vipr,1713,3.4,19.8,171444,1,NA,DN,A,A,A,A,DN,,,,,,,,,,,,,,tag missing,cannot confirm tree,,7/17/2019,Terrell/Ward
+vipr,1713,3.4,19.8,171444,1,NA,DN,A,A,A,A,A,,,,,,,,,,,,,,tag missing,main stem split in half by fallen tree; tag missing,,7/17/2019,Terrell/Ward
 ceca,1714,19.4,2.4,171348,1,165,NULL,A,A,AU,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Ward
 fram,1714,12.9,3.2,171349,1,63,NULL,A,A,A,A,A,,,I,,,,,,,2,1,"AS, W",,"R, slight F",20% whitening,,7/17/2019,Terrell/Ward
 qual,1714,7.4,8.8,171351,1,465,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/17/2019,Terrell/Ward
