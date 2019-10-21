@@ -375,7 +375,7 @@ fram,123,1.5,13.6,12229,1,201,M,A,A,A,A,A,,,I,,,,,,,1,0,none,,,,,7/30/2019,Terre
 fram,123,1.5,13.6,12229,2,180,S,A,A,A,A,A,,,I,,,,,,,1,0,W,,,10% whitening,,7/30/2019,Terrell/Georgopolis
 tiam,124,9.9,9.3,12231,1,NA,DC,A,AU,AU,AU,AU,,,OG,UP,,,,,,,,,,Vertical branches alive,Alive! -  vertical branches,,7/30/2019,Terrell/Georgopolis
 acru,124,2.7,5.3,12232,1,126,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
-havi,124,12.9,1,12233,1,NA,DC,PD,PD,A,A,DC,94.8,,CD,UP,,,,,,,,,,,skunk den!,,7/30/2019,Terrell/Georgopolis
+havi,124,12.9,1,12233,1,NA,DC,PD,PD,A,A,DC,94.8,4,CD,UP,,,,,,,,,,,skunk den!,,7/30/2019,Terrell/Georgopolis
 havi,124,12.9,1,12233,6,113,M,NA,NA,NA,NA,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 fram,124,14.2,1.2,12234,1,320,NULL,A,A,DS,PD,PD,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 caca,124,18,5.8,12236,1,187,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
@@ -877,7 +877,7 @@ tiam,220,0.2,19,22139,1,149,I,A,A,A,A,A,,,,,,,,,,,,,,,,,7/16/2019,Terrell/Ward
 tiam,221,1.9,1.2,22141,1,142,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 litu,221,8,0.8,22144,1,797,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 caca,221,9.3,0.1,22145,1,NA,DN,PD,PD,PD,PD,PD,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
-caca,221,9,4.2,22146,1,NA,DC,A,A,AU,AU,DC,104.9,,OG,UP,F,,,,,,,,,"Second stem healthy, one branch healthy",one branch with growth,,7/30/2019,Terrell/Georgopolis
+caca,221,9,4.2,22146,1,NA,DC,A,A,AU,AU,DC,104.9,4,OG,UP,F,,,,,,,,,"Second stem healthy, one branch healthy",one branch with growth,,7/30/2019,Terrell/Georgopolis
 tiam,221,7,8,22150,1,138,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 tiam,221,1.6,5.3,22151,1,184,NULL,A,A,A,A,A,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
 frni,221,18.5,9.7,22154,1,114,DS,A,A,A,DS,PD,,,,,,,,,,,,,,,,,7/30/2019,Terrell/Georgopolis
