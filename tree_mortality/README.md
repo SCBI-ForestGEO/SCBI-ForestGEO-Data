@@ -34,7 +34,7 @@ We have been paying increasing attention to signs of insect pests and pathogens 
 | Victoria Meakem |  | research assistant, SCBI | led 2016 census |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | led 2017 census |
 | Maya Prestipino | PrestipinoMN  | research assistant, SCBI | volunteered for 2017 census, led 2018 census |
-| Alyssa Terrell |  alyssaterrell | field assistant, SCBI | volunteered for 2018 census, 2019 census lead |
+| Alyssa Terrell |  alyssaterrell | research assistant, SCBI | volunteered for 2018 census, led 2019 census |
 | Katherine Aldrich |   | field assistant, SCBI | volunteered for 2016 census |
 | Clayton Hatcher |   | field assistant, SCBI | volunteered for 2016 census |
 | Abigail Ferson | aferson  | field assistant, SCBI | volunteered for 2017 census |
