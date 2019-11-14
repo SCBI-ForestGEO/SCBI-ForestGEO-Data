@@ -56,8 +56,8 @@ Studies using these data should cite:
 | Jonathan Thompson |  | staff scientist, SCBI (now Senior Investigator, Harvard Forest) | PI overseeing collection of 2010-2011 cores |
 | Neil Pederson |  | Senior Investigator, Harvard Forest | oversight of chronology building |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | collected and measured 2017 cores, compiled chronologies |
-| Jennifer McGarvey | | research assistant, SCBI | collected and measured 2010-2011 cores | 
-| Victoria Meakem |  | research assistant, SCBI | collected and measured 2016 cores |
+| Jennifer McGarvey | | research assistant, SCBI | collected and measured 2010-2011 cores (does not feel future co-authorship would be appropriate)| 
+| Victoria Meakem |  | research assistant, SCBI | collected and measured 2016 cores (does not feel future co-authorship would be appropriate)|
 | Ian McGregor | mcgregorian1 | research assistant, SCBI | work with cores data, including R scripts for data manipulation |
  
 *refers to position at time of main contribution to this repository
