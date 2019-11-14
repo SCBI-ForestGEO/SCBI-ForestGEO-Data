@@ -53,7 +53,7 @@ Studies using these data should cite:
 | -----| ---- | ---- |---- |
 | Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | PI overseeing project since 2016 |
 | Alan Tepley | tepleya | senior research fellow, SCBI | co-investigator: planning, training, guiding analysis | 
-| Jonathan Thompson |  | staff scientist, SCBI (now Senior Investigator, Harvard Forest) | PI overseeing collection of 2010-2011 cores |
+| Jonathan Thompson |  | staff scientist, SCBI (now Senior Investigator, Harvard Forest) | PI overseeing collection of 2010-2011 cores (does not feel future co-authorship would be appropriate)|
 | Neil Pederson |  | Senior Investigator, Harvard Forest | oversight of chronology building |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | collected and measured 2017 cores, compiled chronologies |
 | Jennifer McGarvey | | research assistant, SCBI | collected and measured 2010-2011 cores (does not feel future co-authorship would be appropriate)| 
