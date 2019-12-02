@@ -1,0 +1,29 @@
+#The tree tags listed below, located on the southwest corner of the plot, were cut 
+by SCBI maintenance in late Summer 2019 to clear the road that goes to NEON tower. 
+Unfortunatelly, this will affect measurements during the next recensus in 2023.
+
+These tags were evident in the road, there could be additional cut trees that 
+we missed.
+
+  20226
+  20241
+  20245
+  20314
+  20334
+  20336
+  20366
+  20370
+  20380
+  20384
+  20385
+  20390
+  20412
+  20413
+  20415
+  20416
+  20418
+  23120
+  23152
+  23228
+  27135
+
