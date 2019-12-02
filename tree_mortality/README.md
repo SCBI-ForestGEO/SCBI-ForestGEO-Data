@@ -12,9 +12,9 @@
 
 The basic census is described in [Gonzalez-Akre et al. (2016)](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595). This covers all methods used in 2014 and 2015.
 
-Since 2016, we started monitoring all ash tress (*Fraxinus spp.*) stems down to 1cm DBH in order to capture dynamics of emerald ash borer infestation. The protocols since 2016 are available [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_mortality/Protocols/Mortality%20Protocol%202018.pdf)
+Since 2016, we started monitoring all ash tress (*Fraxinus spp.*) stems down to 1cm DBH in order to capture dynamics of emerald ash borer infestation. The protocols for 2018 and 2019 (with a small modification from the original) are available [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_mortality/Protocols/Mortality%20Protocol%202018.pdf)
 
-All trees found dead since 2016 have been cored at breast height (1.3 m) and at base except if trees where extremely rot or if other hazards prevented boring or resulted in a very poor quality core. Tree core data is [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores).
+All trees found dead in 2016 and 2017 were cored at breast height (1.3 m) and at base (~30 cm form ground) except if trees where extremely rot or if other hazards prevented boring or resulted in a very poor quality core. Since 2018 we have reduced the number of cores taken from dead trees as we have good chronologies for multiple species and to avoid additional work from our field technicians. Tree core data is [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores).
 
 We have been paying increasing attention to signs of insect pests and pathogens on newly dead and unhealthy trees. A list of pests and pathogens that may affect our trees is given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/insects_pathogens).
 
