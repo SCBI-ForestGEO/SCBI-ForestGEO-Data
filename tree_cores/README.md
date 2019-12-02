@@ -37,7 +37,7 @@ Data on trees from which cores were taken is available through the core census d
 
 ## Physical Samples
 
-Mounted, sanded cores are stored at the Smithsonian Conservation Biology Institute (attic of the office annex), except for a small number that have been removed for isotopic analysis (LITU and QURU cores to J. Mathias in 2018). Cores are available upon reasonable request.
+Mounted, sanded cores are stored at the Smithsonian Conservation Biology Institute. Cores are stored in filing cabinets in the attic of the Office Annex building. They are filed by species and year cored, except for [large cores, which are stored separtely]. (https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_cores/large_cores_stored_separtely.csv). A small number of cores have been removed for isotopic analysis (LITU and QURU cores to J. Mathias in 2018). Cores are available upon reasonable request.
 
 ## Data use
 
