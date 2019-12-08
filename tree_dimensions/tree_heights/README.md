@@ -53,4 +53,4 @@ Height of shrubs and "low stature vegetation" is collected with a collapsible me
 
 Multistemmed plants (mostly shrubs) are recorded as having the same height but different DBH for each stem. In the data, there is no column that acts as a unique identifier for the individual stems.
 
-Be aware that it helps to look at the data visually, as some records have clear errors with large DBH and very small height (e.g. NEON.PLA.D02.SCBI.03428 in 2018-10 and 2018-11.
+Be aware that it helps to look at the data visually, as some records have clear errors with large DBH and very small height (e.g. NEON.PLA.D02.SCBI.03428 in 2018-10 and 2018-11).
