@@ -1,12 +1,12 @@
 ######################################################
 # Purpose: Estimate AGB for stems at SCBI. 
 # Developped by: Valentine Herrmann - HerrmannV@si.edu
-# Date: ??
+# Date: original writen in 2017?? multiple modifications added thereafter
 #######################################################
 
 
 ## x is a table with:
-## - a column called 'dbh' which has the dbh of all the stems in mm
+## - a column called 'dbh' which has dbh of every stems in mm
 ## - a column called 'SPPCODE' with species 4-letter species code 
 
 x$agb_ctfs  <-  x$agb
@@ -15,20 +15,22 @@ x$order <- 1:nrow(x)
 
 list.object.before <- ls()
 
-# list of srubs species ####
+#Calculating biomass in shrubs is a little complicated, so we came up with 2 approaches:
 
-shrub.DBH.sp <- c("beth", "chvi", "coam", "crpr", "elum", "eual", "ilve", "libe", "saca") # with DBH in AGB allometric equation
+# list of shrubs species ####
 
-shrub.BD.sp <- c("havi", "loma", "romu","rual", "rupe", "ruph", "viac", "vipr", "vire") # with basal diameter in AGB allometric equation
+shrub.DBH.sp <- c("beth", "chvi", "coam", "crpr", "elum", "eual", "ilve", "libe", "saca") # using DBH in AGB allometric equation (approach 1)
+
+shrub.BD.sp <- c("havi", "loma", "romu","rual", "rupe", "ruph", "viac", "vipr", "vire") # using basal diameter in AGB allometric equation (approach 2)
 
 
-# Calculate Biomass for shrubs with DBH allometry equation ####
+# Case 1: Calculate Biomass for shrubs using a DBH allometry equation ####
 
-## subset
+## subset shrub stems
 
 x.shrub.DBH <- x[x$sp %in% shrub.DBH.sp,]
 
-## calculate basal area contribution of each stem within a tree
+## first calculate basal area contribution of each stem within a tree
 BA <- (pi/4) * x.shrub.DBH$dbh^2 # basal area (at 1.3 m) in mm
 tree.sum.BA <- tapply(BA, x.shrub.DBH$tag, sum, na.rm = T) #sum of basal areas per tree
 tree.sum.BA <- tree.sum.BA[match(x.shrub.DBH$tag, names(tree.sum.BA))] # same but same length as BA
@@ -40,6 +42,9 @@ tree.main.stem.DBH <- do.call(rbind, lapply(split(x.shrub.DBH, x.shrub.DBH$tag),
 ## calculate AGB on main stem
 
 tree.main.stem.DBH$agb <- NA
+
+#multiple dbh in mm by 0.1 to obtain dbh in cm
+#some species will multiply by 0.36, the bias correction factor reported in the original publication 
 
 tree.main.stem.DBH$agb <- ifelse(tree.main.stem.DBH$sp == "beth", exp(-2.48 + 2.4835 * log(tree.main.stem.DBH$dbh * 0.1)) * 0.36, tree.main.stem.DBH$agb )
 
@@ -60,18 +65,14 @@ tree.main.stem.DBH$agb  <- ifelse(tree.main.stem.DBH$sp == "libe", exp(-2.2118 +
 tree.main.stem.DBH$agb  <- ifelse(tree.main.stem.DBH$sp == "saca", exp(-2.48 + 2.4835 * log(tree.main.stem.DBH$dbh * 0.1)) * 0.36, tree.main.stem.DBH$agb )
 
 
-## Redistribute the biomass of main stem to other stem, using the basal contribution
+## Redistribute the biomass of main stem to other stems, using the basal contribution
 tree.main.stem.AGB <- tree.main.stem.DBH$agb[match(x.shrub.DBH$tag, rownames(tree.main.stem.DBH))] #get a vector as long as x.shrub.DBH with AGB of main stem repeated for each stem of tree
 
 x.shrub.DBH$agb = tree.main.stem.AGB * BA.contribution
 
 
 
-
-
-
-
-# Calculate Biomass for shrubs with Basal Diameter allometry equation ####
+# Case 2: Calculate Biomass for shrubs using the Basal Diameter allometry equation ####
 
 ## subset
 
