@@ -26,7 +26,7 @@ shrub.BD.sp <- c("havi", "loma", "romu","rual", "rupe", "ruph", "viac", "vipr", 
 
 # Case 1: Calculate Biomass for shrubs using a DBH allometry equation ####
 
-## subset shrub stems
+## subset shrub species for which the biomass allometry requires DBH
 
 x.shrub.DBH <- x[x$sp %in% shrub.DBH.sp,]
 
@@ -71,10 +71,9 @@ tree.main.stem.AGB <- tree.main.stem.DBH$agb[match(x.shrub.DBH$tag, rownames(tre
 x.shrub.DBH$agb = tree.main.stem.AGB * BA.contribution
 
 
-
 # Case 2: Calculate Biomass for shrubs using the Basal Diameter allometry equation ####
 
-## subset
+## subset shrub species for which the biomass allometry requires basal diameter
 
 x.shrub.BD <- x[x$sp %in% shrub.BD.sp,]
 
@@ -89,6 +88,8 @@ BA.contribution <- BA / tree.sum.BA.rep #contribution of each stem to sum of bas
 tree.BD <- data.frame(tag = names(tree.sum.BA.un), BD = sqrt(tree.sum.BA.un/pi) * 2)
 tree.BD <- merge(tree.BD, x.shrub.BD[, c("tag", "sp")], by = "tag")
 
+#multiple dbh in mm by 0.1 to obtain dbh in cm
+#divide by 1000 to obtain biomass in kg (as original pub give biomass in gr) 
 ## calculate AGB using basal diamter
 
 tree.BD$agb <- NA
@@ -112,7 +113,6 @@ tree.BD$agb <- ifelse(tree.BD$sp == "vipr", (29.615 * (tree.BD$BD * 0.1)^3.243) 
 tree.BD$agb <- ifelse(tree.BD$sp == "vire", (29.615 * (tree.BD$BD * 0.1)^3.243) / 1000, tree.BD$agb) #basal diameter
 
 
-
 ## Redistribute the biomass of main stem to other stem, using the basal contribution
 tree.BD <- tree.BD[match(names(BA.contribution), tree.BD$tag),] # PUT BACK IN RIGHT ORDER
 
@@ -120,7 +120,7 @@ x.shrub.BD$agb = tree.BD$agb * BA.contribution
 
 
 
-# calculate AGB of trees ####
+# Now calculate AGB for tree species ####
 
 x.trees <- x[!x$sp %in% c(shrub.DBH.sp, shrub.BD.sp),]
 
