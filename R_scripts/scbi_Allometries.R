@@ -149,17 +149,22 @@ x.trees$agb <- ifelse(x.trees$sp == "astr", exp(-2.48 + 2.4835 * log(x.trees$dbh
 
 x.trees$agb <- ifelse(x.trees$sp == "caca", exp(-2.48 + 2.4835 * log(x.trees$dbh * 0.1)) * 0.36, x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "caco", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
-
+#x.trees$agb <- ifelse(x.trees$sp == "caco", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "caco", 10^(-1.326 + 2.762 * log10(x.trees$dbh * 0.1)) *1.005, x.trees$agb)# new equation added by Erika 1/13/2020                                          
+                                      
 x.trees$agb <- ifelse(x.trees$sp == "cade", exp(-2.0705 + 2.441 * log(x.trees$dbh * 0.1)), x.trees$agb)
 
-x.trees$agb <- ifelse(x.trees$sp == "cagl", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+#x.trees$agb <- ifelse(x.trees$sp == "cagl", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "cagl", 10^(-1.326 + 2.762 * log10(x.trees$dbh * 0.1)) *1.005, x.trees$agb)# new equation added by Erika 1/13/2020  
 
-x.trees$agb <- ifelse(x.trees$sp == "caovl", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+#x.trees$agb <- ifelse(x.trees$sp == "caovl", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "caovl", 10^(-1.326 + 2.762 * log10(x.trees$dbh * 0.1)) *1.005, x.trees$agb)# new equation added by Erika 1/13/2020                                              
 
-x.trees$agb <- ifelse(x.trees$sp == "cato", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+#x.trees$agb <- ifelse(x.trees$sp == "cato", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "cato", 10^(-1.326 + 2.762 * log10(x.trees$dbh * 0.1)) *1.005, x.trees$agb)# new equation added by Erika 1/13/2020                                              
 
-x.trees$agb <- ifelse(x.trees$sp == "casp", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+#x.trees$agb <- ifelse(x.trees$sp == "casp", (1.93378 * (x.trees$dbh * 0.03937)^2.6209) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "casp", 10^(-1.326 + 2.762 * log10(x.trees$dbh * 0.1)) *1.005, x.trees$agb)# new equation added by Erika 1/13/2020                                              
 
 x.trees$agb <- ifelse(x.trees$sp == "ceca", exp(-2.5095 + 2.5437 * log(x.trees$dbh * 0.1)), x.trees$agb)
 
@@ -178,7 +183,8 @@ x.trees$agb <- ifelse(x.trees$sp == "divi", exp(-2.48 + 2.4835 * log(x.trees$dbh
 x.trees$agb <- ifelse(x.trees$sp == "elum", exp(-2.48 + 2.4835 * log(x.trees$dbh * 0.1)), x.trees$agb)
 
 x.trees$agb <- ifelse(x.trees$sp == "eual", exp(-2.48 + 2.4835 * log(x.trees$dbh * 0.1)), x.trees$agb)
-
+                                            
+#x.trees$agb <- ifelse(x.trees$sp == "fagr", (2.0394 * (x.trees$dbh * 0.03937)^2.5715) * 0.45359, x.trees$agb)
 x.trees$agb <- ifelse(x.trees$sp == "fagr", 10^(2.1112 + 2.462 * log10(x.trees$dbh * 0.1)) / 1000, x.trees$agb)# new equation added by Erika 1/13/2020
 
 x.trees$agb <- ifelse(x.trees$sp == "fram", (2.3626 * (x.trees$dbh * 0.03937)^2.4798) * 0.45359, x.trees$agb)
@@ -198,8 +204,6 @@ x.trees$agb <- ifelse(x.trees$sp == "juvi", 0.1632 * (x.trees$dbh * 0.1)^2.2454,
 # x.trees$agb <- ifelse(x.trees$sp == "litu", (1.0259 * (x.trees$dbh * 0.03937)^2.7324) * 0.45359, x.trees$agb)
 x.trees$agb <- ifelse(x.trees$sp == "litu", (10^(-1.236 + 2.635 * (log10(x.trees$dbh * 0.1)))) * 1.008, x.trees$agb) # new equation given by Erika on Tue 4/2/2019 11:57
 
-
-
 # x.trees$agb <- ifelse(x.trees$sp == "nysy", (1.5416 * ((x.trees$dbh * 0.03937)^2)^1.2759) * 0.45359, x.trees$agb)
 x.trees$agb <- ifelse(x.trees$sp == "nysy", exp(-2.2118 + 2.4133 * log(x.trees$dbh * 0.1)) , x.trees$agb)# new equation given by Erika on Tue 4/2/2019 11:57
 
@@ -216,15 +220,18 @@ x.trees$agb <- ifelse(x.trees$sp == "ploc" & (x.trees$dbh * 0.1) < 24, (1.57573 
 x.trees$agb <- ifelse(x.trees$sp == "ploc" & (x.trees$dbh * 0.1) >= 24, (2.51502 * ((x.trees$dbh * 0.03937)^2) ^ 1.19256) * 0.45359, x.trees$agb) # new equation given by Erika on Tue 4/2/2019 11:57
 
 
-x.trees$agb <- ifelse(x.trees$sp == "prav", (1.8082 * (x.trees$dbh * 0.03937)^2.6174) * 0.45359, x.trees$agb)
-
+#x.trees$agb <- ifelse(x.trees$sp == "prav", (1.8082 * (x.trees$dbh * 0.03937)^2.6174) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "prav", 10^(1.1981 + 1.5876 * (log10((x.trees$dbh*0.1)^2))) /1000 *1.017, x.trees$agb)# new equation added by Erika 1/13/2020
+                                            
 #x.trees$agb <- ifelse(x.trees$sp == "prse", (1.8082 * (x.trees$dbh * 0.03937)^2.6174) * 0.45359, x.trees$agb)
-x.trees$agb <- ifelse(x.trees$sp == "prse", (1.8082 * (x.trees$dbh * 0.03937)^2.6174) * 0.45359, x.trees$agb)                                            
+x.trees$agb <- ifelse(x.trees$sp == "prse", 10^(1.1981 + 1.5876 * (log10((x.trees$dbh*0.1)^2))) /1000 *1.017, x.trees$agb)# new equation added by Erika 1/13/2020                                            
 
-x.trees$agb <- ifelse(x.trees$sp == "prsp", (1.8082 * (x.trees$dbh * 0.03937)^2.6174) * 0.45359, x.trees$agb)
+#x.trees$agb <- ifelse(x.trees$sp == "prsp", (1.8082 * (x.trees$dbh * 0.03937)^2.6174) * 0.45359, x.trees$agb)
+x.trees$agb <- ifelse(x.trees$sp == "prsp", 10^(1.1981 + 1.5876 * (log10((x.trees$dbh*0.1)^2))) /1000 *1.017, x.trees$agb)# new equation added by Erika 1/13/2020                                          
 
 x.trees$agb <- ifelse(x.trees$sp == "qual", (1.5647 * (x.trees$dbh * 0.03937)^2.6887) * 0.45359, x.trees$agb)
 
+#x.trees$agb <- ifelse(x.trees$sp == "quco", (2.6574 * (x.trees$dbh * 0.03937)^2.4395) * 0.45359, x.trees$agb)                                            
 x.trees$agb <- ifelse(x.trees$sp == "quco", 10^((1.283 + 2.685 * log10(x.trees$dbh * 0.1)) / 1000) *1.003, x.trees$agb)# new equation added by Erika 1/13/2020
 
 x.trees$agb <- ifelse(x.trees$sp == "qufa" & x.trees$dbh <= 26 * 25.4, (2.3025 * ((x.trees$dbh * 0.03937)^2)^1.2580) * 0.45359, x.trees$agb)
