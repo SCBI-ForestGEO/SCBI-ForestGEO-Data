@@ -1,5 +1,5 @@
 # Forest Insects & Pathogens at SCBI
-This [list](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/species_lists/insects_pathogens/insects_pathogens.csv) contains a list of forest insect and pathogen species that may affect tree health at the Smithsonian Conservation Biology Institute.
+This [list](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/species_lists/insects_pathogens/insects_pathogens.csv) contains forest insect and pathogen species that may affect tree health at the Smithsonian Conservation Biology Institute.
 
 Additional lists for a broader region include [Aukema et al. 2010](https://knb.ecoinformatics.org/view/doi:10.5063/AA/nuding.7.6) and [Liebhold et al. 2013](https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12112).
 
