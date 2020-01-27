@@ -1,6 +1,6 @@
 # Plant species at SCBI-Full plant list
 
-This list contains all plant species encountered at the SCBI-ForesGEO plot (woody, ferns, forbs, etc.). File is also continuously updated.
+This [list](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/species_lists/Full%20plant%20list/SCBI_all_sp_woody_%26_herb.csv) contains all plant species encountered at the SCBI-ForesGEO plot (woody, ferns, forbs, etc.). File is also continuously updated.
 
 
 ## Data use
