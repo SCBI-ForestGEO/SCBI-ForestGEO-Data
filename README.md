@@ -59,7 +59,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
     - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470). The former contains data, latter describes allometries. 
  
 ### Tree species traits 
-- **Leaf traits data (SLA) for 56 woody species** - Archived [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits) and contributed to [TRY Plant Trait Database](www.try-db.org)
+- **Leaf traits data (SLA) for 56 woody species** - Archived [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits) and contributed to [TRY Plant Trait Database](https://www.try-db.org/TryWeb/Home.php)
 
 - **Leaf hydraulic traits** - Contact us for details. 
     
