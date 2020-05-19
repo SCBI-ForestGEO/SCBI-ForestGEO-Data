@@ -20,7 +20,7 @@ library(dplyr)
 library(Rcurl)
 
 dirs <- dir("tree_cores/chronologies/current_chronologies/complete")
-
+dirs <- dirs[grepl("\\.rwl", dirs)]
 mergedirs <- tempdir("tree_cores/chronologies/current_chronologies/complete/merged")
 
 files <- file_path_sans_ext(dirs)
@@ -29,7 +29,7 @@ testFileName <- paste0(files, ".csv")
 mergelist <- list()
 
 for (i in seq(along=dirs)){
-  org <- read.rwl(paste(dirs[i], sep = '//'), format="tucson")
+  org <- read.rwl(paste("tree_cores/chronologies/current_chronologies/complete", dirs[i], sep = '//'), format="tucson")
   
   ##transpose the dataframe
   transorg <- transpose(org)
@@ -71,9 +71,19 @@ notes_2016 <- read.csv("tree_cores/measurement_files/measurement_notes_2016_17_c
 mergedcores$status.at.coring <- ""
 mergedcores <- mergedcores %>%
   select("tag","coreID","sp", "status.at.coring", everything())
-mergedcores$status.at.coring <- 
-  ifelse(mergedcores$tag %in% c(notes_2010$Tag), "alive", 
-         ifelse(mergedcores$tag %in% c(notes_2016$Tag), "dead", ""))
+
+Tag_2010_only <- setdiff(notes_2010$Tag, notes_2016$Tag)
+Tag_2016_only <-  setdiff(notes_2016$Tag, notes_2010$Tag)
+Tags_in_both <- intersect(notes_2010$Tag, notes_2016$Tag)
+
+mergedcores$status.at.coring[mergedcores$tag %in% Tag_2010_only]<- "alive" # this is giving "alive" to those cored in 2010
+mergedcores$status.at.coring[mergedcores$tag %in% Tag_2016_only]<- "dead" # this is giving "dead" to those cored in 2016
+mergedcores$status.at.coring[mergedcores$tag %in% Tags_in_both]<- "dead" # when trees were cored both in 2010 and 2016, it means the ree was dead in 2026 so regardless it is a dying tree and we shouldn't use the last years of data
+
+# remove cores that are supposedly cored in 2010 but have data passed 2010
+mergedcores[mergedcores$status.at.coring          %in%"alive" & !is.na(mergedcores$'2011'), c("coreID", "2011")] # 5 trees do --> we delete those
+mergedcores <- mergedcores[!mergedcores$coreID %in% mergedcores$coreID[mergedcores$status.at.coring          %in%"alive" & !is.na(mergedcores$'2011')] ]
+
 
 write.csv(mergedcores, "tree_cores/all_core_chronologies.csv", row.names=FALSE)
 
