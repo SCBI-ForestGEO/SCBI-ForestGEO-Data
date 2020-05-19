@@ -85,7 +85,7 @@ mergedcores[mergedcores$status.at.coring          %in%"alive" & !is.na(mergedcor
 mergedcores <- mergedcores[!mergedcores$coreID %in% mergedcores$coreID[mergedcores$status.at.coring          %in%"alive" & !is.na(mergedcores$'2011')] ]
 
 
-write.csv(mergedcores, "tree_cores/all_core_chronologies.csv", row.names=FALSE)
+write.csv(mergedcores, "tree_cores/cross-dated_cores_CSVformat/all_core_chronologies.csv", row.names=FALSE)
 
 ############if need to write individual csvs to each species folder, use this code as the last function within the for loop
 write.csv(transorg, file=paste(dirs[i], testFileName[i], sep = '//'), row.names=FALSE)
