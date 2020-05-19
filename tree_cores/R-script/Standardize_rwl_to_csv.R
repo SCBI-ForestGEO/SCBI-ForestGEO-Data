@@ -62,6 +62,9 @@ years <- years[order(years)]
 setDT(mergedcores)
 setcolorder(mergedcores, years)
 
+# remove duplicated core (both in caovl and cato but should only be in caovl, based on the tag)
+mergedcores <- mergedcores[!(mergedcores$coreID %in% "90552" & mergedcores$sp %in% "cato"),]
+
 ##add status at time of coring. 2010-2011 cores were alive, 2016-2017 cores were dead
 notes_2010 <- read.csv("tree_cores/measurement_files/measurement_notes_2010_chronology.csv")
 tags10 <- notes_2010$tag
