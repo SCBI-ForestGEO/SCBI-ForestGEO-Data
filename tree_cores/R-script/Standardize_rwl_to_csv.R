@@ -85,7 +85,7 @@ mergedcores$status.at.coring[mergedcores$tag %in% Tags_in_both]<- "dead" # when 
 
 # remove cores that are supposedly cored in 2010 but have data passed 2010
 mergedcores[mergedcores$status.at.coring          %in%"alive" & !is.na(mergedcores$'2011'), c("coreID", "2011")] # 5 trees do --> we delete those
-mergedcores <- mergedcores[!mergedcores$coreID %in% mergedcores$coreID[mergedcores$status.at.coring          %in%"alive" & !is.na(mergedcores$'2011')] ]
+mergedcores <- mergedcores[!mergedcores$coreID %in% mergedcores$coreID[mergedcores$status.at.coring          %in%"alive" & !is.na(mergedcores$'2011')],]
 
 
 write.csv(mergedcores, "tree_cores/cross-dated_cores_CSVformat/all_core_chronologies.csv", row.names=FALSE)
