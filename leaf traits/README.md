@@ -1,12 +1,16 @@
 # SCBI Leaf traits
-This folder contains files on leaf traits measured at SCBI (raw data).
+This folder contains files on leaf traits measured at SCBI (protocols, raw data)
+File: TRY_Leaf_traits_SCBI_ForestGEO:
 
 ## Sampling dates
 September-October, 2012
 
 ## Sampling location
-ForestGEO plot at SCBI and area north of plot at Posey Hollow.
+ForestGEO plot at SCBI, area north of plot at Posey Hollow.
 
+## How to cite
+Cite as:
+Gonzalez-Akre, E., McShea, W., Bourg, N., Anderson-Teixeira, K. 2015. Leaf traits data (SLA) for 56 woody species at the Smithsonian Conservation Biology Institute-ForestGEO Forest Dynamic Plot. Front Royal, Virginia. USA. [Data set]. Version 1.0.(www.try-db.org)
 
 ## Protocols
 Cornelissen JHC, Lavorel S, et al. (2003) A handbook of protocols for standardized and easy measurement of plant functional traits worldwide. Australian Journal of Botany 51(4), 335-380.
@@ -14,19 +18,9 @@ Cornelissen JHC, Lavorel S, et al. (2003) A handbook of protocols for standardiz
 Clark, D. A., and D. B. Clark. 1992. Life history diversity of canopy and emergent trees in a Neotropical rain forest. Ecological Monographs 62:315-344.
 
 ## Summary
-This dataset of leaf traits from trees and shrubs at the Smithsonian Conservation Biology Institute-ForestGEO Large Forest Dynamic Plot includes measurements for leaf size, leaf fresh and dry mass, leaf area, and calculation of specific leaf area (SLA) and leaf mass per area (LMA). A total of 56 species were sampled in natural ambient conditions. Each record correspond to an individual leaf. The data set contains one *.csv file: [TRY_Leaf_traits_SCBI_ForestGEO.csv](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/leaf%20traits/TRY_Leaf_traits_SCBI_ForestGEO.csv).
+This dataset of leaf traits from trees and shrubs at the Smithsonian Conservation Biology Institute-ForestGEO Large Forest Dynamic Plot includes measurements for leaf size, leaf fresh and dry mass, leaf area, and calculation of specific leaf area (SLA) and leaf mass per area (LMA). A total of 56 species were sampled in natural ambient conditions. Each record correspond to an individual leaf. The data set contains one *.csv file: Leaf_traits_SCBI_ForestGEO.csv.
 
-Data is also accesible throught the [TRY Plant Trait Database](www.try-db.org).
-
-
-## How to cite this dataset
-Cite as:
-Gonzalez-Akre, E., McShea, W., Bourg, N., Anderson-Teixeira, K. 2015. Leaf traits data (SLA) for 56 woody species at the Smithsonian Conservation Biology Institute-ForestGEO Forest Dynamic Plot. Front Royal, Virginia. USA. [Data set]. Version 1.0.(www.try-db.org)
-
-
-This data also contributed to multiple publications, more importantly:
-J Kattge and 202 co-authors. 2020. [TRY plant trait database–enhanced coverage and open access](https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.14904). Global Change Biology. doi: 10.1111/gcb.14904.
-
+This data will soon be open access at TRY Plant Trait Database (www.try-db.org), data can be requested through website.
 
 ## Metadata
 
