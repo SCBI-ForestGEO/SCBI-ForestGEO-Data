@@ -206,8 +206,8 @@ Tag,ID,Name.of.best.file,chronology,chronology_status,chronology_rejection_justi
 12367,litu12367B,litu12369B_shifted,LITU,included,,1962,2016,1,medium,,some correlation; but could shift 2 more,oldest rings could maybe be split,
 12369,litu12369A,litu12369A_shifted,LITU,included,,1955,2013,-2,medium,,Good correlation with -2 shift,split 1962? Combine 1968?,"In litu12369A_shifted_remeasured, I split 1960 and 1962 but it didn't work; likely means shift needs to happen in newer years"
 131192,LITU131192A,LITU131192A_shifted,LITU,included,,1956,2008,-9,low,,narrow 1977,"very narrow most recent years, missing outer years",
-140280,LITU140280A,LITU140280A_shifted,LITU,included,"very low correlation, shift back +1",1923,2016,-1,medium/low,,"very narrow rings from early 90s on, difficult to see correlation, narrow 1947 and 1991 but difficult to tell since all are so narrow",,
-140280,LITU140280B,LITU140280B_shifted,LITU,included,"very low correlation, shift +2",1918,2014,-3,medium/low,,"very narrow rings from early 90s on, difficult to see correlation, narrow 1991 but difficult to tell since all are so narrow",,
+140820,LITU140820A,LITU140820A_shifted,LITU,included,"very low correlation, shift back +1",1923,2016,-1,medium/low,,"very narrow rings from early 90s on, difficult to see correlation, narrow 1947 and 1991 but difficult to tell since all are so narrow",,
+140820,LITU140820B,LITU140820B_shifted,LITU,included,"very low correlation, shift +2",1918,2014,-3,medium/low,,"very narrow rings from early 90s on, difficult to see correlation, narrow 1991 but difficult to tell since all are so narrow",,
 20432,FRAM20432A,FRAM20432A,FRAM,included,low correlation,1944,2015,,high,,,"narrow ~ 1991,92, 2000,2001,77",
 20432,FRAM20432B,FRAM20432B,FRAM,included,,1932,2009,,high,,,"narrow ~ 1991,92, 2000,2001,77",
 151051,LITU151051A,LITU151051A_shifted,LITU,included,,1923,2016,-1,medium,,"narrow 1947, 1977",,

@@ -41,9 +41,9 @@ Citation: Augspurger, C.K & Bartlett, E.A. 2003. Differences in leaf phenology b
 | -----| ---- | ---- |
 | Erika Gonzalez- Akre| lab manager, SCBI | protocols review, data curation|
 | Kristina Anderson-Teixeira | staff scientist, SCBI & STRI | lead PI |
-| Chris So| intern, SCBI | fall observation |
-| Amy Bennett | intern, SCBI| fall and spring observation |
-
+| Chris So| intern, SCBI | fall observation 2013|
+| Amy Bennett | intern, SCBI| fall and spring observation 2014 |
+| Cameron Dow| intern, SCBI | spring observation 2020|
 
 
 
