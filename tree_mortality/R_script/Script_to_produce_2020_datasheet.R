@@ -8,28 +8,28 @@ rm(list = ls())
 library(data.table)
 library(readr)
 # Load in data ####
+#Read directly from Github as data is public online (and where census 3 data is up-to-date)
 
-census3 <- read_csv("SCBI-ForestGEO-Data_private/census data/ViewFullTable_crc_master.csv")
-mort19 <- read.csv("C:/Users/world/Desktop/Github/SCBI-ForestGEO-Data/tree_mortality/raw data/Mortality_Survey_2019.csv")
+census3 <- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv")
 
-# Prepare census 3 ####
-census3 <- census3[census3$CensusID %in% 3, ] # Subset to keep only data collected during census 3
-census3$DBH <- as.numeric(census3$DBH) # Make sure DBH is a numeric, will coerce NULL to NA
+mort19 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_mortality/raw%20data/Mortality_Survey_2019.csv")
+
 
 # Create a unique ID ####
-census3$tag_stem <- paste(census3$Tag, census3$StemTag, sep = "_")
+census3$tag_stem <- paste(census3$tag, census3$StemTag, sep = "_")
 mort19$tag_stem <- paste(mort19$tag,  mort19$stem, sep = "_") 
 
 # Create a new column that will hold the DBH from mort19, matching based on the new unique ID
 census3$DBH_2018 <- mort19$dbh.2018[match(census3$tag_stem, mort19$tag_stem)]
 
-# Subset for trees that are DBH >= 100 in census 3 or that are dead (dbh is NA or 0) in census 3  BUT for which the DBH in mort18 is >= 100 AND all fraxinus species >= 10
-## mort19 <- census3[(!is.na(census3$DBH) & census3$DBH >= 100) | ((is.na(census3$DBH) | census3$DBH == 0) & (!is.na(census3$DBH_2018) & census3$DBH >= 100)) | (census3$Mnemonic %in% c("fram", "frni", "frpe", "frsp") & !is.na(census3$DBH) & census3$DBH_2018 >= 10), ]
+# Subset for trees that are DBH >= 100 in census 3 or that are dead (dbh is NA or 0) BUT for which the DBH in mort19 is >= 100 AND all fraxinus and chvi species >= 10
 
-mort20 <- census3[(!is.na(census3$DBH) & census3$DBH >= 100) | ((is.na(census3$DBH) | census3$DBH == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) | (census3$Mnemonic %in% c("fram", "frni", "frpe", "frsp") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
+#THIS STILL NEED WORK from here
+mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100) | ((is.na(census3$dbh) | census3$dbh == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
 
-###### remove fraxinus <100? 
-mort20 <- census3[(!is.na(census3$DBH) & census3$DBH >= 100) | ((is.na(census3$DBH) | census3$DBH == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) , ]
+
+#Remove "unk" species as they have been dead basically since census 2008
+
 
 # Format mort20 ####
 mort20 <- mort20[names(census3) %in% c("QuadratName", "Tag", "StemTag", "StemID", "Mnemonic", "QX", "QY", "DBH", "ListOfTSM")]
