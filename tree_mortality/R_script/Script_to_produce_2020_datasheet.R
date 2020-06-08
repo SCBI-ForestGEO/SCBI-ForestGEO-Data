@@ -23,11 +23,18 @@ mort19$tag_stem <- paste(mort19$tag,  mort19$stem, sep = "_")
 census3$dbh <- as.numeric(census3$dbh)
 # Create a new column that will hold the DBH from mort19, matching based on the new unique ID
 census3$DBH_2018 <- mort19$dbh.2018[match(census3$tag_stem, mort19$tag_stem)]
+
+# Create a column that will hold the DBH for trees that died in 2019 
+census3$DBH_2019 <- mort19$dbh.if.dead[match(census3$tag_stem, mort19$tag_stem)]
+
 # Subset for trees that are DBH >= 100 in census 3 or that are dead (dbh is NA or 0) BUT for which the DBH in mort19 is >= 100 AND all fraxinus and chvi species >= 10
 
 
 #THIS STILL NEED WORK from here. Converting dbh to numeric gets the list down to 8217, but thats still way short of 10,000. I can't see anything wrong with the ifelse statement. Maybe some trees were missed in the 2018 census?
 mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100) | ((is.na(census3$dbh) | census3$dbh == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
+
+#The only thing I could think of that might be affecting this output is that you would want to check the 2019 survey for deaths? 
+mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100) | ((is.na(census3$DBH_2019) | census3$DBH_2019 == 0) & (!is.na(census3$DBH_2019) & census3$DBH_2019 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
 
 #There are no chvi, unk, or frsp that meet the above requirements. Is this expected?
 frax <- subset(mort20, sp == c("fram", "frni", "frpe", "frsp","chvi", "unk"))
