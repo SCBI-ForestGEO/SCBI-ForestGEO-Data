@@ -14,6 +14,7 @@ census3 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-Fores
 
 census3<-read.csv("C:/Users/erikab/Dropbox (Smithsonian)/GitHub/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem3.csv")
 
+mort18<- read_csv("C:/Users/world/Desktop/Github/SCBI-ForestGEO-Data/tree_mortality/raw data/Mortality_Survey_2018.csv")
 mort19 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_mortality/raw%20data/Mortality_Survey_2019.csv")
 
 # Create a unique ID ####
@@ -92,4 +93,57 @@ mort20[irrelevant] <- NULL
 # Order before saving
 mort20 <- mort20[order(mort20$quadrat, mort20$tag), ]
 # Save as csv ###
+write.csv(mort20, "C:/Users/world/Desktop/Github/SCBI-ForestGEO-Data/tree_mortality/raw data/Mortality_Survey_2020.csv", row.names=FALSE)
+
+
+
+# TEMPORARY WORK AROUND ##
+# The following code appends chvi and removes unk from the mort19 survey form ##
+
+mort18<- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_mortality/raw%20data/Mortality_Survey_2018.csv")
+mort19 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_mortality/raw%20data/Mortality_Survey_2019.csv")
+census3 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv")
+
+mort18$tag_stem <- paste(mort18$tag, mort18$stem, sep = "_")
+mort19$tag_stem <- paste(mort19$tag,  mort19$stem, sep = "_") 
+
+# The extra 300 trees in 2019 compared to 2018 seem like new trees from the '18 census
+dif <- setdiff(mort19$tag_stem,mort18$tag_stem)
+dif_df <- mort19[mort19$tag_stem %in% dif,]
+
+# Add chvi
+chvi <- subset(census3, sp == "chvi")
+
+chvi <- chvi[names(chvi) %in% c("quadrat", "tag", "StemTag", "stemID", "sp", "gx", "gy", "dbh", "codes")]
+setnames(chvi, old = c("quadrat", "tag", "StemTag", "stemID", "sp", "gx", "gy", "dbh", "codes"),
+         new = c("quadrat", "tag", "stem", "stemID", "species", "lx", "ly", "dbh.2018", "codes.2018"))
+
+chvi$con <- paste0(chvi$tag, "_", chvi$stem)
+mort18$con <- paste0(mort18$tag, "_", mort18$stem)
+mort19$con <- paste0(mort19$tag, "_", mort19$stem)
+
+chvi$status.2015 <- mort18$status.2015[match(chvi$con, mort18$con)]
+chvi$status.2016 <- mort18$status.2016[match(chvi$con, mort18$con)]
+chvi$status.2017 <- mort18$`status. 2017`[match(chvi$con, mort18$con)]
+chvi$status.2018 <- mort18$new.status[match(chvi$con, mort18$con)]
+chvi$new.status <- ""
+chvi <- chvi[,-1]
+
+extracols <- setdiff(colnames(mort19), colnames(chvi))
+chvi[extracols] <- ""
+chvi$Old.comments<- mort19$Old.comments[match(chvi$con, mort19$con)]
+
+mort20 <- rbind(mort19, chvi)
+# Remove Unk ##
+mort20<- subset(mort20, species != "unk")
+
+setnames(mort20, old="new.status", new="status.2019")
+mort20$new.status <- ""
+mort20$X2020.comments <- ""
+mort20$date <- ""
+mort20$surveyor <- ""
+
+mort20 <- mort20[,c(1:13, 34, 14:28, 35, 29:31)]
+mort20 <- mort20[order(mort20$quadrat, mort20$tag), ]
+
 write.csv(mort20, "C:/Users/world/Desktop/Github/SCBI-ForestGEO-Data/tree_mortality/raw data/Mortality_Survey_2020.csv", row.names=FALSE)
