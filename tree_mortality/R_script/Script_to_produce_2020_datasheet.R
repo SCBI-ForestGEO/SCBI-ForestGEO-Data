@@ -16,16 +16,28 @@ census3<-read.csv("C:/Users/erikab/Dropbox (Smithsonian)/GitHub/SCBI-ForestGEO-D
 
 mort19 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_mortality/raw%20data/Mortality_Survey_2019.csv")
 
-
 # Create a unique ID ####
 census3$tag_stem <- paste(census3$tag, census3$StemTag, sep = "_")
 mort19$tag_stem <- paste(mort19$tag,  mort19$stem, sep = "_") 
-
+census_check <- census3
 #convert dbh to numeric, introducing NA's instead of NULL
-#This actually change the dbh values for many trees, not sure why
-## see for examle tag=80469, the original dbh in census3 is 126 mm, when you run the line below the dbh changes to 54mm, that is happening with many other tags (i.e all chvi dbh go to 3 digits!), do you know why?
+# convert to character first, going from factor -> numeric is causing problems. I dont know why.
+
+census3$dbh <- as.character(census3$dbh)
 census3$dbh <- as.numeric(census3$dbh)
 
+# Check to make sure dbh isn't being changed
+
+census3_new <- census3[,c(11,18)]
+census_check <- census_check[,c(11,18)]
+census_check <- merge(census3_new,census_check, by = "tag_stem")
+census_check$dbh.y <- as.character(census_check$dbh.y)
+census_check$dbh.y <- as.numeric(census_check$dbh.y)
+census_check$check <- ifelse(census_check$dbh.x == census_check$dbh.y, 0, 1)
+library(plyr)
+# If there is a 1, it means the DBH has changed. There are only 2 1's 
+count(census_check$check)
+ones <- subset(census_check, check == 1)
 # Create a column that will hold the DBH for trees that died in 2018, matching based on the new unique ID
 census3$DBH_2018 <- mort19$dbh.2018[match(census3$tag_stem, mort19$tag_stem)]
 
@@ -39,7 +51,7 @@ census3$DBH_2019 <- mort19$dbh.if.dead[match(census3$tag_stem, mort19$tag_stem)]
 mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100) | ((is.na(census3$dbh) | census3$dbh == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
 
 #The only thing I could think of that might be affecting this output is that you would want to check the 2019 survey for deaths? 
-mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100)| ((is.na(census3$DBH_2019) | census3$DBH_2019 == 0) & (!is.na(census3$DBH_2019) & census3$DBH_2019 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
+mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100)| ((is.na(census3$dbh) | census3$dbh == 0) & (!is.na(census3$DBH_2019) & census3$DBH_2019 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$dbh) & census3$dbh >= 10), ]
 
 #There are no chvi, unk, or frsp that meet the above requirements. Is this expected?
 #I get chvi when running frax but their dbh are all wrong.
