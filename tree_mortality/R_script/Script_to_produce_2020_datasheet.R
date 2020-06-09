@@ -10,7 +10,9 @@ library(readr)
 # Load in data ####
 #Read directly from Github as data is public online (and where census 3 data is up-to-date)
 
-census3 <- read_csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv")
+census3 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/scbi.stem3.csv")
+
+census3<-read.csv("C:/Users/erikab/Dropbox (Smithsonian)/GitHub/SCBI-ForestGEO-Data/tree_main_census/data/census-csv-files/scbi.stem3.csv")
 
 mort19 <- read.csv("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_mortality/raw%20data/Mortality_Survey_2019.csv")
 
@@ -20,23 +22,27 @@ census3$tag_stem <- paste(census3$tag, census3$StemTag, sep = "_")
 mort19$tag_stem <- paste(mort19$tag,  mort19$stem, sep = "_") 
 
 #convert dbh to numeric, introducing NA's instead of NULL
+#This actually change the dbh values for many trees, not sure why
+## see for examle tag=80469, the original dbh in census3 is 126 mm, when you run the line below the dbh changes to 54mm, that is happening with many other tags (i.e all chvi dbh go to 3 digits!), do you know why?
 census3$dbh <- as.numeric(census3$dbh)
-# Create a new column that will hold the DBH from mort19, matching based on the new unique ID
+
+# Create a column that will hold the DBH for trees that died in 2018, matching based on the new unique ID
 census3$DBH_2018 <- mort19$dbh.2018[match(census3$tag_stem, mort19$tag_stem)]
 
 # Create a column that will hold the DBH for trees that died in 2019 
 census3$DBH_2019 <- mort19$dbh.if.dead[match(census3$tag_stem, mort19$tag_stem)]
 
-# Subset for trees that are DBH >= 100 in census 3 or that are dead (dbh is NA or 0) BUT for which the DBH in mort19 is >= 100 AND all fraxinus and chvi species >= 10
-
+# Subset for trees that are DBH >= 100 in census 3 or that are dead (dbh is NA or 0) BUT for which the DBH in mort19 is >= 100 AND all include fraxinus and chvi species >= 10
 
 #THIS STILL NEED WORK from here. Converting dbh to numeric gets the list down to 8217, but thats still way short of 10,000. I can't see anything wrong with the ifelse statement. Maybe some trees were missed in the 2018 census?
+#I get 52674 records after running the mort20 below.
 mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100) | ((is.na(census3$dbh) | census3$dbh == 0) & (!is.na(census3$DBH_2018) & census3$DBH_2018 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
 
 #The only thing I could think of that might be affecting this output is that you would want to check the 2019 survey for deaths? 
-mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100) | ((is.na(census3$DBH_2019) | census3$DBH_2019 == 0) & (!is.na(census3$DBH_2019) & census3$DBH_2019 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
+mort20 <- census3[(!is.na(census3$dbh) & census3$dbh >= 100)| ((is.na(census3$DBH_2019) | census3$DBH_2019 == 0) & (!is.na(census3$DBH_2019) & census3$DBH_2019 >= 100)) | (census3$sp %in% c("fram", "frni", "frpe", "frsp","chvi") & !is.na(census3$DBH_2018) & census3$DBH_2018 >= 10), ]
 
 #There are no chvi, unk, or frsp that meet the above requirements. Is this expected?
+#I get chvi when running frax but their dbh are all wrong.
 frax <- subset(mort20, sp == c("fram", "frni", "frpe", "frsp","chvi", "unk"))
 unique(frax$sp)
 #Remove "unk" species as they have been dead basically since census 2008
