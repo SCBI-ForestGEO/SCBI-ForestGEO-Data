@@ -4692,7 +4692,7 @@ litu,1008,10.7,6.6,100917,1,NA,F;DC,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,
 caovl,1008,15.7,13.6,100919,1,195,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1008,20,13.3,100921,1,475,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 caca,1008,19,18.3,100923,1,NA,F;DS,PD,PD,PD,PD,PD ,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-litu,1008,19.3,18.3,100924,1,222,F,A,A,A,A,A,D,225,3,CD,U,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
+litu,1008,19.3,18.3,100924,1,222,F,A,A,A,A,A,DS,225,3,CD,U,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1008,13.1,18.7,100927,1,225,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1008,17.6,20,100928,1,229,F,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 cato,1008,12.9,15.9,100929,1,182,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
@@ -5244,7 +5244,7 @@ litu,1110,9,6.3,111084,1,613,F,A,A,A,A,A,AU,NA,NA,D,AN,,,,NA,NA,NA,NA,,NA,,,,,6/
 cato,1110,10,6.9,111085,1,107,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 cato,1110,8.3,7.3,111086,1,160,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 caco,1110,13.5,6.8,111087,1,395,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
-fram,1110,19.4,9.3,111090,1,17,C;F,A,A,A,AU,A,D,19,NA,S,B,,,,NA,NA,5,1,none,NA,,,,,6/16/2020,Cameron Dow
+fram,1110,19.4,9.3,111090,1,17,C;F,A,A,A,AU,A,DS,19,NA,S,B,,,,NA,NA,5,1,none,NA,,,,,6/16/2020,Cameron Dow
 litu,1110,16.7,12,111091,1,241,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 litu,1110,18.3,17.7,111092,1,568,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 litu,1110,13.4,16.4,111093,1,476,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
@@ -5702,11 +5702,11 @@ quru,1207,16.1,12.3,121378,1,779,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,1208,19.6,0.8,121120,1,279,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 qupr,1208,19.4,8.6,121149,1,314,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1208,17,13.8,121154,1,103,F,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-litu,1208,19.8,12.3,121156,1,106,F,A,A,A,A,A,D,105,3,I,U,,,,NA,NA,NA,NA,,NA,,,a lot of epicormic growth at base of trunk,,6/11/2020,Cameron Dow
+litu,1208,19.8,12.3,121156,1,106,F,A,A,A,A,A,DS,105,3,I,U,,,,NA,NA,NA,NA,,NA,,,a lot of epicormic growth at base of trunk,,6/11/2020,Cameron Dow
 litu,1208,20,11.8,121157,1,495,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 caovl,1208,18.2,18.2,121162,1,309,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-litu,1208,17.1,19.3,121163,1,101,F,NA,NA,NA,NA,A,D,100,0,I,B,,,,NA,NA,NA,NA,,NA,,,broken stem at 4m,,6/11/2020,Cameron Dow
-litu,1208,1.6,4.1,121235,1,123,F,A,A,A,A,A,D,120,3,I,U,,,,NA,NA,NA,NA,,NA,,,a lot of epicormic growth at base of trunk,,6/11/2020,Cameron Dow
+litu,1208,17.1,19.3,121163,1,101,F,NA,NA,NA,NA,A,DS,100,0,I,B,,,,NA,NA,NA,NA,,NA,,,broken stem at 4m,,6/11/2020,Cameron Dow
+litu,1208,1.6,4.1,121235,1,123,F,A,A,A,A,A,DS,120,3,I,U,,,,NA,NA,NA,NA,,NA,,,a lot of epicormic growth at base of trunk,,6/11/2020,Cameron Dow
 litu,1208,10.4,10,121251,1,602,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 qupr,1208,6.4,11.1,121254,1,425,F,A,A,A,A,A,AU,NA,NA,I,R,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 fram,1208,8.4,12.9,121258,1,NA,F;DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
