@@ -1711,9 +1711,9 @@ cato,407,19.1,18.6,40576,1,161,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qual,407,3.4,12,40579,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 amar,407,5.4,15.4,40580,1,237,NULL,A,A,A,A,AU ,,NA,NA,I,K,,,,NA,NA,NA,NA,,NA,,,,,,
 caca,407,4.2,18.1,40582,1,158,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,407,13.3,2.2,40622,1,418,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,407,18.8,4.4,40626,1,137,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,407,18.8,15.7,40634,1,153,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+cato,407,13.3,2.2,40622,1,418,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,407,18.8,4.4,40626,1,137,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,407,18.8,15.7,40634,1,153,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 ulru,408,3.5,1.2,40584,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fagr,408,4.6,8.6,40585,1,195,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qupr,408,6.9,9.2,40586,1,167,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
@@ -1749,7 +1749,7 @@ caca,410,16.1,11.2,40697,1,118,J,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qual,410,5.2,1.8,40717,1,272,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,410,3.8,3.9,40719,1,235,NULL,A,A,A,A,A,,NA,NA,I,,,,,NA,NA,1,0,none,NA,,,,,,
 astr,410,1.7,6.2,40735,1,106,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,410,1.7,19.3,40788,1,153,A;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,leaned on by another tree,,,
+caca,410,1.7,19.3,40788,1,153,A;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,leaned on by another tree,,6/24/2020,Cameron Dow
 fram,410,18.2,11.3,40801,1,69,NULL,No sampled,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
 ulsp,410,18.2,12.3,40803,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 astr,410,11.8,16.6,40811,1,102,M,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
@@ -1757,23 +1757,23 @@ litu,410,17.1,15.1,40821,1,486,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 casp,410,14.5,16.4,40827,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caca,410,14.8,18.4,40830,1,113,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caca,410,17.9,18.8,40843,1,131,I,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-astr,411,10.1,0.9,40793,1,123,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,411,11.7,0.9,40794,1,118,M;P,A,AU,AU,AU,A,DC,131,NA,NA,UP,,,,NA,NA,NA,NA,,NA,,,,,,
-astr,411,8,2.9,40795,1,113,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-frni,411,13.7,9.3,40846,1,203,C,A,A,A,AU,AU,DS,209,4,I,BB,,,,NA,NA,5,2,"SS, DE",6,,,,,,
-cato,411,17.4,14.8,40848,1,346,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+astr,411,10.1,0.9,40793,1,123,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+acru,411,11.7,0.9,40794,1,118,M;P,A,AU,AU,AU,A,DC,131,NA,NA,UP,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+astr,411,8,2.9,40795,1,113,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+frni,411,13.7,9.3,40846,1,203,C,A,A,A,AU,AU,DS,209,4,I,BB,,,,NA,NA,5,2,"SS, DE",6,,,,,6/24/2020,Cameron Dow
+cato,411,17.4,14.8,40848,1,346,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 fram,411,14.5,19,40853,1,NA,DS,A,A,AU,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,411,14.5,19,40853,2,302,DS,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,411,14.5,19,40853,3,NA,DC,A,AU,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,411,2,9.3,40859,1,683,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,411,2,9.3,40859,1,683,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 ulsp,411,5,3.6,40908,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-tiam,412,15.4,1.2,40872,1,224,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,412,16.5,11,40873,1,378,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+tiam,412,15.4,1.2,40872,1,224,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,412,16.5,11,40873,1,378,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 fagr,412,15.9,13.4,40874,1,NA,DC,DC,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,412,16.5,11,40874,2,174,S,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+fagr,412,16.5,11,40874,2,174,S,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qual,412,14.4,14.4,40875,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,412,14.4,17.3,40877,1,148,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,412,15.5,18.2,40879,1,448,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caca,412,14.4,17.3,40877,1,148,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,412,15.5,18.2,40879,1,448,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 ulru,412,5.3,10.1,40883,1,NA,DC,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 chvi,412,72.8,222.2,40917,1,NULL,DN,NA,NA,NA,NA,,,,,,,,,,,,,,,,NA,,,,,
 chvi,412,72.8,222.2,40917,2,NULL,DN,NA,NA,NA,NA,,,,,,,,,,,,,,,,NA,,,,,
@@ -2213,23 +2213,23 @@ litu,506,19.2,9.2,50408,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,
 litu,506,14.3,11.8,50411,1,212,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,506,17.8,15.9,50415,1,157,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,506,18.2,17.7,50416,1,433,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,507,3.6,3.8,50345,1,520,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+quru,507,3.6,3.8,50345,1,520,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 quru,507,3.6,3.8,50345,2,NA,F;DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,507,5,5.9,50350,1,111,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,507,1.2,8.2,50351,1,394,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,507,0.8,9.9,50352,1,121,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caovl,507,7.7,12.1,50356,1,424,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,507,4.2,18.1,50364,1,680,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,507,11.9,4.9,50419,1,398,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,507,14.1,9.5,50426,1,326,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,507,10,8.1,50427,1,273,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,507,10,13,50428,1,103,F,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,507,5,5.9,50350,1,111,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,507,1.2,8.2,50351,1,394,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,507,0.8,9.9,50352,1,121,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caovl,507,7.7,12.1,50356,1,424,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qual,507,4.2,18.1,50364,1,680,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,507,11.9,4.9,50419,1,398,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qual,507,14.1,9.5,50426,1,326,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,507,10,8.1,50427,1,273,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cato,507,10,13,50428,1,103,F,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qual,507,14.2,13.2,50429,1,NA,F;DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,507,16.7,12.9,50432,1,369,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,507,17.9,10.3,50433,1,161,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,507,16.7,12.9,50432,1,369,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,507,17.9,10.3,50433,1,161,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qupr,507,18.5,16.7,50434,1,NA,F;DC,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qupr,507,11.8,18.7,50440,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caovl,507,9.4,18.2,50442,1,413,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caovl,507,9.4,18.2,50442,1,413,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 fagr,508,4.7,0,50365,1,148,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 qupr,508,10.7,3,50367,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 cato,508,12.7,5.1,50369,1,148,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
@@ -2280,69 +2280,69 @@ litu,510,6.8,19,50490,1,366,L,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 quru,510,1.3,12.9,50506,1,NA,DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,510,2,12.6,50507,1,104,NULL,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,510,0.8,15.7,50509,1,373,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caco,511,10.4,7,50492,1,149,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caco,511,10.4,7,50492,1,149,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 frsp,511,14.1,8.8,50493,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,511,13.6,12.1,50495,1,693,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,511,17.2,10.4,50496,1,235,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,511,9.2,12.7,50497,1,191,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,511,7.7,12,50499,1,664,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,511,3.8,5.3,50512,1,448,NULL,A,A,A,A,A,DS,442,5,CD,,,,,NA,NA,5,1,"DE, W",26,,,,,,
-qual,511,2.4,15.2,50517,1,173,NULL,A,A,AU,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,511,2.2,14.9,50518,1,541,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,511,11.3,15.1,50601,1,42,NULL,A,A,A,A,A,DS,NA,NA,S,,,,,NA,NA,5,2,"AS, SS, VB, DE",2,,,,,,
-qual,511,20,17,50605,1,359,NULL,A,A,A,A,A,A ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,512,2,17.1,50056,1,556,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,512,3.6,5.2,50522,1,193,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,512,6.9,1,50523,1,516,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,512,8.3,7.4,50525,1,518,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,512,7.1,10.4,50526,1,156,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,512,5.3,12.7,50527,1,476,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,511,13.6,12.1,50495,1,693,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,511,17.2,10.4,50496,1,235,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,511,9.2,12.7,50497,1,191,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,511,7.7,12,50499,1,664,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,511,3.8,5.3,50512,1,448,NULL,A,A,A,A,A,DS,442,5,CD,,,,,NA,NA,5,1,"DE, W",26,,,,,6/24/2020,Cameron Dow
+qual,511,2.4,15.2,50517,1,173,NULL,A,A,AU,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,511,2.2,14.9,50518,1,541,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,511,11.3,15.1,50601,1,42,NULL,A,A,A,A,A,DS,NA,NA,S,,,,,NA,NA,5,2,"AS, SS, VB, DE",2,,,,,6/24/2020,Cameron Dow
+qual,511,20,17,50605,1,359,NULL,A,A,A,A,A,A ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qual,512,2,17.1,50056,1,556,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,512,3.6,5.2,50522,1,193,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,512,6.9,1,50523,1,516,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qual,512,8.3,7.4,50525,1,518,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,512,7.1,10.4,50526,1,156,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,512,5.3,12.7,50527,1,476,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qual,512,1.3,13.7,50531,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,512,7,16.3,50533,1,132,L,A,A,A,A,A,AU,NA,NA,OG,R,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,512,7.6,0.2,50607,1,391,NULL,A,A,A,A,A,A ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caca,512,7,16.3,50533,1,132,L,A,A,A,A,A,AU,NA,NA,OG,R,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,512,7.6,0.2,50607,1,391,NULL,A,A,A,A,A,A ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 tiam,512,17.3,5.7,50609,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-tiam,512,17.3,5.7,50609,2,224,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,leaning,,,
+tiam,512,17.3,5.7,50609,2,224,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,leaning,,6/24/2020,Cameron Dow
 tiam,512,17.3,5.7,50609,3,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 tiam,512,17.3,5.7,50609,4,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,512,12.6,11.1,50612,1,101,NULL,NA,NA,NA,NA,A, A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,512,13,12.8,50613,1,730,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,512,10.5,13.5,50614,1,517,NULL,A,A,A,A,A,AU,NA,NA,CD,,,,,NA,NA,4,3,W,NA,,30% whitening,30% whitening,,,
-fagr,512,17.7,15.2,50615,1,150,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,513,0.1,0.4,50536,1,152,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,1,2.5,50537,1,252,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,0.6,3.1,50538,1,195,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,1.8,3.5,50540,1,665,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+acru,512,12.6,11.1,50612,1,101,NULL,NA,NA,NA,NA,A, A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,512,13,12.8,50613,1,730,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,512,10.5,13.5,50614,1,517,NULL,A,A,A,A,A,AU,NA,NA,CD,,,,,NA,NA,4,3,W,NA,,30% whitening,30% whitening,,6/24/2020,Cameron Dow
+fagr,512,17.7,15.2,50615,1,150,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,513,0.1,0.4,50536,1,152,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,513,1,2.5,50537,1,252,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,513,0.6,3.1,50538,1,195,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,513,1.8,3.5,50540,1,665,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caca,513,4.7,3.9,50541,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,6.5,4.2,50544,1,570,NULL,A,A,A,A,A,AU,NA,NA,CD,LF,,,,NA,NA,NA,NA,,NA,,,leaves small and wilting,,,
-litu,513,4.8,7.1,50545,1,230,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,513,2.6,8.5,50547,1,158,M,A,A,A,A,A,AU,NA,NA,S,B,,,,NA,NA,NA,NA,,NA,,,stem broken/bent at  4m,,,
-cagl,513,10.1,9.4,50550,1,185,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,6.9,11.4,50552,1,403,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,513,5.8,11.8,50553,1,107,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,8.6,15.8,50555,1,512,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,8.6,15.8,50555,2,315,S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,513,7.4,18.2,50556,1,205,NULL,A,A,A,A,A,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,,break at 7m,,,
-fagr,513,9.2,18.4,50557,1,317,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,513,16.8,9.4,50622,1,655,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,513,6.5,4.2,50544,1,570,NULL,A,A,A,A,A,AU,NA,NA,CD,LF,,,,NA,NA,NA,NA,,NA,,,leaves small and wilting,,6/24/2020,Cameron Dow
+litu,513,4.8,7.1,50545,1,230,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,513,2.6,8.5,50547,1,158,M,A,A,A,A,A,AU,NA,NA,S,B,,,,NA,NA,NA,NA,,NA,,,stem broken/bent at  4m,,6/24/2020,Cameron Dow
+cagl,513,10.1,9.4,50550,1,185,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,513,6.9,11.4,50552,1,403,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,513,5.8,11.8,50553,1,107,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,513,8.6,15.8,50555,1,512,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,513,8.6,15.8,50555,2,315,S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,513,7.4,18.2,50556,1,205,NULL,A,A,A,A,A,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,,break at 7m,,6/24/2020,Cameron Dow
+fagr,513,9.2,18.4,50557,1,317,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qual,513,16.8,9.4,50622,1,655,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 fram,513,19.7,7.3,50624,1,NA,DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,513,14.8,13.8,50630,1,126,NULL,A,A,A,A,A,AU,NA,NA,I,DF,,,,2,NA,NA,NA,,NA,,,,,,
-fagr,514,5.6,7.6,50559,1,253,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,514,8.9,8.1,50560,1,235,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,epicormic growth along entire stem,,,
-litu,514,10.2,8.9,50561,1,365,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,514,6.9,12.5,50562,1,688,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,514,2.6,14.9,50563,1,302,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,514,2.6,15.7,50564,1,237,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,being swallowed,,,,,
-caca,514,17.8,0.4,50635,1,126,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,514,20,7.4,50638,1,193,A,A,A,A,A,A,DS,195,4,I,CR,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,513,14.8,13.8,50630,1,126,NULL,A,A,A,A,A,AU,NA,NA,I,DF,,,,2,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,514,5.6,7.6,50559,1,253,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,514,8.9,8.1,50560,1,235,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,epicormic growth along entire stem,,6/24/2020,Cameron Dow
+litu,514,10.2,8.9,50561,1,365,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,514,6.9,12.5,50562,1,688,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,514,2.6,14.9,50563,1,302,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,514,2.6,15.7,50564,1,237,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,being swallowed,,,,6/24/2020,Cameron Dow
+caca,514,17.8,0.4,50635,1,126,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,514,20,7.4,50638,1,193,A,A,A,A,A,A,DS,195,4,I,CR,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 ceca,514,17.5,5.9,50640,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,514,15.1,7.7,50641,1,373,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,514,19.6,9.4,50646,1,353,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,514,19.6,12.4,50647,1,320,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,tag missing,,,
-ceca,514,19.4,13.7,50648,1,111,I,A,A,A,AU,AU,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,,break at base and 4m; tag missing,,,
-litu,514,18.6,14.4,50649,1,529,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,514,15.1,7.7,50641,1,373,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,514,19.6,9.4,50646,1,353,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,514,19.6,12.4,50647,1,320,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,tag missing,,6/24/2020,Cameron Dow
+ceca,514,19.4,13.7,50648,1,111,I,A,A,A,AU,AU,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,,break at base and 4m; tag missing,,6/24/2020,Cameron Dow
+litu,514,18.6,14.4,50649,1,529,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,514,19.5,14.9,50650,1,191,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-fagr,514,9.1,14.9,50652,1,233,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-tiam,514,16.5,19.1,50653,1,164,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,spotted anthracnose/wilt,,,,,
+fagr,514,9.1,14.9,50652,1,233,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+tiam,514,16.5,19.1,50653,1,164,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,spotted anthracnose/wilt,,,,6/24/2020,Cameron Dow
 litu,514,17.2,19.1,50654,1,735,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 nysy,515,5.1,3.4,50566,1,121,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,Broken at crown,,,,,
 fagr,515,2.2,7.7,50567,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
@@ -2350,9 +2350,9 @@ caca,515,10.8,6.3,50571,1,122,M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fagr,515,11.1,8.4,50572,1,148,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fagr,515,6.4,11.5,50573,1,167,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag being swallowed,,,,,
 nysy,515,6.9,16.8,50575,1,252,M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,515,13.4,0.7,50657,1,496,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,515,15.1,3.9,50658,1,138,M,A,A,A,AU,AU,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,"SS, Break @ 1.6m",B @ 1.7m,,,,
-caca,515,20,7.7,50659,1,105,A,NA,NA,NA,NA,A,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,,  ,,,
+litu,515,13.4,0.7,50657,1,496,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,515,15.1,3.9,50658,1,138,M,A,A,A,AU,AU,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,"SS, Break @ 1.6m",B @ 1.7m,,,6/24/2020,Cameron Dow
+caca,515,20,7.7,50659,1,105,A,NA,NA,NA,NA,A,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,,  ,,6/24/2020,Cameron Dow
 acru,515,17.9,15.6,50660,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,515,10.3,13.5,50664,1,168,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caca,515,7.9,15,50665,1,149,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
@@ -2683,20 +2683,20 @@ qual,606,1.8,12.2,60315,1,555,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,606,6.4,15.5,60317,1,128,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,Break @ ~4m,,,,,
 qupr,606,7.8,11.2,60318,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,606,0,5,63152,1,376,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,607,18.4,11.8,60134,1,530,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,607,16.6,3.5,60135,1,141,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,607,13.4,7.2,60138,1,235,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,607,19.6,7.1,60140,1,173,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qupr,607,12,9.7,60141,1,669,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+quve,607,18.4,11.8,60134,1,530,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,607,16.6,3.5,60135,1,141,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,607,13.4,7.2,60138,1,235,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,607,19.6,7.1,60140,1,173,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qupr,607,12,9.7,60141,1,669,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qupr,607,12,9.7,60141,2,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,607,16.2,13.9,60143,1,303,F,A,A,A,AU,AU,,NA,NA,CD,CR,,,,NA,NA,NA,NA,,NA,being crushed by 070189,CR by 70189,,,,
-fagr,607,18.1,16,60144,1,107,F,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,607,13,16.1,60145,1,237,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qupr,607,7.6,6.9,60327,1,541,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,607,3.3,8.3,60331,1,459,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qupr,607,2.8,9.1,60333,1,405,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+quru,607,16.2,13.9,60143,1,303,F,A,A,A,AU,AU,DC,NA,NA,,CR,UP,,,NA,NA,NA,NA,,NA,being crushed by 070189,CR by 70189,Can't take dbh,,6/24/2020,Cameron Dow
+fagr,607,18.1,16,60144,1,107,F,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,607,13,16.1,60145,1,237,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qupr,607,7.6,6.9,60327,1,541,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qual,607,3.3,8.3,60331,1,459,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qupr,607,2.8,9.1,60333,1,405,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qupr,607,10,9,60337,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,607,6.2,7.6,60339,1,173,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+fagr,607,6.2,7.6,60339,1,173,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 saal,608,12.6,16.8,60148,1,NA,F;DS;R,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 cato,608,20,12,60160,1,170,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag missing,tag missing,tag missing,,6/16/2020,Cameron Dow
 qupr,608,17.5,11.7,60161,1,869,F,A,A,A,A,AU,AU,NA,NA,D,B,,,,NA,NA,NA,NA,,NA,,B in crown,,,6/16/2020,Cameron Dow
@@ -2753,41 +2753,41 @@ cato,611,7.4,12.6,60534,1,245,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 cato,611,6.9,13.7,60536,1,120,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,611,6.1,13.9,60537,1,558,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 quru,611,5.8,15.6,60539,1,515,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,612,2.6,3,60426,1,325,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,612,0.3,6.8,60427,1,455,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,termites,,,,,
-qual,612,5,12,60428,1,434,NULL,A,A,A,A,A,A   ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caco,612,3.6,17.2,60431,1,189,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,mossy stem,,,
-caco,612,2.3,16.9,60432,1,458,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,612,0.9,18.1,60433,1,195,I;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,612,10.7,3.5,60540,1,365,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,612,16.4,8.7,60542,1,462,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,612,17.6,11.3,60543,1,153,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,612,19.6,17.4,60544,1,184,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,613,1.1,3.1,60435,1,108,M,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,613,1.9,5.9,60436,1,115,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,613,4.3,5.9,60437,1,582,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,613,5.3,6.8,60438,1,223,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,613,4.7,7.9,60440,1,127,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+fagr,612,2.6,3,60426,1,325,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,612,0.3,6.8,60427,1,455,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,termites,,,,6/24/2020,Cameron Dow
+qual,612,5,12,60428,1,434,NULL,A,A,A,A,A,A   ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caco,612,3.6,17.2,60431,1,189,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,mossy stem,,6/24/2020,Cameron Dow
+caco,612,2.3,16.9,60432,1,458,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,612,0.9,18.1,60433,1,195,I;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,612,10.7,3.5,60540,1,365,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cato,612,16.4,8.7,60542,1,462,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,612,17.6,11.3,60543,1,153,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,612,19.6,17.4,60544,1,184,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,613,1.1,3.1,60435,1,108,M,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,613,1.9,5.9,60436,1,115,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,613,4.3,5.9,60437,1,582,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,613,5.3,6.8,60438,1,223,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,613,4.7,7.9,60440,1,127,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caca,613,3.5,11.1,60442,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,613,7.9,13.2,    ,1,507,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,613,7.9,13.2,    ,1,507,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 acru,613,0.7,19,60447,1,NA,DC,DC,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,613,12,0.8,60545,1,NA,DC,DS,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,613,12,2.1,60548,1,433,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,613,15.6,8.1,60549,1,430,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,613,19.4,10,60550,1,570,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,613,17.7,10.4,60551,1,535,NULL,A,A,A,A,AU,AU,NA,NA,D,AN,,,,NA,NA,NA,NA,,NA,,,,,,
+qual,613,12,2.1,60548,1,433,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,613,15.6,8.1,60549,1,430,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,613,19.4,10,60550,1,570,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,613,17.7,10.4,60551,1,535,NULL,A,A,A,A,AU,AU,NA,NA,D,AN,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caca,613,17.7,15.3,60552,1,NA,DS,A,A,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,613,19.8,9.7,60555,1,287,NULL,A,A,A,A,A,AU,NA,NA,I,B,AN,,,NA,NA,NA,NA,,NA,Coordinates switched; healthy despite breaks,,break at 6m,,,
-acru,614,7.8,4.7,60449,1,170,NULL,A,A,A,AU,AU,AU,NA,NA,I,B,AN,,,NA,NA,NA,NA,,NA,crown break,B in crown,nearly hollowed out,,,
-litu,614,6.5,4.9,60450,1,686,NULL,A,A,A,A,A,AU,NA,NA,D,U,,,,NA,NA,NA,NA,,NA,,,,,,
+acru,613,19.8,9.7,60555,1,287,NULL,A,A,A,A,A,AU,NA,NA,I,B,AN,,,NA,NA,NA,NA,,NA,Coordinates switched; healthy despite breaks,,break at 6m,,6/24/2020,Cameron Dow
+acru,614,7.8,4.7,60449,1,170,NULL,A,A,A,AU,AU,AU,NA,NA,I,B,AN,,,NA,NA,NA,NA,,NA,crown break,B in crown,nearly hollowed out,,6/24/2020,Cameron Dow
+litu,614,6.5,4.9,60450,1,686,NULL,A,A,A,A,A,AU,NA,NA,D,U,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 ulam,614,6.1,9.7,60453,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,614,1.5,11.2,60454,1,109,NULL,NA,NA,NA,NA,A,A   ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caca,614,1.5,11.2,60454,1,109,NULL,NA,NA,NA,NA,A,A   ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 frni,614,4.4,13.5,60455,1,140,DS,A,A,AU,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caca,614,4,15.2,60457,1,104,NULL,NA,NA,NA,NA,A,AU,NA,NA,I,R,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-caco,614,13.8,2.1,60556,1,242,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,gall or bullet wilt/anthracnose,,very mossy,,,
-fram,614,16.7,7.7,60557,1,415,NULL,A,A,A,A,A, AU,NA,NA,CD,,,,,NA,NA,4,2,"DE, W",10,,,,,,
+caco,614,13.8,2.1,60556,1,242,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,gall or bullet wilt/anthracnose,,very mossy,,6/24/2020,Cameron Dow
+fram,614,16.7,7.7,60557,1,415,NULL,A,A,A,A,A, AU,NA,NA,CD,,,,,NA,NA,4,2,"DE, W",10,,,,,6/24/2020,Cameron Dow
 ulru,614,14.3,5.5,60560,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,614,19,8.7,60562,1,157,NULL,A,A,A,A,A,DS,150,4,I,I,,,,NA,NA,NA,NA,,NA,,,centipedes,,,
+fagr,614,19,8.7,60562,1,157,NULL,A,A,A,A,A,DS,150,4,I,I,,,,NA,NA,NA,NA,,NA,,,centipedes,,6/24/2020,Cameron Dow
 fagr,614,10,11,60566,1,219,NULL,A,A,A,A,A,AU,NA,NA,I,U,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,614,11.6,11.2,60567,1,556,NULL,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 caca,614,19.4,16.2,60569,1,100,NULL,NA,NA,NA,NA,A,AU,NA,NA,CD,DF,,,,1,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
@@ -2799,18 +2799,18 @@ fagr,615,2,3,60459,1,122,NULL,NA,NA,NA,NA,A,AU,NA,NA,I,LF,,,,NA,NA,NA,NA,,NA,,,s
 quve,615,2,7.4,60461,1,NA,DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fagr,615,5.6,7.6,60462,1,238,NULL,A,A,A,A,A,AU,NA,NA,I,LF,,,,NA,NA,NA,NA,,NA,,,leaf spots,,6/11/2020,Cameron Dow
 juni,615,7.2,8,60463,1,491,NULL,A,A,A,A,A,AU,NA,NA,D,I,,,,NA,NA,NA,NA,,NA,,,insects hollowing out the trunk,,6/11/2020,Cameron Dow
-fagr,615,1.2,14.7,60467,1,242,NULL,A,A,A,A,A,AU,NA,NA,I,F,,,,NA,NA,NA,NA,,NA,,,,,,
+fagr,615,1.2,14.7,60467,1,242,NULL,A,A,A,A,A,AU,NA,NA,I,F,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caca,615,17.1,1,60576,1,105,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,615,12.7,1.4,60577,1,572,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-fagr,615,20,6.5,60580,1,181,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+fagr,615,20,6.5,60580,1,181,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,615,19.8,9.3,60581,1,702,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 quru,615,20,10.2,60582,1,293,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag missing,,,,6/11/2020,Cameron Dow
-qual,615,20,11.4,60583,1,139,NULL,A,A,AU,A,A,AU,NA,NA,I,DF,F,,,3,NA,NA,NA,,NA,,,,,,
-fagr,615,19.6,12.7,60584,1,154,NULL,A,A,A,A,A,AU,NA,NA,I,U,,,,NA,NA,NA,NA,,NA,,,epicormic growth along entire trunk,,,
-caca,615,  ,12,60585,1,154,A,A,A,A,A,A,AU,NA,NA,I,R,F,,,NA,NA,NA,NA,,NA,,,,,,
+qual,615,20,11.4,60583,1,139,NULL,A,A,AU,A,A,AU,NA,NA,I,DF,F,,,3,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,615,19.6,12.7,60584,1,154,NULL,A,A,A,A,A,AU,NA,NA,I,U,,,,NA,NA,NA,NA,,NA,,,epicormic growth along entire trunk,,6/24/2020,Cameron Dow
+caca,615,  ,12,60585,1,154,A,A,A,A,A,A,AU,NA,NA,I,R,F,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caco,615,13.4,7.3,60588,1,305,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-litu,615,12.5,17.6,60590,1,634,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,Tag lost (right next to 60592),,,,,
-cagl,615,14,17,60592,1,194,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,615,12.5,17.6,60590,1,634,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,Tag lost (right next to 60592),,,,6/24/2020,Cameron Dow
+cagl,615,14,17,60592,1,194,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caca,616,0.9,2.5,60471,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caca,616,4,4.8,60472,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,616,1.6,9.6,60474,1,300,NULL,A,A,A,A,A,,NA,NA,I,,,,,NA,NA,2,3,"SS, W",NA,,40% whitening,,,,
@@ -3149,22 +3149,22 @@ litu,706,15.6,2.8,70317,1,531,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 cagl,706,12.6,8.7,70319,1,306,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,706,10.4,12.4,70325,1,614,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,706,18.2,15.8,70331,1,287,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,706,18.4,12.1,70332,1,251,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+cagl,706,18.4,12.1,70332,1,251,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qupr,706,15.6,19.6,70334,1,637,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,707,3,3.5,70167,1,204,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,707,1.1,6,70169,1,597,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,707,3,3.5,70167,1,204,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,707,1.1,6,70169,1,597,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 frpe,707,6.1,9,70172,1,NA,F;DT,No sampled,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,707,3.7,8.1,70173,1,159,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,707,0.9,15.2,70175,1,233,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,707,7.1,14.3,70178,1,381,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,707,13.1,17.4,70180,1,172,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,707,12.1,19,70181,1,575,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,707,6.5,19.4,70182,1,221,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,707,17.2,2.4,70343,1,175,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,707,9.8,8.9,70344,1,438,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,707,19.7,10.9,70351,1,166,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,707,18.5,11,70352,1,767,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,707,17,12.1,70354,1,118,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+acru,707,3.7,8.1,70173,1,159,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,Epidermis growth along trunk,,6/24/2020,Cameron Dow
+cagl,707,0.9,15.2,70175,1,233,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,707,7.1,14.3,70178,1,381,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,707,13.1,17.4,70180,1,172,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,707,12.1,19,70181,1,575,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,707,6.5,19.4,70182,1,221,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cato,707,17.2,2.4,70343,1,175,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,707,9.8,8.9,70344,1,438,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+acru,707,19.7,10.9,70351,1,166,F,A,A,A,A,A,AU,NA,NA,I,R,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,707,18.5,11,70352,1,767,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cato,707,17,12.1,70354,1,118,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qupr,708,0.2,0.9,70184,1,138,F,A,A,A,A,A,DC,131,NA,,UP,CR,,,NA,NA,NA,NA,,NA,being crushed by 70189,,uprooted,,6/16/2020,Cameron Dow
 cagl,708,4.3,3.5,70186,1,493,F,A,A,A,A,A,DS,493,4,D,AN,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 qupr,708,3.1,7.8,70189,1,NA,F;DC,A,A,A,AU,DC,PD,NA,NA,,,,,,NA,0,NA,NA,,NA,,weighing on 60143,,yes,6/16/2020,Cameron Dow
@@ -3234,21 +3234,21 @@ litu,712,5.3,16.7,70466,1,315,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,40% whi
 cato,712,9,17.4,70467,1,330,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,712,12.4,17,70469,1,NA,F;DC;R,A,A,DC,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 qual,712,16.5,17.1,70471,1,365,F,A,A,AU,A,AU,A,NA,NA,,,,,,4,NA,NA,NA,,NA,,wilting,,,6/11/2020,Cameron Dow
-fagr,712,1.6,7.5,70472,1,154,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,712,1.6,7.5,70472,5,136,S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,712,4.5,19.7,70473,1,190,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+fagr,712,1.6,7.5,70472,1,154,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,712,1.6,7.5,70472,5,136,S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cato,712,4.5,19.7,70473,1,190,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caovl,712,11.5,0.5,70544,1,119,F;DS,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,D-hole: 2,,,,6/11/2020,Cameron Dow
 cagl,712,12.1,1.2,70545,1,200,F,A,A,A,A,AU,AU,NA,NA,I,AN,,,,NA,NA,NA,NA,,NA,,woodpecker damage every meter,,,6/11/2020,Cameron Dow
 qual,712,12.8,3.9,70550,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,712,16.2,5.6,70552,1,383,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 cato,712,13.1,12.1,70557,1,168,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 qual,712,19.7,13.3,70559,1,615,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-cato,713,1,0.4,70474,1,178,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+cato,713,1,0.4,70474,1,178,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 quve,713,0.5,4.3,70476,1,578,NULL,A,A,AU,AU,DS,PD,NA,NA,,,,,,NA,0,NA,NA,,NA,will be dead soon,too many large holes in order to properly core,,no,,
-litu,713,4.7,6.3,70479,1,102,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,713,5.4,8.9,70481,1,184,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,713,6.7,15,70485,1,614,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,713,8.4,15.6,70486,1,471,NULL,A,A,A,A,AU,AU,NA,NA,CD,I,,,,NA,NA,NA,NA,,NA,,termites,termites,,,
+litu,713,4.7,6.3,70479,1,102,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,713,5.4,8.9,70481,1,184,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,713,6.7,15,70485,1,614,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,713,8.4,15.6,70486,1,471,NULL,A,A,A,A,AU,AU,NA,NA,CD,I,,,,NA,NA,NA,NA,,NA,,termites,termites,,6/24/2020,Cameron Dow
 qual,713,16.3,2.3,70562,1,414,F,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,"D-hole: 4, Break @ ~16m",,,,6/11/2020,Cameron Dow
 litu,713,12.5,0.1,70563,1,NA,F;DC;R,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 fagr,713,10.3,1.8,70565,1,115,F;M,A,A,A,A,A,AU,NA,NA,I,LF,,,,NA,NA,NA,NA,,NA,,,leaf spots,,6/11/2020,Cameron Dow
@@ -3261,19 +3261,19 @@ quru,713,13.8,15.4,70573,1,556,A;F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/
 caovl,713,17.1,14.5,70574,1,150,F,A,A,A,A,A,A ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 cato,713,15.4,18.8,70577,1,117,F,A,A,A,A,A,A ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 quru,714,4,2.5,70490,1,NA,DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,felled,,,,
-nysy,714,0.1,7,70491,1,161,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+nysy,714,0.1,7,70491,1,161,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 nysy,714,0.1,11.2,70492,1,212,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,714,0.3,15.2,70493,1,557,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-litu,714,6.9,18.3,70497,1,334,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,714,6.9,18.3,70497,1,334,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caovl,714,19.2,4.3,70579,1,240,F,A,A,A,A,A,A ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 quru,714,13.7,1.2,70581,1,641,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
-cato,714,12.4,5.2,70587,1,304,NULL,A,A,A,A,AU,AU,NA,NA,I,R,,,,NA ,NA,NA,NA,,NA,,,,,,
+cato,714,12.4,5.2,70587,1,304,NULL,A,A,A,A,AU,AU,NA,NA,I,R,,,,NA ,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 quve,714,16.2,5.2,70588,1,NA,DS,DS,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,felled,,,,
-litu,714,18.9,11.6,70589,1,339,I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,714,18.3,12.3,70592,1,256,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,714,16.3,14.2,70594,1,122,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,714,18.2,16.7,70595,1,254,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-tiam,714,8,16.3,70596,1,283,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,714,18.9,11.6,70589,1,339,I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,714,18.3,12.3,70592,1,256,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cato,714,16.3,14.2,70594,1,122,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,714,18.2,16.7,70595,1,254,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+tiam,714,8,16.3,70596,1,283,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,715,6.6,2.7,70499,1,640,M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,insect activity at base,,,,,
 litu,715,6.6,2.7,70499,2,466,S,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,insect activity at base,,,,,
 caca,715,18,1.6,70597,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
@@ -3618,48 +3618,48 @@ litu,805,16.8,12.4,80246,1,198,F,A,A,A,AU,DS,,199,4,I,R,K,,,NA,0,NA,NA,,NA,SS & 
 litu,805,17,10.6,80247,1,213,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,805,17.6,8.7,80248,1,142,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 cagl,805,16.3,7.2,80249,1,124,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,806,2.6,2.4,80263,1,130,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,806,5.8,9.9,80281,1,249,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,806,7.1,9.3,80282,1,277,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,806,14.6,3.9,80284,1,184,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qupr,806,2,0.7,80286,1,197,F;DS,A,A,A,AU,DS,,196,4,I,U,,,,NA,0,NA,NA,,NA,,too thick to core,,no,,
+caca,806,2.6,2.4,80263,1,130,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,806,5.8,9.9,80281,1,249,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,806,7.1,9.3,80282,1,277,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,806,14.6,3.9,80284,1,184,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qupr,806,2,0.7,80286,1,197,F;DS,A,A,A,AU,DS,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,too thick to core,,no,,
 cagl,806,8.8,0.2,80288,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,806,16.6,4,80290,1,132,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-havi,806,2.5,19.4,80313,1,103,F;M,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,806,10.4,14.2,80316,1,820,F,A,A,A,A,AU,,NA,NA,D,DF,,,,4,NA,NA,NA,,NA,,large dead branches,,,,
+nysy,806,16.6,4,80290,1,132,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+havi,806,2.5,19.4,80313,1,103,F;M,NA,NA,NA,NA,A,AU,NA,NA,I,LF,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,806,10.4,14.2,80316,1,820,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,large dead branches,,,6/24/2020,Cameron Dow
 quru,806,16.2,18,80325,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,806,18.4,15,80329,1,393,F,A,A,A,A,AU,,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,806,16.9,13.8,80330,1,546,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,806,14.1,8.7,80335,1,191,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,806,19.5,3.5,80337,1,295,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-havi,806,2.2,14.5,83628,1,103,F;M,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caco,807,19.1,3.6,80338,1,474,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+cagl,806,18.4,15,80329,1,393,F,A,A,A,A,AU,AU,NA,NA,CD,U,,,,NA,NA,NA,NA,,NA,,,Vertices splits in bark; mossy trunk,,6/24/2020,Cameron Dow
+quru,806,16.9,13.8,80330,1,546,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,806,14.1,8.7,80335,1,191,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,806,19.5,3.5,80337,1,295,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+havi,806,2.2,14.5,83628,1,103,F;M,NA,NA,NA,NA,A,AU,NA,NA,I,AN,R,,,NA,NA,NA,NA,,NA,,,Woodpecker damage on largest stem,,6/24/2020,Cameron Dow
+caco,807,19.1,3.6,80338,1,474,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qual,807,18.1,1.9,80346,1,NA,F;DS,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,break @ ~4m,,,,,
-acru,807,16.1,4.3,80348,1,175,F,A,A,A,A,AU,,NA,NA,I,DF,,,,3,NA,NA,NA,,NA,,B @ 5 and 9m,,,,
-saal,807,8,4.1,80355,1,188,B;I;L;F,A,AU,AU,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,main stem on ground; healthy,,,,,
+acru,807,16.1,4.3,80348,1,175,F,A,A,A,A,AU,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,B @ 5 and 9m,break at 9m,,6/24/2020,Cameron Dow
+saal,807,8,4.1,80355,1,188,B;I;L;F,A,AU,AU,A,A,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,main stem on ground; healthy,,Stem broken at 1.3m; some D shaped holes,,6/24/2020,Cameron Dow
 saal,807,3.2,9.3,80359,1,NA,F;DS,DS,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,807,8.6,9.3,80362,1,108,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+cagl,807,8.6,9.3,80362,1,108,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qual,807,18.7,8.3,80371,1,NA,F;DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,807,16.7,16,80381,1,132,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,807,3.4,12,80394,1,124,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,807,16.7,16,80381,1,132,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,807,3.4,12,80394,1,124,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 caco,807,0.2,19.7,80398,1,191,F;DS,A,AU,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,807,5.3,19.6,80400,1,132,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caco,807,7.4,19.6,80401,1,480,F,A,A,A,A,AU,,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,,
-qupr,807,7.4,16.6,80402,1,425,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,807,12.8,18.5,80407,1,521,A;F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+cagl,807,5.3,19.6,80400,1,132,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caco,807,7.4,19.6,80401,1,480,F,A,A,A,A,AU,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+qupr,807,7.4,16.6,80402,1,425,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,807,12.8,18.5,80407,1,521,A;F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qual,808,17,4.6,80423,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qupr,808,19.8,5.6,80426,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,808,17.9,11.3,80434,1,240,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+cagl,808,17.9,11.3,80434,1,240,F,A,A,A,A,A,AU,NA,NA,I,LF,,,,NA,NA,NA,NA,,NA,,,Leaf spots,,6/24/2020,Cameron Dow
 quru,808,14.4,7.5,80436,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qupr,808,13.5,6.8,80437,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caco,808,8.2,4.7,80439,1,212,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caco,808,8.2,4.7,80439,1,212,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qupr,808,1.4,4.6,80447,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-qual,808,0.2,11.9,80451,1,545,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,808,3.2,16.3,80456,1,580,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,808,6.3,14.5,80457,1,NA,F;DC;R,A,A,A,A,DC,,200,1,I,R,F,,,NA,0,5,0,DE,2,,,,yes,,
-qupr,808,9,13.3,80458,1,700,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,808,10,15.5,80461,1,135,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,808,8,17.5,80463,1,616,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+qual,808,0.2,11.9,80451,1,545,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,808,3.2,16.3,80456,1,580,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,808,6.3,14.5,80457,1,NA,F;DC;R,A,A,A,A,DC,PD,200,1,I,R,F,,,NA,0,5,0,DE,2,,,,yes,,
+qupr,808,9,13.3,80458,1,700,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,808,10,15.5,80461,1,135,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,808,8,17.5,80463,1,616,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 qupr,808,12.8,17,80465,1,NA,F;DC,A,DC,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qupr,808,13.6,19.6,80466,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,809,2.4,3,80468,1,425,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
@@ -4140,51 +4140,51 @@ litu,905,15.9,13.1,90390,1,361,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 ulru,905,19.5,0.5,90446,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caco,905,16.4,5.1,90458,1,105,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,906,19.4,12,90484,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,16.8,14.6,90486,1,570,F;I,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,20,19.5,90492,1,790,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,6.4,7.3,91301,1,464,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caovl,906,14.2,5.7,91302,1,660,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,12.8,8.5,91306,1,136,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,10.7,13.6,91308,1,683,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,906,16.8,14.6,90486,1,570,F;I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,906,20,19.5,90492,1,790,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,906,6.4,7.3,91301,1,464,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caovl,906,14.2,5.7,91302,1,660,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,906,12.8,8.5,91306,1,136,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,906,10.7,13.6,91308,1,683,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 saal,906,2.3,3,91401,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,906,5.8,1.7,91403,1,258,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,4.6,5.3,91404,1,291,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,1.6,7.2,91406,1,687,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,906,4.1,17.7,91413,1,178,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,906,15,19.3,91420,1,289,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,907,9.2,3.6,91321,1,356,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,907,5.7,7.5,91323,1,175,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,907,1,5.3,91327,1,445,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caovl,907,9.8,9,91332,1,489,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,907,5.2,12.2,91333,1,121,F,A,A,A,AU,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,Break @ ~6m; broken by 101028,,,,,
-litu,907,3.4,12.6,91334,1,173,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,907,1.1,12.4,91337,1,159,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,907,7,15.9,91341,1,233,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,907,8,16.7,91344,1,174,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,907,1.7,17.1,91347,1,106,F;M,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,907,19.8,4.3,91428,1,NA,F;X,A,A,A,AU,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,CR by 101028,,,,,
-caovl,907,17.2,5.9,91430,1,118,F;P,A,A,A,AU,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,CR by 101028; crown broke off,,,,,
+cato,906,5.8,1.7,91403,1,258,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,906,4.6,5.3,91404,1,291,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,906,1.6,7.2,91406,1,687,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+acru,906,4.1,17.7,91413,1,178,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,906,15,19.3,91420,1,289,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,907,9.2,3.6,91321,1,356,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,907,5.7,7.5,91323,1,175,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,907,1,5.3,91327,1,445,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caovl,907,9.8,9,91332,1,489,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+acru,907,5.2,12.2,91333,1,121,F,A,A,A,AU,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,Break @ ~6m; broken by 101028,,,,6/24/2020,Cameron Dow
+litu,907,3.4,12.6,91334,1,173,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,907,1.1,12.4,91337,1,159,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,907,7,15.9,91341,1,233,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,907,8,16.7,91344,1,174,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,907,1.7,17.1,91347,1,106,F;M,NA,NA,NA,NA,A,AU,NA,NA,I,DF,,,,3,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,907,19.8,4.3,91428,1,NA,F;X,A,A,A,AU,A,DS,~180,NA,,B,,,,NA,NA,NA,NA,,NA,CR by 101028,,Stem broken at 1.3m,,6/24/2020,Cameron Dow
+caovl,907,17.2,5.9,91430,1,118,F;P,A,A,A,AU,A,DC,123,NA,,CR,,,,NA,NA,NA,NA,,NA,CR by 101028; crown broke off,,,,6/24/2020,Cameron Dow
 litu,907,13.6,12.2,91435,1,NA,F;DC,A,A,A,DC,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,CR by 101028,,,,,
-litu,907,18.7,17.6,91451,1,588,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,907,18.7,17.6,91451,1,588,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,907,17,17.8,91454,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,907,14.3,17.2,91456,1,NA,F;DC,PD,PD,PD,PD,Pd,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,907,18.7,15.2,93241,1,11,F,A,A,AU,A,AU,,NA,NA,S,I,BB,,,NA,NA,2,3,DE,2,,,,,,
-fram,907,15.2,14.4,93312,1,12,F;L,A,A,A,AU,A,,NA,NA,S,,,,,NA,NA,2,2,SS,NA,CR by 101028,,,,,
-litu,908,0.4,1.8,91351,1,244,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+fram,907,18.7,15.2,93241,1,11,F,A,A,AU,A,AU,DS,NA,NA,S,,,,,NA,NA,5,2,None,NA,,,,,6/24/2020,Cameron Dow
+fram,907,15.2,14.4,93312,1,12,F;L,A,A,A,AU,A,A,NA,NA,S,,,,,NA,NA,2,2,VS,NA,CR by 101028,,,,6/24/2020,Cameron Dow
+litu,908,0.4,1.8,91351,1,244,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 quru,908,3.8,10.2,91372,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,908,4.4,12.9,91376,1,287,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,908,5.6,18.4,91377,1,385,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,sapsucker,,,,
-litu,908,10.3,1.8,91468,1,379,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,908,14.5,4.7,91474,1,457,F,A,A,A,A,AU,,NA,NA,CD,R,,,,NA,NA,NA,NA,,NA,,R @ base,,,,
-litu,908,18.4,2.4,91476,1,515,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,908,4.4,12.9,91376,1,287,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,908,5.6,18.4,91377,1,385,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,sapsucker,,,6/24/2020,Cameron Dow
+litu,908,10.3,1.8,91468,1,379,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,908,14.5,4.7,91474,1,457,F,A,A,A,A,AU,AU,NA,NA,CD,R,,,,NA,NA,NA,NA,,NA,,R @ base,,,6/24/2020,Cameron Dow
+litu,908,18.4,2.4,91476,1,515,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,908,19.3,3.5,91477,1,227,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,AN,,,6/11/2020,Cameron Dow
-caca,908,13.5,9.2,91485,1,155,A;M;F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,908,17.5,9.2,91486,1,586,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,908,14,11.8,91487,1,358,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,908,9.8,11.8,91490,1,455,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,908,14.5,14.6,91491,1,134,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,908,18,17.6,91493,1,333,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,908,6.1,15.4,91498,1,651,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caca,908,13.5,9.2,91485,1,155,A;M;F,A,A,A,A,A,AU,NA,NA,I,DF,,,,3,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,908,17.5,9.2,91486,1,586,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,908,14,11.8,91487,1,358,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,908,9.8,11.8,91490,1,455,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,908,14.5,14.6,91491,1,134,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,908,18,17.6,91493,1,333,F,A,A,A,A,A,AU,NA,NA,CD,DF,,,,2,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,908,6.1,15.4,91498,1,651,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 cato,909,16.9,5.3,90501,1,295,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 cagl,909,15.3,7.8,90502,1,136,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,bark loss,,,6/16/2020,Cameron Dow
 cato,909,13.2,16.4,90509,1,149,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
@@ -4648,39 +4648,39 @@ fram,1005,3.3,3,103225,1,NA,F;DS,A,A,DS,PD,PD ,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,
 fram,1005,18.4,8.3,103240,1,15,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,2,1,none,NA,,,,,,
 fram,1005,19.7,8.6,103242,1,11,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,1,SS,NA,,,,,,
 fram,1005,19.8,9.1,103243,1,12,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,2,SS,NA,,,,,,
-litu,1006,4.2,1.6,100782,1,662,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1006,7.3,1.4,100783,1,294,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,1006,1,5.3,100791,1,109,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,1006,4.7,7.4,100795,1,216,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1006,8.7,5.6,100799,1,140,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1006,4.2,1.6,100782,1,662,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1006,7.3,1.4,100783,1,294,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,1006,1,5.3,100791,1,109,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,1006,4.7,7.4,100795,1,216,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1006,8.7,5.6,100799,1,140,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 nysy,1006,13.1,6.7,100832,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,1006,16.1,5.6,100834,1,211,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,1006,15.2,10.5,100839,1,225,F;M,A,A,A,A,AU,,NA,NA,I,DF,,,,3,NA,NA,NA,,NA,,"bark damage doesn't seem indicative of animal, maybe from a branch",,,,
-litu,1006,14,16.2,100855,1,641,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1006,20,18.6,100861,1,183,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,1006,7.2,9,101005,1,616,F;I,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,AN,,,,
-tiam,1006,4.2,11.6,101008,1,177,F;M,A,A,A,A,AU,,NA,NA,I,F,LF,,,NA,NA,NA,NA,,NA,,LF eaten,,,,
-tiam,1006,4.2,11.6,101008,2,120,F;S,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,1006,1.5,11.5,101010,1,133,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1006,0.6,15.1,101012,1,164,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+nysy,1006,16.1,5.6,100834,1,211,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,1006,15.2,10.5,100839,1,225,F;M,A,A,A,A,AU,DS,228,4,I,I,,,,NA,NA,NA,NA,,NA,,"bark damage doesn't seem indicative of animal, maybe from a branch",,,6/24/2020,Cameron Dow
+litu,1006,14,16.2,100855,1,641,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1006,20,18.6,100861,1,183,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,1006,7.2,9,101005,1,616,F;I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,AN,,,6/24/2020,Cameron Dow
+tiam,1006,4.2,11.6,101008,1,177,F;M,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,LF eaten,,,6/24/2020,Cameron Dow
+tiam,1006,4.2,11.6,101008,2,120,F;S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,1006,1.5,11.5,101010,1,133,F,A,A,A,A,A,AU,NA,NA,I,I,,,,NA,NA,NA,NA,,NA,,,Tiny insect holes,,6/24/2020,Cameron Dow
+litu,1006,0.6,15.1,101012,1,164,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 nysy,1006,6,17.9,101016,1,NA,F;DS,A,A,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,1006,9.4,13.6,101019,1,336,F;DS,A,A,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,20,0.9,100866,1,162,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,17.6,0.5,100868,1,653,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,19.2,4,100874,1,352,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,17.3,11,100881,1,635,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,15.4,15.6,100887,1,333,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,18.6,14.7,100890,1,677,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,19.6,16,100891,1,355,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,1007,20,17.1,100892,1,119,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,19.2,19.1,100893,1,454,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,5.5,2.2,101025,1,205,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1007,20,0.9,100866,1,162,F,A,A,A,A,A,AU,NA,NA,I,I,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,17.6,0.5,100868,1,653,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,19.2,4,100874,1,352,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,17.3,11,100881,1,635,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,15.4,15.6,100887,1,333,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,18.6,14.7,100890,1,677,F,A,A,A,A,A,AU,NA,NA,D,AN,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,19.6,16,100891,1,355,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,1007,20,17.1,100892,1,119,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,19.2,19.1,100893,1,454,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,5.5,2.2,101025,1,205,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1007,7.6,0.7,101027,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-juni,1007,8.4,0.5,101028,1,NA,F;DC,A,A,A,AU,DC,,612,4,D,S,UP,,,NA,0,NA,NA,,NA,this is the one crushing everything in 907,,,yes,,
-cagl,1007,10.1,4.3,101031,1,314,F,A,A,A,A,AU,,NA,NA,CD,BB,,,,NA,NA,NA,NA,,NA,,gallery present,,,,
-litu,1007,4.7,7.9,101035,1,614,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,1007,12.5,8.7,101041,1,277,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1007,3.2,12.5,101049,1,376,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+juni,1007,8.4,0.5,101028,1,NA,F;DC,A,A,A,AU,DC,PD,NA,NA,,,,,,NA,0,NA,NA,,NA,this is the one crushing everything in 907,,,yes,,
+cagl,1007,10.1,4.3,101031,1,314,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,gallery present,,,6/24/2020,Cameron Dow
+litu,1007,4.7,7.9,101035,1,614,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,1007,12.5,8.7,101041,1,277,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1007,3.2,12.5,101049,1,376,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1008,11.4,2.1,100904,1,329,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1008,10,1.6,100905,1,679,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1008,9.3,1.1,100906,1,500,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,woodpecker,,,6/11/2020,Cameron Dow
@@ -5160,42 +5160,42 @@ quve,1105,19.1,16.5,110920,1,788,F,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,
 litu,1105,19.3,18.5,110923,1,336,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,1105,9.1,11.4,110934,1,NA,F;DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,1105,9.1,11.4,110934,2,15,F;M,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-qual,1106,4.1,2.4,110870,1,214,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+qual,1106,4.1,2.4,110870,1,214,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 cofl,1106,7.7,3.6,110884,1,NA,F;DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-frpe,1106,0.2,8,110887,1,36,F;M,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-frpe,1106,0.2,8,110887,2,12,F;S,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-litu,1106,10.6,11.6,110892,1,181,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,13.8,4.4,110944,1,472,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,16.7,4.1,110945,1,147,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,19.3,4,110950,1,295,F;I,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+frpe,1106,0.2,8,110887,1,36,F;M,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,2,0,none,NA,,,,,6/24/2020,Cameron Dow
+frpe,1106,0.2,8,110887,2,12,F;S,A,A,A,A,A,DS,10,NA,S,,,,,NA,NA,5,0,none,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,10.6,11.6,110892,1,181,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,13.8,4.4,110944,1,472,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,16.7,4.1,110945,1,147,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,19.3,4,110950,1,295,F;I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1106,17.5,7.6,110952,1,108,F;DS;R,A,A,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,14.2,8.5,110956,1,526,F;I,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,16.3,9.5,110957,1,512,F;I,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag at base,,,,,
-litu,1106,15.3,16.4,110965,1,476,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,16.4,17.1,110966,1,166,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,7.5,15.6,110976,1,707,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,AN,,,,,
-quru,1106,6.7,19.7,110977,1,172,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,6.5,15.2,110981,1,160,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,9.1,12.6,110983,1,611,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1106,7.7,11.4,110985,1,452,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1106,4.4,4.3,113200,1,15,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,wilt,,,,,
+litu,1106,14.2,8.5,110956,1,526,F;I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,16.3,9.5,110957,1,512,F;I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag at base,,,,6/24/2020,Cameron Dow
+litu,1106,15.3,16.4,110965,1,476,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,16.4,17.1,110966,1,166,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,7.5,15.6,110976,1,707,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,AN,,,,6/24/2020,Cameron Dow
+quru,1106,6.7,19.7,110977,1,172,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,6.5,15.2,110981,1,160,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,9.1,12.6,110983,1,611,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1106,7.7,11.4,110985,1,452,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1106,4.4,4.3,113200,1,15,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,2,2,none,NA,wilt,,,,6/24/2020,Cameron Dow
 litu,1107,4.4,2.5,110899,1,NA,F;DS,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,12.2,4.3,111003,1,283,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,17.5,4.3,111006,1,796,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1107,12.2,4.3,111003,1,283,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,17.5,4.3,111006,1,796,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1107,15,7.8,111011,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,14.4,9.7,111012,1,560,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,AN,,,,,
-litu,1107,14.6,11,111013,1,216,F;I,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,13.9,12.2,111014,1,685,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,13.7,13,111020,1,229,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,19.4,16.7,111028,1,114,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,17.2,19,111029,1,125,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,15.1,19.9,111030,1,612,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,10.3,19,111032,1,611,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,10.3,19,111032,2,432,F;S,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1107,14.4,9.7,111012,1,560,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,AN,,,,6/24/2020,Cameron Dow
+litu,1107,14.6,11,111013,1,216,F;I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,13.9,12.2,111014,1,685,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,13.7,13,111020,1,229,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,19.4,16.7,111028,1,114,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,17.2,19,111029,1,125,F,A,A,A,A,A,DS,127,3,I,AN,I,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,15.1,19.9,111030,1,612,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,10.3,19,111032,1,611,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,10.3,19,111032,2,432,F;S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1107,8.6,18.8,111033,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 qupr,1107,3.9,19.6,111038,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,5.3,4.2,111107,1,381,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1107,2.2,12.2,111126,1,643,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1107,5.3,4.2,111107,1,381,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1107,2.2,12.2,111126,1,643,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1108,19.7,4.1,111039,1,479,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 quru,1108,16.5,5.7,111041,1,1033,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1108,12.1,0.9,111042,1,195,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
@@ -5667,38 +5667,38 @@ litu,1205,7.8,16.2,121009,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA
 litu,1205,4,14.7,121011,1,191,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,1205,2.9,17.2,121017,1,NA,F;DS,A,A,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,1205,17.1,20,123179,1,13,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,4,0,none,NA,,,,,,
-litu,1206,17.1,1.8,120904,1,699,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,liana,,,,
+litu,1206,17.1,1.8,120904,1,699,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,liana,,,6/24/2020,Cameron Dow
 quru,1206,20,7,120911,1,NA,F;DS,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,12.3,5,120924,1,141,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,1206,10.3,10,120933,1,109,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,LF eaten,,,,
-litu,1206,4,1.7,121022,1,535,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,1206,9.2,2.4,121026,1,628,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1206,12.3,5,120924,1,141,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+acru,1206,10.3,10,120933,1,109,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,LF eaten,,,6/24/2020,Cameron Dow
+litu,1206,4,1.7,121022,1,535,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,1206,9.2,2.4,121026,1,628,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 fram,1206,0.2,4.1,121036,1,NA,F;DC;R,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,3.3,6,121040,1,351,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,9.4,7.1,121047,1,191,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,9.4,7.1,121049,1,583,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,5.5,10.4,121054,1,359,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,10.3,14.6,121058,1,263,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,4.1,15,121061,1,249,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,black rot,,,,,
-fram,1206,2,16.4,121064,1,22,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
+litu,1206,3.3,6,121040,1,351,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1206,9.4,7.1,121047,1,191,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1206,9.4,7.1,121049,1,583,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1206,5.5,10.4,121054,1,359,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1206,10.3,14.6,121058,1,263,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1206,4.1,15,121061,1,249,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,black rot,,,,6/24/2020,Cameron Dow
+fram,1206,2,16.4,121064,1,22,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,2,0,none,NA,,,,,6/24/2020,Cameron Dow
 litu,1206,4.9,19,121071,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,1206,5,19.4,121072,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1206,0.5,19.3,121075,1,238,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,1206,12.5,19.3,121379,1,696,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1206,9.9,14.7,123211,1,16,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-fram,1206,14.7,9.4,123240,1,19,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-cato,1207,19.2,3.1,120980,1,140,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,1207,18.1,6.3,120983,1,104,F;M,A,AU,AU,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,thriving despite stem split/rotten,,,,,
-cato,1207,12.6,11.9,120998,1,100,F,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,1207,4.4,6.7,121088,1,220,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1207,7.1,10,121093,1,583,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,AN; bark split,,,,
-cagl,1207,19.9,14.3,121105,1,560,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caco,1207,2.6,15,121206,1,123,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1207,9,14.7,121209,1,20,F,A,A,A,AU,A,,NA,NA,S,,,,,NA,NA,2,1,none,NA,,,,,,
-litu,1207,12.7,12.5,121212,1,878,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1207,5.6,16.3,121220,1,170,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1207,1.7,19.3,121221,1,119,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,1207,16.1,12.3,121378,1,779,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1206,0.5,19.3,121075,1,238,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,1206,12.5,19.3,121379,1,696,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1206,9.9,14.7,123211,1,16,F,A,A,A,A,A,AU,NA,NA,S,CR,,,,NA,NA,1,0,none,NA,,,,,6/24/2020,Cameron Dow
+fram,1206,14.7,9.4,123240,1,19,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,3,0,none,NA,,,,,6/24/2020,Cameron Dow
+cato,1207,19.2,3.1,120980,1,140,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,1207,18.1,6.3,120983,1,104,F;M,A,AU,AU,A,A,AU,NA,NA,S,R,,,,NA,NA,NA,NA,,NA,thriving despite stem split/rotten,,,,6/24/2020,Cameron Dow
+cato,1207,12.6,11.9,120998,1,100,F,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,1207,4.4,6.7,121088,1,220,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1207,7.1,10,121093,1,583,F,A,A,A,A,A,AU,NA,NA,CD,AN,,,,NA,NA,NA,NA,,NA,,AN; bark split,,,6/24/2020,Cameron Dow
+cagl,1207,19.9,14.3,121105,1,560,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caco,1207,2.6,15,121206,1,123,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1207,9,14.7,121209,1,20,F,A,A,A,AU,A,DS,21,NA,S,,,,,NA,NA,5,2,DE,5,,,,,6/24/2020,Cameron Dow
+litu,1207,12.7,12.5,121212,1,878,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1207,5.6,16.3,121220,1,170,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1207,1.7,19.3,121221,1,119,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,1207,16.1,12.3,121378,1,779,F,A,A,A,A,A,AU,NA,NA,CD,F,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1208,19.6,0.8,121120,1,279,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 qupr,1208,19.4,8.6,121149,1,314,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1208,17,13.8,121154,1,103,F,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
@@ -6141,37 +6141,37 @@ fram,1305,12.3,15.1,130898,1,NA,F;R,A,A,A,DC,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,DB
 litu,1305,19.3,17.8,130910,1,155,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 quve,1305,16.1,15.2,130911,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,1305,5.9,3.7,133193,1,13,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-fram,1306,4.5,6.7,130695,1,27,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,2,0,none,NA,,,,,,
-litu,1306,7.3,11.3,130718,1,1026,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1306,7.3,11.3,130718,2,218,F;S,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1306,7.3,12.5,130720,1,37,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,2,1,none,NA,,,,,,
+fram,1306,4.5,6.7,130695,1,27,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,2,0,none,NA,,,,,6/24/2020,Cameron Dow
+litu,1306,7.3,11.3,130718,1,1026,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1306,7.3,11.3,130718,2,218,F;S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1306,7.3,12.5,130720,1,37,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,3,1,none,NA,,,,,6/24/2020,Cameron Dow
 quru,1306,8.3,13.5,130725,1,NA,F;DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,1306,4.3,18.8,130735,1,123,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,Leaning,,,,,
-fram,1306,14.6,2.9,130927,1,59,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,1,none,NA,,,,,,
-litu,1306,19.2,4,130932,1,680,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1306,19.2,4,130932,2,672,F;S,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+quru,1306,4.3,18.8,130735,1,123,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,Leaning,,,,6/24/2020,Cameron Dow
+fram,1306,14.6,2.9,130927,1,59,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,1,0,VS,NA,,,,,6/24/2020,Cameron Dow
+litu,1306,19.2,4,130932,1,680,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1306,19.2,4,130932,2,672,F;S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 quru,1306,13.2,3.5,130941,1,NA,F;DS,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1306,15.8,10.4,130952,1,17,F,A,A,A,AU,AU,,NA,NA,S,U,,,,NA,NA,1,1,SS,NA,,,,,,
-quve,1306,13,17.7,130973,1,537,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1306,19,19.8,130985,1,14,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,2,1,none,NA,,,,,,
-litu,1306,15.5,17.6,130987,1,181,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1306,1.4,11.6,133226,1,11,F;DS;R,A,A,A,AU,AU,,NA,NA,S,DF,,,,2,NA,2,1,SS,NA,,Alive!,,,,
-fram,1306,5,15.9,133231,1,15,F;M,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,1,SS,NA,,,,,,
-fram,1306,8.5,18.5,133237,1,13,C;F,A,A,A,AU,A,,NA,NA,S,,,,,NA,NA,1,1,none,NA,,,,,,
-fram,1306,15.6,20,133256,1,16,F,A,A,A,AU,A,,NA,NA,S,,,,,NA,NA,1,1,none,NA,,,,,,
-litu,1307,8.4,1.9,130743,1,630,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,1307,3.2,2.7,130745,1,143,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,1307,8.8,6.8,130748,1,216,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,1307,2,11.9,130750,1,124,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,1307,13.3,14.9,130752,1,108,F,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,1307,6.9,14.5,130754,1,413,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,1307,3.5,15.9,130755,1,153,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,1307,15.1,0.6,130991,1,739,F,A,A,AU,AU,AU,,NA,NA,D,F,R,,,NA,NA,NA,NA,,NA,,,,,,
+fram,1306,15.8,10.4,130952,1,17,F,A,A,A,AU,AU,DS,NA,NA,S,,,,,NA,NA,5,2,BS,NA,,,,,6/24/2020,Cameron Dow
+quve,1306,13,17.7,130973,1,537,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1306,19,19.8,130985,1,14,F,A,A,A,A,A,DS,NA,NA,S,,,,,NA,NA,5,1,none,NA,,,,,6/24/2020,Cameron Dow
+litu,1306,15.5,17.6,130987,1,181,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1306,1.4,11.6,133226,1,11,F;DS;R,A,A,A,AU,AU,DS,11,NA,S,,,,,NA,NA,5,1,SS,NA,,Alive!,,,6/24/2020,Cameron Dow
+fram,1306,5,15.9,133231,1,15,F;M,A,A,A,A,A,DS,15,NA,S,,,,,NA,NA,5,1,VS,NA,,,,,6/24/2020,Cameron Dow
+fram,1306,8.5,18.5,133237,1,13,C;F,A,A,A,AU,A,DS,12,NA,S,,,,,NA,NA,5,2,DE,9,,,,,6/24/2020,Cameron Dow
+fram,1306,15.6,20,133256,1,16,F,A,A,A,AU,A,DS,16,NA,S,,,,,NA,NA,5,2,VS,NA,,,,,6/24/2020,Cameron Dow
+litu,1307,8.4,1.9,130743,1,630,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,1307,3.2,2.7,130745,1,143,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,1307,8.8,6.8,130748,1,216,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,1307,2,11.9,130750,1,124,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,1307,13.3,14.9,130752,1,108,F,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,1307,6.9,14.5,130754,1,413,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,1307,3.5,15.9,130755,1,153,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,1307,15.1,0.6,130991,1,739,F,A,A,AU,AU,AU,AU,NA,NA,D,F,R,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 cato,1307,12.7,4,130992,1,159,F;DS,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,1307,11,4.5,130994,1,115,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quru,1307,9.2,7.6,130996,1,163,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,1307,11,8.2,130997,1,115,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,1307,19.8,9.5,130998,1,165,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+caca,1307,11,4.5,130994,1,115,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quru,1307,9.2,7.6,130996,1,163,F,A,A,A,A,A,AU,NA,NA,I,B,,,,NA,NA,NA,NA,,NA,,,Break at 5m,,6/24/2020,Cameron Dow
+caca,1307,11,8.2,130997,1,115,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cagl,1307,19.8,9.5,130998,1,165,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 quve,1307,15.6,16.7,131002,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caca,1307,15.8,17.2,131003,1,NA,F;DC,A,A,DC,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,1308,3.5,0.4,130761,1,216,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/12/2020,Cameron Dow
@@ -6615,30 +6615,30 @@ litu,1405,1,8.3,140646,1,739,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,1405,1.4,13,140663,1,645,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 saal,1405,5.6,16.4,140664,1,190,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,1406,18.8,1.8,140483,1,143,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,outside fence,,,,,
-litu,1406,11.8,0.8,140485,1,721,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,1406,6,0.2,140496,1,117,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,1406,14.4,17.4,140570,1,134,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-nysy,1406,18.5,13.6,140572,1,148,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,fence post,,,,
-fram,1406,14,19.5,140579,1,19,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-fram,1406,5.8,9.9,140685,1,17,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-litu,1406,7.1,12.8,140701,1,785,F;M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1406,11.5,16.6,143327,1,18,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,2,none,NA,,,,,,
-litu,1407,18.6,0.9,140586,1,633,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,1.1,4.6,140730,1,296,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,1407,4.2,7,140733,1,705,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,8.8,6.5,140735,1,262,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-quve,1407,2.4,13.6,140736,1,677,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cade,1407,1.3,16.7,140739,1,150,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,7.3,15.9,140741,1,225,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,5.5,19.6,140748,1,170,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,14.3,6.4,140919,1,691,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,19.8,9,140920,1,108,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,17.1,13.5,140921,1,278,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1407,17.4,15.2,140922,1,124,F,A,A,A,A,A,,NA,NA,I,,,,,NA,NA,2,2,none,NA,,,,,,
-fagr,1407,17.9,16.6,140923,1,123,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1407,17.5,18.2,140924,1,388,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1406,11.8,0.8,140485,1,721,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+acru,1406,6,0.2,140496,1,117,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+caca,1406,14.4,17.4,140570,1,134,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+nysy,1406,18.5,13.6,140572,1,148,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,VS,NA,,fence post,,,6/24/2020,Cameron Dow
+fram,1406,14,19.5,140579,1,19,F,A,A,A,A,A,DS,20,NA,S,,,,,NA,NA,5,2,none,NA,,,,,6/24/2020,Cameron Dow
+fram,1406,5.8,9.9,140685,1,17,F,A,A,A,A,A,AU,NA,NA,S,CR,,,,NA,NA,3,1,none,NA,,,,,6/24/2020,Cameron Dow
+litu,1406,7.1,12.8,140701,1,785,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1406,11.5,16.6,143327,1,18,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,4,0,none,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,18.6,0.9,140586,1,633,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,1.1,4.6,140730,1,296,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,1407,4.2,7,140733,1,705,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,8.8,6.5,140735,1,262,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+quve,1407,2.4,13.6,140736,1,677,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+cade,1407,1.3,16.7,140739,1,150,F,A,A,A,A,A,AU,NA,NA,I,DF,,,,3,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,7.3,15.9,140741,1,225,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,5.5,19.6,140748,1,170,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,14.3,6.4,140919,1,691,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,19.8,9,140920,1,108,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,17.1,13.5,140921,1,278,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1407,17.4,15.2,140922,1,124,F,A,A,A,A,A,A,NA,NA,I,,,,,NA,NA,2,2,none,NA,,,,,6/24/2020,Cameron Dow
+fagr,1407,17.9,16.6,140923,1,123,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+litu,1407,17.5,18.2,140924,1,388,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 fram,1407,14.6,1.8,143306,1,12,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,2,SS,NA,,,,,,
-fram,1407,19.6,12.6,143318,1,14,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,2,1,none,NA,,,,,,
+fram,1407,19.6,12.6,143318,1,14,F,A,A,A,A,A,DS,14,NA,S,,,,,NA,NA,5,3,none,NA,,,,,6/24/2020,Cameron Dow
 quru,1408,8,2.7,140750,1,NA,F;DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/15/2020,Cameron Dow
 quve,1408,9.9,1.5,140751,1,713,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/15/2020,Cameron Dow
 cato,1408,9.1,5.9,140753,1,263,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/15/2020,Cameron Dow
@@ -7087,17 +7087,17 @@ nysy,1506,7.8,2.2,150902,1,164,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,1506,7.9,10.3,150904,1,694,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fagr,1506,9.1,19,150911,1,215,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 acru,1506,6.7,19.9,150913,1,305,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-saal,1506,0.2,17.6,150914,1,310,A;F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+saal,1506,0.2,17.6,150914,1,310,A;F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1507,14.3,2,150805,1,740,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 quve,1507,17.3,8.5,150807,1,NA,DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 saal,1507,13.6,11.8,150808,1,337,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1507,1.8,7.3,150920,1,193,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fagr,1507,4.9,10.4,150924,1,241,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,1507,4.5,10.3,150925,1,158,F,PD,A,A,A,A,,NA,NA,I,,,,,NA,NA,1,0,none,NA,,Alive!,,,,
-litu,1507,5.5,14.8,150927,1,830,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1507,1.8,7.3,150920,1,193,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fagr,1507,4.9,10.4,150924,1,241,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
+fram,1507,4.5,10.3,150925,1,158,F,PD,A,A,A,A,A,NA,NA,I,,,,,NA,NA,1,0,none,NA,,Alive!,,,6/24/2020,Cameron Dow
+litu,1507,5.5,14.8,150927,1,830,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 cato,1507,7.7,17,150930,1,NA,F;DS,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,1507,6.4,20,150932,1,150,F,A,A,A,A,        , ? ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/12/2020,Cameron Dow
-quve,1507,6,20,150933,1,615,F,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,1507,6.4,20,150932,1,150,F,A,A,A,A,        ,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/12/2020,Cameron Dow
+quve,1507,6,20,150933,1,615,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 fram,1507,7.3,19.5,153241,1,17,F,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
 quve,1508,19.6,12.8,150809,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/12/2020,Cameron Dow
 fram,1508,19.6,16.5,150810,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/12/2020,Cameron Dow
@@ -10024,7 +10024,7 @@ fram,2032,1,10.5,202973,1,NA,DS,A,A,A,AU,DS,,445,4,D,BB,AN,,,NA,0,5,0,"SS, W, DE
 ulru,2032,1.2,8.8,202975,1,144,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 ,912,,,90652,,,,,,,,,A,,,,,,,,,,,,,,,,"tree not on form, will fill out later",,6/12/2020,Cameron Dow
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,1306,,,133706,,26,,,,,,,A,,,,,,,,,,2,0,None,,,,,,,
 ,,,,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
