@@ -8,8 +8,10 @@ clear all; clf; clc; clear; close all;
 %% SETTINGS
 %%% Directories
 data_dir='/Users/kteixeira/Dropbox (Smithsonian)/GitHub/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree_cores/cross-dated_cores_CSVformat';
-trees_to_plot=[202029; 80746; 141255; 111227; 111166; 101075]; 
-
+trees_to_plot= [202029; 80746; 141255; 111227; 111166; 101075]; %biggest deviants between Rt and arima_rt in Ian's analysis
+                %[111195; 151123; 192029; 182060 ;10296; 101075]; %1999 deviants in Ian's analysis
+             %[30174; 190735; 20847; 200389; 20820; 60339; 160665] % 1966,77 deviants in Ian's analyis
+      
 
 %% READ IN DATA & pull out variables
 cd(data_dir)
