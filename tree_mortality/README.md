@@ -43,7 +43,6 @@ These data are public, but the more recent censuses may not yet have been used i
  
 *refers to position at time of main contribution to this repository
 
-[List does not yet include field assistants/ students/ volunteers who helped collect and process cores]
 
 ## Funding 
 - ForestGEO 
