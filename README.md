@@ -1,5 +1,7 @@
 #  Smithsonian Conservation Biology Institute (SCBI) ForestGEO Data
 
+[![DOI](https://zenodo.org/badge/128393291.svg)](https://zenodo.org/badge/latestdoi/128393291)
+
 This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute), which points to archive locations for our various data products (some in this repository, many elsewhere). Although some data products are not yet posted publicly, we are very open to collaboration and welcome inquiries regarding any data products listed here. 
 
 
