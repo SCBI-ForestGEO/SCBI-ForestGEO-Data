@@ -21,9 +21,7 @@ We have been paying increasing attention to signs of insect pests and pathogens 
 
 ## Data use
 
-2014 and 2015 mortality census data used in [Gonzalez-Akre et al. 2016](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595) are published [in Dryad](http://dx.doi.org/10.5061/dryad.v5h24.) and may be used as detailed in the metadata of this publication, as may updated versions of those datasets in this repository.
-
-**Data from 2016-2019 censuses are currently being used in analyses and may not be used without permission of the PI (Kristina Anderson-Teixeira).** We welcome inquiries about potential collaboration.
+These data are public, but the more recent censuses may not yet have been used in publications. Censuses are led by early-career scientists, and we wish to see these individuals receive appropriate credit (coauthorship for census leaders, acknowledgement for volunteers) in the first publication that uses the data they collected. **Therefore, we ask that any researchers interested in using data that have not yet been used in a publication (currently 2020 forward) contact us to discuss collaboration.**
 
 ## Contributors
 | name | GitHub ID| position* | role |
@@ -39,12 +37,12 @@ We have been paying increasing attention to signs of insect pests and pathogens 
 | Clayton Hatcher |   | field assistant, SCBI | volunteered for 2016 census |
 | Abigail Ferson | aferson  | field assistant, SCBI | volunteered for 2017 census |
 | Meghan Ward |   | field assistant, SCBI | volunteered for 2019 census |
-| Alex Georgopolis|   | field assistant, SCBI | volunteered for 2019 census |
+| Alex Georgopolis |   | field assistant, SCBI | volunteered for 2019 census |
+| Cameron Dow | camerondow35 | field assistant, SCBI | led 2020 census |
 
  
 *refers to position at time of main contribution to this repository
 
-[List does not yet include field assistants/ students/ volunteers who helped collect and process cores]
 
 ## Funding 
 - ForestGEO 
@@ -52,4 +50,7 @@ We have been paying increasing attention to signs of insect pests and pathogens 
 
 ## Publications using these data
 
-Gonzalez-Akre, E. B., Meakem, V., Eng, C.Y., Tepley, A. J., Bourg, N. A., McShea, W. J., Davies, S. J. and Anderson-Teixeira, K. J. (2016). [Patterns of tree mortality in a temperate deciduous forest derived from a large forest dynamics plot.](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595) Ecosphere 7(12): e01595. doi: 10.1002/ecs2.1595
+Gonzalez-Akre, E. B., Meakem, V., Eng, C.Y., Tepley, A. J., Bourg, N. A., McShea, W. J., Davies, S. J. and Anderson-Teixeira, K. J. (2016). [Patterns of tree mortality in a temperate deciduous forest derived from a large forest dynamics plot.](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595) Ecosphere 7(12): e01595. doi: 10.1002/ecs2.1595.  
+*Data from this publication are published in [Dryad](http://dx.doi.org/10.5061/dryad.v5h24.)* 
+
+Anderson-Teixeira, K. J., V. Herrmann, W. B. Cass, A. B. Williams, S. J. Paull, E. B. Gonzalez-Akre, R. Helcoski, A. J. Tepley, N. A. Bourg, C. T. Cosma, A. E. Ferson, C. Kittle, V. Meakem, I. R. McGregor, M. N. Prestipino, M. K. Scott, A. R. Terrell, A. Alonso, F. Dallmeier, and W. J. McShea. 2020. [Long-Term Impacts of Invasive Insects and Pathogens on Composition, Biomass, and Diversity of Forests in Virginia’s Blue Ridge Mountains](https://link.springer.com/article/10.1007%2Fs10021-020-00503-w). Ecosystems.  DOI: 10.1007/s10021-020-00503-w.
