@@ -908,21 +908,21 @@ caca,224,2.7,5.5,22256,1,118,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,leaning
 caca,224,3,7.1,22255,1,123,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 fram,224,5.8,0.9,22254,1,124,NULL,A,A,A,A,A,A,NA,NA,I,,,,,NA,NA,1,1,"SS, W, DE",4,,10% whitening,10% whitening,,7/28/2020,Cameron Dow
 acru,224,5,0.4,22253,1,447,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
-frni,225,1,1,22326,1,49,DS,A,A,DS,PD,PD ,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,225,6.7,6.7,22323,1,108,NULL,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,225,18.7,18.7,22320,1,272,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,225,19.5,16.4,22319,1,223,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caca,225,19.2,12.6,22318,1,NA,DN,PD,PD,PD,PD,PD ,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-frpe,225,12.3,10.3,22316,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caco,225,11,4,22315,1,553,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caovl,225,20,9,22314,1,120,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,225,19.3,8.9,22313,1,284,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,225,20,6.2,22311,1,413,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-saal,225,14.4,0.5,22310,1,178,J,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,225,3.3,8.2,22305,1,132,NULL,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,1,"AS, W, DE",8,stem break at ?6 m but secondary stems healthy,20% whitening,,,,
-litu,225,4.2,7.5,22302,1,379,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-tiam,225,6.1,4.5,22300,1,221,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-acru,225,8.5,5.2,22298,1,306,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+frni,225,1,1,22326,1,49,DS,A,A,DS,PD,PD ,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,225,6.7,6.7,22323,1,108,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,225,18.7,18.7,22320,1,272,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cagl,225,19.5,16.4,22319,1,223,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+caca,225,19.2,12.6,22318,1,NA,DN,PD,PD,PD,PD,PD ,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+frpe,225,12.3,10.3,22316,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+caco,225,11,4,22315,1,553,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+caovl,225,20,9,22314,1,120,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+litu,225,19.3,8.9,22313,1,284,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,225,20,6.2,22311,1,413,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+saal,225,14.4,0.5,22310,1,178,J,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+fram,225,3.3,8.2,22305,1,132,NULL,A,A,A,A,A,DS,131,1,S,,,,,NA,0,5,0,"AS, W, DE",6,stem break at ?6 m but secondary stems healthy,20% whitening,15% whitening,,7/28/2020,Albert Y. Kim
+litu,225,4.2,7.5,22302,1,379,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,tag being swallowed,,7/28/2020,Albert Y. Kim
+tiam,225,6.1,4.5,22300,1,221,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+acru,225,8.5,5.2,22298,1,306,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
 cato,226,6.8,15.9,22365,1,171,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 caovl,226,9.9,11.9,22363,1,174,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 cato,226,17.8,18.2,22354,1,305,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,leaf browning,,,,,
