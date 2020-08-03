@@ -4466,13 +4466,13 @@ litu,924,1.6,6.6,92350,1,300,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/2
 caovl,924,5.8,4.5,92348,1,483,I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 caca,925,4.1,14.8,93358,1,151,L,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,925,9.5,10.1,92401,1,125,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,925,13.7,12,92395,1,102,NULL,NA,NA,NA,NA,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,925,19.8,7.7,92393,1,616,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-prav,925,19.6,3.4,92392,1,180,M,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,925,2.9,3.9,92389,1,271,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,925,13.7,12,92395,1,102,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/29/2020,Albert Y. Kim
+cagl,925,19.8,7.7,92393,1,616,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/29/2020,Albert Y. Kim
+prav,925,19.6,3.4,92392,1,180,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/29/2020,Albert Y. Kim
+litu,925,2.9,3.9,92389,1,271,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/29/2020,Albert Y. Kim
 acru,925,8.8,5.9,92388,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 litu,925,7.3,4.7,92387,1,561,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,925,6.4,0.2,92386,1,386,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+litu,925,6.4,0.2,92386,1,386,NULL,A,A,A,A,A,AU,NA,NA,D,K,B,,,NA,NA,NA,NA,,NA,,,Break @ 8m,,7/29/2020,Albert Y. Kim
 litu,925,2.2,1.5,92384,1,125,NULL,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,"break @ ~6m, SS",,,,,
 litu,926,0.8,13.4,92442,1,192,DS,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 nysy,926,8.9,10.9,92439,1,190,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
