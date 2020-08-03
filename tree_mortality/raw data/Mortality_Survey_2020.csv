@@ -373,24 +373,24 @@ havi,124,12.9,1,12233,1,NA,DC,PD,PD,A,A,DC,PD,94.8,4,CD,UP,,,,NA,0,NA,NA,,NA,,sk
 havi,124,12.9,1,12233,6,113,M,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 acru,124,2.7,5.3,12232,1,126,M,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 tiam,124,9.9,9.3,12231,1,NA,DC,A,AU,AU,AU,AU,AU,NA,NA,OG,UP,,,,NA,NA,NA,NA,,NA,Vertical branches alive,Alive! -  vertical branches,,,7/28/2020,Cameron Dow
-juni,125,8.5,14.7,12284,1,436,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-ceoc,125,7.2,12.9,12283,1,111,NULL,A,A,A,AU,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,old break @ ~4m,,,,,
-ceoc,125,12.1,12.9,12277,1,132,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,125,12.1,12.9,12276,1,196,NULL,A,A,A,A,A,,NA,NA,I,,,,,NA,NA,1,1,none,NA,,,,,,
-fram,125,11.1,19,12274,1,382,NULL,A,A,A,A,A,,NA,NA,D,,,,,NA,NA,1,1,DE,1,,,,,,
-fram,125,14.9,18.1,12271,1,111,DS,A,A,A,A,DS,,110,4,S,DF,,,,5,0,5,0,SS,NA,old stem break on top of crown,too small to core,,,,
-tiam,125,19.4,19.6,12270,1,304,NULL,A,A,A,A,AU,,NA,NA,CD,DF,,,,3,NA,NA,NA,,NA,,,,,,
-fram,125,17,15.5,12269,1,46,NULL,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,,
-fram,125,19.9,12.6,12267,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-frpe,125,10.6,7.2,12266,1,136,NULL,A,A,A,A,A,,NA,NA,I,,,,,NA,NA,1,1,DE,1,,,,,,
-tiam,125,11.2,9.1,12265,1,316,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,125,18.9,9.5,12263,1,NA,DS,A,A,A,A,A,,NA,NA,S,,,,,NA,NA,2,0,none,NA,top of crown has no branches and is covered in Vitis,Alive!; crown snap; liana,,,,
-ulsp,125,18.1,4.8,12262,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,125,16.3,1.5,12259,1,1032,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-ceoc,125,15.6,1.9,12258,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-fram,125,8.5,9.3,12255,1,300,NULL,A,A,A,A,A,,NA,NA,CD,,,,,NA,NA,1,1,W,NA,,20% whitening,,,,
-tiam,125,5.7,8,12254,1,281,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-juci,125,6.1,6.5,12253,1,248,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,R,,,,,
+juni,125,8.5,14.7,12284,1,436,NULL,A,A,A,A,A,AU,NA,NA,CD,K,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+ceoc,125,7.2,12.9,12283,1,111,NULL,A,A,A,AU,A,AU,NA,NA,I,R,DF,,,4,NA,NA,NA,,NA,old break @ ~4m,,,,7/28/2020,Albert Y. Kim
+ceoc,125,12.1,12.9,12277,1,132,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+fram,125,12.1,12.9,12276,1,196,NULL,A,A,A,A,A,A,NA,NA,I,,,,,NA,NA,1,1,AS,NA,,,liana,,7/28/2020,Albert Y. Kim
+fram,125,11.1,19,12274,1,382,NULL,A,A,A,A,A,A,NA,NA,D,,,,,NA,NA,3,2,AS,3,,,,,7/28/2020,Albert Y. Kim
+fram,125,14.9,18.1,12271,1,111,DS,A,A,A,A,DS,DS,110,4,S,DF,,,,5,0,5,0,SS,NA,old stem break on top of crown,too small to core,,,7/28/2020,Albert Y. Kim
+tiam,125,19.4,19.6,12270,1,304,NULL,A,A,A,A,AU,AU,NA,NA,D,DF,,,,5,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+fram,125,17,15.5,12269,1,46,NULL,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,7/28/2020,Albert Y. Kim
+fram,125,19.9,12.6,12267,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+frpe,125,10.6,7.2,12266,1,136,NULL,A,A,A,A,A,A,NA,NA,I,,,,,NA,NA,1,1,DE,1,,,,,7/28/2020,Albert Y. Kim
+tiam,125,11.2,9.1,12265,1,316,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+fram,125,18.9,9.5,12263,1,NA,DS,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,2,0,AS,NA,top of crown has no branches and is covered in Vitis,Alive!; crown snap; liana,,,7/28/2020,Albert Y. Kim
+ulsp,125,18.1,4.8,12262,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+litu,125,16.3,1.5,12259,1,1032,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+ceoc,125,15.6,1.9,12258,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+fram,125,8.5,9.3,12255,1,300,NULL,A,A,A,A,A,A,NA,NA,CD,,,,,NA,NA,2,2,SS,NA,,20% whitening,liana,,7/28/2020,Albert Y. Kim
+tiam,125,5.7,8,12254,1,281,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+juci,125,6.1,6.5,12253,1,248,NULL,A,A,A,A,A,AU,NA,NA,OG,R,F,,,NA,NA,NA,NA,,NA,R,,,,7/28/2020,Albert Y. Kim
 acru,126,4.4,17.3,12323,1,393,NULL,A,A,A,AU,AU,,NA,NA,CD,R,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,126,10,18.9,12322,1,143,NULL,A,A,A,A,AU,,NA,NA,I,DF,,,,3,NA,1,0,"SS, VB",NA,,growth on lower branches,,,,
 quru,126,8.2,17,12321,1,NA,DN,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
