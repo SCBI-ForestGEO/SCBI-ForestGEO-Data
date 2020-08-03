@@ -1468,21 +1468,21 @@ litu,324,7.3,6.7,32259,1,582,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/2
 caca,324,8,6.2,32257,1,135,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 litu,324,9.3,5,32256,1,228,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 litu,324,9.3,0.9,32253,1,341,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
-frpe,325,1.5,18.1,32331,1,36,NULL,A,A,A,AU,A,,NA,NA,S,,,,,NA,NA,2,1,"SS, VB",NA,,,,,,
-cagl,325,8,18.3,32328,1,300,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caovl,325,9.3,17.5,32327,1,339,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,325,8.1,15.2,32326,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-litu,325,9.5,12.2,32325,1,519,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag missing,tag missing,,,,
-cagl,325,13.2,15,32323,1,258,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,325,17.3,16.2,32321,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,325,11.4,3.7,32320,1,199,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,325,13.8,3.5,32319,1,336,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-caovl,325,13.9,9.2,32318,1,300,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,325,17.9,2.1,32315,1,150,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cagl,325,0.8,3.9,32309,1,150,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,325,6.1,5.9,32303,1,224,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-cato,325,5.4,4.8,32302,1,233,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,R,,,,,
-litu,325,9.7,0.1,32300,1,373,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
+frpe,325,1.5,18.1,32331,1,36,NULL,A,A,A,AU,A,DS,35,1,S,,,,,NA,NA,5,2,"SS, VB",NA,,,,,7/28/2020,Albert Y. Kim
+cagl,325,8,18.3,32328,1,300,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+caovl,325,9.3,17.5,32327,1,339,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+litu,325,8.1,15.2,32326,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+litu,325,9.5,12.2,32325,1,519,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag missing,tag missing,tag missing,,7/28/2020,Albert Y. Kim
+cagl,325,13.2,15,32323,1,258,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,325,17.3,16.2,32321,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,325,11.4,3.7,32320,1,199,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,325,13.8,3.5,32319,1,336,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+caovl,325,13.9,9.2,32318,1,300,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cagl,325,17.9,2.1,32315,1,150,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cagl,325,0.8,3.9,32309,1,150,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,325,6.1,5.9,32303,1,224,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
+cato,325,5.4,4.8,32302,1,233,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,R,,,,7/28/2020,Albert Y. Kim
+litu,325,9.7,0.1,32300,1,373,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
 cato,326,1.9,11.3,32357,1,448,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 cofl,326,14.8,17.1,32351,1,103,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,barely anthracnose,,,,,
 litu,326,18.1,14.3,32347,1,264,NULL,A,A,A,A,A,,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
