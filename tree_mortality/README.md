@@ -39,6 +39,7 @@ These data are public, but the more recent censuses may not yet have been used i
 | Meghan Ward |   | field assistant, SCBI | volunteered for 2019 census |
 | Alex Georgopolis |   | field assistant, SCBI | volunteered for 2019 census |
 | Cameron Dow | camerondow35 | field assistant, SCBI | led 2020 census |
+| Albert Y. Kim | rudeboybert | visiting scholar, SCBI | volunteered for 2020 census |
 
  
 *refers to position at time of main contribution to this repository
