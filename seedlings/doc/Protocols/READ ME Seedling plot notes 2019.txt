@@ -1,0 +1,14 @@
+May 30, 2019
+Erika Gonzalez-Akre
+
+Today I fixed some data in files for 2014, 2015, 2016 and 2017 surveys. Mostly inclduing.
+
+-wrote tag number in tag# column for all years if there was a note in 2017 'Notes' column (i.e. Probably tag #2730-00),
+but not all, many still need to be revised.
+
+-Eliminated duplicates in 2017 data (except few tags)
+
+
+
+
+

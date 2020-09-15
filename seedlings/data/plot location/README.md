@@ -1,0 +1,1 @@
+This folder contain a shape file to map the seedling plot distribution. A pdf version to bring to field is [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/blob/master/seedlings/doc/SIGEOSeedlingPlotLocations.pdf). 

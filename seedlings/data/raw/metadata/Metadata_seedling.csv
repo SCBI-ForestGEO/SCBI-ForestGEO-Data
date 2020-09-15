@@ -1,0 +1,84 @@
+METADATA,,,
+Date,Date of plot survey,,
+Stake,"Local point of reference within SCBI_ForestGEO plot, correspond to quadrat.",,
+Plot,The cardinal direction designation of a given seedling plot in reference to Stake,,
+Fence,"True= seedling plot inside deer exclosure, FALSE= seedling plot outside deer exclosure",,
+Tag,Seedling unique metal tag identifier,,
+SpCode,Species acronym used in the field,,
+Height_cm,Seedling height in cm,,
+Notes,"Any field note, also coded information.",,
+L_perc,Percentage cover of leaf litter,,
+invasive_1,Species acronym for invasive species sp. 1,,
+%invasive_1,Percentage cover of invasive species sp. 1,,
+invasive_2,Species acronym for invasive species sp. 2,,
+%invasive_2,Percentage cover of invasive species sp. 2,,
+invasive_3,Species acronym for invasive species sp. 3,,
+%invasive_3,Percentage cover of invasive species sp. 3,,
+invasive_4,Species acronym for invasive species sp. 4,,
+%invasive_4,Percentage cover of invasive species sp. 4,,
+,,,
+CODED INFORMATION,,,
+"D, TR","Seedling found dead (or no physical evidence of it), tag removed from field.",,
+NA,"NA is applied in column 'height"" when there the code 'D,TR' was given in a previous year",,
+New XXXX,"New seedling found in a particular year, either they get a tag number or not. A new tag was given if plant height >10 cm.  ",,
+NF,No plant and not tag found during survey. Presumed dead.,,
+NN,"Not plant, not tag found, you cannot have this code if the seedling didn’t have a tag before.",,
+,,,
+,,,
+SPECIES ACRONYM AND LATIN NAMES,,,
+Spdode,Latin name,Common name,Plant type
+acne,Acer negundo,Boxelder,woody
+acru,Acer rubrum,Red Maple,woody
+aial,Ailanthus altissima,Tree Of Heaven,woody
+alpe,Alliaria petiolata,garlic mustard,herbaceous
+amar,Amelanchier arborea,Downy Serviceberry,woody
+astr,Asimina triloba,Pawpaw,woody
+beth,Berberis thunbergii ,Japanese Barberry,woody
+caca,Carpinus caroliniana,American Hornbeam,woody
+caco,Carya cordiformis,Bitternut Hickory,woody
+cagl,Carya glabra,Pignut Hickory,woody
+carya,Carya sp.,Hickory,woody
+cato,Carya tomentosa,Mockernut Hickory,woody
+ceca,Cercis canadensis ,Eastern Redbud,woody
+ceoc,Celtis occidentalis,Hackberry,woody
+cofl,Cornus florida,Flowering Dogwood,woody
+conifersp,Unknown conifer.,,woody
+duin,Duchesnea indica,Indian strawberry,herbaceous
+fagr,Fagus grandifolia,American Beech,woody
+fram,Fraxinus americana,White Ash,woody
+gamo,Galium molugo,Smooth Bedstraw,herbaceous
+havi,Hamamelis virginiana,American Witchhazel,woody
+libe,Lindera benzoin,Spicebush,woody
+litu,Liriodendron tulipifera,Tulip Poplar,woody
+loja,Lonicera japonica,Japanese Honeysuckle,woody
+mivi,Microstegium vimineum ,Japanese stiltgrass,herbaceous
+nysy,Nyssa sylvatica,Black Gum,woody
+ophi,Oplismenus undulatifolius,Wavyleaf basquet grass-highly invasive!,herbaceous
+pepe,Persicaria perfoliata,mile-a-minute,herbaceous
+pist,Pinus strobus,White Pine,woody
+prav,Prunus avium,Sweet Cherry,woody
+prse,Prunus serotina,Wild Black Cherry,woody
+prsp,Prunus sp.,Cherry,woody
+qual,Quercus alba,White Oak,woody
+qupr,Quercus prinus,Chestnut Oak,woody
+quru,Quercus rubra,Northern Red Oak,woody
+qusp,Quercus sp.,Oak,woody
+quve,Quercus velutina,Black Oak,woody
+romu,Rosa multiflora,Multiflora Rose,woody
+rops,Robinia pseudoacacia,Black Locust,woody
+rual,Rubus allegheniensis ,Allegheny Blackberry,woody
+ruoc,Rubus occidentalis ,Black Raspberry,woody
+ruph,Rubus phoenicolasius,Wineberry,woody
+rusp,Rubus sp.,Blackberry,woody
+saal,Sassafras albidum ,Sassafras,woody
+smro,Smilax rotundifolia,Common Greenbrier,woody
+smsp,Smilax sp.,,woody
+soha,Sorghum halepense,Johnson Grass,herbaceous
+stme,Stellaria media,common chickweed,herbaceous
+syor,Symphoricarpos orbiculatus ,Coralberry,woody
+tora,Toxicodendron radicans,poison ivy,woody
+ulru,Ulmus rubra,Slippery Elm,woody
+unk,Unknown species,,woody
+vipr,Viburnum prunifolium,Black Haw,woody
+visp,Viburnum sp.,,woody
+vitis,Vitis sp.,,woody

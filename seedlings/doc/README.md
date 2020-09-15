@@ -1,0 +1,1 @@
+- The folder [Protocols](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/doc/Protocols) contains files with different comments from different survey years. They are worth inspecting as they have important information to understand differences in protocols (and data format) between years.

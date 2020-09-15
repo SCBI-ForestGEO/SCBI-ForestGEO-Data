@@ -1,0 +1,25 @@
+Column,Field,Description,Column_type,Field_codes,Units
+1 / A,Date,Date of plot survey,character,,
+2 / B,Observer Name,Name of the observer,character,,
+3 / C,Stake,"Local point of reference within SCBI_ForestGEO plot, correspond to quadrat.",character,,
+4 / D,Plot,The cardinal direction designation of a given seedling plot in reference to Stake,character,,
+5 / E,Tag,Seedling unique metal tag identifier,character,,
+6 / F,SpCode,Species acronym used in the field,character,,
+7 / G,Height.cm,Seedling height in cm,numeric,"NA= applied in column 'height"" when there the code 'D,TR' was given in a previous year",cm
+8 / H,Notes,"Any field note, also coded information.",character,"DC, TR=Seedling found dead (or no physical evidence of it), tag removed from field. NewYEAR = New seedling found in a particular year, either they get a tag number or not. A new tag was given if plant height >10 cm.  NF= No plant and not tag found during survey. Presumed dead. NN= Not plant, not tag found, you cannot have this code if the seedling didn’t have a tag before.",
+9 / I,Fence,"True= seedling plot inside deer exclosure, FALSE= seedling plot outside deer exclosure",character,,
+10 / J,X,"Coordinate in the X axes for the seedling within the 1x1 m plot, make sure you are well oriented.",numeric,,m
+11 / K,Y,"Coordinate in the Y axes for the seedling within the 1x1 m plot, make sure you are well oriented.",numeric,,m
+12 / L,perc.L ,Percentage cover of leaf litter,character,,
+13 / M,Invasive1,Species acronym for invasive species sp. 1,character,,
+14 / N,perc.Invasive1,Percentage cover of invasive species sp. 1,character,,
+15 / O,Invasive2,Species acronym for invasive species sp. 2,character,,
+16 / P,perc.Invasive2,Percentage cover of invasive species sp. 2,character,,
+17 / Q,Invasive3,Species acronym for invasive species sp. 3,character,,
+18 / R,perc.Invasive3,Percentage cover of invasive species sp. 3,character,,
+19 / S,Invasive4,Species acronym for invasive species sp. 4,character,,
+20 / T,perc.Invasive4,Percentage cover of invasive species sp. 4,character,,
+21 / U,Invasive5,Species acronym for invasive species sp. 5,character,,
+22 / V,perc.Invasive5,Percentage cover of invasive species sp. 5,character,,
+23 / W,Invasive6,Species acronym for invasive species sp. 6,character,,
+24 / X,perc.Invasive6,Percentage cover of invasive species sp. 6,character,,
