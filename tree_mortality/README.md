@@ -27,7 +27,7 @@ These data are public, but the more recent censuses may not yet have been used i
 | name | GitHub ID| position* | role |
 | -----| ---- | ---- |---- |
 | Kristina Anderson-Teixeira | teixeirak | staff scientist, SCBI & STRI | PI overseeing project since 2016 |
-| Erika Gonzalez-Akre | gonzalezeb | lab manager, SCBI | designed census, led 2014 census, oversaw subsequent censuses |
+| Erika Gonzalez-Akre | gonzalezeb | lab manager, SCBI | designed census, led 2014 census, oversaw subsequent censuses until 2020 |
 | Cheng-Yin Eng |  | research assistant , SCBI | led 2015 census |
 | Victoria Meakem |  | research assistant, SCBI | led 2016 census |
 | Ryan Helcoski | RHelcoski | research assistant, SCBI | led 2017 census |
