@@ -1,7 +1,7 @@
 species,quadrat,lx,ly,tag,stem,dbh.2018,codes.2018,status.2015,status.2016,status.2017,status.2018,status.2019,new.status,dbh.if.dead,perc.crown,crown.position,fad1,fad2,fad3,fad4,DF,liana.load,fraxinus.crown.thinning,fraxinus.epicormic.growth,EABF,DE.count,Old.comments,X2019.comments,X2020.comments,cored,date,surveyor
 frni,1004,17.3,3.2,103194,2,10,F;M,DS,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,1004,15,19.7,103217,1,10,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,4,0,none,NA,,,,,6/30/2020,Cameron Dow
-frpe,1203,2,5,123412,1,10,F,NA,NA,NA,NA,NA,A,NA,NA,,,,,,NA,NA,0,0,None,NA,,,,,6/30/2020,Cameron Dow
+frpe,1203,2,5,123412,1,10,F,NA,NA,NA,NA,NA,A,NA,NA,S,,,,,NA,NA,0,0,None,NA,,,,,6/30/2020,Cameron Dow
 fram,802,13.9,12.5,83027,1,11,F;DS;R,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,dead above breast height,,,,,
 fram,1204,7,5.7,123095,1,11,C;F,A,A,AU,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,epicormics below breast height,,,,,
 fram,1410,14.9,10.4,143457,1,11,F;DS;R,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/12/2020,Cameron Dow
@@ -92,7 +92,7 @@ fram,1206,2,16.4,121064,1,22,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,2,0,none,NA,,,,,6/2
 frpe,1005,16.5,6.3,100586,1,23,F;L,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,6/25/2020,Cameron Dow
 fram,1203,15,17.3,120689,1,23,F;M;J;L,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,4,2,SS,NA,,,,,6/25/2020,Cameron Dow
 fram,1509,1.1,13.7,150977,2,23,F;S,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,6/15/2020,Cameron Dow
-fram,1306,6,2,133706,1,23,F,NA,NA,NA,NA,NA,A,NA,NA,,,,,,NA,NA,2,0,None,NA,,,,,6/30/2020,Cameron Dow
+fram,1306,6,2,133706,1,23,F,NA,NA,NA,NA,NA,A,NA,NA,S,,,,,NA,NA,2,0,None,NA,,,,,6/30/2020,Cameron Dow
 fram,1204,1.8,1.8,120731,2,24,F;S,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,3,0,none,NA,,,,,6/25/2020,Cameron Dow
 fram,1304,0.6,11.8,133173,1,24,F,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,1,0,None,NA,,,,,6/25/2020,Cameron Dow
 fram,1408,15.7,7.2,143354,1,24,F;M,A,A,A,A,A,A,NA,NA,S,,,,,NA,NA,1,0,none,NA,,,,,6/15/2020,Cameron Dow
@@ -848,7 +848,7 @@ ceca,1825,0.6,5.5,182398,1,110,I,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,
 ulru,1829,6.7,6.6,182458,1,110,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
 nysy,2018,14.6,17.7,202030,1,110,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,R @ base,,,8/12/2020,Cameron Dow
 ceoc,125,7.2,12.9,12283,1,111,NULL,A,A,A,AU,A,AU,NA,NA,I,R,DF,,,4,NA,NA,NA,,NA,old break @ ~4m,,,,7/28/2020,Albert Y. Kim
-fram,125,14.9,18.1,12271,1,111,DS,A,A,A,A,DS,DS,110,4,S,U,,,,NA,0,5,0,SS,NA,old stem break on top of crown,too small to core,,,7/28/2020,Albert Y. Kim
+fram,125,14.9,18.1,12271,1,111,DS,A,A,A,A,DS,PD,,,,,,,,NA,NA,NA,NA,,NA,old stem break on top of crown,too small to core,,,,
 litu,129,17.2,1.1,12392,1,111,NULL,A,AU,AU,AU,AU,DS,115,1,I,B,F,,,NA,0,NA,NA,,NA,Break at ? 5 m,will probably be dead soon,,,9/8/2020,Cameron Dow
 caca,208,4.8,19.6,20607,1,111,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/15/2020,Cameron Dow
 caca,213,11.2,2.8,20739,1,111,A;B,A,A,A,A,A,DS,112,3,I,F,B,,,NA,0,NA,NA,,NA,,,Break at 4 m,,7/27/2020,Cameron Dow
@@ -1303,10 +1303,10 @@ qupr,1626,19.8,19.3,162438,2,120,S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/
 ceca,1807,0.3,5.2,180686,1,120,NULL,A,A,A,A,A,AU,NA,NA,I,DF,,,,4,NA,NA,NA,,NA,2 crown breaks,,,,7/14/2020,Cameron Dow
 nysy,1815,9.3,1.6,181007,1,120,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/11/2020,Cameron Dow
 nysy,1819,15.3,9.9,182055,1,120,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
-ceoc,1822,1.2,10.3,182352,1,120,L,A,A,AU,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,high liana load,liana; will probably be dead soon,,,8/6/2020,Cameron Dow
+ceoc,1822,1.2,10.3,182352,1,120,L,A,A,AU,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,high liana load,liana; will probably be dead soon,,,8/6/2020,Cameron Dow
 astr,1823,10.5,8.1,182381,1,120,M,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/6/2020,Cameron Dow
 cagl,1826,6.8,12.3,182416,1,120,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/29/2020,Cameron Dow
-nysy,1922,7.4,1.4,192293,1,120,NULL,A,A,A,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,crown (B),,,,8/6/2020,Cameron Dow
+nysy,1922,7.4,1.4,192293,1,120,NULL,A,A,A,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,crown (B),,,,8/6/2020,Cameron Dow
 caca,203,18,19.1,20175,1,121,B,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/2/2020,Cameron Dow
 caca,210,10.2,13.2,20659,1,121,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/27/2020,Cameron Dow
 cofl,210,3.8,3.8,20638,1,121,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,no anthracnose,,,,7/27/2020,Cameron Dow
@@ -1424,7 +1424,7 @@ qupr,1914,10.2,1.6,190795,1,123,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,
 cato,1917,3,6.9,192207,1,123,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/11/2020,Cameron Dow
 caco,2010,7,13.5,201127,1,123,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/14/2020,Cameron Dow
 qupr,2022,13.9,6.5,202103,1,123,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/6/2020,Cameron Dow
-litu,2030,7.5,1.5,202563,1,123,C;I,A,A,AU,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,break at 5.5m; SS,,,,9/3/2020,Cameron Dow
+litu,2030,7.5,1.5,202563,1,123,C;I,A,A,AU,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,break at 5.5m; SS,,,,9/3/2020,Cameron Dow
 ceca,2031,7.3,0.3,202571,1,123,NULL,NA,NA,NA,NA,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
 caca,120,7.7,14.4,12114,1,124,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/5/2020,Cameron Dow
 fram,126,16.9,10.1,12314,1,124,NULL,A,A,A,A,A,DS,125,3,I,I,F,,,NA,0,5,1,"DE, SS",4,,20% whitening,,,8/20/2020,Cameron Dow
@@ -1668,7 +1668,7 @@ cagl,316,7.2,10.3,30578,1,130,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/
 caca,319,11.6,10.2,32078,1,130,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/5/2020,Cameron Dow
 caco,401,6.3,20,40077,1,130,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/2/2020,Cameron Dow
 cato,608,15.3,17.9,60163,1,130,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
-cagl,626,15.5,6.2,62314,1,130,NULL,A,A,A,A,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,,LF discoloration,,,8/20/2020,Cameron Dow
+cagl,626,15.5,6.2,62314,1,130,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,LF discoloration,,,8/20/2020,Cameron Dow
 cato,628,6.3,6.9,62364,1,130,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/1/2020,Cameron Dow
 caca,806,2.6,2.4,80263,1,130,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 frpe,815,3,4,80560,1,130,DS;R,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,one gallery found,,,,,
@@ -1710,7 +1710,7 @@ havi,206,5.8,20,20537,1,131,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,K,,,,7/15/2
 fagr,215,14.9,13.6,20815,1,131,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/27/2020,Cameron Dow
 fagr,216,17.5,14.6,20847,1,131,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/27/2020,Cameron Dow
 caca,303,4.4,11.2,30059,1,131,L;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/2/2020,Cameron Dow
-cato,316,11.7,8.3,30574,1,131,NULL,A,A,A,A,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,main stem break at ?5 m but looks healthy,B in crown,,,7/27/2020,Cameron Dow
+cato,316,11.7,8.3,30574,1,131,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,main stem break at ?5 m but looks healthy,B in crown,,,7/27/2020,Cameron Dow
 litu,331,6.6,10.1,32506,1,131,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,kankers,,,,9/8/2020,Cameron Dow
 ceca,409,0.9,5.9,40599,1,131,DS,A,AU,AU,AU,DC,PD,NA,NA,,,,,,NA,NA,NA,NA,,,break at ?6m,,,,,
 caca,410,17.9,18.8,40843,1,131,I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,Some roots exposed,,7/15/2020,Cameron Dow
@@ -2199,7 +2199,7 @@ litu,1110,2.8,15.2,111170,1,145,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/1
 frpe,1127,10,7.5,112450,1,145,NULL,A,A,A,A,A,A,NA,NA,I,,,,,NA,NA,1,0,"AS, VB",NA,,,,,8/25/2020,Cameron Dow
 cagl,1214,10.8,0.5,121334,1,145,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/21/2020,Cameron Dow
 cato,1223,11.8,18,122283,1,145,NULL,A,A,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/5/2020,Cameron Dow
-pist,1223,7.7,6.3,122195,1,145,NULL,A,A,A,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,,,,,8/5/2020,Cameron Dow
+pist,1223,7.7,6.3,122195,1,145,NULL,A,A,A,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/5/2020,Cameron Dow
 fagr,1232,4.2,9.5,122570,1,145,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/9/2020,Cameron Dow
 cagl,1327,16.1,10.8,132398,1,145,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/25/2020,Cameron Dow
 fram,304,0.6,16.4,30077,1,145,NULL,A,A,A,AU,A,DS,148,4,I,AN,,,,NA,0,5,2,"W, DE",5,old VB - no galleries,30% whitening,30% whitening ,,7/1/2020,Cameron Dow
@@ -2394,7 +2394,7 @@ litu,926,17.3,15,92427,1,151,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/2
 nysy,1027,16,7.4,102408,1,151,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/25/2020,Cameron Dow
 cagl,1212,11.3,1.1,121406,1,151,F,A,A,A,A,AU,AU,NA,NA,I,LF,,,,NA,NA,NA,NA,,NA,,LF eaten and discoloration,,,6/12/2020,Cameron Dow
 cato,1214,7.8,5.7,121338,1,151,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/21/2020,Cameron Dow
-pist,1220,2,17.4,122149,1,151,NULL,A,A,AU,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
+pist,1220,2,17.4,122149,1,151,NULL,A,A,AU,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
 litu,1429,17.7,10,142635,1,151,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
 ulru,1516,8.6,1.8,151618,1,151,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/11/2020,Cameron Dow
 nysy,1820,2.7,9,182269,1,151,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
@@ -3026,7 +3026,7 @@ cagl,1528,3.9,11.9,152616,1,173,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,
 fagr,1532,15.3,16.3,152721,1,173,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/9/2020,Cameron Dow
 ceca,1622,3.4,1.8,162260,1,173,J,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,wilt,,,,8/6/2020,Cameron Dow
 fram,1911,12.1,11,190735,1,173,NULL,A,A,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-ulru,1929,7.2,15.9,192553,1,173,NULL,A,A,A,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,break @ 7.2m,,,,9/8/2020,Cameron Dow
+ulru,1929,7.2,15.9,192553,1,173,NULL,A,A,A,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,break @ 7.2m,,,,9/8/2020,Cameron Dow
 ceca,2027,13.7,12.6,202781,1,173,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/25/2020,Cameron Dow
 caovl,226,9.9,11.9,22363,1,174,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/20/2020,Cameron Dow
 litu,227,10.9,15.9,22391,1,174,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/25/2020,Cameron Dow
@@ -3598,7 +3598,7 @@ caco,1722,4.3,7.2,172140,1,200,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8
 caovl,1810,16.3,0.4,180782,1,200,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/14/2020,Cameron Dow
 fagr,1906,7.6,4.8,190635,1,200,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/7/2020,Cameron Dow
 cagl,130,13.3,12.3,12450,1,201,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
-cato,316,18.6,3.8,30606,1,201,NULL,A,A,A,A,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,,LF discoloration; leaned on by dead tree,,,7/27/2020,Cameron Dow
+cato,316,18.6,3.8,30606,1,201,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,LF discoloration; leaned on by dead tree,,,7/27/2020,Cameron Dow
 fagr,406,15.8,0.9,40549,1,201,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/25/2020,Cameron Dow
 tiam,419,10.8,13.1,42087,1,201,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
 litu,425,4.1,0.7,42280,1,201,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/29/2020,Albert Y. Kim
@@ -3879,7 +3879,7 @@ fagr,1521,0.8,12.7,152317,1,216,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,
 nysy,1822,2.4,4.4,182322,1,216,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/6/2020,Cameron Dow
 litu,1902,20,4.3,190071,1,216,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/6/2020,Cameron Dow
 nysy,1922,9.4,16.8,192116,1,216,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/6/2020,Cameron Dow
-cato,2028,2.1,13,202542,1,216,NULL,A,A,A,A,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,,,,,9/3/2020,Cameron Dow
+cato,2028,2.1,13,202542,1,216,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/3/2020,Cameron Dow
 fagr,113,1,19.8,10706,1,217,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/27/2020,Cameron Dow
 fagr,118,8.8,8.6,12032,1,217,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag missing,,Tag swallowed,,8/5/2020,Cameron Dow
 cato,129,14.5,4,12399,1,217,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
@@ -4779,7 +4779,7 @@ quru,2021,17.4,1,202076,1,279,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/
 nysy,109,6.2,12.6,10553,1,280,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/15/2020,Cameron Dow
 ceoc,205,1.3,11.2,20302,1,280,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/15/2020,Cameron Dow
 litu,425,20,13.7,42297,1,280,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/29/2020,Albert Y. Kim
-qual,625,16.6,14.7,62299,1,280,NULL,A,A,A,A,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,,LF eaten and dscoloration,,,7/29/2020,Albert Y. Kim
+qual,625,16.6,14.7,62299,1,280,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,LF eaten and dscoloration,,,7/29/2020,Albert Y. Kim
 litu,713,11.4,7.3,70568,1,280,F,A,A,A,A,A,A  ,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 fagr,716,10.8,16.3,70625,1,280,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/11/2020,Cameron Dow
 quve,803,14,8.3,80159,1,280,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/1/2020,Cameron Dow
@@ -5167,12 +5167,12 @@ litu,1411,14.5,17.9,141030,1,315,M,A,A,A,A,AU,AU,NA,NA,I,K,,,,NA,NA,NA,NA,,NA,,b
 fram,1832,14.1,11.6,182747,1,315,NULL,A,A,A,A,A,A,NA,NA,CD,,,,,NA,NA,5,2,"W, DE",4,,20% whitening,"30% whitening, only a few epicormics still alive",,9/9/2020,Cameron Dow
 tiam,125,11.2,9.1,12265,1,316,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Albert Y. Kim
 fram,307,8.5,19.4,30364,1,316,DS,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,three dying leaves; will not recover,,,,,
-cato,421,8.8,17.2,42156,1,316,NULL,A,A,A,A,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,,ants and millipedes,,,8/19/2020,Cameron Dow
+cato,421,8.8,17.2,42156,1,316,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,ants and millipedes,,,8/19/2020,Cameron Dow
 litu,605,16.9,13.3,60106,1,316,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/25/2020,Cameron Dow
 cagl,632,14.8,9.2,62450,1,316,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/9/2020,Cameron Dow
 cato,710,7.5,18.1,70439,1,316,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 cagl,712,7.2,11.4,70463,1,316,F,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,40% whitening,,,6/11/2020,Cameron Dow
-pist,732,4.2,13,72458,1,316,NULL,A,A,A,A,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,,,,,9/9/2020,Cameron Dow
+pist,732,4.2,13,72458,1,316,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/9/2020,Cameron Dow
 acru,932,10.3,6.2,92559,1,316,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/9/2020,Cameron Dow
 quru,1010,16.7,6.8,100955,1,316,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/16/2020,Cameron Dow
 caco,1019,2.9,5.8,102130,1,316,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,R,,,,8/16/2020,Cameron Dow
@@ -5290,7 +5290,7 @@ saal,1203,4.2,16.1,120722,1,329,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/2
 acru,104,12.3,4.5,10189,1,330,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/1/2020,Cameron Dow
 qual,104,10.3,2.7,10186,1,330,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/1/2020,Cameron Dow
 quru,108,7.9,15.4,10543,1,330,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/15/2020,Cameron Dow
-cagl,119,3,15,12084,1,330,NULL,A,A,A,A,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,,woodpecker,,,8/5/2020,Cameron Dow
+cagl,119,3,15,12084,1,330,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,woodpecker,,,8/5/2020,Cameron Dow
 litu,214,16.7,13.8,20789,1,330,I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/27/2020,Cameron Dow
 tiam,222,17,7.5,22186,2,330,S,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/19/2020,Cameron Dow
 litu,406,17.3,19.6,40558,1,330,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/25/2020,Cameron Dow
@@ -5317,7 +5317,7 @@ caco,1522,7.3,0.5,152353,1,331,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,regro
 litu,1722,11.6,15.3,172367,1,331,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/6/2020,Cameron Dow
 litu,1808,8.7,6.7,180908,1,331,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/14/2020,Cameron Dow
 cagl,1815,19,11,180856,1,331,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/11/2020,Cameron Dow
-litu,1932,13.9,15.9,192595,1,331,I,A,A,AU,AU,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,main stem broken; galleries,,,,9/9/2020,Cameron Dow
+litu,1932,13.9,15.9,192595,1,331,I,A,A,AU,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,main stem broken; galleries,,,,9/9/2020,Cameron Dow
 litu,332,15.5,4.4,32531,1,332,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,Tag on ground,,9/9/2020,Cameron Dow
 litu,407,5.6,1.7,40569,1,332,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 cato,703,0.7,6,70061,1,332,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/1/2020,Cameron Dow
@@ -5346,7 +5346,7 @@ cato,104,0.6,1.2,10045,1,335,I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/1/20
 tiam,222,6.3,2.5,22178,1,335,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,tag missing,tag missing,,,8/19/2020,Cameron Dow
 quve,302,12.8,4.3,30134,1,335,M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/2/2020,Cameron Dow
 cato,632,12.2,2.6,62447,1,335,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/9/2020,Cameron Dow
-pist,1023,11,16.3,102284,1,335,NULL,A,AU,AU,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,,,,,8/5/2020,Cameron Dow
+pist,1023,11,16.3,102284,1,335,NULL,A,AU,AU,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/5/2020,Cameron Dow
 litu,1111,7.8,16.7,111203,1,335,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/11/2020,Cameron Dow
 litu,1313,6.9,17.6,131185,1,335,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/22/2020,Cameron Dow
 qual,1527,19.7,2.5,152566,1,335,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/25/2020,Cameron Dow
@@ -5527,7 +5527,7 @@ qupr,706,3.3,16.7,70159,2,358,F;M,A,A,AU,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,too
 cagl,908,14,11.8,91487,1,358,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,1105,3.4,2,110817,1,358,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/25/2020,Cameron Dow
 cato,1119,18.3,8.5,112127,1,358,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
-pist,1219,15.9,13.1,122075,1,358,NULL,A,AU,AU,AU,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
+pist,1219,15.9,13.1,122075,1,358,NULL,A,AU,AU,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
 qual,1517,6.8,14.1,152036,1,358,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/11/2020,Cameron Dow
 fram,1631,13.1,19.4,162491,1,358,NULL,A,A,A,A,A,A,NA,NA,CD,,,,,NA,NA,4,3,W,NA,,,10% whitening ,,9/8/2020,Cameron Dow
 litu,1805,6,0.3,180654,1,358,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/7/2020,Cameron Dow
@@ -6135,7 +6135,7 @@ litu,1511,3.1,14.5,151128,1,440,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,
 quru,1926,17.4,11.2,192484,1,440,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,liana,,,8/20/2020,Cameron Dow
 litu,115,19.5,12.6,10728,1,441,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,lower bark balding,,,,7/27/2020,Cameron Dow
 fram,1115,7.2,17.1,111333,1,441,NULL,A,A,A,A,A,A,NA,NA,CD,,,,,NA,NA,2,2,None,NA,,,,,7/20/2020,Cameron Dow
-cagl,624,10.4,1.9,62271,1,441,NULL,A,A,A,A,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
+cagl,624,10.4,1.9,62271,1,441,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 cagl,724,6.7,10.2,72289,1,441,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/28/2020,Cameron Dow
 caovl,1411,19.5,9.4,141025,1,441,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/14/2020,Cameron Dow
 litu,1411,7.3,15,140843,1,441,A,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/14/2020,Cameron Dow
@@ -6260,7 +6260,7 @@ quve,1120,5.2,16.8,112167,1,457,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,
 litu,1519,14.8,4,152080,1,457,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/16/2020,Cameron Dow
 quve,1628,7.4,11.1,162565,1,457,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/3/2020,Cameron Dow
 juni,1701,1,10,170037,1,457,I,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/6/2020,Cameron Dow
-litu,1925,17,11.5,192437,1,457,NULL,A,A,A,A,AU,A,NA,NA,D,,,,,NA,NA,NA,NA,,NA,,lower canopy losing color,,,8/20/2020,Cameron Dow
+litu,1925,17,11.5,192437,1,457,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,lower canopy losing color,,,8/20/2020,Cameron Dow
 frni,1115,8.3,12.9,111330,1,458,NULL,A,A,A,A,A,A,NA,NA,CD,,,,,NA,NA,1,1,SS,NA,giant poison ivy on trunk; vines,,,,7/20/2020,Cameron Dow
 litu,530,9.8,19.9,52402,1,458,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
 caco,612,2.3,16.9,60432,1,458,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
@@ -6292,7 +6292,7 @@ litu,2013,2.9,6,201244,1,461,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/2
 litu,2016,11.4,15.1,201437,1,461,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/11/2020,Cameron Dow
 fram,2028,2.5,15,202541,1,461,NULL,A,A,A,A,AU,DS,460,4,D,DF,,,,NA,0,2,0,"DE, W",2,,,5% whitening ,,9/3/2020,Cameron Dow
 cato,108,11.7,17.4,10464,1,462,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/15/2020,Cameron Dow
-caovl,527,11.2,19.6,52327,1,462,NULL,A,A,A,A,AU,A,NA,NA,CD,,,,,NA,NA,NA,NA,,NA,,LF eaten,,,8/25/2020,Cameron Dow
+caovl,527,11.2,19.6,52327,1,462,NULL,A,A,A,A,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,LF eaten,,,8/25/2020,Cameron Dow
 cato,612,16.4,8.7,60542,1,462,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
 litu,725,0.9,1.5,72294,1,462,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/19/2020,Cameron Dow
 cato,1313,1.2,6,131176,1,462,NULL,A,A,A,A,A,DS,458,3,CD,BB,AN,,,NA,0,NA,NA,,NA,,,,,7/22/2020,Cameron Dow
@@ -6587,7 +6587,7 @@ fram,1615,8.3,16.4,161562,1,502,I,A,A,A,A,A,DS,500,3,CD,I,AN,,,NA,0,5,0,"DE, W",
 quve,1408,17.1,10.1,140934,1,502,F,A,A,A,A,A,AU,NA,NA,CD,AN,F,,,NA,NA,NA,NA,,NA,,,,,6/15/2020,Cameron Dow
 litu,1612,4.2,3.5,160970,1,502,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/22/2020,Cameron Dow
 litu,231,16.4,5.5,22592,1,503,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
-fram,301,1,1.7,30001,1,503,DS,A,A,A,AU,DC,DS,500,4,CD,U,,,,NA,0,5,0,none,NA,,cannot confirm tree (fell onto its tag and covered in thorn bushes),,,7/2/2020,Cameron Dow
+fram,301,1,1.7,30001,1,503,DS,A,A,A,AU,DC,PD,,,,,,,,NA,NA,NA,NA,,NA,,cannot confirm tree (fell onto its tag and covered in thorn bushes),,,,
 cato,1118,1.9,7.4,112094,1,503,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/12/2020,Cameron Dow
 litu,722,3.3,1.5,72215,1,504,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/19/2020,Cameron Dow
 qual,903,17.1,18.8,90283,1,504,F,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/30/2020,Cameron Dow
@@ -7610,7 +7610,7 @@ litu,2026,4.3,11.8,202498,1,667,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,
 litu,1605,15.7,3,160740,1,668,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/7/2020,Cameron Dow
 litu,1612,5.8,15.2,160984,1,668,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/22/2020,Cameron Dow
 litu,1910,6.6,14.5,190524,1,668,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,7/22/2020,Cameron Dow
-quve,1928,14.6,1.3,192522,1,668,NULL,A,A,A,AU,AU,A,NA,NA,D,,,,,NA,NA,NA,NA,,NA,,,,,9/3/2020,Cameron Dow
+quve,1928,14.6,1.3,192522,1,668,NULL,A,A,A,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/3/2020,Cameron Dow
 quve,227,5.1,17.4,22399,1,669,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,8/25/2020,Cameron Dow
 qual,429,8.1,0.2,42504,1,669,NULL,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,9/8/2020,Cameron Dow
 qupr,607,12,9.7,60141,1,669,F;M,A,A,A,A,A,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,6/24/2020,Cameron Dow
@@ -9586,7 +9586,7 @@ nysy,1719,19.9,4.8,172231,1,NA,DS,A,A,AU,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,B @
 cofl,1720,0.4,14.3,172079,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 pist,1720,0.6,0.7,172051,1,NA,DS,A,A,AU,AU,DS,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 ulru,1721,12.2,10.7,172323,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
-ulru,1721,13.9,3.7,172317,1,NA,DS,A,A,AU,AU,AU,A,NA,NA,I,,,,,NA,NA,NA,NA,,NA,,Alive!,,,8/25/2020,Cameron Dow
+ulru,1721,13.9,3.7,172317,1,NA,DS,A,A,AU,AU,AU,A,NA,NA,,,,,,NA,NA,NA,NA,,NA,,Alive!,,,8/25/2020,Cameron Dow
 ceca,1721,7.9,6.2,172316,1,NA,DC,PD,PD,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 ulru,1721,6.2,9.7,172113,1,NA,DC,A,DS,PD,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
 fram,1721,4.6,2.1,172091,1,NA,DS,A,AU,DS,PD,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,,,,,,
