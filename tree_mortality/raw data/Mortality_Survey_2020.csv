@@ -16,7 +16,7 @@ fram,802,11.9,14.1,83023,1,12,F;DS;R,A,AU,AU,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA
 frpe,1106,0.2,8,110887,2,12,F;S,A,A,A,A,A,DS,10,2,S,U,,,,NA,0,5,0,none,NA,,,,,6/24/2020,Cameron Dow
 fram,1408,15.7,7.2,143354,2,12,F;DS;WR,A,A,A,DS,PD,PD,NA,NA,,,,,,NA,NA,NA,NA,,NA,no DE,,,,6/15/2020,Cameron Dow
 frpe,1410,18.5,7.4,143454,2,12,F;S,A,A,A,AU,A,DS,19,1,S,U,,,,NA,0,5,5,none,NA,white wire,,,,6/12/2020,Cameron Dow
-chvi,1522,290,430.8,151254,1,12,NULL,NA,NA,NA,NA,NA,A,NA,NA,,,,,,NA,NA,NA,NA,NA,NA,NA,,,,9/9/2020,Cameron Dow
+chvi,1522,10,10.8,151254,1,12,NULL,NA,NA,NA,NA,NA,A,NA,NA,,,,,,NA,NA,NA,NA,NA,NA,NA,,,,9/9/2020,Cameron Dow
 fram,1407,14.6,1.8,143306,1,12,F,A,A,A,A,A,DS,11,2,S,U,,,,NA,0,5,1,SS,NA,,,,,7/1/2020,Cameron Dow
 fram,1408,14.8,8.3,143355,1,12,F,A,A,A,A,A,DS,12,3,S,I,,,,NA,0,5,2,DE,9,,,,,6/15/2020,Cameron Dow
 fram,907,15.2,14.4,93312,1,12,F;L,A,A,A,AU,A,A,NA,NA,S,,,,,NA,NA,2,2,VB,NA,CR by 101028,,,,6/24/2020,Cameron Dow
