@@ -20,7 +20,7 @@ Data since 2010 are storaged in this repository, in addition to related files:
 * [Clean Metadata](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings/data/cleaned/Cleaned%20Meta%20Data): Metadata files for: a) [data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/data/cleaned/Cleaned%20Meta%20Data/Clean_Metadata_seedling.csv), and b) [species found](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/data/cleaned/Cleaned%20Meta%20Data/Species_seedling.csv) in all surveys.
 * [R scripts](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings/scripts): This folder constains R scripts to process SCBI seedling data.
 * [Seedling guide](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/doc/Seedling%20guide/SCBI%20Seedling%20ID.pdf): A picture guide for common seedlings found at SCBI (find a printed copy in the lab to bring to the field).
-* [Plot location](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/doc/SIGEOSeedlingPlotLocations.pdfn): Map with seedling plot locations within SCBI plot. 
+* [Plot location](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/doc/SIGEOSeedlingPlotLocations.pdf): Map with seedling plot locations within SCBI plot. 
 * [Summarized data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/doc/Summary_all%20censuses.csv): This file contain a simple summary of all surveys (up tp 2019).
 
 
