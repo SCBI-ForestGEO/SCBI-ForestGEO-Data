@@ -9,18 +9,20 @@
 ## Protocols
 Initial protocols are described in [Bourg et al. 2013](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/13-0010.1), which covers methods used from 2010 to 2012. A few modifications were added after 2014 (i.e., seedlings under 10 cm tall were not tagged and leaves were not counted), and fewer plots are measured after this year (mostly due to lack of funding). 
 
-In 2014 we subset our original sample (~320 plots or 110 'stakes') and ramdomly selected plots based on their habitat type: 1) Riparian-ash dominat; 2) Tulip poplar dominant; and 3) Oak dominant. Check [this map](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/blob/master/seedlings/doc/Plots_after_2014/Habitat%20types%20-%203%20clusters.pdf) to see the distribution of these groups in each quadrat based on basal area of the ten dominant tree species. The dominant species make up approximately 80% of the basal area of each group (McGarvey 2014). In total 41 quadrats are currenlty measured representative of all habitat types. 
+In 2014, we subsetted the original sample (~320 plots or 110 'stakes') and ramdomly selected plots based on their habitat type: 1) Riparian-ash dominat; 2) Tulip poplar dominant; and 3) Oak dominant. Check [this map](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/blob/master/seedlings/doc/Plots_after_2014/Habitat%20types%20-%203%20clusters.pdf) to see the distribution of these groups in each quadrat based on basal area of the ten dominant tree species. The dominant species make up approximately 80% of the basal area of each group (McGarvey 2014). In total 41 quadrats are currenlty measured representative of all habitat types at the SCBI plot.
 
 
 ## About this repository: 
 Data since 2010 are storaged in this repository, in addition to related files:
-* [Raw_data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/data/raw/raw-data_originals): Here we keep the original .xls versions for years 2013-2019 as saved in a physical drive at SCBI. **DO NOT CHANGE THESE FILES**.
-* [Original Metadata](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/data/raw/metadata): File containg the original metadata. It includes the description of columns for the .xls files and species codes. 
-* [Master data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/data/cleaned): Curated raw data using R scripts. Use this master version for future analysis.
-* [Clean Metadata](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/data): Metadata files for: a) data, and b) species found in all surveys.
-* [R scripts](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/src): This folder constains R scripts to process SCBI seedling data.
-* [Seedling guide](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/doc/Seedling%20guide): A picture guide for common seedlings found at SCBI (find a printed copy in the lab to bring to the field).
-* [Plot location](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data_private/tree/master/seedlings/plot%20location): Files with seedling plot locations within SCBI plot. 
+* [Raw_data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings/data/raw/raw-data_originals): Here we keep the original .xls versions for years 2013-2019 as saved in a physical drive at SCBI. **DO NOT CHANGE THESE FILES**.
+* [Original Metadata](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings/data/raw/metadata): File containg the original metadata. It includes the description of columns for the .xls files, species codes and other codes used. 
+* [Master data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings/data/cleaned): Curated raw data using R scripts. Use this master version (all .csv files) for future analysis. 
+* [Clean Metadata](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings/data/cleaned/Cleaned%20Meta%20Data): Metadata files for: a) [data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/data/cleaned/Cleaned%20Meta%20Data/Clean_Metadata_seedling.csv), and b) [species found](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/data/cleaned/Cleaned%20Meta%20Data/Species_seedling.csv) in all surveys.
+* [R scripts](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings/scripts): This folder constains R scripts to process SCBI seedling data.
+* [Seedling guide](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/doc/Seedling%20guide/SCBI%20Seedling%20ID.pdf): A picture guide for common seedlings found at SCBI (find a printed copy in the lab to bring to the field).
+* [Plot location](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/doc/SIGEOSeedlingPlotLocations.pdfn): Map with seedling plot locations within SCBI plot. 
+* [Summarized data](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/seedlings/doc/Summary_all%20censuses.csv): This file contain a simple summary of all surveys (up tp 2019).
+
 
 
 ## Contributors
@@ -31,6 +33,7 @@ Data since 2010 are storaged in this repository, in addition to related files:
 | William McShea | | staff scientist, SCBI & STRI | PI overseeing project since 2010 |
 | Norm Bourg| |	research associate| SCBI	Plot PI, led census in 2010 |
 | Jenny McGarvey | | research assistant, SCBI | led 2010-2011 census |
+| Joseph Ledvina|| research assistant, SCBI| led census 2017 | 
 | Nidhi Vinod|| research assistant, SCBI | helped organize data in 2020 |
 
 *refers to position at time of main contribution to this repository
