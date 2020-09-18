@@ -1,9 +1,9 @@
 Census,Year,n.stakes,total.plots 1x1 m,n.records,n.tagged,n.without tag,n.species,new.tagged,n.dead,Not found,Responsible,Surveyors,Notes
 1,2010,110,323,6794,6794,0,49,,0,,Jenny McGarvey,"Jenny Mc Garvey, Xioli, Norm",Tagged seedlings 1 cm tall cand above
-2,2011,117,346,6729,3820,2909,48,,8,,Jenny McGarvey,"Jenny McGarvey, Caroline","Tags were removed from cotyledons, many were washed out, I think."
-3,2012,106,314,5946,3956,1990,54,1963,1114,,Erika Gonzalez,"Erika Gonzalez, Caity Homam","Removed tags from dead (given a code TR, D, TR=tag removed, D=dead seedling). New plants no tagged but measured and given coordinates (not all coordinates were entered)"
-4,2014,40,122,4064,3371,693,49,319,381,1544,Erika Gonzalez,"Amy Lewis, Torre Lavelle","New plants tagged ONLY if 10 cm tall and above, few smaller also tagged. Used code NF (not found) and NN (no plant, no tag found)"
-5,2015,41,126,4221,3547,674,48,128,185,1876,Erika Gonzalez,"Ashley Dawson, Jackie Jennings",NF in data
-6,2016,41,126,4350,3606,667,52,128,198,1751,Erika Gonzalez,"Paul Guay, Avery Parmiter, Ron Wester",NF in data
-7,2017,41,128,5215,3972,1243,55,253,31,1788,Joseph Ledvina,"Joseph Ledvina, Sarah Rhodes",
-8,2019,,,,,,,,,,Erika Gonzalez,Laura McCarthy,
+2,2011,117,346,6729,3820,2909,48,,8,,Jenny McGarvey,"Jenny McGarvey, Caroline","Tags were removed from cotyledons, many were washed out."
+3,2012,106,314,5946,3956,1990,54,1963,1114,,Erika Gonzalez,"Erika Gonzalez, Caity Homam","Removed tags from dead seedlings (given a code ""TR, D"": TR=tag removed, D=dead seedling). New plants were no tagged but measured and given coordinates (not all coordinates were entered)"
+4,2014,40,122,4064,3371,693,49,319,381,1544,Erika Gonzalez,"Amy Lewis, Torre Lavelle","New plants tagged ONLY if 10 cm tall and above, few smaller seedlings also tagged. Used code NF (not found) and NN (no plant, no tag found)"
+5,2015,41,126,4221,3547,674,48,128,185,1876,Erika Gonzalez,"Ashley Dawson, Jackie Jennings",
+6,2016,41,126,4350,3606,667,52,128,198,1751,Erika Gonzalez,"Paul Guay, Avery Parmiter, Ron Wester",
+7,2017,41,127,5215,3972,1243,55,253,31,1788,Joseph Ledvina,"Joseph Ledvina, Sarah Rhodes",
+8,2019,41,127,5245,4012,1233,57,40,342,897,Erika Gonzalez,"Laura McCarthy, Clare Bresnan and others.",
