@@ -38,7 +38,10 @@ Data since 2010 are storaged in this repository, in addition to related files:
 
 ## Publications using these data
 
-Seedling data from 2010-2012 and methods are published in [Bourg et al. 2013](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/13-0010.1).  
-* [McGarvey et al 2013](http://ctfs.si.edu/Public/pdfs/McGarveyEtAl.NENat2013.pdf) studied the effects of deer chronic browsing in Eastern forest. 
-* [Ramage et al. 2017](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.3298) investigated how sapling growth rates were affected by conspecific adult neighbors 
+Seedling data from 2010-2012 and methods are published in Bourg et al. 2013.
 
+* Bourg, Norman A., William J. McShea, Jonathan R. Thompson, Jennifer C. McGarvey, and Xiaoli Shen. 2013. Initial census, woody seedling, seed rain, and stand structure data for the SCBI SIGEO Large Forest Dynamics Plot. Ecology 94:2111. [https://doi.org/10.1890/13-0010.1](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/13-0010.1).
+
+* McGarvey, Jennifer C., Bourg, Norman A., Thompson, Jonathan R., McShea, William J., and Shen, Xiaoli. 2013. Effects of Twenty Years of Deer Exclusion on Woody Vegetation at Three Life-History Stages in a Mid-Atlantic Temperate Deciduous Forest. Northeastern Naturalist. 20 (3):451–468. [https://doi.org/10.1656/045.020.0301](https://doi.org/10.1656/045.020.0301).
+
+* Ramage, Benjamin S., Johnson, Daniel J., Gonzalez-Akre, Erika, McShea, William J., Anderson-Teixeira, Kristina J., Bourg, Norman A., and Clay, Keith. 2017. Sapling growth rates reveal conspecific negative density dependence in a temperate forest. Ecology and Evolution. 7 (19):7661–7671. [https://doi.org/10.1002/ece3.3298](https://doi.org/10.1002/ece3.3298).
