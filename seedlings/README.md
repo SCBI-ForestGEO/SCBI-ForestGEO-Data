@@ -4,7 +4,7 @@
 [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute)
 
 ## Sampling dates
-2010- 2019 (no sampling during 2013 and 2018)
+2010- 2019 (no seedling sampling ocurred during the expansive tree censuses of 2013 and 2018).
 
 ## Protocols
 Initial protocols are described in [Bourg et al. 2013](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/13-0010.1), which covers methods used from 2010 to 2012. A few modifications were added after 2014 (i.e., seedlings under 10 cm tall were not tagged and leaves were not counted), and fewer plots are measured after this year (mostly due to lack of funding). 
