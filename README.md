@@ -7,15 +7,13 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 ## Available data products
 
-**NOTE: SCBI is a [NEON](https://www.neonscience.org/) site.** For a list of NEON data products (not included in the list below), please visit the [NEON data portal](http://data.neonscience.org/browse-data?showAllDates=true&siteCode=SCBI&dpCode=DP1.10066.001&dpCode=DP1.10023.001&dpCode=DP1.30006.001&dpCode=DP2.30020.001&dpCode=DP1.10058.001&dpCode=DP1.10031.001&dpCode=DP1.00096.001&dpCode=DP1.00002.001&dpCode=DP1.10014.001&dpCode=DP1.00001.001&dpCode=DP3.30019.001&dpCode=DP2.30011.001&dpCode=DP1.10092.001&dpCode=DP1.00097.001&dpCode=DP3.30026.001&dpCode=DP1.00003.001&dpCode=DP3.30010.001&dpCode=DP1.10033.001&dpCode=DP1.00098.001&dpCode=DP2.30012.001&dpCode=DP1.10104.001&dpCode=DP1.10076.001&dpCode=DP3.30018.001&dpCode=DP1.10093.001&dpCode=DP1.10067.001&dpCode=DP1.10101.001&dpCode=DP1.10017.001&dpCode=DP1.30003.001&dpCode=DP1.00042.001&dpCode=DP3.30024.001&dpCode=DP4.00001.001&dpCode=DP1.10020.001&dpCode=DP1.10047.001&dpCode=DP3.30011.001&dpCode=DP1.00043.001&dpCode=DP1.10003.001&dpCode=DP2.30026.001&dpCode=DP1.10064.001&dpCode=DP1.10078.001&dpCode=DP1.10102.001&dpCode=DP3.30012.001&dpCode=DP1.10022.001&dpCode=DP1.00014.001&dpCode=DP3.30025.001&dpCode=DP2.30014.001&dpCode=DP3.30022.001&dpCode=DP1.00066.001&dpCode=DP1.30001.001&dpCode=DP1.00040.001&dpCode=DP1.10109.001&dpCode=DP1.00006.001&dpCode=DP1.10010.001&dpCode=DP1.00023.001&dpCode=DP1.10053.001&dpCode=DP3.30006.001&dpCode=DP1.10100.001&dpCode=DP1.00041.001&dpCode=DP3.30014.001&dpCode=DP1.10108.001&dpCode=DP2.30016.001&dpCode=DP1.10080.001&dpCode=DP1.00033.001&dpCode=DP1.00024.001&dpCode=DP1.30010.001&dpCode=DP1.00004.001&dpCode=DP2.30022.001&dpCode=DP3.30016.001&dpCode=DP2.30019.001&dpCode=DP1.10098.001&dpCode=DP1.10072.001&dpCode=DP1.00094.001&dpCode=DP1.10038.001&dpCode=DP1.10055.001&dpCode=DP1.10107.001&dpCode=DP1.00022.001&dpCode=DP1.10043.001&dpCode=DP3.30015.001&dpCode=DP1.00005.001&dpCode=DP1.10086.001&dpCode=DP1.00095.001&dpCode=DP1.10008.001&dpCode=DP1.10026.001&dpCode=DP3.30020.001&dpCode=DP1.10099.001&dpCode=DP2.30018.001&dpCode=DP1.30008.001).
-
 ### Location & Maps
 - Geographic Coordinates: 38°53'36.6" N, 78°08'43.4" W
 - [UTM Coordinates of SCBI plot corners](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data/UTM%20coordinates)
-- [GIS files for plot](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data) 
+- [Spatial data including multiple GIS files](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data) 
 
 ### Biophysical environment
-- **Climate data** - available through [ForestGEO Climate Data Portal](https://github.com/forestgeo/Climate/tree/master/Met_Station_Data/SCBI)
+- **Climate data** - available through [ForestGEO Climate Data Portal](https://github.com/forestgeo/Climate/tree/master/Climate_Data/Met_Stations/SCBI)
 
 - **Topograpy** - [This folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/spatial_data) contains shapefiles and elevation data to create topographic maps for the SCBI plot. Elevation ranges from 273-338 m.a.s.l.. 
 
@@ -110,6 +108,9 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 
 ## Additional resources
+
+
+**NOTE: SCBI is a [NEON](https://www.neonscience.org/) site.** For a list of NEON data products (not included in the list below), please visit the [NEON data portal](http://data.neonscience.org/browse-data?showAllDates=true&siteCode=SCBI&dpCode=DP1.10066.001&dpCode=DP1.10023.001&dpCode=DP1.30006.001&dpCode=DP2.30020.001&dpCode=DP1.10058.001&dpCode=DP1.10031.001&dpCode=DP1.00096.001&dpCode=DP1.00002.001&dpCode=DP1.10014.001&dpCode=DP1.00001.001&dpCode=DP3.30019.001&dpCode=DP2.30011.001&dpCode=DP1.10092.001&dpCode=DP1.00097.001&dpCode=DP3.30026.001&dpCode=DP1.00003.001&dpCode=DP3.30010.001&dpCode=DP1.10033.001&dpCode=DP1.00098.001&dpCode=DP2.30012.001&dpCode=DP1.10104.001&dpCode=DP1.10076.001&dpCode=DP3.30018.001&dpCode=DP1.10093.001&dpCode=DP1.10067.001&dpCode=DP1.10101.001&dpCode=DP1.10017.001&dpCode=DP1.30003.001&dpCode=DP1.00042.001&dpCode=DP3.30024.001&dpCode=DP4.00001.001&dpCode=DP1.10020.001&dpCode=DP1.10047.001&dpCode=DP3.30011.001&dpCode=DP1.00043.001&dpCode=DP1.10003.001&dpCode=DP2.30026.001&dpCode=DP1.10064.001&dpCode=DP1.10078.001&dpCode=DP1.10102.001&dpCode=DP3.30012.001&dpCode=DP1.10022.001&dpCode=DP1.00014.001&dpCode=DP3.30025.001&dpCode=DP2.30014.001&dpCode=DP3.30022.001&dpCode=DP1.00066.001&dpCode=DP1.30001.001&dpCode=DP1.00040.001&dpCode=DP1.10109.001&dpCode=DP1.00006.001&dpCode=DP1.10010.001&dpCode=DP1.00023.001&dpCode=DP1.10053.001&dpCode=DP3.30006.001&dpCode=DP1.10100.001&dpCode=DP1.00041.001&dpCode=DP3.30014.001&dpCode=DP1.10108.001&dpCode=DP2.30016.001&dpCode=DP1.10080.001&dpCode=DP1.00033.001&dpCode=DP1.00024.001&dpCode=DP1.30010.001&dpCode=DP1.00004.001&dpCode=DP2.30022.001&dpCode=DP3.30016.001&dpCode=DP2.30019.001&dpCode=DP1.10098.001&dpCode=DP1.10072.001&dpCode=DP1.00094.001&dpCode=DP1.10038.001&dpCode=DP1.10055.001&dpCode=DP1.10107.001&dpCode=DP1.00022.001&dpCode=DP1.10043.001&dpCode=DP3.30015.001&dpCode=DP1.00005.001&dpCode=DP1.10086.001&dpCode=DP1.00095.001&dpCode=DP1.10008.001&dpCode=DP1.10026.001&dpCode=DP3.30020.001&dpCode=DP1.10099.001&dpCode=DP2.30018.001&dpCode=DP1.30008.001).
 - [*Digital Atlas of the Flora of Virginia*](http://www.vaplantatlas.org/)
 
 ## Contact
