@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/128393291.svg)](https://zenodo.org/badge/latestdoi/128393291)
 
-This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute), which points to archive locations for our various data products (some in this repository, many elsewhere). Although some data products are not yet posted publicly, we are very open to collaboration and welcome inquiries regarding any data products listed here. 
+This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.si.edu/sites/north-america/smithsonian-conservation-biology-institute), which points to archive locations for our various data products (some in this repository, many elsewhere). Although some data products are not yet posted publicly, we are very open to collaboration and welcome inquiries regarding any data listed here. 
 
 
 ## Available data products
@@ -35,21 +35,22 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ### Tree dimensions (and size-scaling thereof)
 
 - **Biomass** 
-    - Expert-selected biomass allometries - [Gonzalez-Akre et al. 2016](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595).
-    - Terrestrial LiDAR-derived non-destructive woody biomass - [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S2352340918306978). The former contains data, latter describes allometries. 
-    - Biomass allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
+    - Biomass allometries for SCBI and other temperate ForestGEO sites are curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
+    - Previous compilation of biomass allometries for SCBI are published in [Gonzalez-Akre et al. 2016](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595).
+    - Terrestrial LiDAR-derived non-destructive woody biomass are available for few species at SCBI in [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S2352340918306978). The former contains data, latter describes allometries. 
+   
 
 - **Tree heights** 
     - [Compilation of all conventional height measurements](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_dimensions/tree_heights)
     - Terrestrial LiDAR-derived heights - [Stovall et al. 2018, *Data in Brief*](https://www.sciencedirect.com/science/article/pii/S2352340918306978) accompanying [Stovall et al. 2018, *Forest Ecology and Management*](https://www.sciencedirect.com/science/article/pii/S0378112718304663). The former contains data, latter describes allometries. 
-    - Height allometries for this site will be curated as part of [ForestGEO's allodb](https://github.com/forestgeo/allodb).
+   
 
 - **Crown positions** 
-    - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/annual_mortality_census).
-    - New data (as 2018) on SCBI [crown position](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_dimensions/tree_crowns).
+    - Crown position of trees that die is recorded as part of our [annual tree mortality census](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_mortality).
+    - New data on SCBI crown position (as 2018) in publish in [this repository](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/tree_dimensions/tree_crowns).
     
 - **Crown dimensions** 
-    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470). The former contains data, latter describes allometries. 
+    - Available in this [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470). The former contains data, latter describes allometries. 
 
 - **Sapwood depth** 
     - [Raw measurement files](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_dimensions/sapwood).
@@ -71,7 +72,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **Automated dendrometer bands** - Some of the data are publisehd in the [Dryad data publication](http://dx.doi.org/10.5061/dryad.b327c) accompanying [Herrmann *et al.* 2016, *PLOSONE*](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0169020). Contact us for complete data. 
 
 - **Sap flow** 
-    - [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
+    - Available in this [Dryad data publication](https://datadryad.org//resource/doi:10.5061/dryad.6nc8c?show=full) accompanying [Anderson-Teixeira *et al.* 2015, *Functional Ecology*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.12470).
     - Contributed to [SAPFLUXNET](http://sapfluxnet.creaf.cat/app).
     - Contact us for complete data.
 
@@ -96,7 +97,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Seed rain** - Seed rain data (from fruits and seeds) were collected from litterfall traps on a biweekly or monthly basis from 2009–2011. Methods and dataset are published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)
 
-- **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Seedling data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Also, [McGarvey et al 2013](http://ctfs.si.edu/Public/pdfs/McGarveyEtAl.NENat2013.pdf) used these data to study the effects of deer chronic browsing in Eastern forest. Data since 2013 is avialable upon request. Contact us for details.
+- **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Seedling data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Data from 2014 is availlable in [this repoository](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings). **Please contact us before using this data**.
 
 ### Invasive species
 
@@ -110,8 +111,8 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ## Additional resources
 
 
-**NOTE: SCBI is a [NEON](https://www.neonscience.org/) site.** For a list of NEON data products (not included in the list below), please visit the [NEON data portal](http://data.neonscience.org/browse-data?showAllDates=true&siteCode=SCBI&dpCode=DP1.10066.001&dpCode=DP1.10023.001&dpCode=DP1.30006.001&dpCode=DP2.30020.001&dpCode=DP1.10058.001&dpCode=DP1.10031.001&dpCode=DP1.00096.001&dpCode=DP1.00002.001&dpCode=DP1.10014.001&dpCode=DP1.00001.001&dpCode=DP3.30019.001&dpCode=DP2.30011.001&dpCode=DP1.10092.001&dpCode=DP1.00097.001&dpCode=DP3.30026.001&dpCode=DP1.00003.001&dpCode=DP3.30010.001&dpCode=DP1.10033.001&dpCode=DP1.00098.001&dpCode=DP2.30012.001&dpCode=DP1.10104.001&dpCode=DP1.10076.001&dpCode=DP3.30018.001&dpCode=DP1.10093.001&dpCode=DP1.10067.001&dpCode=DP1.10101.001&dpCode=DP1.10017.001&dpCode=DP1.30003.001&dpCode=DP1.00042.001&dpCode=DP3.30024.001&dpCode=DP4.00001.001&dpCode=DP1.10020.001&dpCode=DP1.10047.001&dpCode=DP3.30011.001&dpCode=DP1.00043.001&dpCode=DP1.10003.001&dpCode=DP2.30026.001&dpCode=DP1.10064.001&dpCode=DP1.10078.001&dpCode=DP1.10102.001&dpCode=DP3.30012.001&dpCode=DP1.10022.001&dpCode=DP1.00014.001&dpCode=DP3.30025.001&dpCode=DP2.30014.001&dpCode=DP3.30022.001&dpCode=DP1.00066.001&dpCode=DP1.30001.001&dpCode=DP1.00040.001&dpCode=DP1.10109.001&dpCode=DP1.00006.001&dpCode=DP1.10010.001&dpCode=DP1.00023.001&dpCode=DP1.10053.001&dpCode=DP3.30006.001&dpCode=DP1.10100.001&dpCode=DP1.00041.001&dpCode=DP3.30014.001&dpCode=DP1.10108.001&dpCode=DP2.30016.001&dpCode=DP1.10080.001&dpCode=DP1.00033.001&dpCode=DP1.00024.001&dpCode=DP1.30010.001&dpCode=DP1.00004.001&dpCode=DP2.30022.001&dpCode=DP3.30016.001&dpCode=DP2.30019.001&dpCode=DP1.10098.001&dpCode=DP1.10072.001&dpCode=DP1.00094.001&dpCode=DP1.10038.001&dpCode=DP1.10055.001&dpCode=DP1.10107.001&dpCode=DP1.00022.001&dpCode=DP1.10043.001&dpCode=DP3.30015.001&dpCode=DP1.00005.001&dpCode=DP1.10086.001&dpCode=DP1.00095.001&dpCode=DP1.10008.001&dpCode=DP1.10026.001&dpCode=DP3.30020.001&dpCode=DP1.10099.001&dpCode=DP2.30018.001&dpCode=DP1.30008.001).
-- [*Digital Atlas of the Flora of Virginia*](http://www.vaplantatlas.org/)
+**NOTE: SCBI is a [NEON](https://www.neonscience.org/) site.** For a list of NEON data products please visit the [NEON data portal](http://data.neonscience.org/browse-data?showAllDates=true&siteCode=SCBI&dpCode=DP1.10066.001&dpCode=DP1.10023.001&dpCode=DP1.30006.001&dpCode=DP2.30020.001&dpCode=DP1.10058.001&dpCode=DP1.10031.001&dpCode=DP1.00096.001&dpCode=DP1.00002.001&dpCode=DP1.10014.001&dpCode=DP1.00001.001&dpCode=DP3.30019.001&dpCode=DP2.30011.001&dpCode=DP1.10092.001&dpCode=DP1.00097.001&dpCode=DP3.30026.001&dpCode=DP1.00003.001&dpCode=DP3.30010.001&dpCode=DP1.10033.001&dpCode=DP1.00098.001&dpCode=DP2.30012.001&dpCode=DP1.10104.001&dpCode=DP1.10076.001&dpCode=DP3.30018.001&dpCode=DP1.10093.001&dpCode=DP1.10067.001&dpCode=DP1.10101.001&dpCode=DP1.10017.001&dpCode=DP1.30003.001&dpCode=DP1.00042.001&dpCode=DP3.30024.001&dpCode=DP4.00001.001&dpCode=DP1.10020.001&dpCode=DP1.10047.001&dpCode=DP3.30011.001&dpCode=DP1.00043.001&dpCode=DP1.10003.001&dpCode=DP2.30026.001&dpCode=DP1.10064.001&dpCode=DP1.10078.001&dpCode=DP1.10102.001&dpCode=DP3.30012.001&dpCode=DP1.10022.001&dpCode=DP1.00014.001&dpCode=DP3.30025.001&dpCode=DP2.30014.001&dpCode=DP3.30022.001&dpCode=DP1.00066.001&dpCode=DP1.30001.001&dpCode=DP1.00040.001&dpCode=DP1.10109.001&dpCode=DP1.00006.001&dpCode=DP1.10010.001&dpCode=DP1.00023.001&dpCode=DP1.10053.001&dpCode=DP3.30006.001&dpCode=DP1.10100.001&dpCode=DP1.00041.001&dpCode=DP3.30014.001&dpCode=DP1.10108.001&dpCode=DP2.30016.001&dpCode=DP1.10080.001&dpCode=DP1.00033.001&dpCode=DP1.00024.001&dpCode=DP1.30010.001&dpCode=DP1.00004.001&dpCode=DP2.30022.001&dpCode=DP3.30016.001&dpCode=DP2.30019.001&dpCode=DP1.10098.001&dpCode=DP1.10072.001&dpCode=DP1.00094.001&dpCode=DP1.10038.001&dpCode=DP1.10055.001&dpCode=DP1.10107.001&dpCode=DP1.00022.001&dpCode=DP1.10043.001&dpCode=DP3.30015.001&dpCode=DP1.00005.001&dpCode=DP1.10086.001&dpCode=DP1.00095.001&dpCode=DP1.10008.001&dpCode=DP1.10026.001&dpCode=DP3.30020.001&dpCode=DP1.10099.001&dpCode=DP2.30018.001&dpCode=DP1.30008.001).
+
 
 ## Contact
 Kristina Anderson-Teixeira (teixeirak@si.edu) or Erika Gonzalez-Akre (gonzalezeb@si.edu)
