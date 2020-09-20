@@ -1,5 +1,5 @@
 #Purpose: Format seedling data to create clean data files
-#Developed by: Nidhi Vinod-- vinodn@si.edu, Mentor and reviewed by: Erika Gonzalez-Akre
+#Developed by: Nidhi Vinod-- vinodn@si.edu. Mentored and reviewed by: Erika Gonzalez-Akre
 #R version 3.6.3(2020-01-29)
 
 #clean environment#### 
@@ -34,10 +34,10 @@ seed2012 = subset(seed2012, select = -c(n.leaves))
 seed2014 = subset(seed2014, select = -c(Height.2012, Notes.2012))
 
 #seed2015: deleted "Height.cm.2014" and "Notes.2014"
-seed2015 = subset(seed2015, select = -c(Height.cm.2014, Notes.2014))
+seed2015 = subset(seed2015, select = -c(Height.cm.2014, Notes.2014, X))
 
 #seed2016: deleted "hgt.2015" and "Notes.2015"
-seed2016 = subset(seed2016, select = -c(hgt.2015, Notes.2015))
+seed2016 = subset(seed2016, select = -c(hgt.2015, Notes.2015, X))
 
 #seed2017: deleted "hgt.2015", "Notes.2015", "hgt.2016", "Notes.2016"
 seed2017 = subset(seed2017, select = -c(hgt.2015, Notes.2015, hgt.2016, Notes.2016))
