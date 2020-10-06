@@ -12,7 +12,20 @@ SCBI ForestGEO plot and property
 See [this list](https://github.com/EcoClimLab/HydraulicTraits/blob/master/ForestGEO_HydraulicTraits_SpeciesList.csv).
 
 ## Species
-12 dominant species (those with greatest contributions to forest woody productivity)
+12 dominant species (those with greatest contributions to forest woody productivity):
+
+- *Carya cordiformis*
+- *Carya glabra*
+- *Carya ovalis*
+- *Carya tomentosa*
+- *Fagus grandifolia*
+- *Fraxinus americana*
+- *Juglans nigra*
+- *Liriodendron tulipifera*
+- *Quercus alba*
+- *Quercus prinus*
+- *Quercus rubra*
+- *Quercus velutina*
 
 ## Protocols
 Followed protocols developed by Lawren Sack. Contact us for details. 
