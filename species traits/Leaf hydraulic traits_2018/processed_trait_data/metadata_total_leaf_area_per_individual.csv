@@ -1,0 +1,6 @@
+"Column","Field","Description","Storage.Type","Variable.Codes","Units","Populated.by","n_Panama","Min_Panama","Max_Panama","n_Pasoh","Min_Pasoh","Max_Pasoh","n_SCBI","Min_SCBI","Max_SCBI"
+"1 / A","sp","","character","","","",51,"-","-",70,"-","-",12,"-","-"
+"2 / B","idividual","","integer","","","",152,"1","3",197,"1","3",34,"1","3"
+"3 / C","ind_ID","","character","","","",152,"-","-",197,"-","-",34,"-","-"
+"4 / D","leaf_area_dry_cm2","","double","","","",151,"18.08","3872.72",197,"19.7","6099.38",34,"86.7","1543.42"
+"5 / E","leaf_area_fresh_cm2","","double","","","",152,"22.92","4081.54",197,"29.04","7739.51",34,"99.88","1849.72"

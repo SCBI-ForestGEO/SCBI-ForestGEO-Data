@@ -1,0 +1,5 @@
+"Column","Field","Description","Storage.Type","Variable.Codes","Units","Populated.by","n_Panama","Min_Panama","Max_Panama","n_Pasoh","Min_Pasoh","Max_Pasoh","n_SCBI","Min_SCBI","Max_SCBI"
+"1 / A","slice","","character","","","",436,"-","-",405,"-","-",100,"-","-"
+"2 / B","estimated_proportion_of_leaf_tissue","","double","","","",436,"0.03","0.6",405,"0.03","0.61",100,"0.03","0.55"
+"3 / C","area_cm2","","double","","","",436,"17.72","385.28",405,"19.7","389.39",100,"18.31","354.59"
+"4 / D","suspicious_measurement","","integer","","","",436,"0","1",405,"0","0",100,"0","1"
