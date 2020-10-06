@@ -9,7 +9,7 @@ August 2018
 SCBI ForestGEO plot and property
 
 ## Measurements 
-See [this list](https://github.com/EcoClimLab/HydraulicTraits/blob/master/ForestGEO_HydraulicTraits_SpeciesList.csv).
+Numerous traits, as detailed in data sheets. Contact us with questions. 
 
 ## Species
 12 dominant species (those with greatest contributions to forest woody productivity):
