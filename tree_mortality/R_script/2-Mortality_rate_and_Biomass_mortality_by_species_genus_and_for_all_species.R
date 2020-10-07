@@ -201,10 +201,9 @@ for(i in 1:nrow(mortality.rates)) {
 # Plot results ####
 
 # Barplots of mortality rates and Biomass mortality ####
-tiff("tree_mortality/R_results/Barplots_MortalityRates_and_BiomassMortality.tiff", width = 2500, height = 2500, units = "px", res = 300)
+tiff("tree_mortality/R_results/Barplots_MortalityRates_and_BiomassMortality2020.tiff", width = 2500, height = 2500, units = "px", res = 300)
 
-par(mfrow = c(2, 1), mar = c(3, 5.1, 0, 0), oma = c(2,0,3,0), xpd=F)
-
+par(mfrow = c(1,2), mar = c(3, 5.1, 0, 0), oma = c(2,0,3,0), xpd=F)
 
 ## plot Mortality rates ####
 
@@ -232,6 +231,7 @@ b <- barplot(x$mortality.rates.yr.1 ~ x$census +x$sp , beside = T, legend.text =
         ylim = c(0, max(x$ci.hi))
 )
 
+
 arrows(b, tapply(x$ci.lo,  list(x$census ,x$sp ), function(x) x), b,
        tapply(x$ci.hi,  list(x$census ,x$sp ), function(x) x), lwd = 1, angle = 90,
        code = 3, length = 0.01)
@@ -241,8 +241,8 @@ arrows(b, tapply(x$ci.lo,  list(x$census ,x$sp ), function(x) x), b,
 
 x <- droplevels(biomass.mortality.rates[biomass.mortality.rates$sp %in% x$sp, ])
 
-
-b <- barplot(x$biomass.mortality.Mg.C.ha.1.yr.1 ~ x$census +x$sp , beside = T, legend.text = F, space  = c(0.01, 2), 
+b <- barplot(x$biomass.mortality.Mg.C.ha.1.yr.1 ~ x$census +x$sp
+, beside = T, legend.text = F, space  = c(0.01, 2), 
              col = hcl.colors(nlevels(x$census)), 
              border = hcl.colors(nlevels(x$census)),
              args.legend = list(x = 2,
@@ -256,6 +256,46 @@ b <- barplot(x$biomass.mortality.Mg.C.ha.1.yr.1 ~ x$census +x$sp , beside = T, l
 )
 
 mtext("Species", 1, line = 0, outer = T)
+#####GGPLOT equivalent
+library(gridExtra)
+library(ggplot2)
+
+
+x <- subset(x, sp != "ulru")
+x1 <- droplevels(mortality.rates[!is.na(mortality.rates$sp) & !mortality.rates$sp %in% "unk" & mortality.rates$ninit > 100 , ])
+x1 <- subset(x1, sp != "ulru")
+
+x2 <- droplevels(biomass.mortality.rates[biomass.mortality.rates$sp %in% x$sp, ])
+x2 <- subset(x2, sp != "ulru")
+
+tiff("tree_mortality/R_results/Barplots_MortalityRates_and_BiomassMortality2020.tiff", width = 2500, height = 2500, units = "px", res = 300)
+grid.arrange(
+  ggplot(x1, aes(x = sp, y = mortality.rates.yr.1, fill = census))+geom_bar(stat = "identity",width = 0.8, position = position_dodge(0.8, preserve = "single"))+
+    geom_errorbar(aes(ymin = ci.lo, ymax = ci.hi), width = 0.2, position = position_dodge(0.8))+
+    labs(fill = "n>100 & dbh>10cm", x = "", y = expression("Mortality Rates (%y"^"-1"*")"))+
+    theme( legend.position = c(0.2, 0.7), legend.text = element_text(size = 10))+
+    theme(axis.line.y = element_line(color="black", size = 1),axis.ticks.x=element_blank ())+
+    theme(
+      panel.background = element_rect(fill = "transparent"), # bg of the panel
+      plot.background = element_rect(fill = "transparent", color = NA), # bg of the plot
+      panel.grid.major = element_blank(), # get rid of major grid
+      panel.grid.minor = element_blank(), # get rid of minor grid
+      legend.background = element_rect(fill = "transparent"), # get rid of legend bg
+      legend.box.background = element_rect(fill = "transparent") # get rid of legend panel bg
+    ),
+ggplot(x2, aes(x = sp, y = biomass.mortality.Mg.C.ha.1.yr.1, fill = census))+geom_bar(stat = "identity",width = 0.8, position = position_dodge(0.8, preserve = "single"))+labs(fill = "n>100 & dbh>10cm", x = "Species", y = expression("Biomass Mortality (Mg C ha"^"-1"*"y"^"-1"*")"))+
+  theme( legend.position = "none", legend.text = element_text(size = 10))+
+  theme(axis.line.y = element_line(color="black", size = 1),axis.ticks.x=element_blank ())+
+  theme(
+    panel.background = element_rect(fill = "transparent"), # bg of the panel
+    plot.background = element_rect(fill = "transparent", color = NA), # bg of the plot
+    panel.grid.major = element_blank(), # get rid of major grid
+    panel.grid.minor = element_blank(), # get rid of minor grid
+    legend.background = element_rect(fill = "transparent"), # get rid of legend bg
+    legend.box.background = element_rect(fill = "transparent") # get rid of legend panel bg
+  )
+
+, as.table = FALSE, nrow = 2 , ncol=1)
 # dev.off() ####
 dev.off()
 
