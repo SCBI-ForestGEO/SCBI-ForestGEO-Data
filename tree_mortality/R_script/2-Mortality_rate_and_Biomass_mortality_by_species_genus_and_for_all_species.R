@@ -260,12 +260,10 @@ mtext("Species", 1, line = 0, outer = T)
 library(gridExtra)
 library(ggplot2)
 
-
-x <- subset(x, sp != "ulru")
 x1 <- droplevels(mortality.rates[!is.na(mortality.rates$sp) & !mortality.rates$sp %in% "unk" & mortality.rates$ninit > 100 , ])
 x1 <- subset(x1, sp != "ulru")
 
-x2 <- droplevels(biomass.mortality.rates[biomass.mortality.rates$sp %in% x$sp, ])
+x2 <- droplevels(biomass.mortality.rates[biomass.mortality.rates$sp %in% x1$sp, ])
 x2 <- subset(x2, sp != "ulru")
 
 tiff("tree_mortality/R_results/Barplots_MortalityRates_and_BiomassMortality2020.tiff", width = 2500, height = 2500, units = "px", res = 300)
