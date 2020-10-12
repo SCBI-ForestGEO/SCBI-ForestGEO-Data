@@ -12,7 +12,13 @@
 
 The basic census is described in [Gonzalez-Akre et al. (2016)](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595). This publication covers methods used in 2014 and 2015. Since 2016, we started monitoring all ash tress (*Fraxinus spp.*) with stems >1cm DBH in order to capture dynamics of the Emerald Ash Borer (EAB) infestation. For updated methods please check [this folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_mortality/Protocols).
 
-All trees found dead in 2016 and 2017 were cored at breast height (1.3 m) and at base (~30 cm form ground) except if trees where extremely rot or if other hazards prevented boring or resulted in a very poor quality core. Since 2018 we have reduced the number of cores taken from dead trees as we have good chronologies for multiple species and to avoid additional work from our field technicians. Tree core data can be found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores).
+All trees found dead in 2016 and 2017 were cored at breast height (1.3 m) and at base (~30 cm form ground) except if trees where extremely rotten or if other hazards prevented boring or resulted in a very poor quality core. Since 2018 we have reduced the number of cores taken from dead trees as we have good chronologies for multiple species and to avoid additional work from our field technicians. Tree core data can be found [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores).
+
+Numbers of trees and species cored since 2017 is as follows:
+2018 - 24 cores, 7 sp
+2019 - 51 cores, 19 sp
+2020 - 68 cores, 15 sp 
+Total (2018-2020) - 143 cores, 25 sp
 
 As a resut of our annual surveys, We have been paying increasing attention to signs of insect pests and pathogens on newly dead and unhealthy trees. A list of pests and pathogens that may affect trees at the SCBI plot is given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/insects_pathogens).
 
