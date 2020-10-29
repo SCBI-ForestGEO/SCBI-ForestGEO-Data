@@ -41,11 +41,14 @@ Mounted, sanded cores are stored at the Smithsonian Conservation Biology Institu
 
 ## Data use
 
-Data are published and open access. **However, as these data are currently being used in an intern-led analysis, we ask that anyone interested in using them please contact the PI (Kristina Anderson-Teixeira) to ensure that there is no conflict.**  We welcome inquiries about potential collaboration.
+Data are published and open access. **However, as these data are currently being used in an analysis, we ask that anyone interested in using them please contact the PI (Kristina Anderson-Teixeira) to ensure that there is no conflict.**  We welcome inquiries about potential collaboration.
 
 Studies using these data should cite:
-- [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full) (original publication of 2010-11 data)
+- [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full) (original publication of 2010-11 data, plus site description)
 - [Helcoski et al. 2019](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.15906) (2016-17 data, and cross-dating of all cores)
+- this repository (DOI: 10.5281/zenodo.4041595)
+
+Data are also archived in the [The DendroEcological Network (DEN) database](https://www.uvm.edu/femc/dendro/project/39#info).
 
 
 ## Contributors
