@@ -62,7 +62,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 ### Tree species traits 
 - **Leaf traits data (SLA) for 56 woody species** - Archived [here](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/leaf%20traits) and contributed to [TRY Plant Trait Database](https://www.try-db.org/TryWeb/Home.php)
 
-- **Leaf hydraulic traits** - Contact us for details. 
+- [**Leaf hydraulic traits**](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species%20traits/Leaf%20hydraulic%20traits_2018) 
     
 ### Tree growth & physiology
 - [**Tree cores**](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_cores) - We have ring width measurements for 703 cores from live trees (taken between June 2010 and March 2011; some published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)) and 516 cores from trees found dead in the 2016 or 2017 mortality census, and we have finished chronologies for 14 species.
