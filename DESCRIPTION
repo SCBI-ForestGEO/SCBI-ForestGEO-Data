@@ -20,7 +20,26 @@ Authors@R: c(
     
 Depends: R (>= 4.0.0)
 Imports:
-  testthat
+  testthat,
+  knitr,
+  ggplot2,
+  dplyr,
+  readr,
+  tidyr,
+  stringr,
+  lubridate,
+  here,
+  RCurl
+  ggplot2
+  rgdal
+  broom
+  sf
+  ggthemes
+  rgeos
+  raster
+  data.table
+  fgeo
+  directlabels
 
 URL: https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data
 BugReports: https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/issues

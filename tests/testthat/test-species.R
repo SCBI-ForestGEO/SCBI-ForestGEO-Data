@@ -1,4 +1,3 @@
-library(testthat)
 
 test_that("All species are valid in latest mort census", {
  
