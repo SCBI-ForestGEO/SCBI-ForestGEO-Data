@@ -11,10 +11,8 @@ Authors@R: c(
     person(given = "Ryan", family = "Helcoski", role = "aut"),
     person(given = "Ian", family = "McGregor", role = "aut"),
     person(given = "Alyssa", family = "Terrell", role = "aut"),
-    person(given = c("Albert", "Y."), family = "Kim", role = c("cre", "aut"), email = "albert.ys.kim@gmail.com", comment = c(ORCID = "0000-0001-7824-306X"))
-    ),
-    person(given = c("Valentine"), family = "Herrmann", role = c("aut"), email = "HerrmannV@si.edu", comment = c(ORCID = "0000-0002-4519-481X"))
-    ),
+    person(given = c("Albert", "Y."), family = "Kim", role = c("cre", "aut"), email = "albert.ys.kim@gmail.com", comment = c(ORCID = "0000-0001-7824-306X")),
+    person(given = c("Valentine"), family = "Herrmann", role = c("aut"), email = "HerrmannV@si.edu", comment = c(ORCID = "0000-0002-4519-481X")),
     person(given = "Nidhi", family = "Vinod", role = "aut"),
     person(given = "Cameron", family = "Dow", role = "aut")
 Depends: R (>= 4.0.0)
