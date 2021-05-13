@@ -31,5 +31,4 @@ jobs:
           rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
       - name: Run tests
-        run: Rscript tests/testthat.R
-        shell: Rscript {0}
+        run: Rscript testthat.R
