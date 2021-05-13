@@ -18,3 +18,4 @@ Authors@R: c(
 Depends: R (>= 4.0.0)
 URL: https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data
 BugReports: https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/issues
+Config/testthat/edition: 3
