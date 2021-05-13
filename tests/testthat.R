@@ -1,4 +1,4 @@
 library(testthat)
-library(SCBI_ForestGEO_Data)
+library(SCBI-ForestGEO-Data)
 
-test_check("SCBI_ForestGEO_Data")
+test_check("SCBI-ForestGEO-Data")
