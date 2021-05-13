@@ -32,4 +32,3 @@ jobs:
         shell: Rscript {0}
       - name: Run tests
         run: Rscript tests/testthat/test-species.R
-        shell: Rscript {0}
