@@ -1,3 +1,3 @@
 # SCBI tree mortality 
 
-Everything related to this folder has been moved here: https://github.com/SCBI-ForestGEO/SCBImortality
+All files related to the SCBI mortality census have been moved here: https://github.com/SCBI-ForestGEO/SCBImortality
