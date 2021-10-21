@@ -90,7 +90,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Dead wood** - Contact us for details.
 
-- **Soils** - Contact us for details.
+- [**Soils**](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/soils) 
 
 
 ### Tree reproduction 
