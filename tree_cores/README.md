@@ -41,7 +41,7 @@ Mounted, sanded cores are stored at the Smithsonian Conservation Biology Institu
 
 ## Data use
 
-Data are published and open access. **However, as these data are currently being used in an analysis, we ask that anyone interested in using them please contact the PI (Kristina Anderson-Teixeira) to ensure that there is no conflict.**  We welcome inquiries about potential collaboration.
+Data are published and open access. We welcome inquiries about potential collaboration.
 
 Studies using these data should cite:
 - [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full) (original publication of 2010-11 data, plus site description)
