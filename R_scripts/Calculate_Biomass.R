@@ -11,7 +11,7 @@ rm(list = ls())
 setwd(".")
 
 # Load libraries ####
-
+library(allodb) # remotes::install_github("forestgeo/allodb")
 
 # set number of censuses ####
 site <- "scbi"
@@ -32,11 +32,27 @@ for(f in paste0(site, ".stem", 1:Censuses, ".rdata")) {
   file.remove(f)
 }
 
+f = "scbi.spptable"
+assign(f, read.csv(paste0("https://raw.githubusercontent.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/master/tree_main_census/data/census-csv-files/", f, ".csv")))
+
+
 # Calculate above ground biomass of each tree using allometries compiled by Erika + format dates####
 
 for(census in c(1:2)) {
   x <- get(paste0("scbi.stem", census))
-  source("R_scripts/scbi_Allometries.R") # takes dbh in mm and spit ou agb in Mg
+  # source("R_scripts/scbi_Allometries.R") # takes dbh in mm and spit ou agb in Mg
+  
+  x$dbh <- as.numeric(x$dbh) # not numeric because of the "NULL" values
+  x$genus <- scbi.spptable$Genus[match(x$sp, scbi.spptable$sp)]
+  x$species <- scbi.spptable$Species[match(x$sp, scbi.spptable$sp)]
+  
+  x$agb <-
+    round(get_biomass(
+      dbh = x$dbh/10, # in cm
+      genus = x$genus,
+      species = x$species,
+      coords = c(-78.2, 38.9)
+    ) / 1000 ,2) #  / 1000 to change to in Mg
   
   # Convert to C
   x$agb <-  x$agb * .47 
