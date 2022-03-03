@@ -7,10 +7,10 @@ AGB calculations (whole plot and by species) were made in [this script](https://
 Mg C ha-1 (using 0.47 conversion factor for biomass -> C)
 
 ### Time period
-2008, 2013
+2008, 2013, 2018
 
 ### biomass allometries 
-We used aboveground biomass allometries compiled for SCBI (found in [this script](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/R_scripts/scbi_Allometries.R).
+We used [**allodb**](https://github.com/ropensci/allodb).
 
 ## Woody aboveground net primary productivity (ANPP_stem)
 
@@ -23,7 +23,7 @@ ANPP_stemp calculations (whole plot and by species) were made in [this script](h
 Mg C ha-1 y-1  (using 0.47 conversion factor for biomass -> C)
 
 ### biomass allometries 
-We used aboveground biomass allometries compiled for SCBI (found in [this script](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/blob/master/R_scripts/scbi_Allometries.R).
+We used [**allodb**](https://github.com/ropensci/allodb).
  
 ### Growth outliers
 To identify and deal with outliers, surviving trees were grouped into size bins 1-5cm, 5-10cm, 10-50cm, and >50cm and the yearly change in AGB
