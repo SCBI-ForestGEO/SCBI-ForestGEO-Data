@@ -99,9 +99,9 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Seedling data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Data from 2014 on is availlable in [this repoository](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings). **Please contact us before using this data**.
 
-### Invasive species
+### Non-endemic / nuisance plant species
 
-- **Invasive plants survey**- Contact us for details.
+- **Non-endemic plants survey**- Contact us for details.
 
 
 ### Arthropods
