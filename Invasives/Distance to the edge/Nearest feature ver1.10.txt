@@ -1,0 +1,393 @@
+' _EC_NF_LC
+  numVersion = 1.10
+' Initiated	'040416/mhv
+' Last Update '050103/mhv
+
+	aTitle = "EC - Nearest Feature"
+
+'------------------------------------------------------------------------------
+'*** Description
+'------------------------------------------------------------------------------
+'
+'	NF = Nearest Feature
+'	For each feature in theme A, finds nearest feature in theme B
+'	Based on Pythagoras distance in map units.
+'
+'	NF_LC = Nearest Feature - Limiting Circle
+'	Same as NF, but the search is limited by a circle
+'	A new circle is created for each item in theme A
+'	The circle has center in the center of the theme A feature (point, line or polygon)
+'	The radius of the circle is set through a user dialog box.
+'
+'	_NF_LC THIS CAN BE _MUCH_ FASTER THAN CONVENTIONAL NF.......................
+
+'------------------------------------------------------------------------------
+'*** History
+'------------------------------------------------------------------------------
+'
+'	Made to form the basis for later QNF (Quick Nearest Feature) - Inspired by: Timothy James Fox
+'	Added to log file: Number of features, when none selected. '040420/mhv
+' Ver. 1.01 - With Progress indicator
+' Ver. 1.10 - Supports Modes, inlc. NF-Circle '041222/mhv
+
+'-------------------------------------------------------------------------------
+'*** User Adjustable Parameters
+'-------------------------------------------------------------------------------
+
+	DeBuG	= True 'Default: False* (Show debug info on screen)
+	DeBuGALL = False 'Default: False* (Show ALL debug info on screen)
+	Logging = True 'Default: True (Progress and debug info written to log file)
+	LoggingAll =  False 'Default: False* (All progress and debug info written to log file)
+	' (*) Must be False for Batch mode!
+
+'------------------------------------------------------------------------------
+'*** Private parameters - Don't change these if you don't know how...
+'------------------------------------------------------------------------------
+
+	strOutDIR = ""
+
+'------------------------------------------------------------------------------
+'*** START
+'------------------------------------------------------------------------------
+
+	'** Log file ---------------------------------------------------------------
+
+		if (Logging) then
+			timTKStart = Date.Now.SetFormat("dddd d. MMMM yyyy hhhh:m:s")
+			filLog = LineFile.Make(FileName.Merge(strOutDIR,"_EC_NF.log"),#FILE_PERM_WRITE)
+			filLog.WriteElt("EC - Nearest Feature - module. ver."++numVersion.AsString++"Started:"++timTKStart.AsString)
+		end 'if
+
+	'** Graphic Show -----------------------------------------------------------
+
+		viwThe = av.GetActiveDoc
+		lstThemes = viwThe.GetThemes
+		dspThe = viwThe.GetDisplay 'a Display
+		gplThe = viwThe.GetGraphics 'a Graphics List
+		gplThe.Empty
+		gplThe.Invalidate
+		gplThe.Draw
+
+'------------------------------------------------------------------------------
+'*** Input Mode
+'------------------------------------------------------------------------------
+
+
+	strMode = ""
+
+	' insert here if strMode is set by call from other script...
+
+	lstModes = {"Basic","Limit-Circle","Limit-Buffer","QNF"}
+	if (lstModes.Find(strMode)<0) then
+		strMode = MsgBox.ListAsString(lstModes,"Select Mode:",aTitle)
+	end 'if
+
+	filLog.WriteElt("Mode (user selected):"++strMode)
+
+	if (strMode="Limit-Circle") then 'Select Circle size
+		strRadius = Nil
+		numRadius = 0
+		while ((strRadius=Nil) or (numRadius<=0))
+			strRadius = MsgBox.Input("Select seach radius (in map units):",aTitle,"100")
+			if (strRadius<>Nil) then numRadius = strRadius.AsNumber end
+		end
+		filLog.WriteElt("Radius:"++numRadius.AsString)
+	end
+
+	if ((strMode="Limit-Buffer") or (strMode="QNF")) then 'Not implimented yet... '041222/mhv
+
+		strMode="Basic"
+	end
+	filLog.WriteElt("Mode (running):"++strMode)
+
+'------------------------------------------------------------------------------
+'*** Open Input Themes and Find Fields
+'------------------------------------------------------------------------------
+
+	'** Open Themes ------------------------------------------------------------
+
+		lstThemes = av.GetActiveDoc.GetThemes.Clone
+
+		'* Theme B
+
+			thmB = MsgBox.ChoiceAsString(lstThemes,"Select theme B - the 'From' or 'Base' theme...",aTitle)
+			tabB = thmB.GetFTab
+
+		'* Theme A
+
+			lstThemes.RemoveObj(thmB)
+			thmA = MsgBox.ChoiceAsString(lstThemes,"Select theme A - the 'To' or 'Target' theme...",aTitle)
+			'MsgBox.Info("ThmA:"++objThmA.AsString++"["+objThmA.GetClass.GetClassName+"]",aTitle)
+			tabA = thmA.GetFTab
+
+		if (Logging) then
+			filLog.WriteElt("ThemeA:"++thmA.AsString+nl+"ThemeB:"++thmB.AsString)
+		end 'if
+
+		tabA.StartEditingWithRecovery
+		tabB.StartEditingWithRecovery
+
+	'** Find Fields ------------------------------------------------------------
+
+		'* Theme A
+
+			'Shape
+			fldShapeA = tabA.FindField("Shape")
+			if (fldShapeA=Nil) then
+				MsgBox.Error("Theme A seems to lack a Shape field...",aTitle)
+				Exit
+			end
+
+			'Unique ID
+			fldUniqA = tabA.FindField("EC_Uniq_ID")
+			if (fldUniqA=Nil) then
+				lstFieldsA = tabA.GetFields.Clone
+				lstFieldsA.Add("<Make New>")
+				fldUniqA = MsgBox.ChoiceAsString(lstFieldsA,"Select 'Unique ID' Field for A",aTitle)
+				if (fldUniqA="<Make New>") then
+					fldNewA = Field.Make("EC_Uniq_ID",#FIELD_LONG,12,0)
+					tabA.AddFields({fldNewA})
+					fldUniqA = tabA.FindField("EC_Uniq_ID")
+					if (fldUniqA=Nil) then
+						MsgBox.Error("Unable to create 'Unique ID' field in theme A...",aTitle)
+						Exit
+					else
+						numID = 1
+						for each recU in tabA
+							tabA.SetValue(fldUniqA,recU,numID)
+							numID = numID + 1
+						end 'for
+						tabA.Flush
+					end 'if
+				end 'if
+			end 'if
+
+			tabA.StopEditingWithRecovery(True)
+
+		'* Theme B
+
+			'Shape
+			fldShapeB = tabB.FindField("Shape")
+			if (fldShapeB=Nil) then
+				MsgBox.Error("Theme B seems to lack a Shape field...",aTitle)
+				Exit
+			end
+
+			'Unique ID
+			fldUniqB = tabB.FindField("EC_Uniq_ID")
+			if (fldUniqB=Nil) then
+				lstFieldsB = tabB.GetFields.Clone
+				lstFieldsB.Add("<Make New>")
+				fldUniqB = MsgBox.ChoiceAsString(lstFieldsB,"Select 'Unique ID' Field for B",aTitle)
+				if (fldUniqB="<Make New>") then
+					fldNewB = Field.Make("EC_Uniq_ID",#FIELD_LONG,12,0)
+					tabB.AddFields({fldNewB})
+					fldUniqB = tabB.FindField("EC_Uniq_ID")
+					if (fldUniqB=Nil) then
+						MsgBox.Error("Unable to create 'Unique Id' field in theme B...",aTitle)
+						Exit
+					else
+						numID = 1
+						for each recU in tabB
+							tabB.SetValue(fldUniqB,recU,numID)
+							numID = numID + 1
+						end 'for
+						tabB.Flush
+					end 'if
+				end 'if
+			end 'if
+
+			'New Nearest A feature ID field
+			'check if exists - then delete
+			fldNFId = tabB.FindField("EC_NF_Id")
+			if (fldNFId<>Nil) then
+				tabB.RemoveFields({fldNFId})
+			end 'if
+			'make new
+			fldNewB = fldUniqA.Clone
+			fldNewB.SetAlias("EC_NF_Id")
+			tabB.AddFields({fldNewB})
+			fldNFId = tabB.FindField("EC_NF_Id")
+			if (fldNFId=Nil) then
+				MsgBox.Error("Unable to create 'NF Id' field in theme B...",aTitle)
+				Exit
+			end 'if
+
+			'New Distance to A field
+			'check if exists - else make
+			fldNFDist = tabB.FindField("EC_NF_Dist")
+			if (fldNFDist=Nil) then
+				'make new
+				fldNewB = Field.Make("EC_NF_Dist",#FIELD_DECIMAL,16,4)
+				fldNewB.SetAlias("EC_NF_Dist")
+				tabB.AddFields({fldNewB})
+				fldNFDist = tabB.FindField("EC_NF_Dist")
+				if (fldNFDist=Nil) then
+					MsgBox.Error("Unable to create 'Distance' field in theme B...",aTitle)
+					Exit
+				end 'if
+			end 'if
+
+		if (Logging) then
+			filLog.WriteElt("A Shape:"++fldShapeA.AsString+nl+
+								 "A UniqID:"++fldUniqA.AsString+nl+
+								 "B Shape:"++fldShapeB.AsString+nl+
+								 "B UniqID:"++fldUniqB.AsString+nl+
+								 "B NF Id:"++fldNFId.AsString+nl+
+								 "B NF Dist:"++fldNFDist.AsString)
+		end 'if
+
+
+'------------------------------------------------------------------------------
+'*** Open Output Themes
+'------------------------------------------------------------------------------
+
+	' No seperate output themes...
+
+'------------------------------------------------------------------------------
+'*** Start processing
+'------------------------------------------------------------------------------
+
+ 	'** if none selected then select all ---------------------------------------
+
+ 		'* Theme B
+
+			numSelB = tabB.GetSelection.Count
+			if (numSelB = 0) then
+				tabB.GetSelection.SetAll
+				bolClearSelectionB = True
+				numSelB = tabB.GetNumRecords
+				if (Logging) then	filLog.WriteElt("B None Selected (number of features ="++numSelB.AsString+")") end 'if
+			else
+				bolClearSelectionB = False
+				if (Logging) then	filLog.WriteElt("B Selected:"++numSelB.AsString) end 'if
+			end
+
+ 		'* Theme A
+
+			numSelA = tabA.GetSelection.Count
+			if (numSelA = 0) then
+				tabA.GetSelection.SetAll
+				bolClearSelectionA = True
+				numSelA = tabA.GetNumRecords
+				if (Logging) then	filLog.WriteElt("A None Selected (number of features ="++numSelA.AsString+")") end 'if
+			else
+				bolClearSelectionA = False
+				if (Logging) then	filLog.WriteElt("A Selected:"++numSelA.AsString) end 'if
+			end
+
+	'** Get Extent -------------------------------------------------------------
+
+		recExtThmA = thmA.ReturnExtent
+		recExtThmB = thmB.ReturnExtent
+		numMinX = (recExtThmA.GetLeft).Min(recExtThmB.GetLeft)
+		numMaxX = (recExtThmA.GetRight).Max(recExtThmB.GetRight)
+		numMinY = (recExtThmA.GetBottom).Min(recExtThmB.GetBottom)
+		numMaxY = (recExtThmA.GetTop).Max(recExtThmB.GetTop)
+		numDistX = numMaxX - numMinX
+		numDistY = numMaxY - numMinY
+		numMaxDist = ((numDistX*numDistX)*(numDistY*numDistY)).sqrt
+
+		if (DeBuG) then
+			recExtent = Rect.Make(numMinX@numMinY,numDistX@numDistY)
+			theGraphic = GraphicShape.Make(recExtent)
+			gplThe.Add(theGraphic)
+			gplThe.Invalidate
+		end 'if
+
+	'** Start processing -------------------------------------------------------
+
+		lstNumQuest = {} 'list of number of (re)quest(s) it takes to get a fix
+
+		numTotalRecs = tabB.GetSelection.Count
+		numPresntRec = 0
+		av.ShowStopButton
+
+		timRunStart = Date.Now.SetFormat("dddd d. MMMM yyyy hhhh:m:s")
+
+		for each recB in tabB.GetSelection
+
+			numPresentRec = numPresntRec + 1
+			av.SetStatus(numPresentRec*100/numTotalRecs)
+
+			objCloseId = Nil
+			numMinDist = numMaxDist
+			numQuest = 0
+			shpB = tabB.ReturnValue(fldShapeB,recB)
+
+			if (strMode="Limit-Circle") then
+				tabA.SelectByShapes({Circle.Make(shpB.ReturnCenter,numRadius)},#VTAB_SELTYPE_NEW)
+			end 'if
+
+			for each recA in tabA.GetSelection
+				numQuest = numQuest + 1
+				shpA = tabA.ReturnValue(fldShapeA,recA)
+				numDistAB = shpA.Distance(shpB)
+				if (numDistAB < numMinDist) then 'New smallest found
+					numMinDist = numDistAB
+					objCloseId = tabA.ReturnValue(fldUniqA,recA)
+				end 'if
+			end 'for A
+			lstNumQuest.Add(numQuest)
+
+			if ((strMode="Limit-Circle") and (tabA.GetSelection.Count<1)) then
+				numMinDist = Nil
+			end 'if
+
+			'Dump resut to B
+			tabB.SetValue(fldNFId,recB,objCloseId)
+			tabB.SetValue(fldNFDist,recB,numMinDist)
+
+		end 'for B
+
+		if (bolClearSelectionA) then tabA.GetSelection.ClearAll end
+		if (bolClearSelectionB) then tabB.GetSelection.ClearAll end
+
+		timRunStop = Date.Now.SetFormat("dddd d. MMMM yyyy hhhh:m:s")
+		durRun = timRunStart..timRunStop
+
+		tabB.StopEditingWithRecovery(True)
+
+	'** Process Statistics -----------------------------------------------------
+
+		'* lstNumQuest
+
+			if (Logging) then
+				numTasks = lstNumQuest.Count
+				numQuestTot = 0
+				for each numQuest in lstNumQuest
+					numQuestTot = numQuestTot + numQuest
+				end 'for
+				numAvgQuest = numQuestTot/numTasks
+				numAvgTimeTask = durRun.AsSeconds/numTasks
+				numAvgTimeQuest = durRun.AsSeconds/numQuestTot
+				numAvgTimeMQuest = durRun.AsSeconds/(numSelA*numSelB)
+
+				filLog.WriteElt("Statistics:"+nl+
+									 " Start:"++timRunStart.AsString +nl+
+									 " Stop :"++timRunStop.AsString +nl+
+									 " Tasks:"++numTasks.AsString+nl+
+									 " Quests:"++numQuestTot.AsString+nl+
+									 " Avg.Quest/Task:"++numAvgQuest.AsString+nl+
+									 " Tasks(MaxQuests/Quests):"++"(("+numQuestTot.AsString+"/"+numSelA.AsString+")/"+numSelB.AsString+")"++"="++((numQuestTot/numSelA)/numSelB).AsString+nl+
+									 " NF run time:"++durRun.AsSeconds.AsString++"seconds"+nl+
+									 " Avg.Time/Task:"++numAvgTimeTask.AsString+nl+
+									 " Avg.Time/Quest"++numAvgTimeQuest.AsString++"(App. 5e-005 on my intelP4/2GHz/512Mb)"+nl+
+									 " Avg.Time/MaxQuest(Theoretic):"++numAvgTimeMQuest.AsString)
+			end 'if
+
+'------------------------------------------------------------------------------
+'***  STOP
+'------------------------------------------------------------------------------
+
+	'** Log file ---------------------------------------------------------------
+
+		if (Logging) then
+			timTKStop = Date.Now.SetFormat("dddd d. MMMM yyyy hhhh:m:s")
+			durScript = timTKStart..timTKStop
+			filLog.WriteElt("Nearest Feature - module. Stoped:"++timTKStop.AsString+nl+"Script run time:"++durScript.AsSeconds.AsString++"sec.")
+		end 'if
+
+'------------------------------------------------------------------------------
+'*** 'end of Avenue Script
+'------------------------------------------------------------------------------

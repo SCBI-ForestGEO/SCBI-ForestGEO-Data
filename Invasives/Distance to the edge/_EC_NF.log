@@ -1,0 +1,26 @@
+EC - Nearest Feature - module. ver. 1.1 Started: Friday 27. May 2011 13:46:59
+Mode (user selected): Basic
+Mode (running): Basic
+ThemeA: Crcopenfield_nad83.shp
+ThemeB: Centerpoints.shp
+A Shape: Shape
+A UniqID: Cover
+B Shape: Shape
+B UniqID: Id
+B NF Id: Cover
+B NF Dist: EC_NF_Dist
+B None Selected (number of features = 640)
+A None Selected (number of features = 3)
+Statistics:
+ Start: Friday 27. May 2011 13:47:14
+ Stop : Friday 27. May 2011 13:47:14
+ Tasks: 640
+ Quests: 1920
+ Avg.Quest/Task: 3
+ Tasks(MaxQuests/Quests): ((1920/3)/640) = 1
+ NF run time: 0 seconds
+ Avg.Time/Task: 0
+ Avg.Time/Quest 0 (App. 5e-005 on my intelP4/2GHz/512Mb)
+ Avg.Time/MaxQuest(Theoretic): 0
+Nearest Feature - module. Stoped: Friday 27. May 2011 13:47:14
+Script run time: 15 sec.
