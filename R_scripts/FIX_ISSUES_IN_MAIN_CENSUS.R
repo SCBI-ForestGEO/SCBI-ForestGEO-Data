@@ -125,6 +125,29 @@ scbi.stem2[scbi.stem2$tag %in% 131272, ]$sp <- "fram"
 scbi.stem3[scbi.stem3$tag %in% 131272, ]$sp <- "fram" 
 
 
+# 52164 and 62184 is the same tree ####
+## tag 52164 was removed from the field in 2023, 62184 remains
+## need to consolidate 52164 into 62184 when needed and delete 52164
+
+scbi.stem3[scbi.stem3$tag %in% "52164",] # delete that one (but move hom to 62184 )
+scbi.stem3[scbi.stem3$tag %in% "62184",]
+
+scbi.stem3[scbi.stem3$tag %in% "62184", "hom"] <- scbi.stem3[scbi.stem3$tag %in% "52164", "hom"]
+scbi.stem3 <- scbi.stem3[!scbi.stem3$tag %in% "52164",]
+
+scbi.stem2[scbi.stem2$tag %in% "52164",]  # delete that one (but move hom, dbh, DFsatus, codes and status to 62184 )
+scbi.stem2[scbi.stem2$tag %in% "62184",]
+
+scbi.stem2[scbi.stem2$tag %in% "62184", c("dbh", "hom", "ExactDate", "DFstatus", "codes", "date", "status")] <- scbi.stem2[scbi.stem2$tag %in% "52164", c("dbh", "hom", "ExactDate", "DFstatus", "codes", "date", "status")]
+scbi.stem2 <- scbi.stem2[!scbi.stem2$tag %in% "52164",]
+
+
+scbi.stem1[scbi.stem1$tag %in% "52164",] # can just delete this one
+scbi.stem1[scbi.stem1$tag %in% "62184",]
+
+scbi.stem1 <- scbi.stem1[!scbi.stem1$tag %in% "52164",]
+
+
 # save data ---------------------------------------------------------------
 
 save(scbi.stem1, file = "tree_main_census/data/scbi.stem1.rdata")
