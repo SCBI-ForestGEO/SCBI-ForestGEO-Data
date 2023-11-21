@@ -18,6 +18,16 @@ load("tree_main_census/data/scbi.stem3.rdata")
 
 # Fix issues in the data --------------------------------------------------
 
+
+# tag 160135 has two stems but stemtag is 3 instead of 2
+scbi.stem1[scbi.stem1$tag %in% "160135", ]
+scbi.stem2[scbi.stem2$tag %in% "160135", ]
+scbi.stem3[scbi.stem3$tag %in% "160135", ]
+
+scbi.stem1[scbi.stem1$tag %in% "160135" & scbi.stem1$StemTag %in% 3, ]$StemTag <- 2
+scbi.stem2[scbi.stem2$tag %in% "160135" & scbi.stem2$StemTag %in% 3, ]$StemTag <- 2
+scbi.stem3[scbi.stem3$tag %in% "160135" & scbi.stem3$StemTag %in% 3, ]$StemTag <- 2
+
 # tag 33331 vs 30365 ####
 # until the 2018 main census, in full census data, tag 33331 appeared 2 times with same StemTag 1, looking like a 2-stem quru with wrong StemTag on smaller stem. In 2014 it was found that the biggest stem was actually tagged with tag 30365. The tag number was changed only in mortality census 2017 and Maya and Ryan ID-ed that second stem as being a fram, but the species ID was never changed in the data sets.
 # So it seems that the truth would be:
@@ -154,6 +164,6 @@ save(scbi.stem1, file = "tree_main_census/data/scbi.stem1.rdata")
 save(scbi.stem2, file = "tree_main_census/data/scbi.stem2.rdata")
 save(scbi.stem3, file = "tree_main_census/data/scbi.stem3.rdata")
 
-write.csv(scbi.stem1, "tree_main_census/data/census-csv-files/scbi.stem1.csv", row.names = F)
-write.csv(scbi.stem2, "tree_main_census/data/census-csv-files/scbi.stem2.csv", row.names = F)
-write.csv(scbi.stem3, "tree_main_census/data/census-csv-files/scbi.stem3.csv", row.names = F)
+write.csv(scbi.stem1, "tree_main_census/data/census-csv-files/scbi.stem1.csv", row.names = F, quote = F)
+write.csv(scbi.stem2, "tree_main_census/data/census-csv-files/scbi.stem2.csv", row.names = F, quote = F)
+write.csv(scbi.stem3, "tree_main_census/data/census-csv-files/scbi.stem3.csv", row.names = F, quote = F)
