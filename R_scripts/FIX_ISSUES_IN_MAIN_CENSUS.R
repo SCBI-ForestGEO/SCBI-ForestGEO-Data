@@ -18,6 +18,14 @@ load("tree_main_census/data/scbi.stem3.rdata")
 
 # Fix issues in the data --------------------------------------------------
 
+# tag 140799 has 4 stems but stemtag is 5 instead of 4
+scbi.stem1[scbi.stem1$tag %in% "140799", ]
+scbi.stem2[scbi.stem2$tag %in% "140799", ]
+scbi.stem3[scbi.stem3$tag %in% "140799", ]
+
+scbi.stem1[scbi.stem1$tag %in% "140799" & scbi.stem1$StemTag %in% 5, ]$StemTag <- 4
+scbi.stem2[scbi.stem2$tag %in% "140799" & scbi.stem2$StemTag %in% 5, ]$StemTag <- 4
+scbi.stem3[scbi.stem3$tag %in% "140799" & scbi.stem3$StemTag %in% 5, ]$StemTag <- 4
 
 # tag 160135 has two stems but stemtag is 3 instead of 2
 scbi.stem1[scbi.stem1$tag %in% "160135", ]
