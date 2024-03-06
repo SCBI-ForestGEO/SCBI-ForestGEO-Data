@@ -6,10 +6,8 @@
 ## Converted into function by Ian McGregor 7/23/2019
 # R version 3.5.3
 ######################################################
-library(RCurl)
-library(rgdal)
-library(sp)
-
+library(sf)
+library(dplyr)
 
 
 # quadrat coordinates to plot coordinates (lx,ly to gx,gy) -----------------
@@ -103,7 +101,6 @@ gxgy_to_NAD83_and_lonlat <- function(gxgy) {
   NAD83 <- grid2nad83(gx, gy)
   
   ## transform them to lat and lon
-  library(sf)
   NAD83_sf <- st_as_sf(NAD83, coords = c("NAD83_X", "NAD83_Y"), crs = "+proj=utm +zone=17N")
   lonlat_sf <- st_transform(NAD83_sf,"+proj=longlat")
   
@@ -123,8 +120,6 @@ lonlat_to_NAD83_and_gxgy <- function(lonlat) {
   if(!ncol(lonlat) == 2) stop("lonlat should be a dataframe with two columns: first longitude, second latitude")
   
   names(lonlat) <- c("x", "y")
-  
-  library(sf)
   
   lonlat_sf <- st_as_sf(lonlat, coords = c("x", "y"), crs = "+proj=longlat")
     
@@ -211,15 +206,15 @@ plot_to_UTM <- function(df) {
   }
   
   ## add NAD83 coordinate columns to SIGEO data table
-  sigeo<-data.frame(sigeo, grid2nad83(sigeo$gx, sigeo$gy))
+  sigeo <- data.frame(sigeo, grid2nad83(sigeo$gx, sigeo$gy))
   
   # Add lat lon to the file, first run these 2 lines
-  utmcoor<-SpatialPoints(cbind(sigeo$NAD83_X, sigeo$NAD83_Y), proj4string=CRS("+proj=utm +zone=17N"))
-  longlatcoor<-spTransform(utmcoor,CRS("+proj=longlat"))
+  utmcoor <- st_as_sf(sigeo, coords = c("NAD83_X", "NAD83_Y"), crs = "+proj=utm +zone=17N")
+  longlatcoor <- st_transform(utmcoor, crs = "+proj=longlat")
   
   #add the results ('latlongcoor' output) as two new columns in original dataframe 
-  sigeo$lat<- coordinates(longlatcoor)[,2]
-  sigeo$lon <- coordinates(longlatcoor)[,1]
+  sigeo$lat<- st_coordinates(longlatcoor)[,2]
+  sigeo$lon <- st_coordinates(longlatcoor)[,1]
   plot(sigeo$lon, sigeo$lat)
   
   sigeo_coords <<- sigeo
