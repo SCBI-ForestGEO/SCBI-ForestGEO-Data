@@ -149,6 +149,29 @@ lonlat_to_NAD83_and_gxgy <- function(lonlat) {
 }
 
 
+# plot coordinates to quadrat ---------------------------------------------
+
+gxgy_to_quadrat <- function(gxgy, numeric = TRUE) {
+  
+  if(!ncol(gxgy) == 2) stop("gxgy should be a dataframe with two columns: first plot x, second plot y")
+  
+  gx <- gxgy[[1]]
+  gy <- gxgy[[2]]
+  
+  
+  row <- ifelse(gx < 400, (gx %/% 20)+1, 20)
+  col <- ifelse(gy < 640, (gy %/% 20)+1, 32)
+  
+ 
+  row <- ifelse(nchar(row) == 1, paste0("0", row), row)
+  col <- ifelse(nchar(col) == 1, paste0("0", col), col)
+  
+  quadrat <- paste0(row, col)
+  
+  if(numeric) as.numeric(quadrat) else quadrat
+  
+
+}
 
 
 # Older function taking a whole data set gxgy to NAD83 (not deleting in case of used by old codes) --------------------
