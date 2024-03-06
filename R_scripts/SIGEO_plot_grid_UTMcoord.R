@@ -81,7 +81,7 @@ gxgy_to_NAD83_and_lonlat <- function(gxgy) {
   quadrat <- as.numeric(quadrat)
   
   ## NAD83 coordinates of the SW and NW corners of the SIGEO plot
-  ## projection is "+proj=utm +zone=17N"
+  ## projection is "+proj=utm +zone=17N" aka "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
   NAD83.SW <- c(747385.521, 4308506.438)                
   NAD83.NW <-  c(747370.676, 4309146.156) 
   
@@ -101,7 +101,7 @@ gxgy_to_NAD83_and_lonlat <- function(gxgy) {
   NAD83 <- grid2nad83(gx, gy)
   
   ## transform them to lat and lon
-  NAD83_sf <- st_as_sf(NAD83, coords = c("NAD83_X", "NAD83_Y"), crs = "+proj=utm +zone=17N")
+  NAD83_sf <- st_as_sf(NAD83, coords = c("NAD83_X", "NAD83_Y"), crs = "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs")
   lonlat_sf <- st_transform(NAD83_sf,"+proj=longlat")
   
   lonlat_sf <-  st_coordinates(lonlat_sf)
@@ -123,7 +123,7 @@ lonlat_to_NAD83_and_gxgy <- function(lonlat) {
   
   lonlat_sf <- st_as_sf(lonlat, coords = c("x", "y"), crs = "+proj=longlat")
     
-  NAD83_sf <- st_transform(lonlat_sf, crs = "+proj=utm +zone=17N")
+  NAD83_sf <- st_transform(lonlat_sf, crs = "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs")
 
   NAD83 <- as.data.frame(st_coordinates(NAD83_sf))
   names(NAD83) <- c("NAD83_X", "NAD83_Y")
@@ -136,8 +136,8 @@ lonlat_to_NAD83_and_gxgy <- function(lonlat) {
   
   ## make a line for the western boundary and one for the southern one
   
-  W <- st_cast(summarize(st_as_sf(st_sfc(st_point(NAD83.SW), st_point(NAD83.NW)), crs = "+proj=utm +zone=17N")), "LINESTRING")
-  S <-  st_cast(summarize(st_as_sf(st_sfc(st_point(NAD83.SW), st_point(NAD83.SE)), crs = "+proj=utm +zone=17N")), "LINESTRING")
+  W <- st_cast(summarize(st_as_sf(st_sfc(st_point(NAD83.SW), st_point(NAD83.NW)), crs = "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs")), "LINESTRING")
+  S <-  st_cast(summarize(st_as_sf(st_sfc(st_point(NAD83.SW), st_point(NAD83.SE)), crs = "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs")), "LINESTRING")
   
   ## get closest distance to lines --> will give gx and gy
   
@@ -232,7 +232,7 @@ plot_to_UTM <- function(df) {
   sigeo <- data.frame(sigeo, grid2nad83(sigeo$gx, sigeo$gy))
   
   # Add lat lon to the file, first run these 2 lines
-  utmcoor <- st_as_sf(sigeo, coords = c("NAD83_X", "NAD83_Y"), crs = "+proj=utm +zone=17N")
+  utmcoor <- st_as_sf(sigeo, coords = c("NAD83_X", "NAD83_Y"), crs = "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs")
   longlatcoor <- st_transform(utmcoor, crs = "+proj=longlat")
   
   #add the results ('latlongcoor' output) as two new columns in original dataframe 
