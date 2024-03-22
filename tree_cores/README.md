@@ -15,7 +15,9 @@ This folder contains tree-ring data from the SCBI ForestGEO plot. It includes tw
 ## Sampling dates
 Live tree cores: June 2010 - March 2011
 
-Dead tree cores: summer 2016, summer 2017
+Dead tree cores: summer 2016, summer 2017, (additional cores not yet measured/dated)
+
+Cameron Dow's sampling: 2023 growing season
 
 
 ## Protocols
@@ -23,6 +25,8 @@ Dead tree cores: summer 2016, summer 2017
 **1. Live tree cores taken in 2010-11.** 997 live trees from SCBI ForestGEO Plot were cored between June 2010 and March 2011. In total 703 of these cores were measured using the Velmex system, their ring data saved in Tucson format, and the physical cores stored. The remaining cores were visually inspected, but no data were extracted. Some of these data were published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)
 
 **2. Cores taken as part of our annual mortality census in 2016 and 2017.** The census is described in [Gonzalez-Akre et al. (2015)](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecs2.1595). All trees found dead in 2016 and 2017 were cored at breast height and their base except in areas where extreme rot or other hazards prevented boring or resulted in a very poor quality core. In 2016, 230 total cores were measured using the Velmex system, their ring data saved in Tucson format, and the physical cores stored. In 2017, 286 total cores were measured using the WinDENDRO system, their scans saved in high resolution, their ring data saved in both WinDENDRO and Tucson format, and the physical cores stored.
+
+**3. Cores collected by Cameron Dow in 2023 growing season**
 
 ## Species
 
