@@ -99,9 +99,9 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - [**Soils**](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/soils) 
 
-### Lidar & hyperspectral
+### Aerial sensing
 
-- Gatoreye lidar and hyperspectral (2020, 2022, 2023) available here: http://www.speclab.org/gatoreye-data-access.html. (Password is specified in the text on this page.)
+- Gatoreye lidar and visual (2020, 2022, 2023) available here: http://www.speclab.org/gatoreye-data-access.html. (Password is "I agree to the GatorEye data usage Terms and Conditions".)
 
 ### Non-indigenous plant species
 
