@@ -27,7 +27,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 - **[Insect pests and pathogens](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/species_lists/insects_pathogens)**
 
 ### Tree censuses
-- **Main ForestGEO census data** - Three (3) full censuses following ForestGEO protocol of our 25.6ha plot have been conducted in 2008, 2013, and 2018. Data are available upon request through [ForestGEO Data Portal](http://ctfs.si.edu/datarequest/). Copies are also posted [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census), but the master version resides on the ForestGEO Data Portal, and anyone wishing to use the data should obtain from there. 
+- **Main ForestGEO census data** - Three (3) full censuses following ForestGEO protocol of our 25.6ha plot have been conducted in 2008, 2013, 2018, and 2023. Data are available upon request through [ForestGEO Data Portal](http://ctfs.si.edu/datarequest/). Copies are also posted [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census), but the master version resides on the ForestGEO Data Portal, and anyone wishing to use the data should obtain from there. 
 
 - **[Tree mortality (annual)](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_mortality)**
 
@@ -80,6 +80,13 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
     - We have some [leaf phenology observations](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/leaf%20phenology) at SCBI.
 
 
+
+### Tree reproduction 
+
+- **Seed rain** - Seed rain data (from fruits and seeds) were collected from litterfall traps on a biweekly or monthly basis from 2009–2011. Methods and dataset are published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)
+
+- **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Seedling data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Data from 2014 on is availlable in [this repoository](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings). **Please contact us before using this data**.
+
 ### Carbon cycling
 
 - **Biomass** - Summaries of biomass by species are given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/summary_data).
@@ -92,16 +99,13 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - [**Soils**](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/soils) 
 
+### Lidar & hyperspectral
 
-### Tree reproduction 
+- Gatoreye lidar and hyperspectral (2020, 2022, 2023) available here: http://www.speclab.org/gatoreye-data-access.html. (Password is specified in the text on this page.)
 
-- **Seed rain** - Seed rain data (from fruits and seeds) were collected from litterfall traps on a biweekly or monthly basis from 2009–2011. Methods and dataset are published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full)
+### Non-indigenous plant species
 
-- **Seedlings** - At SCBI, we have been recording seedling survival since 2010. Seedling data from 2010-2012 and methods has been published in [Bourg et al. 2013](http://onlinelibrary.wiley.com/doi/10.1890/13-0010.1/full). Data from 2014 on is availlable in [this repoository](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/seedlings). **Please contact us before using this data**.
-
-### Non-endemic / nuisance plant species
-
-- **Non-endemic plants survey**- Contact us for details.
+- **Non-indigenous plants survey**- Contact us for details.
 
 
 ### Arthropods
@@ -115,4 +119,4 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 
 ## Contact
-Kristina Anderson-Teixeira (teixeirak@si.edu) or Erika Gonzalez-Akre (gonzalezeb@si.edu)
+Kristina Anderson-Teixeira (teixeirak@si.edu) 
