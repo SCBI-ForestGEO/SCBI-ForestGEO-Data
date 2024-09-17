@@ -58,7 +58,7 @@ Armillaria root disease,Armillaria spp,Hardwoods/conifers,Fungus,cosmopolitan,,N
 Black Knot disease,Apiosporina morbosa,Prunus spp.,Fungus,endemic,,NA,Current Risk,native,NA,,,,,,,
 Hxypoxylon canker,Hypoxolon spp.,Hardwoods (esp. Aspen and other Populus),Fungus,endemic,,NA,Current Risk,native,NA,,,,,,,
 Nectrua canker,Neonectria galligena,Hardwoods (esp. Betula spp. and Juglans nigra),Fungus,endemic,,NA,Current Risk,native,NA,,,,,,,
-Oak wilt,Ceratocystis fagacearum,Quercus spp.,Fungus,endemic,,NA,Current risk,native,NA,,,,,,,
+Oak wilt,Ceratocystis fagacearum,Quercus spp.,Fungus,endemic,,NA,Current risk,native,NA,,,suspected 2024,,https://github.com/SCBI-ForestGEO/SCBImortality/issues/111,,
 Fusiform Rust,Cronartium quercuum,"Pinus spp., Quercus spp.",Fungus,endemic,,NA,Current risk,native,NA,,,,,,,
 Elm spanworm,Ennomos subsignaria,"Ulmus, Quercus, Acer, Fagus, Fraxinus and other hardwoods",Insect,endemic,,NA,Nascent risk,native,NA,,,,,,,
 Red oak borer,Enaphalodes rufulus,Quercus rubra,Insect,endemic,,NA,Nascent risk,native,NA,,,,,,,
