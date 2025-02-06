@@ -21,7 +21,7 @@ Elm yellows / phloem necrosis,Ophiostoma ulmi (Buisman) Melin & Nannf. and O. no
 whitebanded leafhopper,Scaphoideus luteolus Van Duzee,Ulmus spp.,Insect,endemic,,,Current risk,,,,,,NA,not detected in Malaise trap as of 2018,vector for elm yellows,https://www.fs.usda.gov/naspf/sites/default/files/publications/na-fb_p-11_how_to_differentiate_dutch_elm_disease_from_elm_phloem_necrosis.pdf
 Beech leaf disease,Litylenchus crenatae n. sp (suspected),Fagus grandifolia,nematode,undetermined,,2012,Nascent risk,,,,,no detection as of 2018,NA,NA,,https://www.eppo.int/ACTIVITIES/plant_quarantine/alert_list_nematodes/litylenchus_crenatae
 Sirex woodwasp,Sirex noctilio,"Pinus spp. Abies, Larix, Picea, Pseudotsuga",Insect,non-endemic,,2004,Nascent risk,,,,,no detection as of 2018,NA,NA,,
-Bacterial leach scorch,Xylella fastidiosa,"Many hardwoods (maple, elm, oak, and sucamore; mulberry)",Fungus,non-endemic,,1986,Nascent Risk,,,,,no detection as of 2018,NA,NA,,
+Bacterial leach scorch,Xylella fastidiosa,"Many hardwoods (maple, elm, oak, and sucamore; mulberry)",Fungus,non-endemic,,1986,Nascent Risk,,,,,2024,observed by Lori Chamberlin (Virginia Department of Forestry),"""I do believe we saw symptoms of bacterial leaf scorch on a couple oak trees. This disease will continue to cause tree decline and symptoms will be worse during periods of drought. It is common in Virginia.""",Here is a resource that mentions bacterial leaf scorch and other oak diseases: https://dof.virginia.gov/wp-content/uploads/FT0059_Common-Pests-of-Oaks-in-VA.pdf,
 Bur Oak Blight,Tubakia iowensis,Quercus macrocarpa,Fungus,non-endemic,,1990,Nascent risk,,,,,no detection as of 2018,NA,NA,,
 Asian longhorn beetle,Anoplophora glabripennis,"Acer, Betula, Populus, Ulmus spp.",Insect,non-endemic,,1996,Potential risk,"2011 Clermont County Ohio, outside Blue Ridge",,,,no detection as of 2018,NA,NA,likely not to be an issue in the area in the near future,
 Introduced pine sawfly,Diprion similes,Pinus spp.,Insect,non-endemic,,1914,Potential risk,South Appalachians,1977,,no detection as of 2018,no detection as of 2018,NA,NA,Reported elsewhehre in study region: https://www.fs.fed.us/nrs/tools/afpe/maps/png/EPS.png,DOF_email
@@ -58,7 +58,7 @@ Armillaria root disease,Armillaria spp,Hardwoods/conifers,Fungus,cosmopolitan,,N
 Black Knot disease,Apiosporina morbosa,Prunus spp.,Fungus,endemic,,NA,Current Risk,native,NA,,,,,,,
 Hxypoxylon canker,Hypoxolon spp.,Hardwoods (esp. Aspen and other Populus),Fungus,endemic,,NA,Current Risk,native,NA,,,,,,,
 Nectrua canker,Neonectria galligena,Hardwoods (esp. Betula spp. and Juglans nigra),Fungus,endemic,,NA,Current Risk,native,NA,,,,,,,
-Oak wilt,Ceratocystis fagacearum,Quercus spp.,Fungus,endemic,,NA,Current risk,native,NA,,,suspected 2024,,https://github.com/SCBI-ForestGEO/SCBImortality/issues/111,,
+Oak wilt,Ceratocystis fagacearum,Quercus spp.,Fungus,endemic,,NA,Current risk,native,NA,,,2024- Suspected & tested. Not detected.,NA,https://github.com/SCBI-ForestGEO/SCBImortality/issues/111,,
 Fusiform Rust,Cronartium quercuum,"Pinus spp., Quercus spp.",Fungus,endemic,,NA,Current risk,native,NA,,,,,,,
 Elm spanworm,Ennomos subsignaria,"Ulmus, Quercus, Acer, Fagus, Fraxinus and other hardwoods",Insect,endemic,,NA,Nascent risk,native,NA,,,,,,,
 Red oak borer,Enaphalodes rufulus,Quercus rubra,Insect,endemic,,NA,Nascent risk,native,NA,,,,,,,
