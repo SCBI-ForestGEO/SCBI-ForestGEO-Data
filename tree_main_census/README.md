@@ -1,7 +1,7 @@
 # SCBI Tree census
 
 ## Overview 
-This [folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census/data) contains the _R Analytical tables_ for census 1 (2008), census 2 (2013), and census 3 (2018) at SCBI (also available in .csv format). Census 4 (2023) is in a separate repository: [20203census](https://github.com/SCBI-ForestGEO/2023census).
+This [folder](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/tree_main_census/data) contains the _R Analytical tables_ for census 1 (2008), census 2 (2013), and census 3 (2018) at SCBI (also available in .csv format). Census 4 (2023) is in a separate repository: [2023census](https://github.com/SCBI-ForestGEO/2023census).
 
 
 R tables are created once all data have been checked and corrected after a tree survey is finished in a ForestGEO plot. Each plot have a `stem table` per census. This is the most convenient format for analyzing census data using R functions from the ForestGEO R Package available [here](https://forestgeo.github.io/fgeo/).
