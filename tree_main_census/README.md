@@ -21,7 +21,7 @@ A more comprehensive list of species with ecological and botanical data for the 
 - Census 1: 2008-2010
 - Census 2: 2013
 - Census 3: 2018
-- [Census 4: 2023]((https://github.com/SCBI-ForestGEO/2023census))
+- [Census 4: 2023](https://github.com/SCBI-ForestGEO/2023census)
 
 ## Protocols
 
