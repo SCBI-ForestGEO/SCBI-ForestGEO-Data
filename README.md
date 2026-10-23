@@ -93,7 +93,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 - **Woody productivity** - Summaries of woody productivity by species are given [here](https://github.com/SCBI-ForestGEO/SCBI-ForestGEO-Data/tree/master/summary_data).
 
-- **Woody mortality** - Woody mortality has been/ can be calculated from our [tree mortality census data](https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_mortality).
+- **Woody mortality** - Woody mortality has been/ can be calculated from our [tree mortality census data]([https://github.com/EcoClimLab/SCBI-ForestGEO-Data/tree/master/tree_mortality](https://github.com/SCBI-ForestGEO/SCBImortality).
 
 - **Dead wood** - Contact us for details.
 
