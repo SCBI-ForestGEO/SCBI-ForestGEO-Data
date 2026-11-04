@@ -101,7 +101,7 @@ This is the public data portal for the [SCBI ForestGEO plot](https://forestgeo.s
 
 ### Aerial sensing
 
-- Gatoreye lidar and visual (2020, 2022, 2023) available here: http://www.speclab.org/gatoreye-data-access.html. (Password is "I agree to the GatorEye data usage Terms and Conditions".)
+- Gatoreye lidar and visual (2020, 2022, 2023) available from [U. of Florida's SPEC Lab](http://www.speclab.org/gatoreye-data-access.html). (Password is "I agree to the GatorEye data usage Terms and Conditions".)
 
 ### Non-indigenous plant species
 
